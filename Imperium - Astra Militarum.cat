@@ -7,7 +7,7 @@
     <catalogueLink name="Imperium - Officio Assassinorum" id="e5e0-7ccb-af75-8e09" importRootEntries="true" targetId="f731-6aa6-c141-8937" type="catalogue"/>
   </catalogueLinks>
   <entryLinks>
-    <entryLink name="Commissar Yarrick" id="99a162d9-4854-cc3b-c35e-b0c3a3cc77d6" collective="false" hidden="true" import="true" targetId="5dac-1ff6-7352-3745" type="selectionEntry">
+    <entryLink name="Commissar Yarrick" id="99a162d9-4854-cc3b-c35e-b0c3a3cc77d6" collective="false" hidden="false" import="true" targetId="5dac-1ff6-7352-3745" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" id="99a162d9-4854-cc3b-c35e-b0c3a3cc77d6-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
@@ -19,7 +19,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Lord Commissar" id="5d41-34d8-2e83-0553" collective="false" hidden="true" import="true" targetId="15fc-adf1-7419-ff68" type="selectionEntry">
+    <entryLink name="Lord Commissar" id="5d41-34d8-2e83-0553" collective="false" hidden="false" import="true" targetId="15fc-adf1-7419-ff68" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" id="5d41-34d8-2e83-0553-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
@@ -122,7 +122,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Lord Castellan Creed" id="2025-e957-49d1-8e28" collective="false" hidden="true" import="true" targetId="dcb74f5d-1308-fbaa-205f-3ad8fbde5b04" type="selectionEntry">
+    <entryLink name="Lord Castellan Creed" id="2025-e957-49d1-8e28" collective="false" hidden="false" import="true" targetId="dcb74f5d-1308-fbaa-205f-3ad8fbde5b04" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" id="b417-da8e-8f6c-70af" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
@@ -774,7 +774,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Commissar Severina Raine" id="7e37-5a06-9c7b-57a6" collective="false" hidden="true" import="true" targetId="bcea-33ef-0e39-baf4" type="selectionEntry">
+    <entryLink name="Commissar Severina Raine" id="7e37-5a06-9c7b-57a6" collective="false" hidden="false" import="true" targetId="bcea-33ef-0e39-baf4" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Elites" id="f798-856a-98e4-3d92" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
@@ -801,6 +801,11 @@
     <entryLink name="Regimental Doctrine" id="099d-e62d-107e-d64f" collective="false" hidden="false" import="true" targetId="73fc-bc45-dbdd-417d" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Configuration" id="480a-1edd-e6ac-d4db" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Tempestus Regiment" id="7c3e6b2a-91f4-4d18-a6c7-52e8b93f0146" collective="false" hidden="false" import="true" targetId="ab32-8146-6b3d-3ca7" type="selectionEntryGroup">
+      <categoryLinks>
+        <categoryLink name="Configuration" id="2a8f51d9-6c34-47e2-b105-93d7fa8c4210" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Stormblade" id="2997-24e8-5719-6033" collective="false" hidden="false" import="true" targetId="dd1b-faed-2f1c-c9ba" type="selectionEntry">
@@ -1645,7 +1650,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Lord Solar Leontus" id="6425-d8d9-7c8e-e500" collective="false" hidden="false" import="true" targetId="7591-e8e3-a30c-7ce0" type="selectionEntry">
+    <entryLink name="Lord Solar" id="6425-d8d9-7c8e-e500" collective="false" hidden="false" import="true" targetId="7591-e8e3-a30c-7ce0" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" id="d676-2025-2ed2-152b" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
@@ -1662,7 +1667,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Lord Solar Leontus" id="0eff-61ee-6dcf-006e" collective="false" hidden="false" import="true" targetId="7591-e8e3-a30c-7ce0" type="selectionEntry">
+    <entryLink name="Lord Solar" id="0eff-61ee-6dcf-006e" collective="false" hidden="false" import="true" targetId="7591-e8e3-a30c-7ce0" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Primarch | Daemon Primarch | Supreme Commander" id="e0eb-a0a5-04eb-2e49" hidden="false" primary="true" targetId="26b0-4bb9-73aa-d3d7"/>
       </categoryLinks>
@@ -1679,7 +1684,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Ursula Creed" id="9a9c-733f-f4c9-0c95" collective="false" hidden="false" import="true" targetId="0500-9310-a062-0e02" type="selectionEntry">
+    <entryLink name="Ursula Creed" id="9a9c-733f-f4c9-0c95" collective="false" hidden="true" import="true" targetId="0500-9310-a062-0e02" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" id="01c2-1189-eb81-1978" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
@@ -1702,11 +1707,6 @@
           </conditions>
         </modifier>
       </modifiers>
-    </entryLink>
-    <entryLink name="Cadian Command Squad" id="be51-326f-7060-ecc6" collective="false" hidden="false" import="true" targetId="af75-c35c-1b50-c191" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="HQ" id="cfe7-97a4-44bb-8891" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
-      </categoryLinks>
     </entryLink>
     <entryLink name="Kasrkin" id="52bd-917e-4b79-006f" collective="false" hidden="false" import="true" targetId="2c48-d222-fbe2-9697" type="selectionEntry">
       <categoryLinks>
@@ -1896,6 +1896,14 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink name="Tempestor Prime" id="94f7-c7f7-defa-4070" collective="false" hidden="false" import="true" targetId="12bf-5b84-a1bc-6989" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Character" id="ea0f-0634-4944-5e7e" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Tempestor Prime" id="f15d-5625-1100-8dea" hidden="false" primary="true" targetId="2aba-e4e7-1d91-1a77"/>
+        <categoryLink name="Infantry" id="59e4-865e-c4cf-c011" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Officer" id="d170-841a-9553-ce1c" hidden="false" primary="false" targetId="dd6e-7055-ca6b-b711"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink name="Unit Filter" id="4f8e-8e73-a14c-6f92" collective="false" hidden="false" import="true" targetId="5a23-f206-39d3-fbd3" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Configuration" id="78db-a418-11c9-567b" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
@@ -1910,7 +1918,7 @@
     <entryLink name="[Reference] Orders" id="a2eb-9750-4cda-8e41" collective="false" hidden="false" import="true" targetId="3b5d-094c-15fd-8d37" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry name="Lord Castellan Creed" id="dcb74f5d-1308-fbaa-205f-3ad8fbde5b04" collective="false" hidden="true" import="true" page="80" publicationId="53e9d88f--pubN88319" type="model">
+    <selectionEntry name="Lord Castellan Creed" id="dcb74f5d-1308-fbaa-205f-3ad8fbde5b04" collective="false" hidden="false" import="true" page="80" publicationId="53e9d88f--pubN88319" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Cadian" id="9793-377c-5611-9b30" hidden="false" primary="false" targetId="b332-b046-7171-5059"/>
         <categoryLink name="Character" id="147e-4431-5a3c-777a" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
@@ -2732,7 +2740,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Knight Commander Pask" id="483a-ffe8-5024-c337" collective="false" hidden="true" import="true" page="0" type="upgrade">
+    <selectionEntry name="Knight Commander Pask" id="483a-ffe8-5024-c337" collective="false" hidden="false" import="true" page="0" type="upgrade">
       <categoryLinks>
         <categoryLink name="Faction: Cadian" id="6434-e6e4-6a19-e5ed" hidden="false" primary="false" targetId="b332-b046-7171-5059"/>
         <categoryLink name="Character" id="1006-9a22-eb6d-b387" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
