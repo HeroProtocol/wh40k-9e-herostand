@@ -1,31 +1,79 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8c3d-93c3-7a7a-5a11" name="Chaos - Chaos Titan Legions" revision="15" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="248" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Chaos - Chaos Titan Legions" id="8c3d-93c3-7a7a-5a11" authorContact="@Mad_Spy" authorName="BSData Developers" authorUrl="https://www.bsdata.net/contact" battleScribeVersion="2.03" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="248" library="false" revision="15" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="God-Engine" id="f367-b06c-c574-c7fe" hidden="false"/>
+    <categoryEntry name="Faction: Titanicus Traitoris" id="5f88-bd69-1096-78b6" hidden="false"/>
+    <categoryEntry name="Faction: &lt;Heretic Titan Legion&gt;" id="bc10-1aed-9d8c-724b" hidden="false"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink name="Chaos Reaver Titan" id="260e-b768-5bb1-7b7c" collective="false" hidden="false" import="true" targetId="fe55-4a83-0126-51dc" type="selectionEntry"/>
+    <entryLink name="Chaos Warhound Scout Titan" id="7c73-e9b3-5df8-f68f" collective="false" hidden="false" import="true" targetId="6f73-5883-b77b-583d" type="selectionEntry"/>
+    <entryLink name="Chaos Warlord Battle Titan" id="51f6-06fc-31b3-5bd8" collective="false" hidden="false" import="true" targetId="8819-eaf2-127e-efca" type="selectionEntry"/>
+    <entryLink name="Chaos Warbringer Nemesis Titan" id="5f6c-4e45-7b86-e6c6" collective="false" hidden="false" import="true" targetId="3a7a-b88a-6dda-c747" type="selectionEntry"/>
+  </entryLinks>
   <profileTypes>
-    <profileType id="9276-4ade-22c4-5cb6" name="Wound Track, Titan">
+    <profileType name="Wound Track, Titan" id="9276-4ade-22c4-5cb6">
       <characteristicTypes>
-        <characteristicType id="bdd9-9181-1cad-b79f" name="Remaining W"/>
-        <characteristicType id="f560-9126-5959-48ba" name="M"/>
-        <characteristicType id="8e95-6bfb-c560-252c" name="WS"/>
-        <characteristicType id="ce76-ba62-9fc6-cdcc" name="BS"/>
-        <characteristicType id="b269-3fa5-291a-8155" name="Void Shield"/>
+        <characteristicType name="Remaining W" id="bdd9-9181-1cad-b79f"/>
+        <characteristicType name="M" id="f560-9126-5959-48ba"/>
+        <characteristicType name="WS" id="8e95-6bfb-c560-252c"/>
+        <characteristicType name="BS" id="ce76-ba62-9fc6-cdcc"/>
+        <characteristicType name="Void Shield" id="b269-3fa5-291a-8155"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
-  <categoryEntries>
-    <categoryEntry id="f367-b06c-c574-c7fe" name="God-Engine" hidden="false"/>
-    <categoryEntry id="5f88-bd69-1096-78b6" name="Faction: Titanicus Traitoris" hidden="false"/>
-    <categoryEntry id="bc10-1aed-9d8c-724b" name="Faction: &lt;Heretic Titan Legion&gt;" hidden="false"/>
-  </categoryEntries>
-  <entryLinks>
-    <entryLink id="260e-b768-5bb1-7b7c" name="Chaos Reaver Titan" hidden="false" collective="false" import="true" targetId="fe55-4a83-0126-51dc" type="selectionEntry"/>
-    <entryLink id="7c73-e9b3-5df8-f68f" name="Chaos Warhound Scout Titan" hidden="false" collective="false" import="true" targetId="6f73-5883-b77b-583d" type="selectionEntry"/>
-    <entryLink id="51f6-06fc-31b3-5bd8" name="Chaos Warlord Battle Titan" hidden="false" collective="false" import="true" targetId="8819-eaf2-127e-efca" type="selectionEntry"/>
-    <entryLink id="5f6c-4e45-7b86-e6c6" name="Chaos Warbringer Nemesis Titan" hidden="false" collective="false" import="true" targetId="3a7a-b88a-6dda-c747" type="selectionEntry"/>
-  </entryLinks>
+  <sharedProfiles>
+    <profile name="Battle Titan" id="a0ea-57a5-f34a-ad4b" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model is eligible to declare a charge in a turn in which it Fell Back. Each time this model makes a Normal Move, Advances or Falls Back, it can be moved across other models (excluding MONSTER and VEHICLE models) as if they were not there, and when it does so it can be moved within Engagement Range of such models, but cannot finish its move within Engagement Range of any of them.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Titan Void Shields" id="eba7-5f8d-c2a0-3165" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Titans are protected by specialised void shield generators, near-impenetrable barriers of force projected out at a distance from their hulls in layers and designed to deflect and absorb the impact of high-energy attacks and missiles against them. In game terms, Titan void shields are represented by a unique kind of saving throw which the controlling player can opt to use instead of their normal save or invulnerable save against any form of attack except from weapons with the Melee type. like invulnerable saves, Titan void shield saves are unaffected by the AP of an attack, but unlike invulnerable saves they may also be used to negate mortal wounds. In this case, roll one dice for each mortal wound that has been inflicted on the Titan, with the mortal wound being ignored if the save roll is passed. Titan void shields must be continuously re-energised and renewed in combat operations and so as the Titan is damaged, the defensive potential of its void shields is reduced.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Reactor Meltdown" id="9ff7-ac90-8912-3833" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before removing the model from the battlefield. On a 6+ it explodes, and each unit within 3D6&quot; suffers 2D6 mortal wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Titan vulcan mega-bolter" id="cc41-13d3-cea4-b3a9" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 20</characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
   <sharedSelectionEntries>
-    <selectionEntry id="fe55-4a83-0126-51dc" name="Chaos Reaver Titan" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry name="Chaos Reaver Titan" id="fe55-4a83-0126-51dc" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="New CategoryLink" id="91e9-c44a-8756-c594" hidden="false" primary="false" targetId="bc10-1aed-9d8c-724b"/>
+        <categoryLink name="New CategoryLink" id="942e-3f3d-a400-edbe" hidden="false" primary="false" targetId="5f88-bd69-1096-78b6"/>
+        <categoryLink name="New CategoryLink" id="fcbd-a0a8-5423-e7ff" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="New CategoryLink" id="4e13-f347-c8e2-1906" hidden="false" primary="false" targetId="bdda-36f0-4f32-1639"/>
+        <categoryLink name="New CategoryLink" id="1599-3c99-7b84-11aa" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
+        <categoryLink name="New CategoryLink" id="ac04-d19c-6afc-3178" hidden="false" primary="false" targetId="f367-b06c-c574-c7fe"/>
+        <categoryLink name="New CategoryLink" id="ae40-4677-15ec-9ace" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="150"/>
+        <cost name="pts" typeId="points" value="3000"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Has Battle Honours (Chapter Approved 2018)" id="6511-396e-6c08-9402" collective="false" hidden="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Battle Titan" id="f7ed-b81a-6adb-ca9d" hidden="false" targetId="a0ea-57a5-f34a-ad4b" type="profile"/>
+        <infoLink name="Reactor Meltdown" id="c0d3-a364-e86e-9394" hidden="false" targetId="9ff7-ac90-8912-3833" type="profile"/>
+      </infoLinks>
       <profiles>
-        <profile id="1e47-b127-89a0-e169" name="Chaos Reaver Titan 1 (53+ wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile name="Chaos Reaver Titan 1 (53+ wounds remaining)" id="1e47-b127-89a0-e169" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">18&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -38,7 +86,7 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="f305-da55-f923-7b08" name="Chaos Reaver Titan 2 (36-52 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile name="Chaos Reaver Titan 2 (36-52 wounds remaining)" id="f305-da55-f923-7b08" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">14&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -51,7 +99,7 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="a3b3-1f82-71cc-a836" name="Chaos Reaver Titan 3 (18-35 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile name="Chaos Reaver Titan 3 (18-35 wounds remaining)" id="a3b3-1f82-71cc-a836" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">10&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
@@ -64,7 +112,7 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="d8c4-20e7-cea3-88f9" name="Chaos Reaver Titan 4 (1-17 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile name="Chaos Reaver Titan 4 (1-17 wounds remaining)" id="d8c4-20e7-cea3-88f9" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -77,7 +125,7 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="9b84-0b0b-501b-5b66" name="Void Shields" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile name="Void Shields" id="9b84-0b0b-501b-5b66" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has 4 void shields. Each void shield has 3 shield points. While this model has any void shields, it has a 5+ invulnerable save against ranged attacks.
 
@@ -87,27 +135,19 @@ At the start of your Command phase, if this model has a void shield that has few
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="f7ed-b81a-6adb-ca9d" name="Battle Titan" hidden="false" targetId="a0ea-57a5-f34a-ad4b" type="profile"/>
-        <infoLink id="c0d3-a364-e86e-9394" name="Reactor Meltdown" hidden="false" targetId="9ff7-ac90-8912-3833" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="91e9-c44a-8756-c594" name="New CategoryLink" hidden="false" targetId="bc10-1aed-9d8c-724b" primary="false"/>
-        <categoryLink id="942e-3f3d-a400-edbe" name="New CategoryLink" hidden="false" targetId="5f88-bd69-1096-78b6" primary="false"/>
-        <categoryLink id="fcbd-a0a8-5423-e7ff" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
-        <categoryLink id="4e13-f347-c8e2-1906" name="New CategoryLink" hidden="false" targetId="bdda-36f0-4f32-1639" primary="false"/>
-        <categoryLink id="1599-3c99-7b84-11aa" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
-        <categoryLink id="ac04-d19c-6afc-3178" name="New CategoryLink" hidden="false" targetId="f367-b06c-c574-c7fe" primary="false"/>
-        <categoryLink id="ae40-4677-15ec-9ace" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="43bb-caa7-b864-4161" name="Reaver apocalypse launcher" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Reaver apocalypse launcher" id="43bb-caa7-b864-4161" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1591-c47e-e8e2-ba40" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0392-c6ce-51dc-cb24" type="max"/>
+            <constraint id="1591-c47e-e8e2-ba40" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="0392-c6ce-51dc-cb24" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
           <profiles>
-            <profile id="28b5-6342-6105-11e0" name="Reaver apocalypse launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile name="Reaver apocalypse launcher" id="28b5-6342-6105-11e0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;-200&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
@@ -118,19 +158,19 @@ At the start of your Command phase, if this model has a void shield that has few
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
         </selectionEntry>
-        <selectionEntry id="5993-0a64-9db1-797a" name="Reaver feet" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Reaver feet" id="5993-0a64-9db1-797a" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b40-5dac-1506-7b16" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9143-b9ed-5e8c-0aec" type="max"/>
+            <constraint id="2b40-5dac-1506-7b16" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="9143-b9ed-5e8c-0aec" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
           <profiles>
-            <profile id="fda1-1ae7-ef54-131c" name="Reaver feet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile name="Reaver feet" id="fda1-1ae7-ef54-131c" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -141,65 +181,73 @@ At the start of your Command phase, if this model has a void shield that has few
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="383a-6fee-9ea1-bfa4" name="Arm mounted weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="d3c3-39ca-8857-ad74">
+        <selectionEntryGroup name="Arm mounted weapons" id="383a-6fee-9ea1-bfa4" collective="false" defaultSelectionEntryId="d3c3-39ca-8857-ad74" hidden="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="098e-d3df-6cc8-a097" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e5cd-1d6f-aeb8-a6f6" type="min"/>
+            <constraint id="098e-d3df-6cc8-a097" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
+            <constraint id="e5cd-1d6f-aeb8-a6f6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="2"/>
           </constraints>
           <entryLinks>
-            <entryLink id="85e8-2bca-059e-8df2" name="Reaver power fist" hidden="false" collective="false" import="true" targetId="33a3-2ac8-0ade-9044" type="selectionEntry">
+            <entryLink name="Reaver power fist" id="85e8-2bca-059e-8df2" collective="false" hidden="false" import="true" targetId="33a3-2ac8-0ade-9044" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="126d-5a59-8b2a-1335" type="max"/>
+                <constraint id="126d-5a59-8b2a-1335" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
               </constraints>
             </entryLink>
-            <entryLink id="0d58-6c8f-8095-9429" name="Reaver melta cannon" hidden="false" collective="false" import="true" targetId="d22d-e0eb-02e0-aa54" type="selectionEntry">
+            <entryLink name="Reaver melta cannon" id="0d58-6c8f-8095-9429" collective="false" hidden="false" import="true" targetId="d22d-e0eb-02e0-aa54" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0b3-970c-ff0f-1fc8" type="max"/>
+                <constraint id="b0b3-970c-ff0f-1fc8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
               </constraints>
             </entryLink>
-            <entryLink id="76d4-c7d8-e79b-1630" name="Reaver laser blaster" hidden="false" collective="false" import="true" targetId="f337-3828-e72f-1003" type="selectionEntry">
+            <entryLink name="Reaver laser blaster" id="76d4-c7d8-e79b-1630" collective="false" hidden="false" import="true" targetId="f337-3828-e72f-1003" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c4ef-29b1-2100-2507" type="max"/>
+                <constraint id="c4ef-29b1-2100-2507" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
               </constraints>
             </entryLink>
-            <entryLink id="d3c3-39ca-8857-ad74" name="Reaver gatling blaster" hidden="false" collective="false" import="true" targetId="b3a5-f7d3-1f8f-5b74" type="selectionEntry">
+            <entryLink name="Reaver gatling blaster" id="d3c3-39ca-8857-ad74" collective="false" hidden="false" import="true" targetId="b3a5-f7d3-1f8f-5b74" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a2d8-ac9c-1dfc-dcc6" type="max"/>
+                <constraint id="a2d8-ac9c-1dfc-dcc6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
               </constraints>
             </entryLink>
-            <entryLink id="46e4-de95-4fa0-990a" name="Reaver volcano cannon" hidden="false" collective="false" import="true" targetId="9273-9ce6-5bfa-3375" type="selectionEntry">
+            <entryLink name="Reaver volcano cannon" id="46e4-de95-4fa0-990a" collective="false" hidden="false" import="true" targetId="9273-9ce6-5bfa-3375" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3982-ad73-59be-39f8" type="max"/>
+                <constraint id="3982-ad73-59be-39f8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="6511-396e-6c08-9402" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="150.0"/>
-        <cost name="pts" typeId="points" value="3000.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="6f73-5883-b77b-583d" name="Chaos Warhound Titan" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry name="Chaos Warhound Titan" id="6f73-5883-b77b-583d" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="New CategoryLink" id="5ac5-8233-2e20-034d" hidden="false" primary="false" targetId="bc10-1aed-9d8c-724b"/>
+        <categoryLink name="New CategoryLink" id="d17e-a699-3c52-230c" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="New CategoryLink" id="a99e-d400-1bb0-ff19" hidden="false" primary="false" targetId="f367-b06c-c574-c7fe"/>
+        <categoryLink name="New CategoryLink" id="7d8f-e601-930a-0efa" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
+        <categoryLink name="New CategoryLink" id="1b34-28b6-c957-7309" hidden="false" primary="false" targetId="bdda-36f0-4f32-1639"/>
+        <categoryLink name="New CategoryLink" id="72ec-8a6a-c37d-a934" hidden="false" primary="false" targetId="5f88-bd69-1096-78b6"/>
+        <categoryLink name="New CategoryLink" id="3bc1-cc32-1508-98e3" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="100"/>
+        <cost name="pts" typeId="points" value="2000"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Has Battle Honours (Chapter Approved 2018)" id="6abb-2dd9-bd14-543e" collective="false" hidden="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Battle Titan" id="a5ac-0fdb-51be-6a7f" hidden="false" targetId="a0ea-57a5-f34a-ad4b" type="profile"/>
+        <infoLink name="Reactor Meltdown" id="4563-d91b-9988-917b" hidden="false" targetId="9ff7-ac90-8912-3833" type="profile"/>
+      </infoLinks>
       <profiles>
-        <profile id="3371-b6bc-cce1-d783" name="Flank Speed" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile name="Flank Speed" id="3371-b6bc-cce1-d783" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this model Advances, do not make an Advance roll. Instead, until the end of the Movement phase, add 12&quot; to the Move characteristic of this model.</characteristic>
           </characteristics>
         </profile>
-        <profile id="504a-4734-4318-457a" name="Chaos Warhound Titan 1 (38+ wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile name="Chaos Warhound Titan 1 (38+ wounds remaining)" id="504a-4734-4318-457a" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">20&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -212,7 +260,7 @@ At the start of your Command phase, if this model has a void shield that has few
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="3803-39b6-e4c0-3b4e" name="Chaos Warhound Titan 2 (26-37 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile name="Chaos Warhound Titan 2 (26-37 wounds remaining)" id="3803-39b6-e4c0-3b4e" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">16&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
@@ -225,7 +273,7 @@ At the start of your Command phase, if this model has a void shield that has few
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="5e6f-de98-f21f-5938" name="Chaos Warhound Titan 3 (13-25 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile name="Chaos Warhound Titan 3 (13-25 wounds remaining)" id="5e6f-de98-f21f-5938" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
@@ -238,7 +286,7 @@ At the start of your Command phase, if this model has a void shield that has few
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="0f11-5448-6865-adbf" name="Chaos Warhound Titan 4 (1-12 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile name="Chaos Warhound Titan 4 (1-12 wounds remaining)" id="0f11-5448-6865-adbf" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -251,7 +299,7 @@ At the start of your Command phase, if this model has a void shield that has few
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="b087-89ef-6c19-a6c6" name="Void Shields" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile name="Void Shields" id="b087-89ef-6c19-a6c6" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has 2 void shields. Each void shield has 3 shield points. While this model has any void shields, it has a 5+ invulnerable save against ranged attacks.
 
@@ -261,27 +309,19 @@ At the start of your Command phase, if this model has a void shield that has few
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="a5ac-0fdb-51be-6a7f" name="Battle Titan" hidden="false" targetId="a0ea-57a5-f34a-ad4b" type="profile"/>
-        <infoLink id="4563-d91b-9988-917b" name="Reactor Meltdown" hidden="false" targetId="9ff7-ac90-8912-3833" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="5ac5-8233-2e20-034d" name="New CategoryLink" hidden="false" targetId="bc10-1aed-9d8c-724b" primary="false"/>
-        <categoryLink id="d17e-a699-3c52-230c" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="a99e-d400-1bb0-ff19" name="New CategoryLink" hidden="false" targetId="f367-b06c-c574-c7fe" primary="false"/>
-        <categoryLink id="7d8f-e601-930a-0efa" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
-        <categoryLink id="1b34-28b6-c957-7309" name="New CategoryLink" hidden="false" targetId="bdda-36f0-4f32-1639" primary="false"/>
-        <categoryLink id="72ec-8a6a-c37d-a934" name="New CategoryLink" hidden="false" targetId="5f88-bd69-1096-78b6" primary="false"/>
-        <categoryLink id="3bc1-cc32-1508-98e3" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
-      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="386a-618d-ea4a-ea94" name="Warhound feet" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Warhound feet" id="386a-618d-ea4a-ea94" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51fb-30ba-01ca-01f9" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c356-4868-4b9a-5fe1" type="max"/>
+            <constraint id="51fb-30ba-01ca-01f9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="c356-4868-4b9a-5fe1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
           <profiles>
-            <profile id="3f24-614d-287c-0a0b" name="Warhound feet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile name="Warhound feet" id="3f24-614d-287c-0a0b" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -292,26 +332,26 @@ At the start of your Command phase, if this model has a void shield that has few
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b16a-68ce-af9e-f7dd" name="Arm mounted weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="68e5-3e12-abe0-1ae1">
+        <selectionEntryGroup name="Arm mounted weapons" id="b16a-68ce-af9e-f7dd" collective="false" defaultSelectionEntryId="68e5-3e12-abe0-1ae1" hidden="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9fdd-8a3d-50f8-8215" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="be41-d005-cdcf-986c" type="min"/>
+            <constraint id="9fdd-8a3d-50f8-8215" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
+            <constraint id="be41-d005-cdcf-986c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="2"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a7a8-d4b3-1902-4947" name="Warhound inferno gun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Warhound inferno gun" id="a7a8-d4b3-1902-4947" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="145d-f80a-34c4-c5f3" type="max"/>
+                <constraint id="145d-f80a-34c4-c5f3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
               </constraints>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
               <profiles>
-                <profile id="1e87-3196-400d-f730" name="Warhound inferno gun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile name="Warhound inferno gun" id="1e87-3196-400d-f730" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4D6</characteristic>
@@ -322,18 +362,18 @@ At the start of your Command phase, if this model has a void shield that has few
                   </characteristics>
                 </profile>
               </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
             </selectionEntry>
-            <selectionEntry id="ef43-96d7-6d01-c383" name="Warhound plasma blastgun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Warhound plasma blastgun" id="ef43-96d7-6d01-c383" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a997-258c-b6ad-1e16" type="max"/>
+                <constraint id="a997-258c-b6ad-1e16" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
               </constraints>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
               <profiles>
-                <profile id="403d-6a83-2b9f-bb16" name="Warhound plasma blastgun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile name="Warhound plasma blastgun" id="403d-6a83-2b9f-bb16" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">-</characteristic>
@@ -343,7 +383,7 @@ At the start of your Command phase, if this model has a void shield that has few
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Before selecting targets, select one of the profile below to make attacks with.</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="b576-eace-5f26-eeaa" name="Warhound plasma blastgun - Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile name="Warhound plasma blastgun - Standard" id="b576-eace-5f26-eeaa" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
@@ -353,7 +393,7 @@ At the start of your Command phase, if this model has a void shield that has few
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="c737-cec9-e2bc-fe87" name="Warhound plasma blastgun - Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile name="Warhound plasma blastgun - Supercharge" id="c737-cec9-e2bc-fe87" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
@@ -364,18 +404,18 @@ At the start of your Command phase, if this model has a void shield that has few
                   </characteristics>
                 </profile>
               </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
             </selectionEntry>
-            <selectionEntry id="4cc1-02d9-1dbd-f6ba" name="Warhound turbo-laser destructor" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Warhound turbo-laser destructor" id="4cc1-02d9-1dbd-f6ba" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ae8c-6422-c3f9-872a" type="max"/>
+                <constraint id="ae8c-6422-c3f9-872a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
               </constraints>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
               <profiles>
-                <profile id="c88a-cee9-fde0-e0df" name="Warhound turbo-laser destructor" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile name="Warhound turbo-laser destructor" id="c88a-cee9-fde0-e0df" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D3</characteristic>
@@ -386,18 +426,18 @@ At the start of your Command phase, if this model has a void shield that has few
                   </characteristics>
                 </profile>
               </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
             </selectionEntry>
-            <selectionEntry id="68e5-3e12-abe0-1ae1" name="Warhound vulcan mega-bolter" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Warhound vulcan mega-bolter" id="68e5-3e12-abe0-1ae1" collective="false" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5f52-b31d-82c7-8c24" type="max"/>
+                <constraint id="5f52-b31d-82c7-8c24" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
               </constraints>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
               <profiles>
-                <profile id="02e2-924a-11eb-ca7e" name="Warhound vulcan mega-bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile name="Warhound vulcan mega-bolter" id="02e2-924a-11eb-ca7e" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 20</characteristic>
@@ -408,27 +448,37 @@ At the start of your Command phase, if this model has a void shield that has few
                   </characteristics>
                 </profile>
               </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="6abb-2dd9-bd14-543e" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="100.0"/>
-        <cost name="pts" typeId="points" value="2000.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="8819-eaf2-127e-efca" name="Chaos Warlord Titan" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry name="Chaos Warlord Titan" id="8819-eaf2-127e-efca" collective="false" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="New CategoryLink" id="3612-893b-0987-2776" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="New CategoryLink" id="0308-7c3c-2c5c-9fe0" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
+        <categoryLink name="New CategoryLink" id="6898-4570-fda8-4f63" hidden="false" primary="false" targetId="bdda-36f0-4f32-1639"/>
+        <categoryLink name="New CategoryLink" id="d309-f142-7fbb-b9a5" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="New CategoryLink" id="73ca-c870-fc77-83ec" hidden="false" primary="false" targetId="bc10-1aed-9d8c-724b"/>
+        <categoryLink name="New CategoryLink" id="629b-b17f-00c0-a3d4" hidden="false" primary="false" targetId="f367-b06c-c574-c7fe"/>
+        <categoryLink name="New CategoryLink" id="ddc7-90ca-0023-9633" hidden="false" primary="false" targetId="5f88-bd69-1096-78b6"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="275"/>
+        <cost name="pts" typeId="points" value="5500"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Has Battle Honours (Chapter Approved 2018)" id="c08a-9186-4253-8f3b" collective="false" hidden="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink name="Ardex-defensor maulers" id="ffb7-f2ae-48d9-fc9f" collective="false" hidden="false" import="true" targetId="8fa9-976f-a5f0-f8c5" type="selectionEntry">
+          <constraints>
+            <constraint id="cfb2-14ea-2665-0f57" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="eda5-8abe-91c5-1e34" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <profiles>
-        <profile id="28a0-5d1a-3658-49fc" name="Chaos Warlord Titan 1 (91+ wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile name="Chaos Warlord Titan 1 (91+ wounds remaining)" id="28a0-5d1a-3658-49fc" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -441,7 +491,7 @@ At the start of your Command phase, if this model has a void shield that has few
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="2432-d1fe-c9fb-e331" name="Chaos Warlord Titan 2 (61-90 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile name="Chaos Warlord Titan 2 (61-90 wounds remaining)" id="2432-d1fe-c9fb-e331" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">10&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -454,7 +504,7 @@ At the start of your Command phase, if this model has a void shield that has few
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="0086-0b6c-9886-6a7c" name="Chaos Warlord Titan 3 (31-60 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile name="Chaos Warlord Titan 3 (31-60 wounds remaining)" id="0086-0b6c-9886-6a7c" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
@@ -467,7 +517,7 @@ At the start of your Command phase, if this model has a void shield that has few
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="815f-8c79-b024-5801" name="Chaos Warlord Titan 4 (1-30 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile name="Chaos Warlord Titan 4 (1-30 wounds remaining)" id="815f-8c79-b024-5801" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -480,17 +530,17 @@ At the start of your Command phase, if this model has a void shield that has few
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="7d67-130c-a517-cf84" name="War Engine" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile name="War Engine" id="7d67-130c-a517-cf84" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model is eligible to declare a charge in a turn in which it Fell Back. Each time this model makes a Normal Move, Advances or Falls Back, it can be moved across other models (excluding TITANIC models) as if they were not there, and when it does so it can be moved within Engagement Range of such models, but cannot finish its move within Engagement Range of any of them.</characteristic>
           </characteristics>
         </profile>
-        <profile id="883a-0193-4b39-3805" name="Reactor Meltdown" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile name="Reactor Meltdown" id="883a-0193-4b39-3805" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before removing the model from the battlefield. On a 6+ it explodes, and each unit within 4D6&quot; suffers 3D6 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="c1dd-0c24-f319-0903" name="Void Shields" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile name="Void Shields" id="c1dd-0c24-f319-0903" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has 8 void shields. Each void shield has 3 shield points. While this model has any void shields, it has a 5+ invulnerable save against ranged attacks.
 
@@ -500,23 +550,19 @@ At the start of your Command phase, if this model has a void shield that has few
           </characteristics>
         </profile>
       </profiles>
-      <categoryLinks>
-        <categoryLink id="3612-893b-0987-2776" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="0308-7c3c-2c5c-9fe0" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
-        <categoryLink id="6898-4570-fda8-4f63" name="New CategoryLink" hidden="false" targetId="bdda-36f0-4f32-1639" primary="false"/>
-        <categoryLink id="d309-f142-7fbb-b9a5" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
-        <categoryLink id="73ca-c870-fc77-83ec" name="New CategoryLink" hidden="false" targetId="bc10-1aed-9d8c-724b" primary="false"/>
-        <categoryLink id="629b-b17f-00c0-a3d4" name="New CategoryLink" hidden="false" targetId="f367-b06c-c574-c7fe" primary="false"/>
-        <categoryLink id="ddc7-90ca-0023-9633" name="New CategoryLink" hidden="false" targetId="5f88-bd69-1096-78b6" primary="false"/>
-      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f57c-311c-d107-bdbc" name="Warlord feet" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Warlord feet" id="f57c-311c-d107-bdbc" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8285-3177-27d1-2c58" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d12d-7db0-22f6-f530" type="max"/>
+            <constraint id="8285-3177-27d1-2c58" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="d12d-7db0-22f6-f530" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+          </costs>
           <profiles>
-            <profile id="bd83-fdf6-9f52-a0f0" name="Warlord feet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile name="Warlord feet" id="bd83-fdf6-9f52-a0f0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -527,19 +573,19 @@ At the start of your Command phase, if this model has a void shield that has few
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-          </costs>
         </selectionEntry>
-        <selectionEntry id="e3a1-2d0f-692e-f9f3" name="Ardex-defensor lascannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Ardex-defensor lascannon" id="e3a1-2d0f-692e-f9f3" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c203-3df7-28b9-d15f" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb01-8bd5-42dc-d7c8" type="min"/>
+            <constraint id="c203-3df7-28b9-d15f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
+            <constraint id="fb01-8bd5-42dc-d7c8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
           </constraints>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+            <cost name="pts" typeId="points" value="0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+          </costs>
           <profiles>
-            <profile id="f956-ccd0-d1b8-e5e2" name="Ardex-defensor lascannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile name="Ardex-defensor lascannon" id="f956-ccd0-d1b8-e5e2" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
@@ -550,23 +596,23 @@ At the start of your Command phase, if this model has a void shield that has few
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fbb2-7097-1e25-8e3f" name="Arm mounted weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="b0c9-f4c9-5d3d-0265">
+        <selectionEntryGroup name="Arm mounted weapons" id="fbb2-7097-1e25-8e3f" collective="false" defaultSelectionEntryId="b0c9-f4c9-5d3d-0265" hidden="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="df61-92d5-0095-003e" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="caf4-7c45-4095-2653" type="min"/>
+            <constraint id="df61-92d5-0095-003e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
+            <constraint id="caf4-7c45-4095-2653" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="2"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3e25-956f-bf87-2c3a" name="Belicosa volcano cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Belicosa volcano cannon" id="3e25-956f-bf87-2c3a" collective="false" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+              </costs>
               <profiles>
-                <profile id="4120-f33b-1256-f16f" name="Belicosa volcano cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile name="Belicosa volcano cannon" id="4120-f33b-1256-f16f" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">120&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3D3</characteristic>
@@ -577,15 +623,15 @@ At the start of your Command phase, if this model has a void shield that has few
                   </characteristics>
                 </profile>
               </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
             </selectionEntry>
-            <selectionEntry id="b0c9-f4c9-5d3d-0265" name="Arioch power claw" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Arioch power claw" id="b0c9-f4c9-5d3d-0265" collective="false" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+              </costs>
               <profiles>
-                <profile id="7b81-368f-f2ec-b51a" name="Arioch power claw (melee)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile name="Arioch power claw (melee)" id="7b81-368f-f2ec-b51a" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -595,7 +641,7 @@ At the start of your Command phase, if this model has a void shield that has few
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time a VEHICLE or MONSTER model is destroyed as a result of an attack made with this weapon, you can select one enemy unit within 9&quot; and roll one D6; on a 4+, that unit suffers D6 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="8be0-78b2-3988-26d0" name="Arioch power claw (shooting)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile name="Arioch power claw (shooting)" id="8be0-78b2-3988-26d0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 20</characteristic>
@@ -606,15 +652,15 @@ At the start of your Command phase, if this model has a void shield that has few
                   </characteristics>
                 </profile>
               </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
             </selectionEntry>
-            <selectionEntry id="956b-0a31-6254-c183" name="Mori quake cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Mori quake cannon" id="956b-0a31-6254-c183" collective="false" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+              </costs>
               <profiles>
-                <profile id="283b-68c1-566c-bb01" name="Mori quake cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile name="Mori quake cannon" id="283b-68c1-566c-bb01" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">280&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3D6</characteristic>
@@ -625,15 +671,15 @@ At the start of your Command phase, if this model has a void shield that has few
                   </characteristics>
                 </profile>
               </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
             </selectionEntry>
-            <selectionEntry id="6ecd-2d9f-8503-872c" name="Sunfury plasma annihilator" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Sunfury plasma annihilator" id="6ecd-2d9f-8503-872c" collective="false" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+              </costs>
               <profiles>
-                <profile id="4af4-9880-4f8c-5040" name="Sunfury plasma annihilator - Standard" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile name="Sunfury plasma annihilator - Standard" id="4af4-9880-4f8c-5040" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6+6</characteristic>
@@ -643,7 +689,7 @@ At the start of your Command phase, if this model has a void shield that has few
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="66ff-2354-937e-8368" name="Sunfury plasma annihilator - Supercharge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile name="Sunfury plasma annihilator - Supercharge" id="66ff-2354-937e-8368" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6+6</characteristic>
@@ -653,7 +699,7 @@ At the start of your Command phase, if this model has a void shield that has few
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. Each time an unmodified hit roll of 1 is made for an attack with this weapon profile, the bearer suffers 4 mortal wounds after shooting with this weapon.</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="a38c-3ea7-9d33-a841" name="Sunfury plasma annihilator" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile name="Sunfury plasma annihilator" id="a38c-3ea7-9d33-a841" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">-</characteristic>
@@ -664,15 +710,15 @@ At the start of your Command phase, if this model has a void shield that has few
                   </characteristics>
                 </profile>
               </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
             </selectionEntry>
-            <selectionEntry id="4952-3d13-52f5-de87" name="Macro gatling blaster" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Macro gatling blaster" id="4952-3d13-52f5-de87" collective="false" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
               <profiles>
-                <profile id="e58d-2941-3be8-0a03" name="Macro gatling blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile name="Macro gatling blaster" id="e58d-2941-3be8-0a03" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">100&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 12</characteristic>
@@ -683,29 +729,34 @@ At the start of your Command phase, if this model has a void shield that has few
                   </characteristics>
                 </profile>
               </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="786a-02a5-5544-b00a" name="Apocalypse launcher swap" hidden="false" collective="false" import="true" defaultSelectionEntryId="ca9d-caf6-c053-be7c">
+        <selectionEntryGroup name="Apocalypse launcher swap" id="786a-02a5-5544-b00a" collective="false" defaultSelectionEntryId="ca9d-caf6-c053-be7c" hidden="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="197c-7769-3e6e-9d45" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b84d-c848-fc53-c94d" type="max"/>
+            <constraint id="197c-7769-3e6e-9d45" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="b84d-c848-fc53-c94d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ca9d-caf6-c053-be7c" name="Two apocalypse launchers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Two apocalypse launchers" id="ca9d-caf6-c053-be7c" collective="false" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
               <selectionEntries>
-                <selectionEntry id="605f-5c99-e5fb-7bbc" name="Apocalypse launcher" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry name="Apocalypse launcher" id="605f-5c99-e5fb-7bbc" collective="false" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4f6-97b4-d2b3-6c89" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="652e-9031-790b-0470" type="max"/>
+                    <constraint id="e4f6-97b4-d2b3-6c89" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
+                    <constraint id="652e-9031-790b-0470" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
                   </constraints>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                    <cost name="pts" typeId="points" value="0"/>
+                  </costs>
                   <profiles>
-                    <profile id="e157-0982-4dfa-af12" name="Apocalypse launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile name="Apocalypse launcher" id="e157-0982-4dfa-af12" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;-200&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
@@ -716,28 +767,28 @@ At the start of your Command phase, if this model has a void shield that has few
                       </characteristics>
                     </profile>
                   </profiles>
-                  <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
                 </selectionEntry>
               </selectionEntries>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
             </selectionEntry>
-            <selectionEntry id="0c0c-fe23-a6ac-a495" name="Two laser blasters" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Two laser blasters" id="0c0c-fe23-a6ac-a495" collective="false" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
               <selectionEntries>
-                <selectionEntry id="5cb5-f366-c12f-0a0c" name="Laser blaster" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry name="Laser blaster" id="5cb5-f366-c12f-0a0c" collective="false" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="764a-416e-9635-f8a9" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49d0-0a57-1c86-8b0c" type="max"/>
+                    <constraint id="764a-416e-9635-f8a9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
+                    <constraint id="49d0-0a57-1c86-8b0c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
                   </constraints>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                    <cost name="pts" typeId="points" value="0"/>
+                  </costs>
                   <profiles>
-                    <profile id="261c-ca80-a74a-15f8" name="Laser blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile name="Laser blaster" id="261c-ca80-a74a-15f8" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3D3</characteristic>
@@ -748,40 +799,21 @@ At the start of your Command phase, if this model has a void shield that has few
                       </characteristics>
                     </profile>
                   </profiles>
-                  <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
                 </selectionEntry>
               </selectionEntries>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="c08a-9186-4253-8f3b" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="ffb7-f2ae-48d9-fc9f" name="Ardex-defensor maulers" hidden="false" collective="false" import="true" targetId="8fa9-976f-a5f0-f8c5" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfb2-14ea-2665-0f57" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eda5-8abe-91c5-1e34" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="275.0"/>
-        <cost name="pts" typeId="points" value="5500.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="33a3-2ac8-0ade-9044" name="Reaver power fist" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry name="Reaver power fist" id="33a3-2ac8-0ade-9044" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
       <profiles>
-        <profile id="17f8-63b9-15c1-df59" name="Reaver power fist" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile name="Reaver power fist" id="17f8-63b9-15c1-df59" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -792,15 +824,15 @@ At the start of your Command phase, if this model has a void shield that has few
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="56dd-5f22-1076-6a2e" name="Apocalypse missile launcher" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry name="Apocalypse missile launcher" id="56dd-5f22-1076-6a2e" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
       <profiles>
-        <profile id="093e-40a0-d74d-a806" name="Apocalypse missile launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile name="Apocalypse missile launcher" id="093e-40a0-d74d-a806" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;-360&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 12</characteristic>
@@ -811,15 +843,15 @@ At the start of your Command phase, if this model has a void shield that has few
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="f337-3828-e72f-1003" name="Reaver laser blaster" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry name="Reaver laser blaster" id="f337-3828-e72f-1003" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
       <profiles>
-        <profile id="805c-db35-bf33-b36e" name="Reaver laser blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile name="Reaver laser blaster" id="805c-db35-bf33-b36e" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3D3</characteristic>
@@ -830,15 +862,15 @@ At the start of your Command phase, if this model has a void shield that has few
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="d22d-e0eb-02e0-aa54" name="Reaver melta cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry name="Reaver melta cannon" id="d22d-e0eb-02e0-aa54" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
       <profiles>
-        <profile id="6578-4c35-fd2a-6daf" name="Reaver melta cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile name="Reaver melta cannon" id="6578-4c35-fd2a-6daf" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
@@ -849,15 +881,15 @@ At the start of your Command phase, if this model has a void shield that has few
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="9273-9ce6-5bfa-3375" name="Reaver volcano cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry name="Reaver volcano cannon" id="9273-9ce6-5bfa-3375" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
       <profiles>
-        <profile id="b739-b129-43e9-deec" name="Reaver volcano cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile name="Reaver volcano cannon" id="b739-b129-43e9-deec" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">120&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
@@ -868,15 +900,15 @@ At the start of your Command phase, if this model has a void shield that has few
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="b3a5-f7d3-1f8f-5b74" name="Reaver gatling blaster" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry name="Reaver gatling blaster" id="b3a5-f7d3-1f8f-5b74" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
       <profiles>
-        <profile id="0107-f49f-40d5-1bb2" name="Reaver gatling blaster" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile name="Reaver gatling blaster" id="0107-f49f-40d5-1bb2" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 12</characteristic>
@@ -887,15 +919,37 @@ At the start of your Command phase, if this model has a void shield that has few
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="3a7a-b88a-6dda-c747" name="Chaos Warbringer Nemesis Titan" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry name="Chaos Warbringer Nemesis Titan" id="3a7a-b88a-6dda-c747" collective="false" hidden="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink name="New CategoryLink" id="8395-b6df-605e-ed2e" hidden="false" primary="false" targetId="bc10-1aed-9d8c-724b"/>
+        <categoryLink name="New CategoryLink" id="7d61-0d23-cf0f-e30d" hidden="false" primary="false" targetId="5f88-bd69-1096-78b6"/>
+        <categoryLink name="New CategoryLink" id="1059-34d2-36d9-cb2a" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="New CategoryLink" id="5569-583c-5ca1-068a" hidden="false" primary="false" targetId="bdda-36f0-4f32-1639"/>
+        <categoryLink name="New CategoryLink" id="a312-0764-4c24-54fa" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
+        <categoryLink name="New CategoryLink" id="b7bb-0460-33bf-ca24" hidden="false" primary="false" targetId="f367-b06c-c574-c7fe"/>
+        <categoryLink name="New CategoryLink" id="aeff-3e97-2089-e989" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="190"/>
+        <cost name="pts" typeId="points" value="3800"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Has Battle Honours (Chapter Approved 2018)" id="fc49-4129-2ce7-4060" collective="false" hidden="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink name="Ardex-defensor maulers" id="f070-6e0d-22fa-39a6" collective="false" hidden="false" import="true" targetId="8fa9-976f-a5f0-f8c5" type="selectionEntry">
+          <constraints>
+            <constraint id="3fb6-d422-2900-7c2b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="3"/>
+            <constraint id="75e4-92e8-973d-c3dd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Battle Titan" id="9996-3735-674e-e05a" hidden="false" targetId="a0ea-57a5-f34a-ad4b" type="profile"/>
+        <infoLink name="Reactor Meltdown" id="1104-841d-a64f-cf28" hidden="false" targetId="9ff7-ac90-8912-3833" type="profile"/>
+      </infoLinks>
       <profiles>
-        <profile id="776f-b194-dead-d6a2" name="Chaos Warbringer Nemesis Titan 1 (76+ wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile name="Chaos Warbringer Nemesis Titan 1 (76+ wounds remaining)" id="776f-b194-dead-d6a2" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">15&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -908,7 +962,7 @@ At the start of your Command phase, if this model has a void shield that has few
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="fefa-8f25-5b16-3986" name="Void Shields" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile name="Void Shields" id="fefa-8f25-5b16-3986" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has 6 void shields. Each void shield has 3 shield points. While this model has any void shields, it has a 5+ invulnerable save against ranged attacks.
 
@@ -917,7 +971,7 @@ Each time a saving throw is failed for this model against a ranged attack, if it
 At the start of your Command phase, if this model has a void shield that has fewer than 3 shield points remaining, that void shield is restored to 3 shield points.</characteristic>
           </characteristics>
         </profile>
-        <profile id="8ee5-304f-6b35-80be" name="Chaos Warbringer Nemesis Titan 2 (51-75 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile name="Chaos Warbringer Nemesis Titan 2 (51-75 wounds remaining)" id="8ee5-304f-6b35-80be" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
@@ -930,7 +984,7 @@ At the start of your Command phase, if this model has a void shield that has few
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="1920-220f-700c-f210" name="Chaos Warbringer Nemesis Titan 3 (26-50 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile name="Chaos Warbringer Nemesis Titan 3 (26-50 wounds remaining)" id="1920-220f-700c-f210" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">9&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
@@ -943,7 +997,7 @@ At the start of your Command phase, if this model has a void shield that has few
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="1218-3ae6-2c1b-3157" name="Chaos Warbringer Nemesis Titan 4 (1-25 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile name="Chaos Warbringer Nemesis Titan 4 (1-25 wounds remaining)" id="1218-3ae6-2c1b-3157" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
@@ -957,27 +1011,19 @@ At the start of your Command phase, if this model has a void shield that has few
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="9996-3735-674e-e05a" name="Battle Titan" hidden="false" targetId="a0ea-57a5-f34a-ad4b" type="profile"/>
-        <infoLink id="1104-841d-a64f-cf28" name="Reactor Meltdown" hidden="false" targetId="9ff7-ac90-8912-3833" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="8395-b6df-605e-ed2e" name="New CategoryLink" hidden="false" targetId="bc10-1aed-9d8c-724b" primary="false"/>
-        <categoryLink id="7d61-0d23-cf0f-e30d" name="New CategoryLink" hidden="false" targetId="5f88-bd69-1096-78b6" primary="false"/>
-        <categoryLink id="1059-34d2-36d9-cb2a" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
-        <categoryLink id="5569-583c-5ca1-068a" name="New CategoryLink" hidden="false" targetId="bdda-36f0-4f32-1639" primary="false"/>
-        <categoryLink id="a312-0764-4c24-54fa" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
-        <categoryLink id="b7bb-0460-33bf-ca24" name="New CategoryLink" hidden="false" targetId="f367-b06c-c574-c7fe" primary="false"/>
-        <categoryLink id="aeff-3e97-2089-e989" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7ee2-b4a8-07b5-94af" name="Warbringer Nemesis feet" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Warbringer Nemesis feet" id="7ee2-b4a8-07b5-94af" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="959c-d6af-337c-0947" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3923-844d-4ba6-caa6" type="max"/>
+            <constraint id="959c-d6af-337c-0947" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="3923-844d-4ba6-caa6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
           <profiles>
-            <profile id="1921-a9c8-d475-8980" name="Warbringer Nemesis feet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile name="Warbringer Nemesis feet" id="1921-a9c8-d475-8980" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -988,19 +1034,19 @@ At the start of your Command phase, if this model has a void shield that has few
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
         </selectionEntry>
-        <selectionEntry id="b292-15e6-a06d-cd88" name="Anvillus defence battery" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry name="Anvillus defence battery" id="b292-15e6-a06d-cd88" collective="false" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3c3-868e-73a1-88d4" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae86-71cf-53cd-a81e" type="max"/>
+            <constraint id="c3c3-868e-73a1-88d4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="ae86-71cf-53cd-a81e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
           </constraints>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
           <profiles>
-            <profile id="a902-5acd-1690-3c32" name="Anvillus defence battery" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile name="Anvillus defence battery" id="a902-5acd-1690-3c32" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 8</characteristic>
@@ -1011,51 +1057,51 @@ At the start of your Command phase, if this model has a void shield that has few
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c056-b9fd-7e84-2bbe" name="Arm mounted weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="1f80-3c80-c36e-0256">
+        <selectionEntryGroup name="Arm mounted weapons" id="c056-b9fd-7e84-2bbe" collective="false" defaultSelectionEntryId="1f80-3c80-c36e-0256" hidden="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a793-6aa7-6466-6b53" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fed7-bc21-f9d8-1760" type="min"/>
+            <constraint id="a793-6aa7-6466-6b53" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
+            <constraint id="fed7-bc21-f9d8-1760" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="2"/>
           </constraints>
           <entryLinks>
-            <entryLink id="5663-3e0f-9a3d-dbbf" name="Reaver melta cannon" hidden="false" collective="false" import="true" targetId="d22d-e0eb-02e0-aa54" type="selectionEntry">
+            <entryLink name="Reaver melta cannon" id="5663-3e0f-9a3d-dbbf" collective="false" hidden="false" import="true" targetId="d22d-e0eb-02e0-aa54" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b7d6-8dbe-c750-7446" type="max"/>
+                <constraint id="b7d6-8dbe-c750-7446" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
               </constraints>
             </entryLink>
-            <entryLink id="38ad-66aa-48a0-4cf8" name="Reaver laser blaster" hidden="false" collective="false" import="true" targetId="f337-3828-e72f-1003" type="selectionEntry">
+            <entryLink name="Reaver laser blaster" id="38ad-66aa-48a0-4cf8" collective="false" hidden="false" import="true" targetId="f337-3828-e72f-1003" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7893-2af2-01a1-f210" type="max"/>
+                <constraint id="7893-2af2-01a1-f210" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
               </constraints>
             </entryLink>
-            <entryLink id="1f80-3c80-c36e-0256" name="Reaver gatling blaster" hidden="false" collective="false" import="true" targetId="b3a5-f7d3-1f8f-5b74" type="selectionEntry">
+            <entryLink name="Reaver gatling blaster" id="1f80-3c80-c36e-0256" collective="false" hidden="false" import="true" targetId="b3a5-f7d3-1f8f-5b74" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="15cd-984b-b9b4-b3c6" type="max"/>
+                <constraint id="15cd-984b-b9b4-b3c6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
               </constraints>
             </entryLink>
-            <entryLink id="a96a-105e-6f6e-a223" name="Reaver volcano cannon" hidden="false" collective="false" import="true" targetId="9273-9ce6-5bfa-3375" type="selectionEntry">
+            <entryLink name="Reaver volcano cannon" id="a96a-105e-6f6e-a223" collective="false" hidden="false" import="true" targetId="9273-9ce6-5bfa-3375" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="488e-0d5e-c837-94ac" type="max"/>
+                <constraint id="488e-0d5e-c837-94ac" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="42e7-e64e-5e0d-5258" name="Main weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="3e0c-ccad-a1d7-3f90">
+        <selectionEntryGroup name="Main weapon" id="42e7-e64e-5e0d-5258" collective="false" defaultSelectionEntryId="3e0c-ccad-a1d7-3f90" hidden="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f39-1d71-3126-0e14" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ca6-b8f2-baf7-5ea0" type="min"/>
+            <constraint id="4f39-1d71-3126-0e14" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="8ca6-b8f2-baf7-5ea0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3e0c-ccad-a1d7-3f90" name="Nemesis quake cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Nemesis quake cannon" id="3e0c-ccad-a1d7-3f90" collective="false" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
               <profiles>
-                <profile id="a0e0-5385-064d-6c13" name="Nemesis quake cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile name="Nemesis quake cannon" id="a0e0-5385-064d-6c13" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;-480&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3D6</characteristic>
@@ -1066,15 +1112,15 @@ At the start of your Command phase, if this model has a void shield that has few
                   </characteristics>
                 </profile>
               </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
             </selectionEntry>
-            <selectionEntry id="7772-ac33-09d1-722a" name="Nemesis volcano cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry name="Nemesis volcano cannon" id="7772-ac33-09d1-722a" collective="false" hidden="false" import="true" type="upgrade">
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
               <profiles>
-                <profile id="9bea-1059-672e-2bba" name="Nemesis volcano cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile name="Nemesis volcano cannon" id="9bea-1059-672e-2bba" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;-120&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3D3</characteristic>
@@ -1085,33 +1131,19 @@ At the start of your Command phase, if this model has a void shield that has few
                   </characteristics>
                 </profile>
               </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="fc49-4129-2ce7-4060" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
-        <entryLink id="f070-6e0d-22fa-39a6" name="Ardex-defensor maulers" hidden="false" collective="false" import="true" targetId="8fa9-976f-a5f0-f8c5" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fb6-d422-2900-7c2b" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75e4-92e8-973d-c3dd" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="190.0"/>
-        <cost name="pts" typeId="points" value="3800.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
     </selectionEntry>
-    <selectionEntry id="8fa9-976f-a5f0-f8c5" name="Ardex-defensor maulers" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry name="Ardex-defensor maulers" id="8fa9-976f-a5f0-f8c5" collective="false" hidden="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
       <profiles>
-        <profile id="6cd0-857d-bb5b-1537" name="Ardex-defensor maulers" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile name="Ardex-defensor maulers" id="6cd0-857d-bb5b-1537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 6</characteristic>
@@ -1122,38 +1154,6 @@ At the start of your Command phase, if this model has a void shield that has few
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
-  <sharedProfiles>
-    <profile id="a0ea-57a5-f34a-ad4b" name="Battle Titan" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-      <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model is eligible to declare a charge in a turn in which it Fell Back. Each time this model makes a Normal Move, Advances or Falls Back, it can be moved across other models (excluding MONSTER and VEHICLE models) as if they were not there, and when it does so it can be moved within Engagement Range of such models, but cannot finish its move within Engagement Range of any of them.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="eba7-5f8d-c2a0-3165" name="Titan Void Shields" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-      <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Titans are protected by specialised void shield generators, near-impenetrable barriers of force projected out at a distance from their hulls in layers and designed to deflect and absorb the impact of high-energy attacks and missiles against them. In game terms, Titan void shields are represented by a unique kind of saving throw which the controlling player can opt to use instead of their normal save or invulnerable save against any form of attack except from weapons with the Melee type. like invulnerable saves, Titan void shield saves are unaffected by the AP of an attack, but unlike invulnerable saves they may also be used to negate mortal wounds. In this case, roll one dice for each mortal wound that has been inflicted on the Titan, with the mortal wound being ignored if the save roll is passed. Titan void shields must be continuously re-energised and renewed in combat operations and so as the Titan is damaged, the defensive potential of its void shields is reduced. </characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9ff7-ac90-8912-3833" name="Reactor Meltdown" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-      <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model is destroyed, roll one D6 before removing the model from the battlefield. On a 6+ it explodes, and each unit within 3D6&quot; suffers 2D6 mortal wounds.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="cc41-13d3-cea4-b3a9" name="Titan vulcan mega-bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">72&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 20</characteristic>
-        <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
-        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
-      </characteristics>
-    </profile>
-  </sharedProfiles>
 </catalogue>
