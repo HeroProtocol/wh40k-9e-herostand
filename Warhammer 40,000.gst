@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem name="Warhammer 40,000 9th Edition" id="28ec-711c-d87f-3aeb" authorContact="@WH40k Data Dev" authorName="BSData Developers" authorUrl="https://www.bsdata.net/contact" battleScribeVersion="2.03" revision="250" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem name="Warhammer 40,000 9th Edition" id="28ec-711c-d87f-3aeb" authorContact="@WH40k Data Dev" authorName="BSData Developers" authorUrl="https://www.bsdata.net/contact" battleScribeVersion="2.03" revision="251" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>This is the game system file for Warhammer 40,000, supporting the 9th edition of the game.  It is required for all other catalogues to function.</readme>
   <categoryEntries>
     <categoryEntry name="No Force Org Slot" id="ff36a6f3-19bf-4f48-8956-adacfd28fe74" hidden="false"/>
@@ -279,7 +279,7 @@
   <entryLinks>
     <entryLink name="Aegis Defence Line" id="46df-b154-20ff-cce1" collective="false" hidden="true" import="true" targetId="a505-05af-bd44-56b6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="46df-b154-20ff-cce1-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Fortification" id="46df-b154-20ff-cce1-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -296,8 +296,8 @@
     </entryLink>
     <entryLink name="Firestorm Redoubt" id="c29f-1df8-f18e-ab3c" collective="false" hidden="false" import="true" targetId="a172-78de-aaa6-2201" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c29f-1df8-f18e-ab3c-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
-        <categoryLink name="New CategoryLink" id="90f5-7b12-fac7-28b8" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
+        <categoryLink name="Fortification" id="c29f-1df8-f18e-ab3c-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Wall of Martyrs" id="90f5-7b12-fac7-28b8" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -314,7 +314,7 @@
     </entryLink>
     <entryLink name="Fortress of Redemption" id="7c3e-a6e6-db7b-0c75" collective="false" hidden="false" import="true" targetId="8300-7ced-aafd-2a27" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7c3e-a6e6-db7b-0c75-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Fortification" id="7c3e-a6e6-db7b-0c75-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -331,7 +331,7 @@
     </entryLink>
     <entryLink name="Bastion" id="812b-3a8b-59b1-89c7" collective="false" hidden="false" import="true" targetId="55c6-268b-357f-d070" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="812b-3a8b-59b1-89c7-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Fortification" id="812b-3a8b-59b1-89c7-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -348,8 +348,8 @@
     </entryLink>
     <entryLink name="Imperial Bunker" id="39b9-0a8a-8b41-1630" collective="false" hidden="false" import="true" targetId="0116-c81b-1c0f-251c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="39b9-0a8a-8b41-1630-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
-        <categoryLink name="New CategoryLink" id="d14f-6772-dac9-9cf1" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
+        <categoryLink name="Fortification" id="39b9-0a8a-8b41-1630-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Wall of Martyrs" id="d14f-6772-dac9-9cf1" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -366,8 +366,8 @@
     </entryLink>
     <entryLink name="Imperial Defence Line" id="8b8d-e363-fe4f-6af3" collective="false" hidden="false" import="true" targetId="0f73-97f2-b832-f6d0" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8b8d-e363-fe4f-6af3-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
-        <categoryLink name="New CategoryLink" id="1bb8-5b36-9eff-0d13" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
+        <categoryLink name="Fortification" id="8b8d-e363-fe4f-6af3-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Wall of Martyrs" id="1bb8-5b36-9eff-0d13" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -384,7 +384,7 @@
     </entryLink>
     <entryLink name="Plasma Obliterator" id="8c5d-2fb6-ad72-d364" collective="false" hidden="false" import="true" targetId="47e8-03be-a35b-8329" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8c5d-2fb6-ad72-d364-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Fortification" id="8c5d-2fb6-ad72-d364-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -401,7 +401,7 @@
     </entryLink>
     <entryLink name="Skyshield Landing Pad" id="76fd-e440-28d8-9f29" collective="false" hidden="false" import="true" targetId="5cdd-edbb-07c3-0ba5" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="76fd-e440-28d8-9f29-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Fortification" id="76fd-e440-28d8-9f29-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -418,8 +418,8 @@
     </entryLink>
     <entryLink name="Vengeance Weapon Batteries" id="c636-e01d-2d8a-0af4" collective="false" hidden="false" import="true" targetId="04bf-6c22-19fb-4e46" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c636-e01d-2d8a-0af4-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
-        <categoryLink name="New CategoryLink" id="e2c0-267d-9059-79e2" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
+        <categoryLink name="Fortification" id="c636-e01d-2d8a-0af4-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Wall of Martyrs" id="e2c0-267d-9059-79e2" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -436,7 +436,7 @@
     </entryLink>
     <entryLink name="Void Shield Generator" id="fa72-798c-d3d3-e55a" collective="false" hidden="false" import="true" targetId="bbd4-5f41-35d1-6c5f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="fa72-798c-d3d3-e55a-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Fortification" id="fa72-798c-d3d3-e55a-d713cda3-5d0f-40d8-b621-69233263ec2a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -453,7 +453,7 @@
     </entryLink>
     <entryLink name="Imperial Fortress Walls [Legends]" id="1f10-5251-06b1-0d67" collective="false" hidden="false" import="true" targetId="6267-6959-b9ec-4a6b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c48d-e8d1-ecce-c4b9" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Fortification" id="c48d-e8d1-ecce-c4b9" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -470,22 +470,22 @@
     </entryLink>
     <entryLink name="Game Type" id="4bcc-b0f4-b425-f38e" collective="false" hidden="false" import="true" targetId="bf09-85b2-c097-1071" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="0c5c-0d15-790d-6f8c" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="0c5c-0d15-790d-6f8c" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Use Beta Rules" id="e860-827e-24e0-0bd8" collective="false" hidden="false" import="true" targetId="3cf4-7a43-f7a5-51cc" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="f2d4-4c7c-a8d7-e844" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="f2d4-4c7c-a8d7-e844" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Detachment Command Cost" id="ec87-f19e-eee2-1ba8" collective="false" hidden="false" import="true" targetId="9d97-2793-9882-d48a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="56a3-e61a-895c-ce33" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="56a3-e61a-895c-ce33" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Battle Size" id="44e3-c224-ba82-1b55" collective="false" hidden="false" import="true" targetId="f29d-8a5d-18b6-a071" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="7518-f5d0-38d5-658f" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="7518-f5d0-38d5-658f" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
       <constraints>
         <constraint id="34c3-fa05-85ee-33e2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -497,7 +497,7 @@
     </entryLink>
     <entryLink name="Reinforcements" id="074a-5af4-0bed-a6a7" collective="false" hidden="false" import="true" targetId="af7a-d57e-4972-12d3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="d9f9-95c9-081c-f754" hidden="false" primary="true" targetId="7320-eafd-02c1-94da"/>
+        <categoryLink name="Reinforcement Points" id="d9f9-95c9-081c-f754" hidden="false" primary="true" targetId="7320-eafd-02c1-94da"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Primaris Redoubt [Legends]" id="d692-f83a-aa11-a25a" collective="false" hidden="false" import="true" targetId="b801-d1d1-7c34-facf" type="selectionEntry">
@@ -519,7 +519,7 @@
     </entryLink>
     <entryLink name="Macro-cannon Aquila Strongpoint" id="d3f8-6d8c-7e97-4c5a" collective="false" hidden="false" import="true" targetId="ec16-8c4f-7c32-2d58" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e3de-77d5-7c0d-4a2c" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Fortification" id="e3de-77d5-7c0d-4a2c" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -567,17 +567,17 @@
     </entryLink>
     <entryLink name="Shared Faction Bonus" id="fe51-1bc8-bd77-14a6" collective="false" hidden="false" import="true" targetId="8129-3536-b511-b045" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="a7d5-9a78-2254-2a59" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="a7d5-9a78-2254-2a59" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Crusade Tally" id="27e2-5429-e7fc-235b" collective="false" hidden="false" import="true" targetId="39d7-dac7-2f4f-b71f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="4e4b-0539-6629-a478" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="4e4b-0539-6629-a478" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Arks of Omen Compulsory Type" id="3c7c-a442-53e3-e868" collective="false" hidden="false" import="true" targetId="4d43-7ba8-b4f8-0b1d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="5791-c279-0277-7e5d" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="5791-c279-0277-7e5d" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -2575,7 +2575,7 @@
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Hot-shot Lasgun" id="f520-ae1d-d755-7ab9" hidden="false" publicationId="28ec-711c-pubN72690" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile name="Hot-shot Lasgun/Special-Issue Autogun" id="f520-ae1d-d755-7ab9" hidden="false" publicationId="28ec-711c-pubN72690" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
@@ -2595,7 +2595,7 @@
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Lasgun" id="d174-eb55-aaa6-d032" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile name="Lasgun/Autogun" id="d174-eb55-aaa6-d032" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
@@ -4201,7 +4201,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (s
   <sharedSelectionEntries>
     <selectionEntry name="Aegis Defence Line" id="a505-05af-bd44-56b6" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="39e0-2f5c-f072-ae31" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
+        <categoryLink name="Faction: Unaligned" id="39e0-2f5c-f072-ae31" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="100"/>
@@ -4273,7 +4273,7 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
         </selectionEntry>
         <selectionEntry name="Gun Emplacement" id="8c46-154f-6513-afdd" collective="false" hidden="false" import="true" type="model">
           <categoryLinks>
-            <categoryLink name="New CategoryLink" id="9fd3-c4ec-8e01-1949" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+            <categoryLink name="Vehicle" id="9fd3-c4ec-8e01-1949" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
             <categoryLink name="Terrain" id="01f6-32b5-6c51-e9e0" hidden="false" primary="false" targetId="c901-fe8a-a156-f3fa"/>
             <categoryLink name="Building" id="06fb-9f0e-9278-58c0" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
             <categoryLink name="Gun Emplacement" id="8f69-6de8-c3b3-18a3" hidden="false" primary="false" targetId="767f-8c84-8e0f-b5e9"/>
@@ -4329,10 +4329,10 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
     </selectionEntry>
     <selectionEntry name="Aquila Strongpoint" id="16d6-25c4-af92-4329" collective="false" hidden="true" import="true" publicationId="28ec-711c-pubN77581" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c353-75e3-7c61-3339" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
-        <categoryLink name="New CategoryLink" id="93b7-b6e5-9bfb-03d7" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="7a5f-333e-bcd9-c6f3" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
-        <categoryLink name="New CategoryLink" id="cd60-65f4-4189-7f6d" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
+        <categoryLink name="Building" id="c353-75e3-7c61-3339" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
+        <categoryLink name="Vehicle" id="93b7-b6e5-9bfb-03d7" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Transport" id="7a5f-333e-bcd9-c6f3" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
+        <categoryLink name="Wall of Martyrs" id="cd60-65f4-4189-7f6d" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="330"/>
@@ -4464,11 +4464,11 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
     </selectionEntry>
     <selectionEntry name="Firestorm Redoubt" id="a172-78de-aaa6-2201" collective="false" hidden="false" import="true" page="85" publicationId="28ec-711c-pubN77581" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="2d93-ef3d-2268-411a" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
-        <categoryLink name="New CategoryLink" id="f54d-a72f-689f-c18e" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
-        <categoryLink name="New CategoryLink" id="0648-0b2d-0a28-f505" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="4291-31cc-42fb-8bf7" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
-        <categoryLink name="New CategoryLink" id="fa58-ca2c-b0b5-c6d0" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
+        <categoryLink name="Building" id="2d93-ef3d-2268-411a" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
+        <categoryLink name="Wall of Martyrs" id="f54d-a72f-689f-c18e" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
+        <categoryLink name="Vehicle" id="0648-0b2d-0a28-f505" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Transport" id="4291-31cc-42fb-8bf7" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
+        <categoryLink name="Faction: Unaligned" id="fa58-ca2c-b0b5-c6d0" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="210"/>
@@ -4478,7 +4478,7 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
       <infoLinks>
         <infoLink name="Automated Weapons" id="b11a-a139-6119-52ed" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
         <infoLink name="Explodes (2D6&quot;)" id="0742-2d6a-ef9a-1b79" hidden="false" targetId="8e81-7c95-43ba-6e0d" type="profile"/>
-        <infoLink name="Immobile" id="84d5-245f-1b88-9f78" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
+        <infoLink name="Immobile (Fortification)" id="84d5-245f-1b88-9f78" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
         <infoLink name="Fire Points (10)" id="3561-f63b-9ff0-4d7b" hidden="false" targetId="220a-170b-5fd7-36f2" type="profile"/>
       </infoLinks>
       <profiles>
@@ -4535,10 +4535,10 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
     </selectionEntry>
     <selectionEntry name="Fortress of Redemption" id="8300-7ced-aafd-2a27" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="12e5-6386-ecbb-79a9" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
-        <categoryLink name="New CategoryLink" id="2ebd-7369-d7db-6299" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
-        <categoryLink name="New CategoryLink" id="9818-866d-c5b4-d471" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="b469-4bc0-edc2-eeb0" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
+        <categoryLink name="Faction: Unaligned" id="12e5-6386-ecbb-79a9" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
+        <categoryLink name="Building" id="2ebd-7369-d7db-6299" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
+        <categoryLink name="Vehicle" id="9818-866d-c5b4-d471" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Transport" id="b469-4bc0-edc2-eeb0" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
         <categoryLink name="Titanic" id="4926-a231-6e40-db16" hidden="false" primary="false" targetId="bdda-36f0-4f32-1639"/>
         <categoryLink name="Terrain" id="fabe-a68b-df62-2b4c" hidden="false" primary="false" targetId="c901-fe8a-a156-f3fa"/>
         <categoryLink name="Fortress of Redemption" id="38e0-ec36-9e09-3a96" hidden="false" primary="false" targetId="b357-b3bf-2b45-353e"/>
@@ -4685,10 +4685,10 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
     </selectionEntry>
     <selectionEntry name="Bastion" id="55c6-268b-357f-d070" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="4258-6773-c0a4-1ccb" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
-        <categoryLink name="New CategoryLink" id="e36e-2bfa-336b-104d" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
-        <categoryLink name="New CategoryLink" id="09c6-7ce7-521e-c891" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="0e2f-b5d4-56be-a2a4" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
+        <categoryLink name="Faction: Unaligned" id="4258-6773-c0a4-1ccb" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
+        <categoryLink name="Building" id="e36e-2bfa-336b-104d" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
+        <categoryLink name="Vehicle" id="09c6-7ce7-521e-c891" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Transport" id="0e2f-b5d4-56be-a2a4" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
         <categoryLink name="Terrain" id="443a-4cd5-d375-30c1" hidden="false" primary="false" targetId="c901-fe8a-a156-f3fa"/>
         <categoryLink name="Bastion" id="e707-f533-7033-1aa7" hidden="false" primary="false" targetId="134d-c383-9de8-8ccc"/>
       </categoryLinks>
@@ -4829,11 +4829,11 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
     </selectionEntry>
     <selectionEntry name="Imperial Bunker" id="0116-c81b-1c0f-251c" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c44d-b022-ad05-5261" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
-        <categoryLink name="New CategoryLink" id="15e2-c238-4ac5-222a" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
-        <categoryLink name="New CategoryLink" id="379a-aa67-ddd9-99e6" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="03b3-cc03-6556-ca7e" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
-        <categoryLink name="New CategoryLink" id="32ae-b2d1-e021-8545" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
+        <categoryLink name="Faction: Unaligned" id="c44d-b022-ad05-5261" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
+        <categoryLink name="Building" id="15e2-c238-4ac5-222a" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
+        <categoryLink name="Vehicle" id="379a-aa67-ddd9-99e6" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Wall of Martyrs" id="03b3-cc03-6556-ca7e" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
+        <categoryLink name="Transport" id="32ae-b2d1-e021-8545" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="90"/>
@@ -4842,8 +4842,8 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
       </costs>
       <infoLinks>
         <infoLink name="Fire Points (5)" id="91f3-2a84-82db-9301" hidden="false" targetId="e433-6678-6be1-355c" type="profile"/>
-        <infoLink name="Explodes" id="29ac-4fcb-46e9-f992" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
-        <infoLink name="Immobile" id="0aea-5296-9f61-7e62" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
+        <infoLink name="Explodes (D6&quot;)" id="29ac-4fcb-46e9-f992" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
+        <infoLink name="Immobile (Fortification)" id="0aea-5296-9f61-7e62" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
         <infoLink name="Automated Weapons" id="a56d-bc73-e4ad-3efe" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
       </infoLinks>
       <profiles>
@@ -4888,8 +4888,8 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
     </selectionEntry>
     <selectionEntry name="Imperial Defence Line" id="0f73-97f2-b832-f6d0" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="0cb8-b958-d814-66ff" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
-        <categoryLink name="New CategoryLink" id="b1dc-8570-0754-aa1b" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
+        <categoryLink name="Wall of Martyrs" id="0cb8-b958-d814-66ff" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
+        <categoryLink name="Faction: Unaligned" id="b1dc-8570-0754-aa1b" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="90"/>
@@ -4957,7 +4957,7 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Immobile" id="43e7-2daa-522c-c250" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
+        <infoLink name="Immobile (Fortification)" id="43e7-2daa-522c-c250" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
         <infoLink name="Automated Weapons" id="90c0-f1f9-e26a-1ddf" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
         <infoLink name="Fire Points (10)" id="fc09-fde6-e2bb-a8d2" hidden="false" targetId="220a-170b-5fd7-36f2" type="profile"/>
       </infoLinks>
@@ -5014,7 +5014,7 @@ Operate Gun Emplacement (Action): At the end of your Command phase, one INFANTRY
     </selectionEntry>
     <selectionEntry name="Skyshield Landing Pad" id="5cdd-edbb-07c3-0ba5" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="3b13-2e07-f357-c9d8" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
+        <categoryLink name="Faction: Unaligned" id="3b13-2e07-f357-c9d8" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
         <categoryLink name="Terrain" id="93a5-fcf0-2b3d-22c1" hidden="false" primary="false" targetId="c901-fe8a-a156-f3fa"/>
         <categoryLink name="Obstacle" id="f9f6-28e2-f5d2-b827" hidden="false" primary="false" targetId="7d4c-822b-b174-1e96"/>
         <categoryLink name="Skyshield Landing Pad" id="8542-8f6e-78c1-2d96" hidden="false" primary="false" targetId="f384-ed18-8809-0550"/>
@@ -5063,10 +5063,10 @@ Each AIRCRAFT model can only perform this action once during a battle.</characte
     </selectionEntry>
     <selectionEntry name="Vengeance Weapon Batteries" id="04bf-6c22-19fb-4e46" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="1247-5dd1-35a3-5f1d" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
-        <categoryLink name="New CategoryLink" id="4cac-c373-1a0a-d62f" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="c815-1fe3-00a0-a85d" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
-        <categoryLink name="New CategoryLink" id="3fdd-4995-f25e-4149" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
+        <categoryLink name="Building" id="1247-5dd1-35a3-5f1d" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
+        <categoryLink name="Vehicle" id="4cac-c373-1a0a-d62f" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Wall of Martyrs" id="c815-1fe3-00a0-a85d" hidden="false" primary="false" targetId="8172-12c9-8092-0756"/>
+        <categoryLink name="Faction: Unaligned" id="3fdd-4995-f25e-4149" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -5134,9 +5134,9 @@ Each AIRCRAFT model can only perform this action once during a battle.</characte
     </selectionEntry>
     <selectionEntry name="Void Shield Generator" id="bbd4-5f41-35d1-6c5f" collective="false" hidden="false" import="true" page="92" publicationId="28ec-711c-pubN77581" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e46f-6c4c-e34a-708b" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
-        <categoryLink name="New CategoryLink" id="2b03-649f-e76b-0136" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="f202-7d66-e9c8-b288" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
+        <categoryLink name="Faction: Unaligned" id="e46f-6c4c-e34a-708b" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
+        <categoryLink name="Vehicle" id="2b03-649f-e76b-0136" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Building" id="f202-7d66-e9c8-b288" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
         <categoryLink name="Terrain" id="3e67-29c1-671c-504b" hidden="false" primary="false" targetId="c901-fe8a-a156-f3fa"/>
         <categoryLink name="Void Shield Generator" id="d2c6-e665-a9a1-c016" hidden="false" primary="false" targetId="60c3-2c5d-0caa-e9ec"/>
       </categoryLinks>
@@ -5288,8 +5288,8 @@ Remaining Wounds | Aura Range
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Frag grenade" id="61a4-e2d3-522d-c838" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
-        <infoLink name="Krak grenade" id="b250-1f2e-4904-0eb4" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
+        <infoLink name="Frag grenades" id="61a4-e2d3-522d-c838" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+        <infoLink name="Krak grenades" id="b250-1f2e-4904-0eb4" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Heavy flamer" id="18bc-b335-29c2-2ae2" collective="false" hidden="false" import="true" type="upgrade">
@@ -5427,7 +5427,7 @@ Remaining Wounds | Aura Range
         <cost name="pts" typeId="points" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Battle Cannon" id="2dd4-28a0-308d-971c" hidden="false" targetId="bc34-f1ec-56fa-2829" type="profile"/>
+        <infoLink name="Battle cannon" id="2dd4-28a0-308d-971c" hidden="false" targetId="bc34-f1ec-56fa-2829" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Heavy stubber" id="cfa3-5fcd-af10-5520" collective="false" hidden="false" import="true" type="upgrade">
@@ -5693,7 +5693,7 @@ Remaining Wounds | Aura Range
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Frag grenade" id="7ad5-6b5c-ebb9-6058" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+        <infoLink name="Frag grenades" id="7ad5-6b5c-ebb9-6058" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Grav-pistol" id="7b66-cac7-e582-a518" collective="false" hidden="false" import="true" type="upgrade">
@@ -5784,7 +5784,7 @@ Remaining Wounds | Aura Range
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Krak grenade" id="b02a-8529-f881-426e" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
+        <infoLink name="Krak grenades" id="b02a-8529-f881-426e" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Las-talon" id="5ca6-11eb-52e7-aad9" collective="false" hidden="false" import="true" type="upgrade">
@@ -6431,7 +6431,7 @@ Remaining Wounds | Aura Range
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Psyk-Out Grenades" id="1afc-16ed-8a41-930f" hidden="false" targetId="9873-9487-e878-7e93" type="profile"/>
+        <infoLink name="Psyk-out grenades" id="1afc-16ed-8a41-930f" hidden="false" targetId="9873-9487-e878-7e93" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Psycannon" id="6bc7-408c-e6c0-12d6" collective="false" hidden="false" import="true" type="upgrade">
@@ -6618,7 +6618,7 @@ Remaining Wounds | Aura Range
     </selectionEntry>
     <selectionEntry name="Imperial Fortress Walls [Legends]" id="6267-6959-b9ec-4a6b" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="bb60-2080-d842-cf02" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
+        <categoryLink name="Faction: Unaligned" id="bb60-2080-d842-cf02" hidden="false" primary="false" targetId="9df5-bb14-9326-4108"/>
       </categoryLinks>
       <costs>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
@@ -7170,8 +7170,8 @@ Remaining Wounds | Aura Range
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Frag grenade" id="c071-4905-b8fc-7f26" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
-        <infoLink name="Krak grenade" id="c848-9c6b-2c80-2b76" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
+        <infoLink name="Frag grenades" id="c071-4905-b8fc-7f26" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+        <infoLink name="Krak grenades" id="c848-9c6b-2c80-2b76" hidden="false" targetId="3bf6-b4f7-6b2f-bb7b" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Inspiring Leader" id="bad4-7cc1-6b79-0e18" collective="false" hidden="false" import="true" type="upgrade">
@@ -7804,8 +7804,8 @@ Remaining Wounds | Aura Range
     </selectionEntry>
     <selectionEntry name="Terrax-Pattern Termite" id="732b-967e-1bca-5846" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="efe3-8c15-7f6c-f0b2" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
-        <categoryLink name="New CategoryLink" id="ea84-f0b4-bc6a-6d95" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Transport" id="efe3-8c15-7f6c-f0b2" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
+        <categoryLink name="Vehicle" id="ea84-f0b4-bc6a-6d95" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="10"/>
@@ -8022,7 +8022,7 @@ Remaining Wounds | Aura Range
     </selectionEntry>
     <selectionEntry name="Stratagem: Field Commander" id="d043-3847-e963-fb5d" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="0c71-4131-eaaa-b429" hidden="false" primary="true" targetId="c845-c72c-6afe-3fc2"/>
+        <categoryLink name="Stratagems" id="0c71-4131-eaaa-b429" hidden="false" primary="true" targetId="c845-c72c-6afe-3fc2"/>
       </categoryLinks>
       <constraints>
         <constraint id="8166-7922-7bf7-72c4" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="1"/>
@@ -8698,7 +8698,7 @@ Remaining Wounds | Aura Range
     </selectionEntry>
     <selectionEntry name="Stratagem: Shadow Assignment" id="0b7d-bfe1-b63e-ecb6" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="2abe-5886-2b50-fff3" hidden="false" primary="true" targetId="c845-c72c-6afe-3fc2"/>
+        <categoryLink name="Stratagems" id="2abe-5886-2b50-fff3" hidden="false" primary="true" targetId="c845-c72c-6afe-3fc2"/>
       </categoryLinks>
       <constraints>
         <constraint id="6b94-5ac0-ec9a-424b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -8743,11 +8743,11 @@ Remaining Wounds | Aura Range
     </selectionEntry>
     <selectionEntry name="Chaos Bastion" id="f8c9-c03b-f8af-009f" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="4df8-7815-eff1-e046" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
-        <categoryLink name="New CategoryLink" id="978e-859f-01e2-0f29" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="2fc6-7c3b-6b23-4dff" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
+        <categoryLink name="Building" id="4df8-7815-eff1-e046" hidden="false" primary="false" targetId="53cd-314c-599b-8616"/>
+        <categoryLink name="Vehicle" id="978e-859f-01e2-0f29" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Transport" id="2fc6-7c3b-6b23-4dff" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
         <categoryLink name="Faction: Chaos" id="7183-4744-1d44-14b2" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="ce23-3557-6046-2a8a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Fortification" id="ce23-3557-6046-2a8a" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="210"/>
@@ -8765,7 +8765,7 @@ Remaining Wounds | Aura Range
       <infoLinks>
         <infoLink name="Automated Weapons" id="c1dc-4a23-3edb-5dde" hidden="false" targetId="a179-f592-3224-72c9" type="profile"/>
         <infoLink name="Fire Points (10)" id="490e-4da6-1416-77de" hidden="false" targetId="220a-170b-5fd7-36f2" type="profile"/>
-        <infoLink name="Immobile" id="da51-cc6a-c922-1b2a" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
+        <infoLink name="Immobile (Fortification)" id="da51-cc6a-c922-1b2a" hidden="false" targetId="8830-2c9e-ad7e-e57d" type="profile"/>
         <infoLink name="Explodes (2D6&quot;)" id="b530-7a78-1e5f-f52e" hidden="false" targetId="8e81-7c95-43ba-6e0d" type="profile"/>
       </infoLinks>
       <profiles>
@@ -9022,7 +9022,7 @@ Remaining Wounds | Aura Range
     </selectionEntry>
     <selectionEntry name="Army of Renown - Mechanicus Defence Cohort" id="38ee-6dae-3cb1-7f84" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="fadb-26da-8680-7524" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="fadb-26da-8680-7524" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
       <constraints>
         <constraint id="b1a7-5990-d618-b5ed" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -9114,7 +9114,7 @@ Remaining Wounds | Aura Range
     </selectionEntry>
     <selectionEntry name="Army of Renown - Skitarii Veteran Cohort" id="ac03-d781-0c3b-b4be" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="6bec-d375-7bc4-f0f0" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="6bec-d375-7bc4-f0f0" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
       <constraints>
         <constraint id="f1aa-fda5-d566-5fcc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -9169,7 +9169,7 @@ Remaining Wounds | Aura Range
     </selectionEntry>
     <selectionEntry name="Army of Renown - Vanguard Spearhead" id="fff5-0cb2-3255-5678" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="0311-6a19-b23f-e265" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="0311-6a19-b23f-e265" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
@@ -9179,7 +9179,7 @@ Remaining Wounds | Aura Range
     </selectionEntry>
     <selectionEntry name="Army of Renown - Warpmeld Pact" id="cb1c-bf0d-9eb3-cb79" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="35e0-7867-ee91-0c36" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="35e0-7867-ee91-0c36" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
       <constraints>
         <constraint id="59f2-5b47-ab3f-9bb6" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="1"/>
@@ -9424,7 +9424,7 @@ Remaining Wounds | Aura Range
     </selectionEntry>
     <selectionEntry name="Stratagem: Heroic Support" id="cbd4-34fb-6ba6-9593" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="46fb-8635-60db-48d5" hidden="false" primary="true" targetId="c845-c72c-6afe-3fc2"/>
+        <categoryLink name="Stratagems" id="46fb-8635-60db-48d5" hidden="false" primary="true" targetId="c845-c72c-6afe-3fc2"/>
       </categoryLinks>
       <constraints>
         <constraint id="d2e7-cac2-2e04-9f7f" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
