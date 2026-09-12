@@ -156,7 +156,7 @@
     <categoryEntry name="Carnodon" id="ba38-8701-6b9d-3f6c" hidden="false"/>
     <categoryEntry name="Voss-pattern Lightning" id="f5c3-5616-fe23-e164" hidden="false"/>
     <categoryEntry name="Combat Engineer Squad" id="ce2a-6807-2b00-eff3" hidden="false"/>
-    <categoryEntry name="Death Korps Grenadier Squad" id="ee7d-2e9e-df72-d0db" hidden="false"/>
+    <categoryEntry name="Death Korps Grenadier Squad" id="ee7d-2e9e-df72-d0db" hidden="true"/>
     <categoryEntry name="Quartermaster Cadre" id="ef6b-a0e8-dbc9-c510" hidden="false"/>
     <categoryEntry name="Faction: Elysian Drop Troops" id="0dae-9d66-decb-c59c" hidden="false"/>
     <categoryEntry name="Mukaali Riders" id="43d3-ff10-c92c-69b3" hidden="false"/>
@@ -215,7 +215,7 @@
     <categoryEntry name="Colonel-Commissar Ibram Gaunt" id="d1c3-8543-eb68-4413" hidden="false"/>
     <categoryEntry name="Attilan Rough Riders" id="5574-d4e0-cbbe-530d" hidden="false"/>
     <categoryEntry name="Faction: Krieg" id="0149-bbf5-dd38-848f" hidden="false"/>
-    <categoryEntry name="Death Korps of Krieg" id="a081-16bd-c32f-35ad" hidden="false"/>
+    <categoryEntry name="Death Korps of Krieg" id="a081-16bd-c32f-35ad" hidden="true"/>
     <categoryEntry name="Sentinel" id="9c73-c2a1-fd2d-e0a6" hidden="false"/>
     <categoryEntry name="Jungle Fighters" id="1f1e-d747-c329-8919" hidden="false"/>
     <categoryEntry name="Preacher" id="108c-f6cf-109c-cd91" hidden="false"/>
@@ -879,7 +879,7 @@ Titanic models with this doctrine count as 10 models each when determining contr
 All other Vehicle models with this doctrine count as 5 models each when determining control of an objective model</characteristic>
       </characteristics>
     </profile>
-    <profile name="Lascarbine/Carbine" id="8533-3f2f-86a9-4534" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile name="Lascarbine/Autocarbine" id="8533-3f2f-86a9-4534" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
@@ -887,6 +887,26 @@ All other Vehicle models with this doctrine count as 5 models each when determin
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Las-battle rifle/Battle rifle" id="7ef3-d491-1257-dda9" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+      </characteristics>
+    </profile>
+    <profile name="Las-smg/Smg" id="1efe-8bf8-8ec6-a593" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 2</characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -11187,71 +11207,28 @@ Divination (Psychic Action -Warp Charge 7):In your Psychic phase, one ASTROPATH 
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Chainsword Option" id="3022-cd4d-7b04-afa2" collective="false" hidden="false" import="true">
+            <selectionEntryGroup name="Primary Option" id="3022-cd4d-7b04-afa2" collective="false" hidden="false" import="true">
               <constraints>
                 <constraint id="6560-8e2b-b0a5-a7ed" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="bc35-a933-fa73-0da0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Power fist" id="da57-bd0a-5dae-2bb2" collective="false" hidden="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry">
-                  <constraints>
-                    <constraint id="e452-cb11-f1d3-5237" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="points" value="5"/>
-                  </costs>
-                </entryLink>
-                <entryLink name="Power sword" id="426f-1ed6-bb71-44c6" collective="false" hidden="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
-                  <constraints>
-                    <constraint id="1739-6eb9-6f85-1c00" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Lasgun/Autogun" id="0dda-5928-e82e-f81e" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
-                  <constraints>
-                    <constraint id="5d3c-b023-e23c-e315" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Chainsword" id="418d-93e5-e068-d4f4" collective="false" hidden="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
-                  <constraints>
-                    <constraint id="d2b5-8704-3218-02f6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                </entryLink>
                 <entryLink name="Shotgun" id="e7fc-f5de-c7de-a204" collective="false" hidden="false" import="true" targetId="fb72-af07-b892-6208" type="selectionEntry">
                   <constraints>
                     <constraint id="1843-93a5-9db4-1c52" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Astra Militarum Officier Primary Weapons" id="55c8-ce89-ebd3-efe4" hidden="false" import="true" targetId="ffcc-3207-feaf-c718" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Laspistol Option" id="00fb-419d-8781-b268" collective="false" defaultSelectionEntryId="c736-3db6-e579-bbbb" hidden="false" import="true">
+            <selectionEntryGroup name="Secondary Option" id="00fb-419d-8781-b268" collective="false" defaultSelectionEntryId="c736-3db6-e579-bbbb" hidden="false" import="true">
               <constraints>
                 <constraint id="0aad-0151-4b55-2f2c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="4fbf-9bc9-135a-db88" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Bolt pistol" id="3472-e75f-6d93-dc6e" collective="false" hidden="false" import="true" targetId="0334-f487-8229-0c1a" type="selectionEntry">
-                  <constraints>
-                    <constraint id="f584-af80-3a5a-5bfc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Boltgun" id="ba9f-8362-79d2-a228" collective="false" hidden="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry">
-                  <constraints>
-                    <constraint id="a9e5-f624-50db-5886" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Plasma pistol" id="5b40-f477-dfc0-5008" collective="false" hidden="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry">
-                  <constraints>
-                    <constraint id="6498-6339-22d7-05d4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="points" value="5"/>
-                  </costs>
-                </entryLink>
-                <entryLink name="Laspistol" id="c736-3db6-e579-bbbb" collective="false" hidden="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
-                  <constraints>
-                    <constraint id="0e61-714c-503d-82e4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                </entryLink>
+                <entryLink name="Astra Militarum Melee Weapons" id="2e5d-0b58-9066-83a5" hidden="false" import="true" targetId="7622-e68e-c5e5-c8e7" type="selectionEntryGroup"/>
+                <entryLink name="Astra Militarum Pistol Weapons" id="2a92-af38-173d-dc0c" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -11309,32 +11286,13 @@ Divination (Psychic Action -Warp Charge 7):In your Psychic phase, one ASTROPATH 
                     <constraint id="7857-4bc4-2757-92db" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Astra Militarum Primary Weapons" id="2a95-2246-ed0c-73f4" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup"/>
               </entryLinks>
               <infoLinks>
                 <infoLink name="Veteran" id="9887-19b1-710f-dec6" hidden="false" targetId="d4f6537c-b82c-db68-b6d6-03eefe4de298" type="profile"/>
               </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Lasgun/Autogun" id="213b-23da-2967-6630" collective="false" defaultSelectionEntryId="dc38-71ed-21f6-3abb" hidden="false" import="true">
-                  <constraints>
-                    <constraint id="1b94-071f-c21a-8c54" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="580f-f5cb-0fec-2571" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink name="Lasgun/Autogun" id="dc38-71ed-21f6-3abb" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
-                      <constraints>
-                        <constraint id="7c28-8b06-d67f-8aa4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Chainsword" id="5719-75d6-2a5f-2890" collective="false" hidden="false" import="true" targetId="de76-80c5-81db-c463" type="selectionEntry">
-                      <constraints>
-                        <constraint id="87eb-b7a3-b2ce-1f25" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry name="Veteran w/ Lasgun/Autogun" id="03d8-db91-4130-4884" collective="false" hidden="false" import="true" page="0" type="model">
+            <selectionEntry name="Veteran " id="03d8-db91-4130-4884" collective="false" hidden="false" import="true" page="0" type="model">
               <constraints>
                 <constraint id="8709-d1a5-da38-0a49" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="4"/>
               </constraints>
@@ -11350,18 +11308,13 @@ Divination (Psychic Action -Warp Charge 7):In your Psychic phase, one ASTROPATH 
                     <constraint id="9e7f-0fc7-2015-4539" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Lasgun/Autogun" id="3919-df6b-5955-9ac2" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
-                  <constraints>
-                    <constraint id="db20-1847-beca-3981" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="566a-b8f7-42b4-6a03" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                  </constraints>
-                </entryLink>
                 <entryLink name="Laspistol" id="b63a-245c-c8e4-ac27" collective="false" hidden="false" import="true" targetId="9c74-d181-d2ec-0ba6" type="selectionEntry">
                   <constraints>
                     <constraint id="30d9-95aa-ecb1-8613" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="10dd-b5b6-2788-ed75" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Astra Militarum Primary Weapons" id="a4be-7b3e-4d20-d355" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup"/>
               </entryLinks>
               <infoLinks>
                 <infoLink name="Veteran" id="a0e2-e79f-ccfb-e8cc" hidden="false" targetId="d4f6537c-b82c-db68-b6d6-03eefe4de298" type="profile"/>
@@ -11395,30 +11348,11 @@ Divination (Psychic Action -Warp Charge 7):In your Psychic phase, one ASTROPATH 
                     <constraint id="ed4b-4acd-0d0b-35f2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Astra Militarum Primary Weapons" id="76a8-3ccb-d89b-dd5c" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup"/>
               </entryLinks>
               <infoLinks>
                 <infoLink name="Veteran" id="264a-9f8f-6d17-a793" hidden="false" targetId="d4f6537c-b82c-db68-b6d6-03eefe4de298" type="profile"/>
               </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Lasgun/Autogun" id="de30-fd97-b832-fed5" collective="false" defaultSelectionEntryId="2131-44b5-dc84-c796" hidden="false" import="true">
-                  <constraints>
-                    <constraint id="f69d-dcca-3966-c121" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="cd7b-1ceb-39d9-0be9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink name="Lasgun/Autogun" id="2131-44b5-dc84-c796" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
-                      <constraints>
-                        <constraint id="4b0f-23f1-0f4c-6de1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Chainsword" id="7291-c1b7-fb3b-9968" collective="false" hidden="false" import="true" targetId="de76-80c5-81db-c463" type="selectionEntry">
-                      <constraints>
-                        <constraint id="d272-e4f3-2576-f9d9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry name="Veteran w/ Regimental Standard" id="7a14-c953-72c9-5b46" collective="false" hidden="false" import="true" page="0" type="model">
               <constraints>
@@ -11448,30 +11382,11 @@ Divination (Psychic Action -Warp Charge 7):In your Psychic phase, one ASTROPATH 
                     <constraint id="f341-152b-736e-03cb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Astra Militarum Primary Weapons" id="ae8c-cbad-644f-1d01" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup"/>
               </entryLinks>
               <infoLinks>
                 <infoLink name="Veteran" id="3598-7c09-7a5d-db78" hidden="false" targetId="d4f6537c-b82c-db68-b6d6-03eefe4de298" type="profile"/>
               </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Lasgun/Autogun" id="07ca-e618-bce5-6cf0" collective="false" defaultSelectionEntryId="2f86-f8ea-21c1-c92b" hidden="false" import="true">
-                  <constraints>
-                    <constraint id="1ba4-a5f2-1764-d83e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="2f49-c2e2-1dbe-61ec" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink name="Lasgun/Autogun" id="2f86-f8ea-21c1-c92b" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
-                      <constraints>
-                        <constraint id="daf8-9ea0-59f3-bf22" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Chainsword" id="fa37-6aa9-24a1-1dac" collective="false" hidden="false" import="true" targetId="de76-80c5-81db-c463" type="selectionEntry">
-                      <constraints>
-                        <constraint id="4514-8f7d-89d6-8ebe" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry name="Veteran w/ Special Weapon" id="59c3-6965-4419-5456" collective="false" hidden="false" import="true" page="0" type="model">
               <constraints>
@@ -11495,55 +11410,11 @@ Divination (Psychic Action -Warp Charge 7):In your Psychic phase, one ASTROPATH 
                     <constraint id="2d40-8e71-064c-1f9a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Astra Militarum Special Weapons" id="4033-67e3-e6f3-7ed2" hidden="false" import="true" targetId="a465-d3f9-68f9-2e55" type="selectionEntryGroup"/>
               </entryLinks>
               <infoLinks>
                 <infoLink name="Veteran" id="3cff-ffac-a99b-e3f5" hidden="false" targetId="d4f6537c-b82c-db68-b6d6-03eefe4de298" type="profile"/>
               </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Platoon Special Weapons" id="4b01-d2d3-b4e4-d086" collective="false" defaultSelectionEntryId="f886-786d-3272-f318" hidden="false" import="true">
-                  <constraints>
-                    <constraint id="db6d-bf98-037a-fb75" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="9299-76d4-7be8-d6de" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink name="Flamer" id="44f2-59de-c115-e331" collective="false" hidden="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
-                      <constraints>
-                        <constraint id="7b9c-aa78-fb96-5f19" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="21e4-0222-d9c0-7eeb" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="3b7d-927b-8856-e8b7" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Grenade launcher" id="67f3-fefb-992a-748e" collective="false" hidden="false" import="true" targetId="a75e-512d-c808-3057" type="selectionEntry">
-                      <constraints>
-                        <constraint id="8ef3-994c-5a6d-7dd5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="b5ce-cdd8-3c73-2ea9" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="3b7d-927b-8856-e8b7" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Heavy flamer" id="1b0c-5b1f-732f-435b" collective="false" hidden="false" import="true" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
-                      <constraints>
-                        <constraint id="08cd-a058-0323-4d08" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="c4d0-5d03-090e-e7c6" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="3b7d-927b-8856-e8b7" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Plasma gun" id="f886-786d-3272-f318" collective="false" hidden="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry">
-                      <constraints>
-                        <constraint id="7ce8-5341-61a5-ac56" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="9b4c-f327-56f3-5f75" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="3b7d-927b-8856-e8b7" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Sniper Rifle" id="d82a-fb8e-af1b-2c7a" collective="false" hidden="false" import="true" targetId="d4fd-c131-723b-350b" type="selectionEntry">
-                      <constraints>
-                        <constraint id="131d-df0c-17fd-957b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="5b26-61c2-ceb7-86fd" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="3b7d-927b-8856-e8b7" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Meltagun" id="1141-0515-49b6-1720" collective="false" hidden="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry">
-                      <constraints>
-                        <constraint id="47f8-9f47-e229-721b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry name="Veteran Heavy Weapons Team" id="8c3a-6617-ae01-8e19" collective="false" hidden="false" import="true" page="0" type="model">
               <constraints>
@@ -11573,7 +11444,7 @@ Divination (Psychic Action -Warp Charge 7):In your Psychic phase, one ASTROPATH 
                 <infoLink name="Veteran Heavy Weapons Team" id="6d6a-a382-e810-e23d" hidden="false" targetId="61bc-299a-28c5-bbd5" type="profile"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry name="Veteran w/ chainsword" id="0f37-f527-5afc-30ec" collective="false" hidden="false" import="true" page="0" type="model">
+            <selectionEntry name="Veteran w/ Melee weapon" id="0f37-f527-5afc-30ec" collective="false" hidden="false" import="true" page="0" type="model">
               <constraints>
                 <constraint id="719c-721c-a9a5-26e4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="4"/>
               </constraints>
@@ -11589,18 +11460,13 @@ Divination (Psychic Action -Warp Charge 7):In your Psychic phase, one ASTROPATH 
                     <constraint id="903a-22f0-7b44-cecf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Chainsword" id="3492-829f-e6d1-5b65" collective="false" hidden="false" import="true" targetId="de76-80c5-81db-c463" type="selectionEntry">
-                  <constraints>
-                    <constraint id="41e8-7791-20f1-ad68" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="8491-41a4-464b-c744" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                  </constraints>
-                </entryLink>
                 <entryLink name="Laspistol" id="7337-f967-e6c8-7524" collective="false" hidden="false" import="true" targetId="9c74-d181-d2ec-0ba6" type="selectionEntry">
                   <constraints>
                     <constraint id="150e-ff2d-571a-a1eb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="3970-663f-ca17-8de2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Astra Militarum Melee Weapons" id="bac1-d442-d1fe-5325" hidden="false" import="true" targetId="7622-e68e-c5e5-c8e7" type="selectionEntryGroup"/>
               </entryLinks>
               <infoLinks>
                 <infoLink name="Veteran" id="bd2c-f5a9-3b61-8dbb" hidden="false" targetId="d4f6537c-b82c-db68-b6d6-03eefe4de298" type="profile"/>
@@ -12778,8 +12644,8 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
         <categoryLink name="Core" id="cabf-e1d3-ed3c-878b" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3"/>
         <cost name="pts" typeId="points" value="55"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <entryLinks>
@@ -13487,7 +13353,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Chainsword" id="03a5-6df4-65c7-221b" collective="false" hidden="false" import="true">
+            <selectionEntryGroup name="Chainsword Option" id="03a5-6df4-65c7-221b" collective="false" hidden="false" import="true">
               <constraints>
                 <constraint id="d15a-52e4-9083-5629" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -13505,9 +13371,14 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                     <cost name="pts" typeId="points" value="5"/>
                   </costs>
                 </entryLink>
+                <entryLink name="Astra Militarum Primary Weapons" id="7067-dff5-cc5e-0d58" collective="false" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint id="0189-e29c-ef5b-e7c1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Laspistol" id="d4b6-2866-a5e5-058f" collective="false" defaultSelectionEntryId="22f1-0d55-7899-beeb" hidden="false" import="true">
+            <selectionEntryGroup name="Laspistol Option" id="d4b6-2866-a5e5-058f" collective="false" defaultSelectionEntryId="22f1-0d55-7899-beeb" hidden="false" import="true">
               <constraints>
                 <constraint id="0369-e75e-a8bb-3bdf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="29ef-d0ee-5259-f707" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -13606,7 +13477,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Lasgun/Autogun" id="a6bc-abb1-a6ce-0f10" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+                <entryLink name="Astra Militarum Primary Weapons" id="a6bc-abb1-a6ce-0f10" collective="false" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup">
                   <constraints>
                     <constraint id="d867-f667-e039-b21b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="4f25-5f55-09ed-1d8d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -13631,6 +13502,9 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                   <constraints>
                     <constraint id="c4c0-8b1f-dbfd-ed08" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
+                  <entryLinks>
+                    <entryLink name="Shotgun" id="88fb-912f-267b-14ee" hidden="false" import="true" targetId="2094-c9a6-a426-0970" type="selectionEntry"/>
+                  </entryLinks>
                 </entryLink>
               </entryLinks>
               <infoLinks>
@@ -14078,52 +13952,23 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Bolt pistol" id="1c1c-6f77-fb23-3987" collective="false" defaultSelectionEntryId="dfd0-2c4f-f7a5-572d" hidden="false" import="true">
+        <selectionEntryGroup name="Primary Option" id="1c1c-6f77-fb23-3987" collective="false" defaultSelectionEntryId="dfd0-2c4f-f7a5-572d" hidden="false" import="true">
           <constraints>
             <constraint id="bcbe-3aa9-f1e8-e310" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="5650-f902-2f6e-2db6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Astra Militarum Pistol Weapons" id="8a8a-1f3b-23bb-4880" collective="false" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
-            <entryLink name="Bolt pistol" id="dfd0-2c4f-f7a5-572d" collective="false" hidden="false" import="true" targetId="0334-f487-8229-0c1a" type="selectionEntry">
-              <constraints>
-                <constraint id="3cbe-db60-4c72-5162" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <modifiers>
-                <modifier field="points" type="set" value="0"/>
-              </modifiers>
-            </entryLink>
+            <entryLink name="Astra Militarum Melee Weapons" id="31bf-81d2-bedd-f186" hidden="false" import="true" targetId="7622-e68e-c5e5-c8e7" type="selectionEntryGroup"/>
+            <entryLink name="Astra Militarum Primary Weapons" id="8784-0d63-1876-c049" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Melee Weapon" id="862b-4f20-d40b-d47f" collective="false" defaultSelectionEntryId="51a7-f491-5308-2d10" hidden="false" import="true">
+        <selectionEntryGroup name="Secondary Weapon" id="862b-4f20-d40b-d47f" collective="false" defaultSelectionEntryId="51a7-f491-5308-2d10" hidden="false" import="true">
           <constraints>
-            <constraint id="4ee1-58e1-51ab-a56a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
             <constraint id="5fdf-5f07-37b6-4a97" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="53a6-98b6-2a23-92a3" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Power maul" id="7f47-65cc-44c1-26a5" collective="false" hidden="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry">
-              <constraints>
-                <constraint id="c03c-aec6-0b33-ec53" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Power axe" id="5000-6501-adcb-d98d" collective="false" hidden="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry">
-              <constraints>
-                <constraint id="cb86-cabe-62ed-fce7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Power sword" id="51a7-f491-5308-2d10" collective="false" hidden="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
-              <constraints>
-                <constraint id="9fa7-9971-9bdd-b5a0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Power fist" id="d7a7-ce6f-4ad9-0860" collective="false" hidden="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry">
-              <constraints>
-                <constraint id="a8af-7197-4f8b-517d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="5"/>
-              </costs>
-            </entryLink>
+            <entryLink name="Astra Militarum Pistol Weapons" id="630d-1073-47cb-3090" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -16031,10 +15876,6 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry name="Stub pistol" id="289c-2628-38b3-d153" collective="false" hidden="false" import="true" type="upgrade">
-      <constraints>
-        <constraint id="d00e-61be-23e3-073a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-        <constraint id="6471-ba11-9c58-189b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-      </constraints>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
         <cost name="pts" typeId="points" value="0"/>
@@ -18488,30 +18329,29 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Bolt Pistol selection" id="76e6-20d9-f95b-ddc8" collective="false" defaultSelectionEntryId="891f-2ab4-a9ad-ae72" hidden="false" import="true">
+            <selectionEntryGroup name="Primary selection" id="76e6-20d9-f95b-ddc8" collective="false" defaultSelectionEntryId="891f-2ab4-a9ad-ae72" hidden="false" import="true">
               <constraints>
                 <constraint id="e2dc-7b41-256b-c018" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                 <constraint id="0fd8-9800-8403-d5c3" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Bolt pistol" id="891f-2ab4-a9ad-ae72" collective="false" hidden="false" import="true" targetId="0334-f487-8229-0c1a" type="selectionEntry">
-                  <constraints>
-                    <constraint id="26a6-b35d-5ad1-32c6" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Plasma pistol" id="d646-0e22-2456-191b" collective="false" hidden="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry">
-                  <constraints>
-                    <constraint id="e95a-3a7b-53c6-ef5a" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="points" value="5"/>
-                  </costs>
-                </entryLink>
+                <entryLink name="Astra Miliatrum Hot Shot Weapons" id="e391-33d2-a1e9-179a" hidden="false" import="true" targetId="14b3-972a-f635-b529" type="selectionEntryGroup"/>
+                <entryLink name="Astra Militarum Officier Primary Weapons" id="86e2-56ab-0620-b706" hidden="false" import="true" targetId="ffcc-3207-feaf-c718" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Secondary selection" id="8a20-68f4-42f7-8117" collective="false" defaultSelectionEntryId="891f-2ab4-a9ad-ae72" hidden="false" import="true">
+              <constraints>
+                <constraint id="8aba-2ca8-6a43-bf48" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="4ba5-f4cb-d79a-219b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Astra Militarum Melee Weapons" id="4b86-f93a-ce86-ae4c" hidden="false" import="true" targetId="7622-e68e-c5e5-c8e7" type="selectionEntryGroup"/>
+                <entryLink name="Astra Militarum Pistol Weapons" id="467b-2e93-c604-7dbf" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
               </entryLinks>
               <selectionEntries>
-                <selectionEntry name="Tempestor Command Rod" id="56fb-1d07-78c8-9c3e" collective="false" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Tempestor Command Rod" id="7d77-5042-5703-657f" collective="false" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="38b4-37c4-7fc3-53b9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="a1fb-a34b-cde6-7a49" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <costs>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
@@ -18519,7 +18359,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                     <cost name="pts" typeId="points" value="5"/>
                   </costs>
                   <profiles>
-                    <profile name="Tempestor Command Rod" id="4b1d-c4ac-ff13-a96d" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                    <profile name="Tempestor Command Rod" id="88c5-e61e-ba90-27cd" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                       <characteristics>
                         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer knows Prefectus Orders in addition to Regimental Orders. The bearer can only issue Prefectus Orders to TEMPESTUS SCIONS units; when doing so, for the purposes of the Regimental Tactics ability, you can only select other friendly TEMPESTUS SCIONS units within 6&quot; of the unit originally selected for that Order to also be affected by that Order.</characteristic>
                       </characteristics>
@@ -21770,7 +21610,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Cadian Shock Troops" id="7c48-42cf-40a1-f038" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Shock Troops" id="7c48-42cf-40a1-f038" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Imperium" id="b050-4ce9-f551-678e" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
         <categoryLink name="Infantry Squad" id="4030-b4fc-b2a3-d777" hidden="false" primary="false" targetId="9e19-4e60-2e53-8758"/>
@@ -21946,15 +21786,19 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Weapons" id="8ab6-8f9a-349c-77ce" collective="false" defaultSelectionEntryId="2e5d-9e7e-ffd3-1678" hidden="false" import="true">
+            <selectionEntryGroup name="Primary Weapon" id="8ab6-8f9a-349c-77ce" collective="false" defaultSelectionEntryId="2e5d-9e7e-ffd3-1678" hidden="false" import="true">
               <constraints>
                 <constraint id="9914-83ee-6fcc-06bd" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                 <constraint id="9156-4313-9196-ba1a" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
+              <entryLinks>
+                <entryLink name="Astra Militarum Primary Weapons" id="3309-fd61-15e1-386d" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup"/>
+                <entryLink name="Astra Militarum Pistol Weapons" id="4e29-70a7-aa7d-82a9" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
+              </entryLinks>
               <selectionEntries>
-                <selectionEntry name="Drum-fed Lasgun/Autogun" id="97e7-af6e-481f-eead" collective="false" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Drum-fed Lasgun/Autogun" id="f164-54aa-bc53-43bf" collective="false" hidden="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint id="dfc0-eb33-c165-ebc9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="f534-7236-23b6-a165" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <costs>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
@@ -21962,51 +21806,20 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                     <cost name="pts" typeId="points" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Drum-fed Lasgun/Autogun" id="4be8-d72b-9caf-dacc" hidden="false" targetId="d6c0-fa8b-c18d-f68f" type="profile"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry name="Laspistol and Chainsword" id="2e5d-9e7e-ffd3-1678" collective="false" hidden="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint id="e33a-7158-c87b-ab3f" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                  <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
-                    <cost name="pts" typeId="points" value="0"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Chainsword" id="eda7-a485-89ec-2211" hidden="false" targetId="9b1e-61f9-4a5b-0044" type="profile"/>
-                    <infoLink name="Laspistol" id="6ea4-0240-7a16-36d8" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry name="Bolt Pistol and Chainsword" id="46ff-a20a-e8c0-dbfe" collective="false" hidden="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint id="2cd8-c997-853c-106b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                  <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
-                    <cost name="pts" typeId="points" value="0"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Bolt pistol" id="2996-ddff-bf8f-28c5" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile"/>
-                    <infoLink name="Chainsword" id="3b73-af5f-3562-be80" hidden="false" targetId="9b1e-61f9-4a5b-0044" type="profile"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry name="Lasgun/Autogun" id="e8ed-99c7-c140-568b" collective="false" hidden="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint id="4a12-169d-eacc-fc3d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                  <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
-                    <cost name="pts" typeId="points" value="0"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Drum-fed Lasgun/Autogun" id="1aa0-96ea-c297-4885" hidden="false" targetId="d6c0-fa8b-c18d-f68f" type="profile"/>
+                    <infoLink name="Drum-fed Lasgun/Autogun" id="c814-a5c4-07eb-c371" hidden="false" targetId="d6c0-fa8b-c18d-f68f" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Secondary Weapon" id="23b7-3bb0-4f66-8cee" collective="false" defaultSelectionEntryId="2e5d-9e7e-ffd3-1678" hidden="false" import="true">
+              <constraints>
+                <constraint id="9c19-9802-9c3a-40e2" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="8b9d-488d-4ca5-6cf1" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Astra Militarum Melee Weapons" id="2f62-4d7c-4aaa-02ab" hidden="false" import="true" targetId="7622-e68e-c5e5-c8e7" type="selectionEntryGroup"/>
+                <entryLink name="Astra Militarum Pistol Weapons" id="69aa-a901-e699-98cc" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
@@ -22028,12 +21841,6 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Lasgun" id="d4d2-61ab-8d5d-dc62" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
-                  <constraints>
-                    <constraint id="8ffb-caab-9cf5-1b7c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="2d86-bf7e-b94f-1e29" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                  </constraints>
-                </entryLink>
                 <entryLink name="Vox-Caster" id="5588-a5ca-306c-5831" collective="false" hidden="false" import="true" targetId="7012-ea88-386b-b122" type="selectionEntry">
                   <constraints>
                     <constraint id="3cf6-3565-903f-0b4b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -22043,6 +21850,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                     <modifier field="points" type="set" value="0"/>
                   </modifiers>
                 </entryLink>
+                <entryLink name="Astra Militarum Primary Weapons" id="2382-e445-892f-f1e8" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup"/>
               </entryLinks>
               <infoLinks>
                 <infoLink name="Shock Trooper" id="8635-3771-9de8-74d1" hidden="false" targetId="66e6-ea38-4809-6033" type="profile"/>
@@ -22078,43 +21886,12 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
+              <entryLinks>
+                <entryLink name="Astra Militarum Special Weapons" id="398e-a721-d6d7-05bf" hidden="false" import="true" targetId="a465-d3f9-68f9-2e55" type="selectionEntryGroup"/>
+              </entryLinks>
               <infoLinks>
                 <infoLink name="Shock Trooper" id="7eea-4708-0b5c-7101" hidden="false" targetId="66e6-ea38-4809-6033" type="profile"/>
               </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Special Weapon" id="1614-5d43-d5eb-a414" collective="false" hidden="false" import="true">
-                  <constraints>
-                    <constraint id="6dd8-cbcc-5e53-9f3d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                    <constraint id="22c8-29a0-aad9-5013" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink name="Flamer" id="8f25-2e8b-3794-9571" collective="false" hidden="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
-                      <constraints>
-                        <constraint id="29e0-da9d-913a-65cc" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="7c48-42cf-40a1-f038" shared="true" type="max" value="2"/>
-                        <constraint id="53fb-95c9-9eed-e00b" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Grenade launcher" id="bb53-17af-7e69-edbd" collective="false" hidden="false" import="true" targetId="a75e-512d-c808-3057" type="selectionEntry">
-                      <constraints>
-                        <constraint id="8950-ef57-5e86-c02c" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
-                        <constraint id="bb6a-f3eb-688b-4ea9" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="7c48-42cf-40a1-f038" shared="true" type="max" value="2"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Meltagun" id="07b6-3d8b-ee96-9670" collective="false" hidden="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry">
-                      <constraints>
-                        <constraint id="fb38-3e0d-d0fe-d2cf" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
-                        <constraint id="6091-7d7c-765c-0a86" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="7c48-42cf-40a1-f038" shared="true" type="max" value="2"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Plasma gun" id="b1d9-7c4c-e016-0f05" collective="false" hidden="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry">
-                      <constraints>
-                        <constraint id="4f6c-a324-b327-8c7d" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="7c48-42cf-40a1-f038" shared="true" type="max" value="2"/>
-                        <constraint id="f428-c726-eb14-0d88" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -22343,9 +22120,9 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
             <constraint id="3018-bd2b-9fac-309e" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <costs>
+            <cost name="pts" typeId="points" value="0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
-            <cost name="pts" typeId="points" value="0"/>
           </costs>
           <entryLinks>
             <entryLink name="Battlefield Bequest Relics" id="cce0-bd39-171b-4c85" collective="false" hidden="false" import="true" targetId="5346-757a-7d0b-7871" type="selectionEntryGroup"/>
@@ -22419,8 +22196,8 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup name="Kasrkin" id="fbc6-a1ce-5513-52b4" collective="false" defaultSelectionEntryId="5aa3-ee0d-39d2-ee3d" hidden="false" import="true">
           <constraints>
-            <constraint id="576a-4ead-d5b9-3db9" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="9"/>
-            <constraint id="88ef-360d-0161-256c" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="9"/>
+            <constraint id="576a-4ead-d5b9-3db9" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="4"/>
+            <constraint id="88ef-360d-0161-256c" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="4"/>
           </constraints>
           <selectionEntries>
             <selectionEntry name="Kasrkin w/ Hot-shot Laspistol and Melta Mine" id="5c6d-3444-fc46-22cb" collective="false" hidden="false" import="true" type="model">
@@ -22475,7 +22252,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
             </selectionEntry>
             <selectionEntry name="Kasrkin w/ Special Weapon" id="f9ca-1531-4337-5441" collective="false" hidden="false" import="true" type="model">
               <constraints>
-                <constraint id="052c-3252-6825-482e" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="4"/>
+                <constraint id="052c-3252-6825-482e" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
@@ -22489,50 +22266,11 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                     <constraint id="477a-43c2-a30a-9275" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Astra Militarum Special Weapons" id="29da-42b4-96dc-c0ab" hidden="false" import="true" targetId="a465-d3f9-68f9-2e55" type="selectionEntryGroup"/>
               </entryLinks>
               <infoLinks>
                 <infoLink name="Karskin Trooper" id="4151-e3ad-e089-6b0e" hidden="false" targetId="45ea-6ff7-6e38-cc3d" type="profile"/>
               </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Special Weapon" id="2d3d-bea6-3e47-9ecc" collective="false" defaultSelectionEntryId="f3dc-6744-3029-b2f8" hidden="false" import="true">
-                  <constraints>
-                    <constraint id="111b-b72f-8724-203f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                    <constraint id="f0e5-5a37-1075-e672" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink name="Flamer" id="e46d-abca-7eae-8366" collective="false" hidden="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
-                      <constraints>
-                        <constraint id="dc34-f2d4-950a-1d37" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="2c48-d222-fbe2-9697" shared="true" type="max" value="2"/>
-                        <constraint id="9589-69d7-9f21-543b" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Grenade launcher" id="aa8c-a2ab-8081-d9c4" collective="false" hidden="false" import="true" targetId="a75e-512d-c808-3057" type="selectionEntry">
-                      <constraints>
-                        <constraint id="2b9b-1a49-382b-f36f" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="12ac-9070-85ef-00e3" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="2c48-d222-fbe2-9697" shared="true" type="max" value="2"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Meltagun" id="72a4-96e8-c98e-dd70" collective="false" hidden="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry">
-                      <constraints>
-                        <constraint id="57ee-46bc-9526-4856" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="092f-00a6-6b30-8790" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="2c48-d222-fbe2-9697" shared="true" type="max" value="2"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Hot-shot Volley Gun" id="c994-0719-8679-fefb" collective="false" hidden="false" import="true" targetId="5d8d-f53d-1a4c-fabb" type="selectionEntry">
-                      <constraints>
-                        <constraint id="a2a5-d2f2-ad8f-29ae" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="c013-a650-856f-8e7b" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="2c48-d222-fbe2-9697" shared="true" type="max" value="2"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Plasma gun" id="f3dc-6744-3029-b2f8" collective="false" hidden="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry">
-                      <constraints>
-                        <constraint id="a84f-743b-18fe-7030" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="2c48-d222-fbe2-9697" shared="true" type="max" value="2"/>
-                        <constraint id="fc2b-c002-5361-367b" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry name="Kasrkin w/ Hot-shot Marksman Rifle" id="a55d-d603-13a5-858b" collective="false" hidden="false" import="true" type="model">
               <constraints>
@@ -22821,71 +22559,25 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Chainsword Option" id="231f-1947-33d0-76db" collective="false" defaultSelectionEntryId="b9cb-5a33-8e88-16ae" hidden="false" import="true">
+        <selectionEntryGroup name="Primary Option" id="231f-1947-33d0-76db" collective="false" defaultSelectionEntryId="b9cb-5a33-8e88-16ae" hidden="false" import="true">
           <constraints>
             <constraint id="c33d-a319-c714-dfda" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
             <constraint id="ef4f-c80a-d3e9-5c70" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Chainsword" id="b9cb-5a33-8e88-16ae" collective="false" hidden="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
-              <constraints>
-                <constraint id="6efa-5b1b-77ae-d783" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Power fist" id="6a04-c813-e991-18d9" collective="false" hidden="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry">
-              <constraints>
-                <constraint id="7f34-2219-fea4-d5d7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="5"/>
-              </costs>
-            </entryLink>
-            <entryLink name="Boltgun" id="1bef-61ef-d31f-3a8c" collective="false" hidden="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry">
-              <constraints>
-                <constraint id="0d74-bb96-8017-ad92" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Power sword" id="6da9-11a7-d744-3075" collective="false" hidden="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
-              <constraints>
-                <constraint id="3fb0-9725-edcc-9886" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Shotgun" id="2699-45c3-30fd-fcf4" collective="false" hidden="false" import="true" targetId="2094-c9a6-a426-0970" type="selectionEntry">
-              <constraints>
-                <constraint id="ea8c-17de-82d7-774f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Lasgun/Autogun" id="60cb-5a42-7163-7438" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
-              <constraints>
-                <constraint id="ca42-38ce-b0ae-dcf2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-            </entryLink>
+            <entryLink name="Astra Militarum Officier Primary Weapons" id="eea9-5dea-c14a-9c8e" hidden="false" import="true" targetId="ffcc-3207-feaf-c718" type="selectionEntryGroup"/>
+            <entryLink name="Astra Militarum Special Weapons" id="978c-7d4d-fcaa-d476" hidden="false" import="true" targetId="a465-d3f9-68f9-2e55" type="selectionEntryGroup"/>
+            <entryLink name="Astra Militarum Pistol Weapons" id="df53-52f8-a439-e2b8" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Laspistol Option" id="a3e5-1ff3-8eef-30c4" collective="false" defaultSelectionEntryId="6913-c484-e715-9a03" hidden="false" import="true">
+        <selectionEntryGroup name="Secondary Option" id="a3e5-1ff3-8eef-30c4" collective="false" defaultSelectionEntryId="6913-c484-e715-9a03" hidden="false" import="true">
           <constraints>
             <constraint id="3723-3aba-bb96-7962" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
             <constraint id="909e-82c7-75ab-9a54" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Laspistol" id="6913-c484-e715-9a03" collective="false" hidden="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
-              <constraints>
-                <constraint id="33c9-7d78-89b1-974b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Plasma pistol" id="4f3a-da8a-fe85-e529" collective="false" hidden="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry">
-              <constraints>
-                <constraint id="f2a3-fcaa-ffc3-c5a7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="5"/>
-              </costs>
-            </entryLink>
-            <entryLink name="Bolt pistol" id="51c7-1744-f13c-9b92" collective="false" hidden="false" import="true" targetId="0334-f487-8229-0c1a" type="selectionEntry">
-              <constraints>
-                <constraint id="5971-55e0-6e84-72a1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-            </entryLink>
+            <entryLink name="Astra Militarum Melee Weapons" id="d16b-25f2-5828-528c" hidden="false" import="true" targetId="7622-e68e-c5e5-c8e7" type="selectionEntryGroup"/>
+            <entryLink name="Astra Militarum Pistol Weapons" id="7988-cd35-235a-3478" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -23266,7 +22958,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Death Korps of Krieg" id="1efe-09c4-caab-8a20" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Death Korps of Krieg" id="1efe-09c4-caab-8a20" collective="false" hidden="true" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Krieg" id="33f4-469f-e1a2-2140" hidden="false" primary="false" targetId="0149-bbf5-dd38-848f"/>
         <categoryLink name="Core" id="6e5e-dd15-8548-5285" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
@@ -23701,7 +23393,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Catachan Jungle Fighters" id="a0d0-1619-f23b-eaaf" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Jungle Fighters" id="a0d0-1619-f23b-eaaf" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Catachan" id="9a55-8f4b-e44c-848f" hidden="false" primary="false" targetId="6218-425e-33cf-6ec3"/>
         <categoryLink name="Faction: Astra Militarum" id="847b-53d3-a9cd-d2fe" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
@@ -23713,9 +23405,9 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
         <categoryLink name="Jungle Fighters" id="8ad3-55c9-1884-a25e" hidden="false" primary="false" targetId="1f1e-d747-c329-8919"/>
       </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
         <cost name="pts" typeId="points" value="70"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <entryLinks>
         <entryLink name="Battle Honours" id="408f-7fe0-2816-4349" collective="false" hidden="false" import="true" targetId="1774-8223-7530-5ad5" type="selectionEntryGroup"/>
@@ -23837,12 +23529,6 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                 <constraint id="6336-b67a-89fe-f774" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Laspistol" id="0c25-0a31-5308-f8a5" collective="false" hidden="false" import="true" targetId="9c74-d181-d2ec-0ba6" type="selectionEntry">
-              <constraints>
-                <constraint id="c085-19bc-3e3d-ffff" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                <constraint id="5b58-192a-2697-ec29" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-              </constraints>
-            </entryLink>
             <entryLink name="Battlefield Bequest Relics" id="0b58-e1a4-c916-40a6" collective="false" hidden="false" import="true" targetId="5346-757a-7d0b-7871" type="selectionEntryGroup"/>
             <entryLink name="Stratagem: Battlefield Bequest" id="767e-8594-e31d-d15f" collective="false" hidden="false" import="true" targetId="59ad-e41a-5a3b-cb12" type="selectionEntry"/>
           </entryLinks>
@@ -23861,13 +23547,35 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <selectionEntries>
+            <selectionEntry name="Primary Option" id="1d71-c704-88d2-8e1e" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="031c-3ac1-e3df-fb47" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="1682-7761-6160-f9bb" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Astra Militarum Heavy Weapons" id="92f2-3f1f-9e91-20ac" hidden="false" import="true" targetId="29c3-5475-96d1-6a44" type="selectionEntryGroup"/>
+                <entryLink name="Astra Militarum Officier Primary Weapons" id="7858-26d4-cf71-0442" hidden="false" import="true" targetId="ffcc-3207-feaf-c718" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry name="Secondary Option" id="caa1-e231-1dc1-56c0" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="dcb7-7b32-9800-5c45" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="b383-5b3b-981b-8b73" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Astra Militarum Pistol Weapons" id="1a23-a51b-8783-6943" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
+                <entryLink name="Astra Militarum Melee Weapons" id="7cac-39fd-5d79-8967" hidden="false" import="true" targetId="7622-e68e-c5e5-c8e7" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Jungle Fighters" id="e045-be58-3edd-33f3" collective="false" defaultSelectionEntryId="2f41-1df3-6629-b5fa" hidden="false" import="true">
           <constraints>
-            <constraint id="f910-349b-56d3-f762" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="9"/>
-            <constraint id="8eff-3b7f-377b-4c0b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="9"/>
+            <constraint id="f910-349b-56d3-f762" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="4"/>
+            <constraint id="8eff-3b7f-377b-4c0b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="4"/>
           </constraints>
           <selectionEntries>
             <selectionEntry name="Jungle Fighter w/ Vox-Caster" id="a9c2-acb4-1c5a-79ae" collective="false" hidden="false" import="true" type="model">
@@ -23910,24 +23618,19 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Lasgun/Autogun" id="d4de-9c62-a838-5183" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
-                  <constraints>
-                    <constraint id="daee-f76f-b0a9-7208" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                    <constraint id="3967-19e2-b804-b768" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                </entryLink>
                 <entryLink name="Frag grenades" id="dc75-2e40-a162-34ae" collective="false" hidden="false" import="true" targetId="5de8-906d-ea69-610a" type="selectionEntry">
                   <constraints>
                     <constraint id="e961-cf36-6fb4-0013" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="5930-a3cc-8a71-51c0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Astra Militarum Primary Weapons" id="5bb6-f5dd-6a49-7beb" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup"/>
               </entryLinks>
               <infoLinks>
                 <infoLink name="Jungle Fighter" id="7fab-83af-dac3-1f2f" hidden="false" targetId="f7e4-7494-200e-8d4d" type="profile"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry name="Jungle Fighter w/ flamer" id="6e64-5573-454e-ce32" collective="false" hidden="false" import="true" type="model">
+            <selectionEntry name="Jungle Fighter w/ special/heavy weapon" id="6e64-5573-454e-ce32" collective="false" hidden="false" import="true" type="model">
               <constraints>
                 <constraint id="a6fb-0458-3718-d989" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
               </constraints>
@@ -23947,22 +23650,18 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
               <infoLinks>
                 <infoLink name="Jungle Fighter" id="49f8-0bf0-51ae-ddaa" hidden="false" targetId="f7e4-7494-200e-8d4d" type="profile"/>
               </infoLinks>
-              <selectionEntries>
-                <selectionEntry name="Flamer" id="5f2a-878d-3271-14aa" collective="true" hidden="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Special Weapon" id="e2bc-3112-7370-0ae7" hidden="false">
                   <constraints>
-                    <constraint id="01bd-aea5-c54d-b206" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                    <constraint id="57c7-677b-9589-d9f4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="b921-42e2-51a8-c3ad" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="5f1c-9b91-3591-ab4c" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
-                  <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
-                    <cost name="pts" typeId="points" value="0"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Flamer" id="b7f7-f5b4-1948-08bf" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
+                  <entryLinks>
+                    <entryLink name="Astra Militarum Heavy Weapons" id="ad98-e649-14ca-0d78" hidden="false" import="true" targetId="29c3-5475-96d1-6a44" type="selectionEntryGroup"/>
+                    <entryLink name="Astra Militarum Special Weapons" id="8b76-7ece-2a71-c5b8" hidden="false" import="true" targetId="a465-d3f9-68f9-2e55" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -24883,7 +24582,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Astra Militarum Pistol Weapons" id="9ef3-0f17-2aeb-436e" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="34c8-d798-8475-2637" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+        <constraint id="2c0c-fdf7-d889-0b91" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <entryLinks>
         <entryLink name="Bolt pistol" id="1ad6-dc71-70af-cf2c" collective="false" hidden="false" import="true" targetId="0334-f487-8229-0c1a" type="selectionEntry">
@@ -24896,18 +24595,6 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                 <condition childId="15fc-adf1-7419-ff68" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="instanceOf" value="0"/>
               </conditions>
             </modifier>
-            <modifier field="points" type="set" value="2">
-              <conditions>
-                <condition childId="ee7d-2e9e-df72-d0db" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="instanceOf" value="0"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink name="Boltgun" id="5577-49a2-68d2-7a06" collective="false" hidden="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry">
-          <constraints>
-            <constraint id="4395-4f06-187d-abdf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <modifiers>
             <modifier field="points" type="set" value="2">
               <conditions>
                 <condition childId="ee7d-2e9e-df72-d0db" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="ancestor" shared="true" type="instanceOf" value="0"/>
@@ -24932,11 +24619,30 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink name="Shotgun" id="73c1-e053-6ece-c03d" hidden="false" import="true" targetId="2094-c9a6-a426-0970" type="selectionEntry"/>
+        <entryLink name="Needle Pistol" id="1a92-b775-5476-ec2a" hidden="false" import="true" targetId="3790-ebf1-ac1e-1624" type="selectionEntry"/>
+        <entryLink name="Stub pistol" id="d047-764d-9110-a652" hidden="false" import="true" targetId="289c-2628-38b3-d153" type="selectionEntry"/>
       </entryLinks>
+      <selectionEntries>
+        <selectionEntry name="Laspistol/Autopistol" id="3493-4d97-216d-6300" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Laspistol/Autopistol" id="8bbd-95c8-64bb-6916" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="Astra Militarum Special Weapons" id="a465-d3f9-68f9-2e55" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="2e84-73b4-e388-d729" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+        <constraint id="dc23-d21c-dcbe-6ed7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <entryLinks>
         <entryLink name="Sniper Rifle" id="d22e-d425-c46b-4874" collective="false" hidden="false" import="true" targetId="d4fd-c131-723b-350b" type="selectionEntry">
@@ -25024,7 +24730,35 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink name="Shotgun" id="fa04-0fa7-6da2-ad4f" hidden="false" import="true" targetId="2094-c9a6-a426-0970" type="selectionEntry"/>
+        <entryLink name="Heavy stubber" id="94bd-4278-5f8f-ac37" hidden="false" import="true" targetId="cfa3-5fcd-af10-5520" type="selectionEntry"/>
       </entryLinks>
+      <selectionEntries>
+        <selectionEntry name="Lasgun/Autogun w/Auxiliary Grenade Launcher" id="ad61-2bdc-bc83-ac62" collective="false" hidden="false" import="true" type="upgrade">
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Lasgun/Autogun" id="cdfe-053a-720d-41a0" hidden="false" targetId="d174-eb55-aaa6-d032" type="profile"/>
+            <infoLink name="Combi Weapon" id="f950-75a3-a850-c0ab" hidden="false" targetId="a269-b8d9-67c5-4009" type="rule"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Auxiliary Grenade Launcher" id="7b5c-8bde-cc26-6bbf" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="Astra Militarum Heavy Weapons" id="29c3-5475-96d1-6a44" collective="false" defaultSelectionEntryId="40ae-6101-8b54-4a7a" hidden="false" import="true">
       <constraints>
@@ -25093,6 +24827,9 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="Astra Militarum Melee Weapons" id="7622-e68e-c5e5-c8e7" collective="false" hidden="false" import="true">
+      <constraints>
+        <constraint id="2439-2339-5fb7-7f83" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
       <entryLinks>
         <entryLink name="Power fist" id="9930-11ce-b1cc-1218" collective="false" hidden="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry">
           <constraints>
@@ -25131,7 +24868,26 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink name="Combat knife" id="51a5-0f02-4abc-b748" hidden="false" import="true" targetId="bc0b-c19f-0b71-081e" type="selectionEntry"/>
+        <entryLink name="Power axe" id="1233-0846-c338-3424" hidden="false" import="true" targetId="3292-34e6-f679-d5b9" type="selectionEntry"/>
+        <entryLink name="Power maul" id="22fb-863a-ba62-69b9" hidden="false" import="true" targetId="6ea7-1195-7144-438e" type="selectionEntry"/>
       </entryLinks>
+      <selectionEntries>
+        <selectionEntry name="Sledgehammer" id="2fea-fed0-fd9e-2612" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Sledgehammer" id="de8a-35dd-9280-907b" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="Baneblade Sponsons" id="be51-49ae-9966-cfc5" collective="false" hidden="false" import="true">
       <constraints>
@@ -29036,6 +28792,140 @@ Skull Mask of Acheron (Aura): While an enemy unit is within 6&quot; of this mode
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Astra Militarum Primary Weapons" id="aef4-c124-08a4-048f" hidden="false">
+      <constraints>
+        <constraint id="17aa-620d-ef3e-dfba" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry name="Las-battle rifle/Battle rifle" id="be57-3654-0e63-65c0" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Las-battle rifle/Battle rifle" id="3dcd-7716-a8d3-24c0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Las-smg/Smg" id="e4a0-1156-f9be-97b1" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Las-smg/Smg" id="37da-664e-fba5-8802" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 2</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Lascarbine/Autocarbine" id="df5f-e8fb-3abe-f434" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Lascarbine/Autocarbine" id="af3d-6262-8562-e2a0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Lasgun/Autogun" id="1c06-1b61-9444-9ba5" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Lasgun/Autogun" id="9431-985b-f286-8718" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Astra Militarum Officier Primary Weapons" id="ffcc-3207-feaf-c718" hidden="false">
+      <constraints>
+        <constraint id="6578-2a1a-d71d-3a9a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Astra Militarum Primary Weapons" id="d380-7f18-9a3d-66a6" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup"/>
+        <entryLink name="Boltgun" id="f065-da39-1d72-a7b4" hidden="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry"/>
+        <entryLink name="Astra Militarum Pistol Weapons" id="c6ee-20b1-80e8-bd91" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
+        <entryLink name="Astra Militarum Special Weapons" id="68fe-5c3c-51d6-5c35" hidden="false" import="true" targetId="a465-d3f9-68f9-2e55" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Astra Miliatrum Hot Shot Weapons" id="14b3-972a-f635-b529" hidden="false">
+      <selectionEntries>
+        <selectionEntry name="Hot-shot Las-battle rifle/ Special-Issue Battle rifle" id="93b7-77d6-0672-93c3" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Hot-shot Las-battle rifle/ Special-Issue Battle rifle" id="796e-d7c6-26ab-ebcd" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Hot-shot Las-smg/ Special-Issue Smg" id="383d-a9ba-3d24-8e74" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Hot-shot Las-smg/ Special-Issue Smg" id="7e08-05bb-e723-2147" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 2</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Hot-shot Lasgun/Special-Issue Autogun" id="7fd7-973f-b791-9e26" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Hot-shot Lascarbine/Special-Issue Autocarbine" id="3339-d390-67c5-865b" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Hot-shot Lasgun/Special-Issue Autogun" id="fc1a-6491-0426-9c14" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Hot-shot Lasgun/Special-Issue Autogun" id="104b-2f5f-ebcb-1dc8" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>

@@ -388,12 +388,12 @@
     <entryLink name="Necrosius the Undying [LEGENDS]" id="ef76-cc34-c5a1-3bcd" collective="false" hidden="false" import="true" targetId="8e02-debd-f5af-3d20" type="selectionEntry"/>
     <entryLink name="Land Raider Variant (Open Play)" id="723f-8b9a-03f1-ccc6" collective="false" hidden="false" import="true" targetId="5ea6-c789-f6b9-5c00" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c9bf-d9e7-171b-89a9" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="8406-06dd-abad-3e7e" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="f38c-b31c-6f36-e640" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="fe51-b39d-e8ad-ca11" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="9c32-1cbd-bda2-8351" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="8854-9b1e-d048-2b77" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
+        <categoryLink name="Faction: Chaos" id="c9bf-d9e7-171b-89a9" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Faction: Death Guard" id="8406-06dd-abad-3e7e" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Heretic Astartes" id="f38c-b31c-6f36-e640" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Vehicle" id="fe51-b39d-e8ad-ca11" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: Nurgle" id="9c32-1cbd-bda2-8351" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Lord of War" id="8854-9b1e-d048-2b77" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
       </categoryLinks>
       <modifierGroups>
         <modifierGroup>
@@ -2173,9 +2173,9 @@
     <entryLink name="Miasmic Malignifier" id="7f13-aed1-6803-2179" collective="false" hidden="false" import="true" targetId="d0be-4b8e-48e3-c98d" type="selectionEntry"/>
     <entryLink name="Foul Blightspawn" id="a2d9-9c80-7ac2-b38e" collective="false" hidden="false" import="true" targetId="21ec-740e-ec22-cf7c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="d4f6-9109-54e2-614b" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
-        <categoryLink name="-Foetid Virion-" id="2038-36a4-ecbf-5875" hidden="false" primary="false" targetId="df25-6e88-d1d9-c774"/>
-        <categoryLink name="-Foul Blightspawn-" id="f4a1-f15a-3392-d668" hidden="false" primary="false" targetId="9133-0663-d0b1-ce8d"/>
+        <categoryLink name="No Force Org Slot" id="d4f6-9109-54e2-614b" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="Foetid Virion" id="2038-36a4-ecbf-5875" hidden="false" primary="false" targetId="df25-6e88-d1d9-c774"/>
+        <categoryLink name="Foul Blightspawn" id="f4a1-f15a-3392-d668" hidden="false" primary="false" targetId="9133-0663-d0b1-ce8d"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -2222,9 +2222,9 @@
     </entryLink>
     <entryLink name="Noxious Blightbringer" id="26ce-0d8a-4d28-bc9e" collective="false" hidden="false" import="true" targetId="64e4-21f2-e032-ad64" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="b325-a180-0568-f243" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
-        <categoryLink name="-Foetid Virion-" id="bab2-cd39-bd2a-4ee9" hidden="false" primary="false" targetId="df25-6e88-d1d9-c774"/>
-        <categoryLink name="-Noxious Blightbringer-" id="b3ac-3fda-d0e8-1467" hidden="false" primary="false" targetId="56ed-a461-038f-3e12"/>
+        <categoryLink name="No Force Org Slot" id="b325-a180-0568-f243" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="Foetid Virion" id="bab2-cd39-bd2a-4ee9" hidden="false" primary="false" targetId="df25-6e88-d1d9-c774"/>
+        <categoryLink name="Noxious Blightbringer" id="b3ac-3fda-d0e8-1467" hidden="false" primary="false" targetId="56ed-a461-038f-3e12"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -2243,9 +2243,9 @@
     </entryLink>
     <entryLink name="Plague Surgeon" id="2415-1743-3bbd-a3c0" collective="false" hidden="false" import="true" targetId="d633-7874-7780-7ab8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="5f79-4d8b-9b68-fc0a" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
-        <categoryLink name="-Foetid Virion-" id="2db8-143a-be35-1072" hidden="false" primary="false" targetId="df25-6e88-d1d9-c774"/>
-        <categoryLink name="-Plague Surgeon-" id="6a85-c474-3de6-bcb5" hidden="false" primary="false" targetId="a49a-f331-2aa8-8f9c"/>
+        <categoryLink name="No Force Org Slot" id="5f79-4d8b-9b68-fc0a" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="Foetid Virion" id="2db8-143a-be35-1072" hidden="false" primary="false" targetId="df25-6e88-d1d9-c774"/>
+        <categoryLink name="Plague Surgeon" id="6a85-c474-3de6-bcb5" hidden="false" primary="false" targetId="a49a-f331-2aa8-8f9c"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -2264,9 +2264,9 @@
     </entryLink>
     <entryLink name="Tallyman" id="9b9d-8daa-de33-95de" collective="false" hidden="false" import="true" targetId="6f36-bc00-152e-a734" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="9387-443c-bec9-aab5" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
-        <categoryLink name="-Foetid Virion-" id="005c-37e8-3c49-6356" hidden="false" primary="false" targetId="df25-6e88-d1d9-c774"/>
-        <categoryLink name="-Tallyman-" id="5028-e7cd-79a1-8fe4" hidden="false" primary="false" targetId="d4c3-68d5-9e0a-ccad"/>
+        <categoryLink name="No Force Org Slot" id="9387-443c-bec9-aab5" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="Foetid Virion" id="005c-37e8-3c49-6356" hidden="false" primary="false" targetId="df25-6e88-d1d9-c774"/>
+        <categoryLink name="Tallyman" id="5028-e7cd-79a1-8fe4" hidden="false" primary="false" targetId="d4c3-68d5-9e0a-ccad"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -2285,9 +2285,9 @@
     </entryLink>
     <entryLink name="Biologus Putrifier" id="e861-cdb7-425e-3215" collective="false" hidden="false" import="true" targetId="0bf4-3bb0-c99c-b188" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="2192-ac24-78ca-5401" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
-        <categoryLink name="-Foetid Virion-" id="1e7b-c092-42e2-3f49" hidden="false" primary="false" targetId="df25-6e88-d1d9-c774"/>
-        <categoryLink name="-Biologus Putrifier-" id="622a-436c-b058-9140" hidden="false" primary="false" targetId="9eaf-7664-51a9-c877"/>
+        <categoryLink name="No Force Org Slot" id="2192-ac24-78ca-5401" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="Foetid Virion" id="1e7b-c092-42e2-3f49" hidden="false" primary="false" targetId="df25-6e88-d1d9-c774"/>
+        <categoryLink name="Biologus Putrifier" id="622a-436c-b058-9140" hidden="false" primary="false" targetId="9eaf-7664-51a9-c877"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -2306,14 +2306,14 @@
     </entryLink>
     <entryLink name="Biologus Putrifier" id="7ccf-620e-0e07-5ffc" collective="false" hidden="false" import="true" targetId="0bf4-3bb0-c99c-b188" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e8b5-eff3-adf0-843d" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="e8b5-eff3-adf0-843d" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
         <categoryLink name="Foetid Virion" id="ef6b-1f71-b69f-3177" hidden="false" primary="false" targetId="deec-19f6-0353-ee41"/>
         <categoryLink name="Biologus Putrifier" id="bf54-51f2-f1c7-c15f" hidden="false" primary="false" targetId="ecd7-299f-e997-1548"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Mutoid Vermin" id="8b04-d0f6-32a2-73ab" collective="false" hidden="false" import="true" targetId="85d0-fdc5-316b-69c1" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="0ebc-6269-e6ea-bb2b" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="No Force Org Slot" id="0ebc-6269-e6ea-bb2b" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
       </categoryLinks>
       <constraints>
         <constraint id="875c-c7b6-714c-ebef" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="ff36a6f3-19bf-4f48-8956-adacfd28fe74" shared="true" type="max" value="0"/>
@@ -2346,7 +2346,7 @@
     </entryLink>
     <entryLink name="Gellerpox Infected" id="20e4-38e9-1b1e-d181" collective="false" hidden="false" import="true" targetId="bfb5-a27f-ff1c-49e3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="092d-1058-5387-ad24" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="No Force Org Slot" id="092d-1058-5387-ad24" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
       </categoryLinks>
       <constraints>
         <constraint id="ca79-d2ef-6ac1-9a36" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="ff36a6f3-19bf-4f48-8956-adacfd28fe74" shared="true" type="max" value="1"/>
@@ -2367,7 +2367,7 @@
     </entryLink>
     <entryLink name="Gellerpox Infected" id="e51c-3ae3-1f87-fbd4" collective="false" hidden="false" import="true" targetId="bfb5-a27f-ff1c-49e3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="6794-296c-4949-e27d" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="6794-296c-4949-e27d" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -2423,7 +2423,7 @@ Battle Round 4 - 9&quot;</description>
   <selectionEntries>
     <selectionEntry name="Plague Company" id="1228-ab8a-0372-1a4a" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="4ea7-41a6-200e-be42" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="4ea7-41a6-200e-be42" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
       <constraints>
         <constraint id="3795-035c-c09a-fca5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="max" value="1"/>
@@ -2505,7 +2505,7 @@ Battle Round 4 - 9&quot;</description>
     </selectionEntry>
     <selectionEntry name="Terminus Est Assault Force" id="558f-7252-492e-efac" collective="false" hidden="false" import="true" publicationId="0865-ee21-d1f1-ed38" type="upgrade">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="443b-41a2-8514-7538" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="443b-41a2-8514-7538" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
       <constraints>
         <constraint id="4064-c01f-3f1d-1049" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="1"/>
@@ -2536,13 +2536,13 @@ Battle Round 4 - 9&quot;</description>
     </selectionEntry>
     <selectionEntry name="Death Guard Greater Blight Drone" id="9c9e-56c0-9f7c-af81" collective="false" hidden="false" import="true" page="120" publicationId="7573-8d1b-acdf-2de8" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="8505-77ee-3287-97c1" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="dc05-e59b-2cb3-ab5f" hidden="false" primary="false" targetId="37db-2713-c0e0-df20"/>
-        <categoryLink name="New CategoryLink" id="42df-6e7d-5042-2a77" hidden="false" primary="false" targetId="1c96-d14c-b0c7-53e3"/>
-        <categoryLink name="New CategoryLink" id="436c-5f1d-76d2-526e" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
-        <categoryLink name="New CategoryLink" id="afca-dd83-74b1-2fa3" hidden="false" primary="false" targetId="18b2-6128-9587-345e"/>
-        <categoryLink name="New CategoryLink" id="887b-d433-f02a-36f1" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="bdb7-9759-0b13-1ba2" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Faction: Chaos" id="8505-77ee-3287-97c1" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Daemon" id="dc05-e59b-2cb3-ab5f" hidden="false" primary="false" targetId="37db-2713-c0e0-df20"/>
+        <categoryLink name="Daemon Engine" id="42df-6e7d-5042-2a77" hidden="false" primary="false" targetId="1c96-d14c-b0c7-53e3"/>
+        <categoryLink name="Fast Attack" id="436c-5f1d-76d2-526e" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Faction: Nurgle" id="afca-dd83-74b1-2fa3" hidden="false" primary="false" targetId="18b2-6128-9587-345e"/>
+        <categoryLink name="Vehicle" id="887b-d433-f02a-36f1" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Fly" id="bdb7-9759-0b13-1ba2" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
         <categoryLink name="Faction: Heretic Astartes" id="8826-1b80-a10d-59b2" hidden="false" primary="false" targetId="ea5c-26b3-aa78-7253"/>
         <categoryLink name="Faction: Death Guard" id="8ac3-95c1-b669-6ac0" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
       </categoryLinks>
@@ -3043,13 +3043,13 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
   <sharedSelectionEntries>
     <selectionEntry name="Chaos Predator Destructor" id="9765-6363-9d49-b571" collective="false" hidden="false" import="true" page="0" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c962-e65e-be8e-8607" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
-        <categoryLink name="New CategoryLink" id="d544-2dc7-1eca-0a9c" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="23bc-4374-312b-0f00" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="81c6-d02b-09ed-bf85" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="8720-7f99-4615-07b3" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="c4ab-22e6-0b3c-eb09" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="470f-b087-39e3-b1d4" hidden="false" primary="false" targetId="ce96-2f80-a7fa-5630"/>
+        <categoryLink name="Heavy Support" id="c962-e65e-be8e-8607" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Vehicle" id="d544-2dc7-1eca-0a9c" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: Heretic Astartes" id="23bc-4374-312b-0f00" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Faction: Death Guard" id="81c6-d02b-09ed-bf85" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Nurgle" id="8720-7f99-4615-07b3" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="c4ab-22e6-0b3c-eb09" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Chaos Predator Destructor" id="470f-b087-39e3-b1d4" hidden="false" primary="false" targetId="ce96-2f80-a7fa-5630"/>
         <categoryLink name="Bubonic Astartes" id="f1ed-6696-ca89-0bad" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Smokescreen" id="614b-ee08-1434-a6bd" hidden="false" primary="false" targetId="23b1-90ca-1e8a-d29f"/>
       </categoryLinks>
@@ -3226,13 +3226,13 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
     </selectionEntry>
     <selectionEntry name="Chaos Spawn" id="abee-429f-503a-074f" collective="false" hidden="false" import="true" page="0" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="f330-5ae9-9fce-cf70" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
-        <categoryLink name="New CategoryLink" id="f4f6-0bf4-9ef0-3c4f" hidden="false" primary="false" targetId="7892-58f7-e769-4d87"/>
-        <categoryLink name="New CategoryLink" id="794c-b4ce-fb20-3577" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="ab38-3314-4535-fcba" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="119a-0575-66e6-d73c" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="80ad-e0d3-d78a-d0a8" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="e62e-8de0-c398-4b1c" hidden="false" primary="false" targetId="8a15-9612-41c6-2e02"/>
+        <categoryLink name="Fast Attack" id="f330-5ae9-9fce-cf70" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Beast" id="f4f6-0bf4-9ef0-3c4f" hidden="false" primary="false" targetId="7892-58f7-e769-4d87"/>
+        <categoryLink name="Faction: Death Guard" id="794c-b4ce-fb20-3577" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Heretic Astartes" id="ab38-3314-4535-fcba" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Faction: Nurgle" id="119a-0575-66e6-d73c" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="80ad-e0d3-d78a-d0a8" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Chaos Spawn" id="e62e-8de0-c398-4b1c" hidden="false" primary="false" targetId="8a15-9612-41c6-2e02"/>
       </categoryLinks>
       <constraints>
         <constraint id="7fe7-6b25-c88c-889b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="-1"/>
@@ -3426,17 +3426,17 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
     </selectionEntry>
     <selectionEntry name="Death Guard Daemon Prince" id="c5a2-5d3b-99c9-7b99" collective="false" hidden="false" import="true" page="0" type="model">
       <categoryLinks>
-        <categoryLink id="c5a2-5d3b-99c9-7b99-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
-        <categoryLink name="New CategoryLink" id="5b18-4bfa-cbfe-a87d" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="5b48-2199-c520-3ad3" hidden="false" primary="false" targetId="0bc5-6451-5612-4a25"/>
-        <categoryLink name="New CategoryLink" id="74b3-3eed-2351-009c" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink name="New CategoryLink" id="eeb1-f348-26d8-0c07" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="6917-4152-682c-cd6c" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="e360-76b4-105a-69a2" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="f712-7e76-1a3d-df73" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="c4e3-8a99-42b0-353c" hidden="false" primary="false" targetId="be6b-26d4-4727-3683"/>
+        <categoryLink name="HQ" id="c5a2-5d3b-99c9-7b99-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="Character" id="5b18-4bfa-cbfe-a87d" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Daemon" id="5b48-2199-c520-3ad3" hidden="false" primary="false" targetId="0bc5-6451-5612-4a25"/>
+        <categoryLink name="Monster" id="74b3-3eed-2351-009c" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Faction: Heretic Astartes" id="eeb1-f348-26d8-0c07" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Faction: Death Guard" id="6917-4152-682c-cd6c" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Nurgle" id="e360-76b4-105a-69a2" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="f712-7e76-1a3d-df73" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Daemon Prince" id="c4e3-8a99-42b0-353c" hidden="false" primary="false" targetId="be6b-26d4-4727-3683"/>
         <categoryLink name="Psyker" id="d76c-588d-8eb4-2552" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
-        <categoryLink name="Faction: Bubonic Astartes" id="78da-6120-8db0-b099" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
+        <categoryLink name="Bubonic Astartes" id="78da-6120-8db0-b099" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="140"/>
@@ -3478,7 +3478,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Plaguechosen" id="92e4-49cf-2ad1-0391" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
+        <entryLink name="Stratagem: Plaguechosen" id="92e4-49cf-2ad1-0391" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
         <entryLink name="Sevenfold Blessings" id="740d-681f-f90f-7ca3" collective="false" hidden="false" import="true" targetId="6df2-11b7-4e8f-201e" type="selectionEntry"/>
         <entryLink name="Deadly Pathogens" id="d05f-cf97-17ba-952a" collective="false" hidden="false" import="true" targetId="9550-e166-97c9-770f" type="selectionEntryGroup">
           <modifiers>
@@ -3629,7 +3629,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
       <selectionEntries>
         <selectionEntry name="Foetid Wings" id="d3c6-499d-a448-e1c6" collective="false" hidden="false" import="true" type="upgrade">
           <categoryLinks>
-            <categoryLink name="New CategoryLink" id="3303-27f2-aebc-bb3d" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+            <categoryLink name="Fly" id="3303-27f2-aebc-bb3d" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
           </categoryLinks>
           <constraints>
             <constraint id="972d-4038-947c-9d3c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -3740,15 +3740,15 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
     </selectionEntry>
     <selectionEntry name="Defiler" id="67df-ff04-b483-f1c3" collective="false" hidden="false" import="true" page="0" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="1eac-cd86-fbf1-b28e" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
-        <categoryLink name="New CategoryLink" id="b893-69ce-8a50-eedd" hidden="false" primary="false" targetId="0bc5-6451-5612-4a25"/>
-        <categoryLink name="New CategoryLink" id="1a30-dc53-c197-1d63" hidden="false" primary="false" targetId="c35d-97e7-5b2a-0a70"/>
-        <categoryLink name="New CategoryLink" id="c87b-d6b9-9b95-de45" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="9c74-0ffb-df21-a8a4" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="1883-237e-4087-090a" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="2f81-c96a-ca40-dd7a" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="e24a-2ad4-6ea1-d977" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="6155-ff21-ce0d-5024" hidden="false" primary="false" targetId="5dbc-e607-0dce-b9f0"/>
+        <categoryLink name="Heavy Support" id="1eac-cd86-fbf1-b28e" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Daemon" id="b893-69ce-8a50-eedd" hidden="false" primary="false" targetId="0bc5-6451-5612-4a25"/>
+        <categoryLink name="Daemon Engine" id="1a30-dc53-c197-1d63" hidden="false" primary="false" targetId="c35d-97e7-5b2a-0a70"/>
+        <categoryLink name="Faction: Heretic Astartes" id="c87b-d6b9-9b95-de45" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Vehicle" id="9c74-0ffb-df21-a8a4" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: Death Guard" id="1883-237e-4087-090a" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Nurgle" id="2f81-c96a-ca40-dd7a" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="e24a-2ad4-6ea1-d977" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Defiler" id="6155-ff21-ce0d-5024" hidden="false" primary="false" targetId="5dbc-e607-0dce-b9f0"/>
         <categoryLink name="Smokescreen" id="ecf4-658d-8c14-616a" hidden="false" primary="false" targetId="23b1-90ca-1e8a-d29f"/>
       </categoryLinks>
       <costs>
@@ -3953,12 +3953,12 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
     </selectionEntry>
     <selectionEntry name="Poxwalkers" id="172a-9105-e028-28a8" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="5a2b-bc1c-806a-13f0" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
-        <categoryLink name="New CategoryLink" id="7fa5-f9b7-2c44-880d" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="0d11-174b-7b85-eab8" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="cc7e-571f-732a-d46c" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="4ebb-9605-ed47-488c" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="643b-5052-b1e6-8b16" hidden="false" primary="false" targetId="6676-37bc-5ed8-c56d"/>
+        <categoryLink name="Troops" id="5a2b-bc1c-806a-13f0" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+        <categoryLink name="Infantry" id="7fa5-f9b7-2c44-880d" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Nurgle" id="0d11-174b-7b85-eab8" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Death Guard" id="cc7e-571f-732a-d46c" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Chaos" id="4ebb-9605-ed47-488c" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Poxwalkers" id="643b-5052-b1e6-8b16" hidden="false" primary="false" targetId="6676-37bc-5ed8-c56d"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -4051,8 +4051,8 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
       <selectionEntries>
         <selectionEntry name="Poxwalker" id="0443-94be-a89b-4b07" collective="false" hidden="false" import="true" type="model">
           <constraints>
-            <constraint id="4f73-438a-8251-14c2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="10"/>
-            <constraint id="f257-8d11-3de2-4c13" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="20"/>
+            <constraint id="4f73-438a-8251-14c2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="5"/>
+            <constraint id="f257-8d11-3de2-4c13" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="10"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="points" value="5"/>
@@ -4104,16 +4104,16 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
     </selectionEntry>
     <selectionEntry name="Foetid Bloat-drone" id="391f-4490-3ba2-a551" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="6d89-ecbe-c338-d0a4" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
-        <categoryLink name="New CategoryLink" id="7760-2189-0db2-e796" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="22e9-dcff-d9d9-0fc3" hidden="false" primary="true" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="2a85-2d4e-d251-332b" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="be5d-42fa-ddb3-b529" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="9066-62fe-0f77-08a9" hidden="false" primary="false" targetId="c35d-97e7-5b2a-0a70"/>
-        <categoryLink name="New CategoryLink" id="e6be-6108-8d8a-07ea" hidden="false" primary="false" targetId="0bc5-6451-5612-4a25"/>
-        <categoryLink name="New CategoryLink" id="1771-d6cd-acec-fddc" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink name="New CategoryLink" id="7b3a-30b8-d9a9-d284" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="beaa-13d8-a91e-e37a" hidden="false" primary="false" targetId="0472-13fb-7016-2059"/>
+        <categoryLink name="Fast Attack" id="6d89-ecbe-c338-d0a4" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Faction: Nurgle" id="7760-2189-0db2-e796" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Heretic Astartes" id="22e9-dcff-d9d9-0fc3" hidden="false" primary="true" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Faction: Death Guard" id="2a85-2d4e-d251-332b" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Vehicle" id="be5d-42fa-ddb3-b529" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Daemon Engine" id="9066-62fe-0f77-08a9" hidden="false" primary="false" targetId="c35d-97e7-5b2a-0a70"/>
+        <categoryLink name="Daemon" id="e6be-6108-8d8a-07ea" hidden="false" primary="false" targetId="0bc5-6451-5612-4a25"/>
+        <categoryLink name="Fly" id="1771-d6cd-acec-fddc" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Faction: Chaos" id="7b3a-30b8-d9a9-d284" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Foetid Bloat-drone" id="beaa-13d8-a91e-e37a" hidden="false" primary="false" targetId="0472-13fb-7016-2059"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="115"/>
@@ -4284,15 +4284,15 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
     </selectionEntry>
     <selectionEntry name="Death Guard Chaos Lord in Terminator Armour" id="967b-647e-7fec-3469" collective="false" hidden="false" import="true" page="0" publicationId="ce57-cc1c-pubN108736" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c40e-745f-42eb-7bdc" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
-        <categoryLink name="New CategoryLink" id="a534-3739-6587-19bd" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="6cee-ae1a-02a0-a03e" hidden="false" primary="false" targetId="eb55-bd6b-3e75-d505"/>
-        <categoryLink name="New CategoryLink" id="9764-4914-1f9a-aefa" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="339a-0b24-e4fb-b603" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="3273-369c-d648-9d88" hidden="false" primary="false" targetId="36b8-cf23-7648-ece9"/>
-        <categoryLink name="New CategoryLink" id="3ac5-7bdb-bedf-7205" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="5b54-ebf8-f33b-4676" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="0a9e-b2f2-daf0-e73a" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="HQ" id="c40e-745f-42eb-7bdc" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="Character" id="a534-3739-6587-19bd" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Chaos Lord" id="6cee-ae1a-02a0-a03e" hidden="false" primary="false" targetId="eb55-bd6b-3e75-d505"/>
+        <categoryLink name="Faction: Heretic Astartes" id="9764-4914-1f9a-aefa" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Infantry" id="339a-0b24-e4fb-b603" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Terminator" id="3273-369c-d648-9d88" hidden="false" primary="false" targetId="36b8-cf23-7648-ece9"/>
+        <categoryLink name="Faction: Death Guard" id="3ac5-7bdb-bedf-7205" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Nurgle" id="5b54-ebf8-f33b-4676" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="0a9e-b2f2-daf0-e73a" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
         <categoryLink name="Bubonic Astartes" id="ddd1-699c-7701-d1c2" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Lord of the Death Guard" id="d799-a45f-cfd1-0216" hidden="false" primary="false" targetId="7f7e-77a5-418a-3e27"/>
       </categoryLinks>
@@ -4305,7 +4305,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
         <entryLink name="Relics of Decay" id="b869-4201-fbe6-5d2b" collective="false" hidden="false" import="true" targetId="0435-2d8f-2e4e-28c3" type="selectionEntryGroup"/>
         <entryLink name="Warlord" id="4e82-cfea-1ff0-a46b" collective="false" hidden="false" import="true" targetId="a840-f0b3-abac-6d1c" type="selectionEntry"/>
         <entryLink name="Warlord Traits" id="66cd-4d27-c706-20c7" collective="false" hidden="false" import="true" targetId="d59b-974a-122c-6f79" type="selectionEntryGroup"/>
-        <entryLink name="Plaguechosen" id="34d4-4293-c6db-ade2" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
+        <entryLink name="Stratagem: Plaguechosen" id="34d4-4293-c6db-ade2" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
         <entryLink name="Stratagem: Relic" id="8860-89a7-4e8e-bb05" collective="false" hidden="false" import="true" targetId="c470-54ac-0863-8848" type="selectionEntry"/>
         <entryLink name="Stratagem: Warlord Trait" id="c5eb-43f8-f6eb-5d14" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
         <entryLink name="Stratagem: Gifts of Decay" id="1953-7954-d3f9-ed5c" collective="false" hidden="false" import="true" targetId="7906-7754-69cd-1c2c" type="selectionEntry"/>
@@ -4459,15 +4459,15 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
     </selectionEntry>
     <selectionEntry name="Chaos Lord on Palanquin of Nurgle [Legends]" id="e9b8-3691-eed5-b0c7" collective="false" hidden="false" import="true" page="0" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="8741-004e-9a3b-3279" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
-        <categoryLink name="New CategoryLink" id="8587-74ee-4e3f-57dd" hidden="false" primary="false" targetId="eb55-bd6b-3e75-d505"/>
-        <categoryLink name="New CategoryLink" id="f4fd-c024-130a-50c6" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="f9a2-1233-3fcf-8fe5" hidden="false" primary="false" targetId="0bc5-6451-5612-4a25"/>
-        <categoryLink name="New CategoryLink" id="b1ba-926b-0f64-2b53" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="94ca-6190-3197-05bb" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="264b-7718-3baa-b861" hidden="false" primary="false" targetId="ad01-caec-17d9-cb8d"/>
-        <categoryLink name="New CategoryLink" id="81f4-ba03-c249-e42d" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="a426-da30-a2b2-901b" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="HQ" id="8741-004e-9a3b-3279" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="Chaos Lord" id="8587-74ee-4e3f-57dd" hidden="false" primary="false" targetId="eb55-bd6b-3e75-d505"/>
+        <categoryLink name="Character" id="f4fd-c024-130a-50c6" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Daemon" id="f9a2-1233-3fcf-8fe5" hidden="false" primary="false" targetId="0bc5-6451-5612-4a25"/>
+        <categoryLink name="Faction: Heretic Astartes" id="b1ba-926b-0f64-2b53" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Faction: Nurgle" id="94ca-6190-3197-05bb" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Cavalry" id="264b-7718-3baa-b861" hidden="false" primary="false" targetId="ad01-caec-17d9-cb8d"/>
+        <categoryLink name="Faction: Death Guard" id="81f4-ba03-c249-e42d" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Chaos" id="a426-da30-a2b2-901b" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="99"/>
@@ -4489,7 +4489,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
           </constraints>
         </entryLink>
         <entryLink name="Warlord Traits" id="04fb-67cc-d2db-8cdf" collective="false" hidden="false" import="true" targetId="d59b-974a-122c-6f79" type="selectionEntryGroup"/>
-        <entryLink name="Plaguechosen" id="5c04-a88f-ffee-4979" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
+        <entryLink name="Stratagem: Plaguechosen" id="5c04-a88f-ffee-4979" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
         <entryLink name="Deadly Pathogens" id="67f8-88a0-817d-6ff7" collective="false" hidden="false" import="true" targetId="9550-e166-97c9-770f" type="selectionEntryGroup">
           <modifiers>
             <modifier field="hidden" type="set" value="true">
@@ -4651,16 +4651,16 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
     </selectionEntry>
     <selectionEntry name="Death Guard Sorcerer in Terminator Armour" id="313d-d939-4be9-9e48" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink id="9cf5-d450-a020-1687" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
-        <categoryLink name="New CategoryLink" id="8ac0-f731-d939-ca44" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="86a5-8e59-5a94-75ce" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="b86f-c533-9f26-f44b" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
-        <categoryLink name="New CategoryLink" id="2951-2281-caaf-64f1" hidden="false" primary="false" targetId="36b8-cf23-7648-ece9"/>
-        <categoryLink name="New CategoryLink" id="6680-e93b-ec1f-0453" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="644f-7a53-d784-9645" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="9f70-1487-62f4-24c3" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="eac1-4950-6f76-bb4d" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="bfb7-7073-2f74-6340" hidden="false" primary="false" targetId="fa81-3af3-dfd0-208b"/>
+        <categoryLink name="HQ" id="9cf5-d450-a020-1687" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="Character" id="8ac0-f731-d939-ca44" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Infantry" id="86a5-8e59-5a94-75ce" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Psyker" id="b86f-c533-9f26-f44b" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
+        <categoryLink name="Terminator" id="2951-2281-caaf-64f1" hidden="false" primary="false" targetId="36b8-cf23-7648-ece9"/>
+        <categoryLink name="Faction: Death Guard" id="6680-e93b-ec1f-0453" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Nurgle" id="644f-7a53-d784-9645" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="9f70-1487-62f4-24c3" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Faction: Heretic Astartes" id="eac1-4950-6f76-bb4d" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Sorcerer" id="bfb7-7073-2f74-6340" hidden="false" primary="false" targetId="fa81-3af3-dfd0-208b"/>
         <categoryLink name="Bubonic Astartes" id="ac79-4205-c0c3-4ea7" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
       </categoryLinks>
       <costs>
@@ -4682,7 +4682,7 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
           </constraints>
         </entryLink>
         <entryLink name="Warlord Traits" id="4e99-4c94-1a51-e8b1" collective="false" hidden="false" import="true" targetId="d59b-974a-122c-6f79" type="selectionEntryGroup"/>
-        <entryLink name="Plaguechosen" id="0f73-4ff0-f37a-b316" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
+        <entryLink name="Stratagem: Plaguechosen" id="0f73-4ff0-f37a-b316" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
         <entryLink name="Sevenfold Blessings" id="2911-2321-a134-3131" collective="false" hidden="false" import="true" targetId="6df2-11b7-4e8f-201e" type="selectionEntry"/>
         <entryLink name="Stratagem: Relic" id="26cc-c0d3-c87c-61cd" collective="false" hidden="false" import="true" targetId="c470-54ac-0863-8848" type="selectionEntry"/>
         <entryLink name="Stratagem: Warlord Trait" id="2375-4545-5fb7-9241" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
@@ -4965,14 +4965,14 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
     </selectionEntry>
     <selectionEntry name="Death Guard Possessed" id="429c-a1b7-b65a-0358" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="5b04-0506-2b4c-bc1b" hidden="false" primary="false" targetId="0bc5-6451-5612-4a25"/>
-        <categoryLink name="New CategoryLink" id="650c-bcd3-aeb8-3b44" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="0f00-0b5a-f2a3-a404" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="72d0-fb41-eceb-357d" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
-        <categoryLink name="New CategoryLink" id="2d3c-8901-586d-df71" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="79c0-b07a-c6be-e291" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="d1e8-2422-aecc-7827" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="a1d4-e074-4c78-17c3" hidden="false" primary="false" targetId="acd7-5577-5a74-bfef"/>
+        <categoryLink name="Daemon" id="5b04-0506-2b4c-bc1b" hidden="false" primary="false" targetId="0bc5-6451-5612-4a25"/>
+        <categoryLink name="Faction: Heretic Astartes" id="650c-bcd3-aeb8-3b44" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Infantry" id="0f00-0b5a-f2a3-a404" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Elites" id="72d0-fb41-eceb-357d" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Faction: Death Guard" id="2d3c-8901-586d-df71" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Nurgle" id="79c0-b07a-c6be-e291" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="d1e8-2422-aecc-7827" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Death Guard Possessed" id="a1d4-e074-4c78-17c3" hidden="false" primary="false" targetId="acd7-5577-5a74-bfef"/>
         <categoryLink name="Bubonic Astartes" id="ff1c-2cf6-dc78-2e9d" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Core" id="0f5f-4b86-20cf-b121" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
@@ -5101,13 +5101,13 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
     </selectionEntry>
     <selectionEntry name="Helbrute" id="5cae-15dc-4a5d-0b9b" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="69fa-3679-e364-db5c" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="33a0-b0b0-ebf3-faa4" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
-        <categoryLink name="New CategoryLink" id="b131-bec7-2c8f-b0b2" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="faf7-be70-13bb-0be8" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="d9a2-d68f-8f6a-3b65" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="ed80-e9e9-dfa0-0b62" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="1998-6dc8-5b2f-822c" hidden="false" primary="false" targetId="5356-a75a-02b3-49e3"/>
+        <categoryLink name="Faction: Heretic Astartes" id="69fa-3679-e364-db5c" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Elites" id="33a0-b0b0-ebf3-faa4" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Vehicle" id="b131-bec7-2c8f-b0b2" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: Death Guard" id="faf7-be70-13bb-0be8" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Nurgle" id="d9a2-d68f-8f6a-3b65" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="ed80-e9e9-dfa0-0b62" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Helbrute" id="1998-6dc8-5b2f-822c" hidden="false" primary="false" targetId="5356-a75a-02b3-49e3"/>
         <categoryLink name="Bubonic Astartes" id="3c21-9caf-df75-3b54" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Core" id="2c9d-c4e5-04d2-9ecc" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
@@ -5310,14 +5310,14 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
     </selectionEntry>
     <selectionEntry name="Chaos Rhino" id="a008-7caa-0650-327c" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="58d0-94d5-39ac-8754" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="77cc-da44-f2b6-4a32" hidden="false" primary="true" targetId="1b66-3f5f-6705-079a"/>
-        <categoryLink name="New CategoryLink" id="ff67-d5cd-7974-442e" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
-        <categoryLink name="New CategoryLink" id="bba9-ef72-bb49-4ea9" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="7da0-4b7d-dab0-f482" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="be2c-9dcf-69be-22fd" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="e5f9-9626-5b58-cc0d" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="e870-4e5e-ebb0-efab" hidden="false" primary="false" targetId="7627-d7ef-6d16-fc76"/>
+        <categoryLink name="Faction: Heretic Astartes" id="58d0-94d5-39ac-8754" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Dedicated Transport" id="77cc-da44-f2b6-4a32" hidden="false" primary="true" targetId="1b66-3f5f-6705-079a"/>
+        <categoryLink name="Transport" id="ff67-d5cd-7974-442e" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
+        <categoryLink name="Vehicle" id="bba9-ef72-bb49-4ea9" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: Death Guard" id="7da0-4b7d-dab0-f482" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Nurgle" id="be2c-9dcf-69be-22fd" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="e5f9-9626-5b58-cc0d" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Chaos Rhino" id="e870-4e5e-ebb0-efab" hidden="false" primary="false" targetId="7627-d7ef-6d16-fc76"/>
         <categoryLink name="Smokescreen" id="7d80-7c45-041d-8fe8" hidden="false" primary="false" targetId="23b1-90ca-1e8a-d29f"/>
         <categoryLink name="Bubonic Astartes" id="2483-707b-0b75-daa6" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
       </categoryLinks>
@@ -5442,17 +5442,17 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (a
     </selectionEntry>
     <selectionEntry name="Typhus" id="25f1-c2ff-203f-8173" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink id="61eb-e78c-279e-a97a" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
-        <categoryLink name="New CategoryLink" id="0ffe-2777-134f-c9b6" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="114f-c25d-2be2-398a" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="c64b-d9dc-5af9-a723" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
-        <categoryLink name="New CategoryLink" id="def5-3ed7-0690-0994" hidden="false" primary="false" targetId="36b8-cf23-7648-ece9"/>
-        <categoryLink name="New CategoryLink" id="c66c-734f-cb89-126c" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="ec0f-9705-35b8-0a9a" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="837f-023b-ef22-ded2" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="776d-eb9e-85e8-2ca2" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="047c-1d1e-e9d0-4b28" hidden="false" primary="false" targetId="ce71-91a7-35a9-2d68"/>
-        <categoryLink name="New CategoryLink" id="2f89-5cea-bbce-7fa4" hidden="false" primary="false" targetId="cedd-5c01-92d2-32e5"/>
+        <categoryLink name="HQ" id="61eb-e78c-279e-a97a" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="Character" id="0ffe-2777-134f-c9b6" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Infantry" id="114f-c25d-2be2-398a" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Psyker" id="c64b-d9dc-5af9-a723" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
+        <categoryLink name="Terminator" id="def5-3ed7-0690-0994" hidden="false" primary="false" targetId="36b8-cf23-7648-ece9"/>
+        <categoryLink name="Faction: Death Guard" id="c66c-734f-cb89-126c" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Nurgle" id="ec0f-9705-35b8-0a9a" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Heretic Astartes" id="837f-023b-ef22-ded2" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Faction: Chaos" id="776d-eb9e-85e8-2ca2" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Lord of Contagion" id="047c-1d1e-e9d0-4b28" hidden="false" primary="false" targetId="ce71-91a7-35a9-2d68"/>
+        <categoryLink name="Typhus" id="2f89-5cea-bbce-7fa4" hidden="false" primary="false" targetId="cedd-5c01-92d2-32e5"/>
         <categoryLink name="Bubonic Astartes" id="55ad-c035-2032-a087" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Lord of the Death Guard" id="6de0-21c1-42db-5631" hidden="false" primary="false" targetId="7f7e-77a5-418a-3e27"/>
       </categoryLinks>
@@ -5716,15 +5716,15 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Lord of Contagion" id="8fbe-2b19-a2d3-8f50" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink id="1cf8-5f4c-0a18-06c6" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
-        <categoryLink name="New CategoryLink" id="89d0-788e-fec1-1ae3" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="2725-7987-d087-aa3c" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="7b80-cf42-16e3-5f6a" hidden="false" primary="false" targetId="36b8-cf23-7648-ece9"/>
-        <categoryLink name="New CategoryLink" id="6dee-18b1-1d4d-bbda" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="867e-940c-6540-1ff3" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="1a00-515a-2007-95e6" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="7a47-6998-12dc-23d4" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="7229-f940-f3ac-f47d" hidden="false" primary="false" targetId="ce71-91a7-35a9-2d68"/>
+        <categoryLink name="HQ" id="1cf8-5f4c-0a18-06c6" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="Character" id="89d0-788e-fec1-1ae3" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Infantry" id="2725-7987-d087-aa3c" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Terminator" id="7b80-cf42-16e3-5f6a" hidden="false" primary="false" targetId="36b8-cf23-7648-ece9"/>
+        <categoryLink name="Faction: Death Guard" id="6dee-18b1-1d4d-bbda" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Nurgle" id="867e-940c-6540-1ff3" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Heretic Astartes" id="1a00-515a-2007-95e6" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Faction: Chaos" id="7a47-6998-12dc-23d4" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Lord of Contagion" id="7229-f940-f3ac-f47d" hidden="false" primary="false" targetId="ce71-91a7-35a9-2d68"/>
         <categoryLink name="Bubonic Astartes" id="8f7c-cc85-04a0-8553" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Lord of the Death Guard" id="23d0-bdfd-b55b-dfb6" hidden="false" primary="false" targetId="7f7e-77a5-418a-3e27"/>
       </categoryLinks>
@@ -5737,7 +5737,7 @@ plague companies in the same Detachment, without preventing other units in that 
         <entryLink name="Relics of Decay" id="ee1a-2e7f-93d3-a991" collective="false" hidden="false" import="true" targetId="0435-2d8f-2e4e-28c3" type="selectionEntryGroup"/>
         <entryLink name="Warlord" id="6e9e-1079-a4e8-8f6f" collective="false" hidden="false" import="true" targetId="a840-f0b3-abac-6d1c" type="selectionEntry"/>
         <entryLink name="Warlord Traits" id="d0fd-0893-22fd-90da" collective="false" hidden="false" import="true" targetId="d59b-974a-122c-6f79" type="selectionEntryGroup"/>
-        <entryLink name="Plaguechosen" id="17e7-65cc-61c8-efeb" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
+        <entryLink name="Stratagem: Plaguechosen" id="17e7-65cc-61c8-efeb" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
         <entryLink name="Deadly Pathogens" id="03d5-6176-01cf-03e2" collective="false" hidden="false" import="true" targetId="9550-e166-97c9-770f" type="selectionEntryGroup"/>
         <entryLink name="Stratagem: Relic" id="a1e9-8b02-c66a-00c1" collective="false" hidden="false" import="true" targetId="c470-54ac-0863-8848" type="selectionEntry"/>
         <entryLink name="Stratagem: Warlord Trait" id="e33e-afc9-0790-a9d2" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
@@ -5924,14 +5924,14 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Malignant Plaguecaster" id="299f-6b03-4963-d522" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="d6e4-6c44-27bd-4096" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="30d0-8bf4-98d0-2025" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="bca7-dfd5-2c88-9897" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
-        <categoryLink name="New CategoryLink" id="f2e3-022d-393b-78f8" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="ada5-0348-8611-637a" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="a689-828f-2a7a-5c94" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="4c63-f523-6dd2-b47c" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
-        <categoryLink name="New CategoryLink" id="f77e-e5c1-4965-97c3" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Character" id="d6e4-6c44-27bd-4096" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Death Guard" id="30d0-8bf4-98d0-2025" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="HQ" id="bca7-dfd5-2c88-9897" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="Infantry" id="f2e3-022d-393b-78f8" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Heretic Astartes" id="ada5-0348-8611-637a" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Faction: Nurgle" id="a689-828f-2a7a-5c94" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Psyker" id="4c63-f523-6dd2-b47c" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
+        <categoryLink name="Faction: Chaos" id="f77e-e5c1-4965-97c3" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
         <categoryLink name="Bubonic Astartes" id="3ea1-15b7-e591-f838" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Malignant Plaguecaster" id="5e43-1efd-b34e-d644" hidden="false" primary="false" targetId="198b-9ec3-8ecd-121d"/>
       </categoryLinks>
@@ -5971,7 +5971,7 @@ plague companies in the same Detachment, without preventing other units in that 
           </constraints>
         </entryLink>
         <entryLink name="Warlord Traits" id="9bff-fc9b-aa55-5eed" collective="false" hidden="false" import="true" targetId="d59b-974a-122c-6f79" type="selectionEntryGroup"/>
-        <entryLink name="Plaguechosen" id="31fe-a246-cc2e-e35a" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
+        <entryLink name="Stratagem: Plaguechosen" id="31fe-a246-cc2e-e35a" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
         <entryLink name="Sevenfold Blessings" id="a7e9-0233-9cf2-897a" collective="false" hidden="false" import="true" targetId="6df2-11b7-4e8f-201e" type="selectionEntry"/>
         <entryLink name="Deadly Pathogens" id="b66d-770c-a576-1c52" collective="false" hidden="false" import="true" targetId="9550-e166-97c9-770f" type="selectionEntryGroup"/>
         <entryLink name="Stratagem: Relic" id="b083-05c1-9465-474d" collective="false" hidden="false" import="true" targetId="c470-54ac-0863-8848" type="selectionEntry"/>
@@ -6200,12 +6200,12 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Death Guard Cultists" id="605b-3c14-2a67-f8e4" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c5b4-7982-b90a-a800" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
-        <categoryLink name="New CategoryLink" id="ff67-f6bd-85c7-1eed" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="986a-3b43-3685-755f" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="0873-b89a-27f3-618d" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="4da1-08cc-efd1-0464" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="e07c-8cca-019d-438c" hidden="false" primary="false" targetId="7c95-4704-2fe5-93bc"/>
+        <categoryLink name="Troops" id="c5b4-7982-b90a-a800" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+        <categoryLink name="Infantry" id="ff67-f6bd-85c7-1eed" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Death Guard" id="986a-3b43-3685-755f" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Nurgle" id="0873-b89a-27f3-618d" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="4da1-08cc-efd1-0464" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Cultists" id="e07c-8cca-019d-438c" hidden="false" primary="false" targetId="7c95-4704-2fe5-93bc"/>
         <categoryLink name="Plague Followers" id="b0b7-7a64-3c59-6df6" hidden="false" primary="false" targetId="0312-2f4d-f840-5084"/>
       </categoryLinks>
       <costs>
@@ -6329,14 +6329,11 @@ plague companies in the same Detachment, without preventing other units in that 
       <selectionEntryGroups>
         <selectionEntryGroup name="Death Guard Cultists" id="2321-2cbb-4da2-fcbe" collective="false" defaultSelectionEntryId="1dd1-500a-fb2a-2942" hidden="false" import="true">
           <constraints>
-            <constraint id="f368-e3e5-92c0-3e56" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="29"/>
-            <constraint id="abc6-95e5-4d34-76dd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="9"/>
+            <constraint id="f368-e3e5-92c0-3e56" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="9"/>
+            <constraint id="abc6-95e5-4d34-76dd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="4"/>
           </constraints>
           <selectionEntries>
             <selectionEntry name="Death Guard Cultist w/ special weapon" id="4c67-ed33-d92a-7a53" collective="false" hidden="false" import="true" type="model">
-              <constraints>
-                <constraint id="67fb-9b07-883c-25e3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
-              </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="5"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
@@ -6427,12 +6424,12 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Noxious Blightbringer" id="64e4-21f2-e032-ad64" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="459e-9f4e-246b-a8d2" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="c89e-0095-e1c5-1a56" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="8368-d872-b69e-cec8" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="72bf-7c42-e237-2af0" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="0ec8-07a8-0c8e-f316" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="5886-b5df-0c09-19f8" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Character" id="459e-9f4e-246b-a8d2" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Death Guard" id="c89e-0095-e1c5-1a56" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Infantry" id="8368-d872-b69e-cec8" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Heretic Astartes" id="72bf-7c42-e237-2af0" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Faction: Nurgle" id="0ec8-07a8-0c8e-f316" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="5886-b5df-0c09-19f8" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
         <categoryLink name="Bubonic Astartes" id="7534-30e1-86c8-b849" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Elite Character" id="2403-264e-9f34-5eea" hidden="false" primary="false" targetId="62d3-9871-9675-a63b"/>
       </categoryLinks>
@@ -6467,7 +6464,7 @@ plague companies in the same Detachment, without preventing other units in that 
           </constraints>
         </entryLink>
         <entryLink name="Warlord Traits" id="dd17-74f8-35d4-7315" collective="false" hidden="false" import="true" targetId="d59b-974a-122c-6f79" type="selectionEntryGroup"/>
-        <entryLink name="Plaguechosen" id="2acc-49c8-4c1c-066d" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
+        <entryLink name="Stratagem: Plaguechosen" id="2acc-49c8-4c1c-066d" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
         <entryLink name="Deadly Pathogens" id="90dc-19bb-97fe-7a27" collective="false" hidden="false" import="true" targetId="9550-e166-97c9-770f" type="selectionEntryGroup"/>
         <entryLink name="Stratagem: Relic" id="949f-c961-e450-2ca8" collective="false" hidden="false" import="true" targetId="c470-54ac-0863-8848" type="selectionEntry"/>
         <entryLink name="Stratagem: Warlord Trait" id="0952-7229-67dc-7e9d" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
@@ -6634,14 +6631,14 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Chaos Land Raider" id="6c90-74d4-6e66-cb10" collective="false" hidden="false" import="true" page="0" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e239-3419-f605-54ce" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
-        <categoryLink name="New CategoryLink" id="9db3-aef0-7462-0de4" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="0e87-5fc5-ff49-1336" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
-        <categoryLink name="New CategoryLink" id="4a32-1fe7-bce9-3b1d" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="d3b0-6e8f-145e-11a2" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="4dbe-7479-0e15-f5db" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="fa2a-0d9d-b167-2160" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="63ab-e234-b4f9-a003" hidden="false" primary="false" targetId="d86f-a7f9-e09a-3ab3"/>
+        <categoryLink name="Heavy Support" id="e239-3419-f605-54ce" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Faction: Heretic Astartes" id="9db3-aef0-7462-0de4" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Transport" id="0e87-5fc5-ff49-1336" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
+        <categoryLink name="Vehicle" id="4a32-1fe7-bce9-3b1d" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: Death Guard" id="d3b0-6e8f-145e-11a2" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Nurgle" id="4dbe-7479-0e15-f5db" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="fa2a-0d9d-b167-2160" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Chaos Land Raider" id="63ab-e234-b4f9-a003" hidden="false" primary="false" targetId="d86f-a7f9-e09a-3ab3"/>
         <categoryLink name="Bubonic Astartes" id="fd5b-e621-4277-0cfa" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Smokescreen" id="cccf-e7fe-38f9-ed04" hidden="false" primary="false" targetId="23b1-90ca-1e8a-d29f"/>
         <categoryLink name="Machine Spirit" id="022f-775c-ffe9-266c" hidden="false" primary="false" targetId="1252-1e86-5e53-08b0"/>
@@ -6918,17 +6915,17 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Mortarion" id="0e51-2a41-8394-7f6b" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="7078-de25-5dc6-0c26" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="e4ce-90ee-3df3-45f2" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="0804-4abe-a846-fb3f" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="b4af-fe3e-0cea-a4c5" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="59de-3e5b-9539-336c" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="0811-8af4-90c6-b861" hidden="false" primary="false" targetId="0bc5-6451-5612-4a25"/>
-        <categoryLink name="New CategoryLink" id="8e11-f6b0-b3ae-1be5" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink name="New CategoryLink" id="a71f-9673-d160-a9a0" hidden="false" primary="false" targetId="298f-d173-2159-919f"/>
-        <categoryLink name="New CategoryLink" id="6fae-ba42-f83c-b9af" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
-        <categoryLink name="New CategoryLink" id="9255-b738-b1ea-5367" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink name="New CategoryLink" id="0ca5-36d1-689d-7479" hidden="false" primary="false" targetId="c940-6653-e034-772f"/>
+        <categoryLink name="Faction: Chaos" id="7078-de25-5dc6-0c26" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Faction: Heretic Astartes" id="e4ce-90ee-3df3-45f2" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Faction: Nurgle" id="0804-4abe-a846-fb3f" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Death Guard" id="b4af-fe3e-0cea-a4c5" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Character" id="59de-3e5b-9539-336c" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Daemon" id="0811-8af4-90c6-b861" hidden="false" primary="false" targetId="0bc5-6451-5612-4a25"/>
+        <categoryLink name="Monster" id="8e11-f6b0-b3ae-1be5" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Primarch" id="a71f-9673-d160-a9a0" hidden="false" primary="false" targetId="298f-d173-2159-919f"/>
+        <categoryLink name="Psyker" id="6fae-ba42-f83c-b9af" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
+        <categoryLink name="Fly" id="9255-b738-b1ea-5367" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Mortarion" id="0ca5-36d1-689d-7479" hidden="false" primary="false" targetId="c940-6653-e034-772f"/>
         <categoryLink name="Bubonic Astartes" id="1e25-a6ae-251c-b733" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Supreme Commander" id="06e2-4303-6e85-8d27" hidden="false" primary="false" targetId="5750-de0a-589d-eacf"/>
       </categoryLinks>
@@ -7465,14 +7462,14 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Deathshroud Terminators" id="00f1-d9e0-cd71-79f0" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="3f04-7e86-5125-7cd8" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="8b17-f904-e4a5-846d" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="f0ba-3891-51b4-f74b" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
-        <categoryLink name="New CategoryLink" id="3d42-4ff2-07d4-24e1" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="0196-aabc-e3ff-2a97" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="24cd-8e61-0cbe-05fc" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="41c9-d4f5-5f9a-cd78" hidden="false" primary="false" targetId="36b8-cf23-7648-ece9"/>
-        <categoryLink name="New CategoryLink" id="83cf-233e-f4ad-6702" hidden="false" primary="false" targetId="2110-97af-25b6-2eb8"/>
+        <categoryLink name="Faction: Chaos" id="3f04-7e86-5125-7cd8" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Faction: Death Guard" id="8b17-f904-e4a5-846d" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Elites" id="f0ba-3891-51b4-f74b" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Faction: Heretic Astartes" id="3d42-4ff2-07d4-24e1" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Infantry" id="0196-aabc-e3ff-2a97" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Nurgle" id="24cd-8e61-0cbe-05fc" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Terminator" id="41c9-d4f5-5f9a-cd78" hidden="false" primary="false" targetId="36b8-cf23-7648-ece9"/>
+        <categoryLink name="Deathshroud Terminators" id="83cf-233e-f4ad-6702" hidden="false" primary="false" targetId="2110-97af-25b6-2eb8"/>
         <categoryLink name="Bubonic Astartes" id="f1a4-d38b-105f-dfba" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Core" id="af17-6a88-4b30-a097" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
@@ -7573,7 +7570,7 @@ plague companies in the same Detachment, without preventing other units in that 
               </constraints>
             </entryLink>
             <entryLink name="Deadly Pathogens" id="aa65-0f4f-4558-63bf" collective="false" hidden="false" import="true" targetId="9550-e166-97c9-770f" type="selectionEntryGroup"/>
-            <entryLink name="Champion of Disease" id="40f8-728c-c95d-f781" collective="false" hidden="false" import="true" targetId="cdeb-e8ca-c7f1-2f97" type="selectionEntry"/>
+            <entryLink name="Stratagem: Champion of Disease" id="40f8-728c-c95d-f781" collective="false" hidden="false" import="true" targetId="cdeb-e8ca-c7f1-2f97" type="selectionEntry"/>
             <entryLink name="Champion Relics" id="a5fe-cb07-632d-ae1b" collective="false" hidden="false" import="true" targetId="5537-9b5c-6df9-9cd7" type="selectionEntryGroup"/>
           </entryLinks>
           <profiles>
@@ -7679,13 +7676,13 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Plague Marines" id="4124-8ae3-177a-4767" collective="false" hidden="false" import="true" page="0" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="33f7-2349-b559-a517" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="c394-c8b5-7e48-ff0a" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="ba61-b89d-c520-388b" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="1a16-d84b-d1c5-f018" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="c076-50e3-4a70-1667" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="8d79-a420-b5e8-3a01" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
-        <categoryLink name="New CategoryLink" id="0f50-d1a4-4741-1bd9" hidden="false" primary="false" targetId="a50f-7a19-7624-5793"/>
+        <categoryLink name="Faction: Nurgle" id="33f7-2349-b559-a517" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Heretic Astartes" id="c394-c8b5-7e48-ff0a" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Infantry" id="ba61-b89d-c520-388b" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Chaos" id="1a16-d84b-d1c5-f018" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Faction: Death Guard" id="c076-50e3-4a70-1667" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Troops" id="8d79-a420-b5e8-3a01" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+        <categoryLink name="Plague Marines" id="0f50-d1a4-4741-1bd9" hidden="false" primary="false" targetId="a50f-7a19-7624-5793"/>
         <categoryLink name="Core" id="105d-ed31-ef75-a486" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
         <categoryLink name="Bubonic Astartes" id="b322-6e01-8068-179b" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
       </categoryLinks>
@@ -8633,14 +8630,14 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Blightlord Terminators" id="e9b4-1d6e-8021-095f" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="7697-24c2-2f9e-5e54" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="6f23-2444-d6bf-bbdd" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="0b73-ff1f-0598-d8e1" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
-        <categoryLink name="New CategoryLink" id="7f8d-c677-e527-c90a" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="acd4-eab9-8bfb-d7d3" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="4811-a261-8436-dd90" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="bd88-6282-f3d5-8272" hidden="false" primary="false" targetId="36b8-cf23-7648-ece9"/>
-        <categoryLink name="New CategoryLink" id="328b-d6b4-cbb7-e22c" hidden="false" primary="false" targetId="1e74-2c48-7179-152e"/>
+        <categoryLink name="Faction: Chaos" id="7697-24c2-2f9e-5e54" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Faction: Death Guard" id="6f23-2444-d6bf-bbdd" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Elites" id="0b73-ff1f-0598-d8e1" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Faction: Heretic Astartes" id="7f8d-c677-e527-c90a" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Faction: Nurgle" id="acd4-eab9-8bfb-d7d3" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Infantry" id="4811-a261-8436-dd90" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Terminator" id="bd88-6282-f3d5-8272" hidden="false" primary="false" targetId="36b8-cf23-7648-ece9"/>
+        <categoryLink name="Blightlord Terminators" id="328b-d6b4-cbb7-e22c" hidden="false" primary="false" targetId="1e74-2c48-7179-152e"/>
         <categoryLink name="Bubonic Astartes" id="bbad-95f5-c8de-9a97" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Core" id="6499-f34c-3a43-1d88" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
@@ -8730,7 +8727,7 @@ plague companies in the same Detachment, without preventing other units in that 
           <entryLinks>
             <entryLink name="Blightlord Terminator Melee Weapons" id="1820-e591-4327-07c8" collective="false" hidden="false" import="true" targetId="2dcd-70d1-b780-480d" type="selectionEntryGroup"/>
             <entryLink name="Deadly Pathogens" id="1a71-d0cf-bcca-c3a2" collective="false" hidden="false" import="true" targetId="9550-e166-97c9-770f" type="selectionEntryGroup"/>
-            <entryLink name="Champion of Disease" id="0b5b-f94b-8c26-e6be" collective="false" hidden="false" import="true" targetId="cdeb-e8ca-c7f1-2f97" type="selectionEntry"/>
+            <entryLink name="Stratagem: Champion of Disease" id="0b5b-f94b-8c26-e6be" collective="false" hidden="false" import="true" targetId="cdeb-e8ca-c7f1-2f97" type="selectionEntry"/>
             <entryLink name="Champion Relics" id="3f7d-b94b-3d68-60a8" collective="false" hidden="true" import="true" targetId="5537-9b5c-6df9-9cd7" type="selectionEntryGroup"/>
           </entryLinks>
           <profiles>
@@ -8964,15 +8961,15 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Myphitic Blight-haulers" id="c87b-80f6-93b3-ddf6" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c3f9-bac2-ea56-0d32" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="1648-6a00-0382-80a1" hidden="false" primary="false" targetId="0bc5-6451-5612-4a25"/>
-        <categoryLink name="New CategoryLink" id="8c92-0c6c-aea4-c715" hidden="false" primary="false" targetId="c35d-97e7-5b2a-0a70"/>
-        <categoryLink name="New CategoryLink" id="3fcf-044f-711b-59f0" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="2f4c-185b-b649-229b" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
-        <categoryLink name="New CategoryLink" id="158f-0452-66f3-4527" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="6145-a9a9-1ad6-e29b" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="252f-ef96-e734-6d0e" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="9c63-b335-6626-3a44" hidden="false" primary="false" targetId="0053-39d8-9506-8bc8"/>
+        <categoryLink name="Faction: Chaos" id="c3f9-bac2-ea56-0d32" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Daemon" id="1648-6a00-0382-80a1" hidden="false" primary="false" targetId="0bc5-6451-5612-4a25"/>
+        <categoryLink name="Daemon Engine" id="8c92-0c6c-aea4-c715" hidden="false" primary="false" targetId="c35d-97e7-5b2a-0a70"/>
+        <categoryLink name="Faction: Death Guard" id="3fcf-044f-711b-59f0" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Fast Attack" id="2f4c-185b-b649-229b" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Faction: Heretic Astartes" id="158f-0452-66f3-4527" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Faction: Nurgle" id="6145-a9a9-1ad6-e29b" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Vehicle" id="252f-ef96-e734-6d0e" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Myphitic Blight-haulers" id="9c63-b335-6626-3a44" hidden="false" primary="false" targetId="0053-39d8-9506-8bc8"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
@@ -9157,15 +9154,15 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Plagueburst Crawler" id="e909-3b20-4914-4907" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="1fdd-599f-8950-05ab" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="f2d0-09f5-8117-878c" hidden="false" primary="false" targetId="0bc5-6451-5612-4a25"/>
-        <categoryLink name="New CategoryLink" id="977a-8bb0-1e0b-677b" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="19fb-8972-df42-fc61" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
-        <categoryLink name="New CategoryLink" id="1b5d-044b-c6c9-a4c7" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="475d-2a0b-13dc-1c02" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="27f6-78ad-b0ef-b9b3" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="2681-ae9f-2f2a-7fc8" hidden="false" primary="false" targetId="c35d-97e7-5b2a-0a70"/>
-        <categoryLink name="New CategoryLink" id="a3bd-5e91-a681-d20d" hidden="false" primary="false" targetId="b865-e6f2-4c59-ccb8"/>
+        <categoryLink name="Faction: Chaos" id="1fdd-599f-8950-05ab" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Daemon" id="f2d0-09f5-8117-878c" hidden="false" primary="false" targetId="0bc5-6451-5612-4a25"/>
+        <categoryLink name="Faction: Death Guard" id="977a-8bb0-1e0b-677b" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Heavy Support" id="19fb-8972-df42-fc61" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Faction: Heretic Astartes" id="1b5d-044b-c6c9-a4c7" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Faction: Nurgle" id="475d-2a0b-13dc-1c02" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Vehicle" id="27f6-78ad-b0ef-b9b3" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Daemon Engine" id="2681-ae9f-2f2a-7fc8" hidden="false" primary="false" targetId="c35d-97e7-5b2a-0a70"/>
+        <categoryLink name="Plagueburst Crawler" id="a3bd-5e91-a681-d20d" hidden="false" primary="false" targetId="b865-e6f2-4c59-ccb8"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="135"/>
@@ -9476,12 +9473,12 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Biologus Putrifier" id="0bf4-3bb0-c99c-b188" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="b175-6256-3896-87ec" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="ff67-a78d-3fb9-040c" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="8d4e-6e7d-da5a-bda5" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="76b2-1da5-c7ff-bafa" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="1374-f111-a598-527c" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="6bed-cd53-d26d-f54b" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="b175-6256-3896-87ec" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Character" id="ff67-a78d-3fb9-040c" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Death Guard" id="8d4e-6e7d-da5a-bda5" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Heretic Astartes" id="76b2-1da5-c7ff-bafa" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Infantry" id="1374-f111-a598-527c" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Nurgle" id="6bed-cd53-d26d-f54b" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
         <categoryLink name="Bubonic Astartes" id="c037-78b9-56de-d584" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Elite Character" id="b858-f9b9-a9f1-2f8b" hidden="false" primary="false" targetId="62d3-9871-9675-a63b"/>
       </categoryLinks>
@@ -9505,7 +9502,7 @@ plague companies in the same Detachment, without preventing other units in that 
         </entryLink>
         <entryLink name="Warlord Traits" id="e002-dbda-e283-f1aa" collective="false" hidden="false" import="true" targetId="d59b-974a-122c-6f79" type="selectionEntryGroup"/>
         <entryLink name="Plague knife" id="5fdc-2bee-c287-7ca0" collective="false" hidden="false" import="true" targetId="7b8e-9da8-a600-83a6" type="selectionEntry"/>
-        <entryLink name="Plaguechosen" id="b258-a7c7-a3c0-bc8b" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
+        <entryLink name="Stratagem: Plaguechosen" id="b258-a7c7-a3c0-bc8b" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
         <entryLink name="Deadly Pathogens" id="84e5-e8db-c726-eeb2" collective="false" hidden="false" import="true" targetId="9550-e166-97c9-770f" type="selectionEntryGroup"/>
         <entryLink name="Stratagem: Relic" id="6db2-b24c-1baa-9f8e" collective="false" hidden="false" import="true" targetId="c470-54ac-0863-8848" type="selectionEntry"/>
         <entryLink name="Stratagem: Warlord Trait" id="53be-1cb0-1bae-e253" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
@@ -9690,12 +9687,12 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Plague Surgeon" id="d633-7874-7780-7ab8" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="6987-5e2c-adf2-708a" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="0e44-ed30-63bd-cf5a" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="a528-09e1-0a6b-cb0b" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="7411-979d-a426-bac5" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="c52f-1552-bba6-c2b7" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="3076-8d95-7419-d2fe" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="6987-5e2c-adf2-708a" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Character" id="0e44-ed30-63bd-cf5a" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Death Guard" id="a528-09e1-0a6b-cb0b" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Heretic Astartes" id="7411-979d-a426-bac5" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Infantry" id="c52f-1552-bba6-c2b7" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Nurgle" id="3076-8d95-7419-d2fe" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
         <categoryLink name="Bubonic Astartes" id="70a7-fed8-5477-2e8f" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Elite Character" id="6f9f-db55-1c91-8b06" hidden="false" primary="false" targetId="62d3-9871-9675-a63b"/>
       </categoryLinks>
@@ -9736,7 +9733,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <constraint id="fb70-ce87-6dc8-17cb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Plaguechosen" id="1854-2489-6ca0-0385" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
+        <entryLink name="Stratagem: Plaguechosen" id="1854-2489-6ca0-0385" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
         <entryLink name="Deadly Pathogens" id="2013-6513-b3b4-8e11" collective="false" hidden="false" import="true" targetId="9550-e166-97c9-770f" type="selectionEntryGroup"/>
         <entryLink name="Stratagem: Relic" id="185e-b988-4f76-5218" collective="false" hidden="false" import="true" targetId="c470-54ac-0863-8848" type="selectionEntry"/>
         <entryLink name="Stratagem: Warlord Trait" id="65c2-dc13-1aad-4a26" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
@@ -9872,12 +9869,12 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Tallyman" id="6f36-bc00-152e-a734" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="95a1-b7e7-74bc-6dc2" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="7e75-cec4-3cc3-08a1" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="2fe2-ee3c-3569-e238" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="246f-4c84-362c-d98b" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="f807-33a1-ef01-35fb" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="aeb0-4b9d-ba89-3d7e" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="95a1-b7e7-74bc-6dc2" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Character" id="7e75-cec4-3cc3-08a1" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Death Guard" id="2fe2-ee3c-3569-e238" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Heretic Astartes" id="246f-4c84-362c-d98b" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Infantry" id="f807-33a1-ef01-35fb" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Nurgle" id="aeb0-4b9d-ba89-3d7e" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
         <categoryLink name="Bubonic Astartes" id="4ecb-9c9f-dd35-79d4" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Elite Character" id="bf15-f518-38f4-5983" hidden="false" primary="false" targetId="62d3-9871-9675-a63b"/>
       </categoryLinks>
@@ -9912,7 +9909,7 @@ plague companies in the same Detachment, without preventing other units in that 
           </constraints>
         </entryLink>
         <entryLink name="Warlord Traits" id="1976-d92b-2140-43ec" collective="false" hidden="false" import="true" targetId="d59b-974a-122c-6f79" type="selectionEntryGroup"/>
-        <entryLink name="Plaguechosen" id="5db2-cfd1-e75b-a5f0" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
+        <entryLink name="Stratagem: Plaguechosen" id="5db2-cfd1-e75b-a5f0" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
         <entryLink name="Stratagem: Relic" id="2c19-13e1-dfe4-345c" collective="false" hidden="false" import="true" targetId="c470-54ac-0863-8848" type="selectionEntry"/>
         <entryLink name="Stratagem: Warlord Trait" id="9c11-3877-e1f7-30d8" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
         <entryLink name="Stratagem: Gifts of Decay" id="eae9-f8cd-969b-9fd8" collective="false" hidden="false" import="true" targetId="7906-7754-69cd-1c2c" type="selectionEntry"/>
@@ -10047,12 +10044,12 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Foul Blightspawn" id="21ec-740e-ec22-cf7c" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="beb9-1c69-b47a-e002" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="ead9-9614-7162-f24d" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="262a-075f-4672-f445" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="53a2-665c-2ed3-69f5" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="08f0-2af4-3692-2327" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="1e26-6a91-7faa-fde1" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="beb9-1c69-b47a-e002" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Character" id="ead9-9614-7162-f24d" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Death Guard" id="262a-075f-4672-f445" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Heretic Astartes" id="53a2-665c-2ed3-69f5" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Infantry" id="08f0-2af4-3692-2327" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Nurgle" id="1e26-6a91-7faa-fde1" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
         <categoryLink name="Bubonic Astartes" id="4103-ece5-8588-0894" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Elite Character" id="053a-08d2-5236-c171" hidden="false" primary="false" targetId="62d3-9871-9675-a63b"/>
       </categoryLinks>
@@ -10077,7 +10074,7 @@ plague companies in the same Detachment, without preventing other units in that 
         <entryLink name="Relics of Decay" id="006d-a77c-ac7a-b93d" collective="false" hidden="false" import="true" targetId="0435-2d8f-2e4e-28c3" type="selectionEntryGroup"/>
         <entryLink name="Warlord" id="b37f-0654-7ae0-98b6" collective="false" hidden="false" import="true" targetId="a840-f0b3-abac-6d1c" type="selectionEntry"/>
         <entryLink name="Warlord Traits" id="a141-3b64-5320-6a66" collective="false" hidden="false" import="true" targetId="d59b-974a-122c-6f79" type="selectionEntryGroup"/>
-        <entryLink name="Plaguechosen" id="a08a-ab32-03c4-6b1c" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
+        <entryLink name="Stratagem: Plaguechosen" id="a08a-ab32-03c4-6b1c" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
         <entryLink name="Deadly Pathogens" id="c54b-2de4-24a7-01a3" collective="false" hidden="false" import="true" targetId="9550-e166-97c9-770f" type="selectionEntryGroup"/>
         <entryLink name="Stratagem: Relic" id="0ebc-4d55-d4df-4f13" collective="false" hidden="false" import="true" targetId="c470-54ac-0863-8848" type="selectionEntry"/>
         <entryLink name="Stratagem: Warlord Trait" id="1a72-7bad-1eac-54e6" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
@@ -10361,16 +10358,16 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Necrosius the Undying [LEGENDS]" id="8e02-debd-f5af-3d20" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="13c4-38ca-ea95-9d2b" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
-        <categoryLink name="New CategoryLink" id="2183-8b3a-2a87-3bef" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
-        <categoryLink name="New CategoryLink" id="5be8-2719-2e93-59ae" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="d139-7324-06ca-6d0a" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="1fd2-aa28-e94e-3fe5" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="89fe-ea9c-7e4e-62a1" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="885d-343a-cdff-e348" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="757c-c3c0-5789-3d17" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
-        <categoryLink name="New CategoryLink" id="9af2-509d-562a-0d5c" hidden="false" primary="false" targetId="fa81-3af3-dfd0-208b"/>
-        <categoryLink name="New CategoryLink" id="5b57-0fd8-0d80-90e7" hidden="false" primary="false" targetId="ca3a-6923-9579-044f"/>
+        <categoryLink name="HQ" id="13c4-38ca-ea95-9d2b" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="Faction: Chaos" id="2183-8b3a-2a87-3bef" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Character" id="5be8-2719-2e93-59ae" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Nurgle" id="d139-7324-06ca-6d0a" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Heretic Astartes" id="1fd2-aa28-e94e-3fe5" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Faction: Death Guard" id="89fe-ea9c-7e4e-62a1" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Infantry" id="885d-343a-cdff-e348" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Psyker" id="757c-c3c0-5789-3d17" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
+        <categoryLink name="Sorcerer" id="9af2-509d-562a-0d5c" hidden="false" primary="false" targetId="fa81-3af3-dfd0-208b"/>
+        <categoryLink name="Necrosius the Undying" id="5b57-0fd8-0d80-90e7" hidden="false" primary="false" targetId="ca3a-6923-9579-044f"/>
       </categoryLinks>
       <constraints>
         <constraint id="a9b1-1edb-1eec-a910" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -10524,7 +10521,7 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Warlord" id="a840-f0b3-abac-6d1c" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="72c0-4022-60dc-6d4e" hidden="false" primary="false" targetId="ae09-117e-a6fa-316b"/>
+        <categoryLink name="Warlord" id="72c0-4022-60dc-6d4e" hidden="false" primary="false" targetId="ae09-117e-a6fa-316b"/>
       </categoryLinks>
       <constraints>
         <constraint id="e6f9-a622-60d4-3989" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -10537,7 +10534,7 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Stratagem: Gifts of Decay" id="7906-7754-69cd-1c2c" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="81a4-8180-4ba2-fa9d" hidden="false" primary="true" targetId="c845-c72c-6afe-3fc2"/>
+        <categoryLink name="Stratagems" id="81a4-8180-4ba2-fa9d" hidden="false" primary="true" targetId="c845-c72c-6afe-3fc2"/>
       </categoryLinks>
       <constraints>
         <constraint id="e574-f1a8-8ab0-d5a0" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -10583,14 +10580,14 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Death Guard Chaos Lord" id="7206-6d46-665e-9012" collective="false" hidden="false" import="true" page="0" publicationId="ce57-cc1c-pubN108736" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="2387-295b-d1e2-55fd" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
-        <categoryLink name="New CategoryLink" id="beb7-0bac-2891-afd7" hidden="false" primary="false" targetId="eb55-bd6b-3e75-d505"/>
-        <categoryLink name="New CategoryLink" id="cab4-bdab-1147-506e" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="df67-3b76-42ba-11c1" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="7f57-d64b-f62c-3413" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="6b04-8f52-153b-51b6" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="5d31-eb0c-edb7-3ad3" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="dae3-de72-ab10-26bf" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="HQ" id="2387-295b-d1e2-55fd" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="Chaos Lord" id="beb7-0bac-2891-afd7" hidden="false" primary="false" targetId="eb55-bd6b-3e75-d505"/>
+        <categoryLink name="Character" id="cab4-bdab-1147-506e" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Heretic Astartes" id="df67-3b76-42ba-11c1" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Infantry" id="7f57-d64b-f62c-3413" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Death Guard" id="6b04-8f52-153b-51b6" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Nurgle" id="5d31-eb0c-edb7-3ad3" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="dae3-de72-ab10-26bf" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
         <categoryLink name="Bubonic Astartes" id="0a64-8645-b1e9-cf9d" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Lord of the Death Guard" id="9a24-c6de-577f-9a0a" hidden="false" primary="false" targetId="7f7e-77a5-418a-3e27"/>
       </categoryLinks>
@@ -10614,7 +10611,7 @@ plague companies in the same Detachment, without preventing other units in that 
             <constraint id="ac02-3bd2-7835-2079" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Plaguechosen" id="9563-eea4-ea6b-2d5d" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
+        <entryLink name="Stratagem: Plaguechosen" id="9563-eea4-ea6b-2d5d" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
         <entryLink name="Deadly Pathogens" id="1371-0326-b813-9fb6" collective="false" hidden="false" import="true" targetId="9550-e166-97c9-770f" type="selectionEntryGroup">
           <modifiers>
             <modifier field="hidden" type="set" value="true">
@@ -10893,7 +10890,7 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Lord of Virulence" id="6ae5-6c25-62ed-a22a" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="f1ab-d2e6-838c-c27e" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="f1ab-d2e6-838c-c27e" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
         <categoryLink name="Faction: Chaos" id="430f-eaba-f356-87eb" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
         <categoryLink name="Faction: Nurgle" id="434b-4a63-614d-15bb" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
         <categoryLink name="Faction: Heretic Astartes" id="1987-2035-2246-7dd5" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
@@ -10914,7 +10911,7 @@ plague companies in the same Detachment, without preventing other units in that 
         <entryLink name="Warlord Traits" id="c143-f3bd-9259-0b29" collective="false" hidden="false" import="true" targetId="d59b-974a-122c-6f79" type="selectionEntryGroup"/>
         <entryLink name="Relics of Decay" id="66a0-fadf-3a0a-b2b8" collective="false" hidden="false" import="true" targetId="0435-2d8f-2e4e-28c3" type="selectionEntryGroup"/>
         <entryLink name="Warlord" id="0563-0548-318f-92b4" collective="false" hidden="false" import="true" targetId="a840-f0b3-abac-6d1c" type="selectionEntry"/>
-        <entryLink name="Plaguechosen" id="0c04-8c1b-1457-23c4" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
+        <entryLink name="Stratagem: Plaguechosen" id="0c04-8c1b-1457-23c4" collective="false" hidden="false" import="true" targetId="90c0-072b-69b2-1bcf" type="selectionEntry"/>
         <entryLink name="Deadly Pathogens" id="54ca-829d-2f7e-554f" collective="false" hidden="false" import="true" targetId="9550-e166-97c9-770f" type="selectionEntryGroup"/>
         <entryLink name="Blight grenades" id="c2d6-a957-e405-2c91" collective="false" hidden="false" import="true" targetId="922e-5c7d-e439-842b" type="selectionEntry"/>
         <entryLink name="Krak grenades" id="dce5-6ed5-9fb2-82da" collective="false" hidden="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
@@ -11117,12 +11114,12 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Chaos Predator Annihilator" id="cf44-8391-0ac2-74f3" collective="false" hidden="false" import="true" page="0" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="5583-8a54-b6bd-ca55" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
-        <categoryLink name="New CategoryLink" id="334e-c26c-e3c1-3c1c" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="d1a5-f27a-6c58-36c9" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
-        <categoryLink name="New CategoryLink" id="3017-7d55-0263-5ee5" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
-        <categoryLink name="New CategoryLink" id="b949-cf53-d9ee-ead6" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
-        <categoryLink name="New CategoryLink" id="cb9b-5f00-4ae8-d9d9" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
+        <categoryLink name="Heavy Support" id="5583-8a54-b6bd-ca55" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Vehicle" id="334e-c26c-e3c1-3c1c" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: Heretic Astartes" id="d1a5-f27a-6c58-36c9" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>
+        <categoryLink name="Faction: Death Guard" id="3017-7d55-0263-5ee5" hidden="false" primary="false" targetId="8308-6393-0ce1-4bf9"/>
+        <categoryLink name="Faction: Nurgle" id="b949-cf53-d9ee-ead6" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
+        <categoryLink name="Faction: Chaos" id="cb9b-5f00-4ae8-d9d9" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
         <categoryLink name="Bubonic Astartes" id="1b21-5be9-aa7c-5801" hidden="false" primary="false" targetId="3b65-6758-7de1-7351"/>
         <categoryLink name="Smokescreen" id="03dc-057f-1eb0-1442" hidden="false" primary="false" targetId="23b1-90ca-1e8a-d29f"/>
         <categoryLink name="Chaos Predator Annihilator" id="6e29-29fa-22c2-1137" hidden="false" primary="false" targetId="b146-12cc-0a5b-7414"/>
@@ -11281,7 +11278,7 @@ plague companies in the same Detachment, without preventing other units in that 
     </selectionEntry>
     <selectionEntry name="Miasmic Malignifier" id="d0be-4b8e-48e3-c98d" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c6f3-328a-83ac-784d" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Fortification" id="c6f3-328a-83ac-784d" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
         <categoryLink name="Faction: Chaos" id="a712-8f53-8ad6-ce7e" hidden="false" primary="false" targetId="5cf1-acf2-ca3b-c2e5"/>
         <categoryLink name="Faction: Nurgle" id="bb5d-31e6-1cd7-5c0e" hidden="false" primary="false" targetId="0fb6-fcaf-b180-5dda"/>
         <categoryLink name="Faction: Heretic Astartes" id="89f3-a1f3-c712-efa3" hidden="false" primary="false" targetId="ca10-a5dd-f54f-0ed5"/>

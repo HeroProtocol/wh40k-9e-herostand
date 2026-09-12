@@ -12,9 +12,9 @@
     <categoryEntry name="Valkyrie Sky Talon" id="01ec-a4d8-158e-a568" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink name="Elysian Drop Sentinels [Legends]" id="2e51-467c-c8f5-76d3" collective="false" hidden="false" import="true" targetId="c8ab-2564-efd1-9dc4" type="selectionEntry">
+    <entryLink name="Drop Sentinels [Legends]" id="2e51-467c-c8f5-76d3" collective="false" hidden="false" import="true" targetId="c8ab-2564-efd1-9dc4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="1cc6-e70f-52a4-80a7" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="1cc6-e70f-52a4-80a7" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -41,7 +41,7 @@
     </entryLink>
     <entryLink name="Elysian Sniper Squad [Legends]" id="2780-9a30-5b4c-424f" collective="false" hidden="false" import="true" targetId="6917-c69e-d9c7-0106" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="8551-152f-6e3f-636b" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="8551-152f-6e3f-636b" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -63,7 +63,7 @@
     </entryLink>
     <entryLink name="Valkyrie Sky Talon [Legends]" id="2558-9522-f29c-2dce" collective="false" hidden="false" import="true" targetId="787c-9abf-77a1-abb2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="6a80-3c1a-c1ff-bf00" hidden="false" primary="true" targetId="e888-1504-aa61-95ff"/>
+        <categoryLink name="Flyer" id="6a80-3c1a-c1ff-bf00" hidden="false" primary="true" targetId="e888-1504-aa61-95ff"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -250,7 +250,7 @@
     <selectionEntry name="Elysian Drop Sentinels [Legends]" id="c8ab-2564-efd1-9dc4" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Imperium" id="10cb-9b86-b9a1-8484" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
-        <categoryLink name="Astra Militarum" id="dcac-b434-fc3c-b5ea" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Faction: Astra Militarum" id="dcac-b434-fc3c-b5ea" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
         <categoryLink name="Faction: Elysian Drop Troops" id="b1ae-19c9-bf6a-ad6b" hidden="false" primary="false" targetId="0dae-9d66-decb-c59c"/>
         <categoryLink name="Vehicle" id="cca9-6bb6-195a-ee88" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Elysian Drop Sentinels" id="1004-f9be-4b40-a14a" hidden="false" primary="false" targetId="8513-d267-3968-f2bf"/>
@@ -287,7 +287,7 @@
                 <cost name="pts" typeId="points" value="5"/>
               </costs>
             </entryLink>
-            <entryLink name="Unit has battle honors?" id="9611-ac7f-54b3-f7e1" collective="false" hidden="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+            <entryLink name="Has Battle Honours (Chapter Approved 2018)" id="9611-ac7f-54b3-f7e1" collective="false" hidden="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Aerial Drop" id="5ecc-65c2-fd13-de6b" hidden="false" targetId="b2ac-24d0-fec8-1d3c" type="profile"/>
@@ -341,7 +341,7 @@
     <selectionEntry name="Elysian Sniper Squad [Legends]" id="6917-c69e-d9c7-0106" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Imperium" id="3ecf-9134-b185-d0b4" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
-        <categoryLink name="Astra Militarum" id="2f3a-565b-2535-ded5" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Faction: Astra Militarum" id="2f3a-565b-2535-ded5" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
         <categoryLink name="Faction: Elysian Drop Troops" id="5af1-4758-0dab-85ee" hidden="false" primary="false" targetId="0dae-9d66-decb-c59c"/>
         <categoryLink name="Infantry" id="4a21-1a7c-3e1d-29f7" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Elysian Sniper Squad" id="42fa-9431-2184-7294" hidden="false" primary="false" targetId="75fa-e227-dbdb-1e22"/>
@@ -395,7 +395,7 @@
                 <modifier field="points" type="set" value="0"/>
               </modifiers>
             </entryLink>
-            <entryLink name="Lasgun" id="a798-0007-4c20-3cbe" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+            <entryLink name="Lasgun/Autogun" id="a798-0007-4c20-3cbe" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
               <constraints>
                 <constraint id="c7b1-568c-83c4-e2d3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="a0a8-cec5-3c8b-73ab" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>

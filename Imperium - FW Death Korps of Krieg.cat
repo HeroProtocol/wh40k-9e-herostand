@@ -18,7 +18,7 @@
   <entryLinks>
     <entryLink name="Combat Engineer Squad" id="c755-a449-37ca-0ea1" collective="false" hidden="false" import="true" targetId="b2a7-0d09-b24c-ef65" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e40a-15bf-ec20-09b1" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="e40a-15bf-ec20-09b1" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -35,7 +35,7 @@
     </entryLink>
     <entryLink name="Death Rider Command Squadron" id="53fb-8c8b-3832-db40" collective="false" hidden="false" import="true" targetId="004d-cec4-23b9-8c2a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="f776-2a66-c413-7afb" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="f776-2a66-c413-7afb" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -57,7 +57,7 @@
     </entryLink>
     <entryLink name="Death Rider Commissar [Legends]" id="a8db-d58a-b10a-bc87" collective="false" hidden="false" import="true" targetId="caf8-b980-9d26-7243" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="2304-a621-82bc-2cb9" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="2304-a621-82bc-2cb9" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -106,7 +106,7 @@
     </entryLink>
     <entryLink name="Death Rider Squadron Commander" id="0d85-4d37-3cd1-808c" collective="false" hidden="false" import="true" targetId="b26e-d656-a0a0-c56c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="83c8-79f7-e3fd-3507" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="83c8-79f7-e3fd-3507" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -128,7 +128,7 @@
     </entryLink>
     <entryLink name="Death Korps Grenadier Squad [Legends]" id="3a9c-fd3a-ff80-7407" collective="false" hidden="false" import="true" targetId="2c04-dd00-7363-64e9" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="18a7-3402-e774-de85" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+        <categoryLink name="Troops" id="18a7-3402-e774-de85" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -162,7 +162,7 @@
     </entryLink>
     <entryLink name="Death Korps Marshal Karis Venner [Legends]" id="85f1-a2bd-db15-0486" collective="false" hidden="false" import="true" targetId="1966-f517-9180-6b07" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="78d0-af6e-0a4e-ed7c" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="78d0-af6e-0a4e-ed7c" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -184,7 +184,7 @@
     </entryLink>
     <entryLink name="Quartermaster Cadre Squad [Legends]" id="2d86-b853-f15a-9be6" collective="false" hidden="false" import="true" targetId="58d4-0e29-dc73-70cc" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="2586-e5e7-f00c-f522" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="2586-e5e7-f00c-f522" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -206,7 +206,7 @@
     </entryLink>
     <entryLink name="Storm Chimera [Legends]" id="0d1a-2c4f-7682-8889" collective="false" hidden="false" import="true" targetId="75e9-83e5-eb59-41ff" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="eb6f-29ad-98ac-7ddc" hidden="false" primary="true" targetId="1b66-3f5f-6705-079a"/>
+        <categoryLink name="Dedicated Transport" id="eb6f-29ad-98ac-7ddc" hidden="false" primary="true" targetId="1b66-3f5f-6705-079a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -228,7 +228,7 @@
     </entryLink>
     <entryLink name="Death Rider Command Squadron" id="1786-78e8-bd3a-092a" collective="false" hidden="false" import="true" targetId="004d-cec4-23b9-8c2a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="95d2-d6bf-4467-78b6" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="No Force Org Slot" id="95d2-d6bf-4467-78b6" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
       </categoryLinks>
       <constraints>
         <constraint id="1eec-05ce-b083-9077" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -798,10 +798,10 @@
   <sharedSelectionEntries>
     <selectionEntry name="Death Korps Marshal Karis Venner [Legends]" id="1966-f517-9180-6b07" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="588c-1aa6-871b-44cc" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="e437-7851-3b50-3aa8" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
-        <categoryLink name="New CategoryLink" id="18d3-2b83-e0f9-5a0a" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="Astra Militarum" id="cfde-3da2-3da8-5a15" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Character" id="588c-1aa6-871b-44cc" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Imperium" id="e437-7851-3b50-3aa8" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
+        <categoryLink name="Infantry" id="18d3-2b83-e0f9-5a0a" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Astra Militarum" id="cfde-3da2-3da8-5a15" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
         <categoryLink name="Officer" id="a122-adb9-d206-51a4" hidden="false" primary="false" targetId="dd6e-7055-ca6b-b711"/>
         <categoryLink name="Death Korps Marshal Karis Venner" id="808a-f8de-e824-a7b0" hidden="false" primary="false" targetId="8a48-22fc-3bf4-43d4"/>
       </categoryLinks>
@@ -846,7 +846,7 @@
       <infoLinks>
         <infoLink name="Refractor Field" id="1bc5-8ec8-77cb-27fd" hidden="false" targetId="783d-d067-2d7f-d2a1" type="profile"/>
         <infoLink name="Implacable Officer (Aura)" id="d6a1-80cb-27c0-1ab7" hidden="false" targetId="f884-552c-9917-3f45" type="profile"/>
-        <infoLink name="Senior Officer" id="078a-3fe5-ab65-f9bc" hidden="false" targetId="f34c8090-4e32-bd27-df37-1b714a4288d2" type="profile"/>
+        <infoLink name="Senior Officer (Aura)" id="078a-3fe5-ab65-f9bc" hidden="false" targetId="f34c8090-4e32-bd27-df37-1b714a4288d2" type="profile"/>
         <infoLink name="Voice of Command" id="bbcc-dd7a-2432-f387" hidden="false" targetId="2ff26b94-8048-d15d-c541-fd4da0f49571" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -879,10 +879,10 @@
     </selectionEntry>
     <selectionEntry name="Death Korps Marshal" id="2c37-ae86-8a9f-24cc" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="5493-9ff5-c8e4-cb4d" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="304a-f335-0754-c260" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
-        <categoryLink name="New CategoryLink" id="56c0-7df7-b2fe-4ba7" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="Astra Militarum" id="62fd-ef67-df10-04dc" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Character" id="5493-9ff5-c8e4-cb4d" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Imperium" id="304a-f335-0754-c260" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
+        <categoryLink name="Infantry" id="56c0-7df7-b2fe-4ba7" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Astra Militarum" id="62fd-ef67-df10-04dc" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
         <categoryLink name="Officer" id="d8ae-7933-faa4-9e85" hidden="false" primary="false" targetId="dd6e-7055-ca6b-b711"/>
         <categoryLink name="Death Korps Marshal" id="f7fd-d8a7-e50a-82ee" hidden="false" primary="false" targetId="556d-7939-05db-34f1"/>
         <categoryLink name="Regimental" id="a5bc-5435-bb5b-2f4a" hidden="false" primary="false" targetId="4520-cc21-fc02-4a7e"/>
@@ -1066,54 +1066,32 @@
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Pistol" id="63cd-c483-f148-59bd" collective="false" defaultSelectionEntryId="3522-274a-51c3-e1d2" hidden="false" import="true">
+        <selectionEntryGroup name="Pistol Option" id="63cd-c483-f148-59bd" collective="false" defaultSelectionEntryId="3522-274a-51c3-e1d2" hidden="false" import="true">
           <constraints>
             <constraint id="4960-4fac-9710-9137" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="1948-86a9-d7a3-e2a9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Laspistol" id="3522-274a-51c3-e1d2" collective="false" hidden="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
-              <constraints>
-                <constraint id="8f87-d06c-f653-a494" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Bolt pistol" id="75cd-243a-c7a2-997f" collective="false" hidden="false" import="true" targetId="0334-f487-8229-0c1a" type="selectionEntry">
-              <constraints>
-                <constraint id="3b3d-af29-d591-35b6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-            </entryLink>
-            <entryLink name="Plasma pistol" id="af96-8bd8-5d59-8a24" collective="false" hidden="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry">
-              <constraints>
-                <constraint id="f963-287d-e60a-6a03" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="5"/>
-              </costs>
-            </entryLink>
+            <entryLink name="Astra Militarum Pistol Weapons" id="997d-52c4-9a50-1a8f" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Power Sword" id="949b-6a51-4dce-ee74" collective="false" defaultSelectionEntryId="e613-b28b-2e0c-7877" hidden="false" import="true">
+        <selectionEntryGroup name="Melee Option" id="949b-6a51-4dce-ee74" collective="false" defaultSelectionEntryId="e613-b28b-2e0c-7877" hidden="false" import="true">
           <constraints>
             <constraint id="ea5d-1cfd-c2d7-f89c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="54c0-3675-5581-2b93" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Power sword" id="e613-b28b-2e0c-7877" collective="false" hidden="false" import="true" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
-              <modifiers>
-                <modifier field="points" type="set" value="0"/>
-              </modifiers>
-            </entryLink>
-            <entryLink name="Chainsword" id="f4cf-7310-85c0-1b2e" collective="false" hidden="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry"/>
+            <entryLink name="Astra Militarum Melee Weapons" id="58b6-1271-a54e-5928" hidden="false" import="true" targetId="7622-e68e-c5e5-c8e7" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry name="Death Rider Squadron Commander" id="b26e-d656-a0a0-c56c" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="d060-4005-9473-2c64" hidden="false" primary="false" targetId="ad01-caec-17d9-cb8d"/>
-        <categoryLink name="New CategoryLink" id="6893-5dd8-7b3b-1cdb" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="8bef-7d79-a05d-f9a3" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
-        <categoryLink name="Astra Militarum" id="decf-6bab-93d9-9b95" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Cavalry" id="d060-4005-9473-2c64" hidden="false" primary="false" targetId="ad01-caec-17d9-cb8d"/>
+        <categoryLink name="Character" id="6893-5dd8-7b3b-1cdb" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Imperium" id="8bef-7d79-a05d-f9a3" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
+        <categoryLink name="Faction: Astra Militarum" id="decf-6bab-93d9-9b95" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
         <categoryLink name="Death Rider" id="9dd1-71a9-fef8-8730" hidden="false" primary="false" targetId="4452-8061-e855-ed27"/>
         <categoryLink name="Squadron Commander" id="f84c-23ca-0ef6-b2c5" hidden="false" primary="false" targetId="4172-aa1f-4adc-44d5"/>
         <categoryLink name="Officer" id="1794-7b02-abdf-876e" hidden="false" primary="false" targetId="dd6e-7055-ca6b-b711"/>
@@ -1143,7 +1121,7 @@
             <constraint id="dc64-8b24-6327-3390" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Heirlooms of Conquest" id="e227-a053-df3c-5ebf" collective="false" hidden="false" import="true" targetId="8ed7-7588-0f06-9b0d" type="selectionEntryGroup"/>
+        <entryLink name="Relics" id="e227-a053-df3c-5ebf" collective="false" hidden="false" import="true" targetId="8ed7-7588-0f06-9b0d" type="selectionEntryGroup"/>
         <entryLink name="Death Rider Hunting Lance" id="24d4-e54e-3d92-8487" collective="false" hidden="false" import="true" targetId="714b-e8bb-a5ef-6810" type="selectionEntry">
           <constraints>
             <constraint id="d62b-ed64-281f-5be3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -1323,11 +1301,11 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Death Korps Grenadier Squad [Legends]" id="2c04-dd00-7363-64e9" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Death Korps Grenadier Squad [Legends]" id="2c04-dd00-7363-64e9" collective="false" hidden="true" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="ce93-b1b3-a747-da04" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="a3f4-0474-3353-bd89" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
-        <categoryLink name="Astra Militarum" id="011d-f928-8cba-3ed9" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Infantry" id="ce93-b1b3-a747-da04" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Imperium" id="a3f4-0474-3353-bd89" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
+        <categoryLink name="Faction: Astra Militarum" id="011d-f928-8cba-3ed9" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
         <categoryLink name="Death Korps Grenadier Squad" id="353e-5bd8-1ab6-3ed6" hidden="false" primary="false" targetId="ee7d-2e9e-df72-d0db"/>
       </categoryLinks>
       <costs>
@@ -1376,7 +1354,7 @@
                     <constraint id="3c9d-57f6-aa47-e337" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Astra Militarum Ranged Weapons" id="465b-35e9-8bcc-c5a7" collective="false" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
+                <entryLink name="Astra Militarum Pistol Weapons" id="465b-35e9-8bcc-c5a7" collective="false" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Melee Weapons" id="11e5-190d-db18-0ea3" collective="false" defaultSelectionEntryId="f530-1b25-4485-f140" hidden="false" import="true">
@@ -1425,7 +1403,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Hot-shot Lasgun" id="7a6c-2d04-8206-a9cc" collective="false" hidden="false" import="true" targetId="ce42-82cb-28b6-dab5" type="selectionEntry">
+                <entryLink name="Hot-shot Lasgun/Autogun" id="7a6c-2d04-8206-a9cc" collective="false" hidden="false" import="true" targetId="ce42-82cb-28b6-dab5" type="selectionEntry">
                   <constraints>
                     <constraint id="5c9b-e793-2fa4-d022" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="d9b1-df19-4b6d-e158" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -1491,7 +1469,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Vox-caster" id="d5e5-3ab9-089d-9aa3" collective="false" hidden="false" import="true" targetId="9ce2-5815-93dd-2918" type="selectionEntry">
+                <entryLink name="Master Vox" id="d5e5-3ab9-089d-9aa3" collective="false" hidden="false" import="true" targetId="9ce2-5815-93dd-2918" type="selectionEntry">
                   <constraints>
                     <constraint id="0dc4-00ae-4fbb-2626" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="9670-a8f8-b964-3627" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -1562,10 +1540,10 @@
     </selectionEntry>
     <selectionEntry name="Storm Chimera [Legends]" id="75e9-83e5-eb59-41ff" collective="false" hidden="false" import="true" publicationId="b652-8bab-1453-da20" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c417-05d9-c135-a796" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
-        <categoryLink name="New CategoryLink" id="11ca-f452-d676-ec9f" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="d923-5c19-6b14-ea45" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
-        <categoryLink name="Astra Militarum" id="f552-5f99-cf68-232b" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Faction: Imperium" id="c417-05d9-c135-a796" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
+        <categoryLink name="Vehicle" id="11ca-f452-d676-ec9f" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Transport" id="d923-5c19-6b14-ea45" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
+        <categoryLink name="Faction: Astra Militarum" id="f552-5f99-cf68-232b" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
         <categoryLink name="Storm Chimera" id="cfab-23aa-0a6f-6a34" hidden="false" primary="false" targetId="cace-70cc-a64e-480c"/>
       </categoryLinks>
       <costs>
@@ -1698,8 +1676,8 @@
     </selectionEntry>
     <selectionEntry name="Combat Engineer Squad" id="b2a7-0d09-b24c-ef65" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="1719-c570-9388-a213" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="Astra Militarum" id="6083-56ba-c5b1-a164" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Infantry" id="1719-c570-9388-a213" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Astra Militarum" id="6083-56ba-c5b1-a164" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
         <categoryLink name="Combat Engineer Squad" id="0844-419a-1d92-cec8" hidden="false" primary="false" targetId="ce2a-6807-2b00-eff3"/>
         <categoryLink name="Regimental" id="ee90-1c4e-c2ed-2c2c" hidden="false" primary="false" targetId="4520-cc21-fc02-4a7e"/>
         <categoryLink name="Platoon" id="2213-09e2-b2a2-3155" hidden="false" primary="false" targetId="3957-e376-ba3a-83b9"/>
@@ -1919,7 +1897,7 @@
                     <constraint id="cf41-ce60-43cc-e69e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Acid Gas Bomb" id="2d8c-5ae7-e292-8303" collective="false" hidden="false" import="true" targetId="ff12-4f22-79fe-13c7" type="selectionEntry"/>
+                <entryLink name="Gas bombs" id="2d8c-5ae7-e292-8303" collective="false" hidden="false" import="true" targetId="ff12-4f22-79fe-13c7" type="selectionEntry"/>
                 <entryLink name="Frag &amp; Krak grenades" id="dfb1-5fdc-23e0-7081" collective="false" hidden="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
                     <constraint id="19e7-ae86-3b0a-dba6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -1928,7 +1906,7 @@
                 </entryLink>
               </entryLinks>
               <infoLinks>
-                <infoLink name="Death Korps Engineer" id="f7d6-e1a1-fe6c-ccf3" hidden="false" targetId="549d-0922-9d7f-5283" type="profile"/>
+                <infoLink name="Engineer" id="f7d6-e1a1-fe6c-ccf3" hidden="false" targetId="549d-0922-9d7f-5283" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Engineer Weapons Team" id="c441-c802-8998-5cb2" collective="false" hidden="false" import="true" type="model">
@@ -1941,7 +1919,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Acid Gas Bomb" id="56b1-38a2-769e-2a7c" collective="false" hidden="false" import="true" targetId="ff12-4f22-79fe-13c7" type="selectionEntry"/>
+                <entryLink name="Gas bombs" id="56b1-38a2-769e-2a7c" collective="false" hidden="false" import="true" targetId="ff12-4f22-79fe-13c7" type="selectionEntry"/>
                 <entryLink name="Frag &amp; Krak grenades" id="9209-e5e5-aecc-b06f" collective="false" hidden="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
                   <constraints>
                     <constraint id="7300-7893-0c8f-72e7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -1968,8 +1946,8 @@
     </selectionEntry>
     <selectionEntry name="Quartermaster Cadre Squad [Legends]" id="58d4-0e29-dc73-70cc" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="0cf4-4be8-ad7b-8fc7" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
-        <categoryLink name="Astra Militarum" id="1881-f74b-5673-ee96" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Faction: Imperium" id="0cf4-4be8-ad7b-8fc7" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
+        <categoryLink name="Faction: Astra Militarum" id="1881-f74b-5673-ee96" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
         <categoryLink name="Infantry" id="c2f2-5abd-e93a-e379" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Quartermaster Cadre" id="a21c-b7c8-22e3-c74a" hidden="false" primary="false" targetId="ef6b-a0e8-dbc9-c510"/>
       </categoryLinks>
@@ -1985,7 +1963,7 @@
             <constraint id="8933-935b-bdb8-9d8e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="4"/>
           </constraints>
         </entryLink>
-        <entryLink name="Unit has battle honors?" id="dbb3-ee01-45e9-dace" collective="false" hidden="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink name="Has Battle Honours (Chapter Approved 2018)" id="dbb3-ee01-45e9-dace" collective="false" hidden="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
         <entryLink name="Battle Honours (Crusade - BRB)" id="e6cb-f654-f1e0-231a" collective="false" hidden="false" import="true" targetId="3219-c04d-a4d0-69ef" type="selectionEntryGroup"/>
       </entryLinks>
       <modifiers>
@@ -2066,7 +2044,7 @@
                     <cost name="pts" typeId="points" value="20"/>
                   </costs>
                 </entryLink>
-                <entryLink name="Astra Militarum Ranged Weapons" id="ea1b-0094-11fc-ebf6" collective="false" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
+                <entryLink name="Astra Militarum Pistol Weapons" id="ea1b-0094-11fc-ebf6" collective="false" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
                 <entryLink name="Plasma gun" id="85bf-5422-318a-f860" collective="false" hidden="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry">
                   <constraints>
                     <constraint id="0904-680e-74ae-3581" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -2083,9 +2061,9 @@
     </selectionEntry>
     <selectionEntry name="Death Rider Command Squadron" id="004d-cec4-23b9-8c2a" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c70d-66d5-6ced-c4bd" hidden="false" primary="false" targetId="ad01-caec-17d9-cb8d"/>
-        <categoryLink name="New CategoryLink" id="432a-0e7b-ca87-5a8f" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
-        <categoryLink name="Astra Militarum" id="b754-c901-ec94-c3fb" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Cavalry" id="c70d-66d5-6ced-c4bd" hidden="false" primary="false" targetId="ad01-caec-17d9-cb8d"/>
+        <categoryLink name="Faction: Imperium" id="432a-0e7b-ca87-5a8f" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
+        <categoryLink name="Faction: Astra Militarum" id="b754-c901-ec94-c3fb" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
         <categoryLink name="Command Squadron" id="550a-8acf-8545-96bb" hidden="false" primary="false" targetId="17c5-215d-db2b-e61e"/>
         <categoryLink name="Death Riders" id="8ed7-6ed1-b0f3-245a" hidden="false" primary="false" targetId="6498-54d5-3ba0-eedb"/>
         <categoryLink name="Regimental" id="bc33-4bd0-d419-5249" hidden="false" primary="false" targetId="4520-cc21-fc02-4a7e"/>
@@ -2246,7 +2224,7 @@
                 <constraint id="eb2d-9fd6-4d79-a9d6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Krieg Steed" id="d0dc-7934-821a-e0fa" collective="false" hidden="false" import="true" targetId="6d68-427b-eaa0-0b04" type="selectionEntry">
+            <entryLink name="Savage claws" id="d0dc-7934-821a-e0fa" collective="false" hidden="false" import="true" targetId="6d68-427b-eaa0-0b04" type="selectionEntry">
               <constraints>
                 <constraint id="536a-2bdf-38e0-45fb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="d104-0531-1ed2-4606" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -2261,9 +2239,9 @@
     </selectionEntry>
     <selectionEntry name="Death Rider Commissar [Legends]" id="caf8-b980-9d26-7243" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="77e2-f15f-efae-66af" hidden="false" primary="false" targetId="ad01-caec-17d9-cb8d"/>
-        <categoryLink name="New CategoryLink" id="1691-24db-6df0-e998" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="Astra Militarum" id="9043-cfe5-db7a-715d" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Cavalry" id="77e2-f15f-efae-66af" hidden="false" primary="false" targetId="ad01-caec-17d9-cb8d"/>
+        <categoryLink name="Character" id="1691-24db-6df0-e998" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Astra Militarum" id="9043-cfe5-db7a-715d" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
         <categoryLink name="Faction: Officio Prefectus" id="b415-1cd6-91cd-4cad" hidden="false" primary="false" targetId="5988-2982-1dde-215b"/>
         <categoryLink name="Faction: Imperium" id="80d6-1cc4-bb21-0b19" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
         <categoryLink name="Death Riders" id="55d0-31af-49c2-d077" hidden="false" primary="false" targetId="6498-54d5-3ba0-eedb"/>
@@ -2288,7 +2266,7 @@
             <constraint id="b5dd-2343-e9de-1b2b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Heirlooms of Conquest" id="d2f9-4425-d7e7-b236" collective="false" hidden="false" import="true" targetId="8ed7-7588-0f06-9b0d" type="selectionEntryGroup"/>
+        <entryLink name="Relics" id="d2f9-4425-d7e7-b236" collective="false" hidden="false" import="true" targetId="8ed7-7588-0f06-9b0d" type="selectionEntryGroup"/>
         <entryLink name="Character Stratagems" id="6871-3ac9-c7aa-32b1" collective="false" hidden="false" import="true" targetId="2527-4b0c-1e18-38b3" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -2464,10 +2442,10 @@
     </selectionEntry>
     <selectionEntry name="Death Rider Squadron" id="0a6f-9de8-cc51-3364" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="bd5b-8a05-3daf-a4a5" hidden="false" primary="false" targetId="ad01-caec-17d9-cb8d"/>
-        <categoryLink name="New CategoryLink" id="10fb-edee-8d61-d82a" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
+        <categoryLink name="Cavalry" id="bd5b-8a05-3daf-a4a5" hidden="false" primary="false" targetId="ad01-caec-17d9-cb8d"/>
+        <categoryLink name="Faction: Imperium" id="10fb-edee-8d61-d82a" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
         <categoryLink name="Death Riders" id="bec3-596a-d339-5dcb" hidden="false" primary="false" targetId="6498-54d5-3ba0-eedb"/>
-        <categoryLink name="Astra Militarum" id="5cfb-de03-f5f8-06c2" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Faction: Astra Militarum" id="5cfb-de03-f5f8-06c2" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
         <categoryLink name="Platoon" id="4d15-4006-570f-877d" hidden="false" primary="false" targetId="3957-e376-ba3a-83b9"/>
         <categoryLink name="Regimental" id="e5ee-7550-eac1-a5dd" hidden="false" primary="false" targetId="4520-cc21-fc02-4a7e"/>
       </categoryLinks>
@@ -2628,7 +2606,7 @@
                     <constraint id="4587-4b94-40a2-7246" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Death Korps Hunting Lance" id="e67a-dc9b-7466-5b48" collective="false" hidden="false" import="true" targetId="572e-bce9-d5dc-4bf8" type="selectionEntry">
+                <entryLink name="Death Rider Hunting Lance" id="e67a-dc9b-7466-5b48" collective="false" hidden="false" import="true" targetId="572e-bce9-d5dc-4bf8" type="selectionEntry">
                   <constraints>
                     <constraint id="1aba-f508-db7b-b5d9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="7731-ccf9-76b7-4756" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -2656,7 +2634,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Krieg Steed" id="00a1-ed67-f09c-cc85" collective="false" hidden="false" import="true" targetId="6d68-427b-eaa0-0b04" type="selectionEntry">
+                <entryLink name="Savage claws" id="00a1-ed67-f09c-cc85" collective="false" hidden="false" import="true" targetId="6d68-427b-eaa0-0b04" type="selectionEntry">
                   <constraints>
                     <constraint id="b5ba-7e22-a9c7-62d6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="87af-4a79-1a9f-b78e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -2726,7 +2704,7 @@
         <cost name="pts" typeId="points" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Death Korps hunting lance" id="3c26-cde8-c442-92bb" hidden="false" targetId="a26e-ee3b-8a60-52e7" type="profile"/>
+        <infoLink name="Death Rider Hunting Lance" id="3c26-cde8-c442-92bb" hidden="false" targetId="a26e-ee3b-8a60-52e7" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Death Rider Hunting Lance" id="714b-e8bb-a5ef-6810" collective="false" hidden="false" import="true" type="upgrade">

@@ -2585,7 +2585,7 @@
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Laspistol" id="f2b7-768f-a270-de64" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+    <profile name="Laspistol/Autopistol" id="f2b7-768f-a270-de64" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
@@ -5437,7 +5437,7 @@ Remaining Wounds | Aura Range
         <cost name="pts" typeId="points" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Heavy stubber" id="7ef1-ba4e-ac69-450a" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
+        <infoLink name="Heavy stubber/Heavy laser" id="7ef1-ba4e-ac69-450a" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Shotgun" id="2094-c9a6-a426-0970" collective="false" hidden="false" import="true" type="upgrade">
@@ -6397,7 +6397,7 @@ Remaining Wounds | Aura Range
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Hot-shot Lasgun" id="d2cc-c90f-d914-1d5d" hidden="false" targetId="f520-ae1d-d755-7ab9" type="profile"/>
+        <infoLink name="Hot-shot Lasgun/Special-Issue Autogun" id="d2cc-c90f-d914-1d5d" hidden="false" targetId="f520-ae1d-d755-7ab9" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Needle Pistol" id="3790-ebf1-ac1e-1624" collective="false" hidden="false" import="true" type="upgrade">
@@ -6461,7 +6461,7 @@ Remaining Wounds | Aura Range
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Lasgun" id="9bc7-673e-b74e-d6b3" hidden="false" targetId="d174-eb55-aaa6-d032" type="profile"/>
+        <infoLink name="Lasgun/Autogun" id="9bc7-673e-b74e-d6b3" hidden="false" targetId="d174-eb55-aaa6-d032" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Laspistol" id="c10b-e1a4-c913-ae15" collective="false" hidden="false" import="true" type="upgrade">

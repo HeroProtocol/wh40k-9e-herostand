@@ -51,262 +51,262 @@
   <entryLinks>
     <entryLink name="Gargoyles" id="41ae-9f3f-4de4-ad5b" collective="false" hidden="false" import="true" targetId="21fc-05c5-6fd6-2d0a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="6da8-f2cd-8724-a639" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+        <categoryLink name="Troops" id="6da8-f2cd-8724-a639" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Broodlord" id="7a59-25ca-cc43-c9c0" collective="false" hidden="false" import="true" targetId="7d3f-defb-b3ba-0c65" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="eab9-ecbc-61e0-b976" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="eab9-ecbc-61e0-b976" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Carnifexes" id="7889-f64b-d183-b3f4" collective="false" hidden="false" import="true" targetId="96c9-795a-8498-07e6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="989d-b4bd-3931-803a" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Heavy Support" id="989d-b4bd-3931-803a" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Exocrine" id="0c79-1e6d-3d27-3af2" collective="false" hidden="false" import="true" targetId="a886-3ba1-c505-1200" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="b86e-228f-71a2-a34b" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Heavy Support" id="b86e-228f-71a2-a34b" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Biovores" id="ba4a-0459-81d7-3d4c" collective="false" hidden="false" import="true" targetId="d957-0f84-bce5-1298" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="b6f8-6915-88f2-7563" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Heavy Support" id="b6f8-6915-88f2-7563" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Genestealers" id="d3b9-f331-3afc-777b" collective="false" hidden="false" import="true" targetId="593d-594c-e42d-02f5" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="2cb8-ba96-b7ad-947c" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="2cb8-ba96-b7ad-947c" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Haruspex" id="bac6-0947-3c3f-fb31" collective="false" hidden="false" import="true" targetId="a753-2d35-9437-02d3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="9e2e-0518-c348-3a81" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="9e2e-0518-c348-3a81" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Harpy" id="6cd2-f9e5-a9dc-ee83" collective="false" hidden="false" import="true" targetId="ee16-7977-eb9b-88e7" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="5e82-5890-d2e2-602c" hidden="false" primary="true" targetId="e888-1504-aa61-95ff"/>
+        <categoryLink name="Flyer" id="5e82-5890-d2e2-602c" hidden="false" primary="true" targetId="e888-1504-aa61-95ff"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Hive Crone" id="6ad8-b30c-17b3-24de" collective="false" hidden="false" import="true" targetId="7c4f-3eb2-a044-15a8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="a9cd-6103-f8d7-72a0" hidden="false" primary="true" targetId="e888-1504-aa61-95ff"/>
+        <categoryLink name="Flyer" id="a9cd-6103-f8d7-72a0" hidden="false" primary="true" targetId="e888-1504-aa61-95ff"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Hive Guard" id="9de1-4bf0-ebed-9728" collective="false" hidden="false" import="true" targetId="c941-0aa1-f972-429c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="7631-e494-e049-549f" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Heavy Support" id="7631-e494-e049-549f" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Hive Tyrant" id="5db5-e555-d047-b4bc" collective="false" hidden="false" import="true" targetId="add7-3535-a4cd-9ba5" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="676e-4b10-c07c-afcf" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="676e-4b10-c07c-afcf" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Hormagaunts" id="9aac-9844-80d2-5a24" collective="false" hidden="false" import="true" targetId="0843-c3c5-0340-2a53" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="fe16-06d2-5455-1a94" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+        <categoryLink name="Troops" id="fe16-06d2-5455-1a94" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Lictor" id="3b6c-4cbd-05b6-6761" collective="false" hidden="false" import="true" targetId="a5e2-a0a5-57f0-27b6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e3eb-6cbe-3ca8-fdf2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="e3eb-6cbe-3ca8-fdf2" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Mucolid Spores" id="1399-daca-8214-fb2f" collective="false" hidden="false" import="true" targetId="9773-03e8-68e5-8ea1" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="839d-001b-d63c-5698" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="839d-001b-d63c-5698" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Maleceptor" id="7965-0c0a-9605-535c" collective="false" hidden="false" import="true" targetId="9801-59fc-296b-6b85" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="7779-bf0b-a0c2-74ac" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="7779-bf0b-a0c2-74ac" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Mawloc" id="c00b-b397-7cc0-cee7" collective="false" hidden="false" import="true" targetId="92ec-64fb-e5a7-65c1" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="05fc-132a-ce54-cec2" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="05fc-132a-ce54-cec2" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Pyrovores" id="2caa-a988-a841-0892" collective="false" hidden="false" import="true" targetId="cb6d-b756-8436-074e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c299-c01d-2b45-f534" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="c299-c01d-2b45-f534" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Spore Mines" id="ca8e-eae3-00d7-67f7" collective="false" hidden="false" import="true" targetId="0a0b-c7ca-2804-4f90" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="9864-a682-937b-f91a" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="9864-a682-937b-f91a" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Raveners" id="a58a-0e9b-fcb7-309e" collective="false" hidden="false" import="true" targetId="eda6-2686-5153-3ac8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e530-5a95-2a32-5903" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="e530-5a95-2a32-5903" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Ripper Swarms" id="d787-2e6d-7228-27cb" collective="false" hidden="false" import="true" targetId="04a7-33a3-6396-b371" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c1d6-b460-4482-e228" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="c1d6-b460-4482-e228" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
         <categoryLink name="Non-Compulsory Fast Attack" id="14a1-7d3d-3291-de9f" hidden="false" primary="false" targetId="3783-191d-0db9-0704"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Sky-slasher Swarms" id="5385-87f8-aaa2-a63c" collective="false" hidden="false" import="true" targetId="d7ba-bc0a-efeb-36f3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="97c3-da86-dd46-c775" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="97c3-da86-dd46-c775" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Sporocyst" id="298c-6bd8-9d7d-fb46" collective="false" hidden="false" import="true" targetId="4fe0-a701-3f44-b703" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="801e-b7d4-92ed-13bd" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Fortification" id="801e-b7d4-92ed-13bd" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Termagants" id="d850-00d4-a2fd-cfb6" collective="false" hidden="false" import="true" targetId="2e2b-aedb-e20b-9c8b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="38dc-28ce-eeb4-fe86" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+        <categoryLink name="Troops" id="38dc-28ce-eeb4-fe86" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Tervigon" id="2f34-dcaf-2024-c917" collective="false" hidden="false" import="true" targetId="0507-f341-5267-7cc5" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="7f26-ddbd-cf80-f887" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="7f26-ddbd-cf80-f887" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Toxicrene" id="3ac1-aa02-8760-74fc" collective="false" hidden="false" import="true" targetId="cdd9-7d89-df58-3760" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="39e1-c207-1af1-edf4" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="39e1-c207-1af1-edf4" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Trygon" id="297a-7787-6c6b-3dee" collective="false" hidden="false" import="true" targetId="f628-1bb2-0620-3beb" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="13b6-ceed-bacd-25ba" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="13b6-ceed-bacd-25ba" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Trygon Prime" id="5870-35da-ab76-32dc" collective="false" hidden="false" import="true" targetId="1864-f6fc-3f51-0c34" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c8c1-7de8-5319-1402" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="c8c1-7de8-5319-1402" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Tyranid Shrikes" id="e653-a641-544a-52e0" collective="false" hidden="true" import="true" targetId="0435-abe8-4398-eff8" type="selectionEntry"/>
     <entryLink name="Tyranid Warriors" id="3e9a-45c3-8e47-aa04" collective="false" hidden="false" import="true" targetId="8ffc-a0f3-766e-8ae4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="d879-714d-20f2-b121" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+        <categoryLink name="Troops" id="d879-714d-20f2-b121" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Tyrannofex" id="01c1-2946-aa51-d10e" collective="false" hidden="false" import="true" targetId="f535-4e40-2b57-2bf7" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e1c9-9802-fb84-a93d" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Heavy Support" id="e1c9-9802-fb84-a93d" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Tyrannocyte" id="dd09-362b-8987-d307" collective="false" hidden="false" import="true" targetId="0daf-d491-1f32-1322" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e22c-9034-d754-bc05" hidden="false" primary="true" targetId="1b66-3f5f-6705-079a"/>
+        <categoryLink name="Dedicated Transport" id="e22c-9034-d754-bc05" hidden="false" primary="true" targetId="1b66-3f5f-6705-079a"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Tyrant Guard" id="85a8-887f-b830-5a35" collective="false" hidden="false" import="true" targetId="66df-c9ba-5ea8-e524" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="9ba9-28c3-bbfc-debd" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="9ba9-28c3-bbfc-debd" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Venomthropes" id="01b2-45b5-9669-0e27" collective="false" hidden="false" import="true" targetId="90b8-1695-18c9-1512" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="7e59-c39e-7977-7d70" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="7e59-c39e-7977-7d70" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Zoanthropes" id="090e-2089-1990-29d4" collective="false" hidden="false" import="true" targetId="c1b3-01e5-3175-3107" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e11c-72ad-7cf3-19b5" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="e11c-72ad-7cf3-19b5" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Tyranid Prime" id="0126-8728-f2d1-cfae" collective="false" hidden="false" import="true" targetId="d254-4969-7e67-32a9" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="a58f-6254-aa9a-b925" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="a58f-6254-aa9a-b925" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Deathleaper" id="edae-964e-79cf-2b23" collective="false" hidden="false" import="true" targetId="0e09-72a3-df36-ebd8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="a825-c45e-6e89-11d0" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="a825-c45e-6e89-11d0" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Old One Eye" id="b83c-b207-3554-1608" collective="false" hidden="false" import="true" targetId="d83b-acf3-2677-40e1" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="71e8-ff8f-295d-5c49" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="71e8-ff8f-295d-5c49" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="The Red Terror" id="727c-a757-0b3c-c35e" collective="false" hidden="false" import="true" targetId="6bad-120f-afa0-1745" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="9816-e403-f071-a4cf" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Elites" id="9816-e403-f071-a4cf" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="The Swarmlord" id="0cb8-4ea5-eae3-70d5" collective="false" hidden="false" import="true" targetId="5a85-738f-f138-2640" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="b663-ea4b-67ed-1a46" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="b663-ea4b-67ed-1a46" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="[Reference] Discipline: Hive Mind" id="25b8-444c-19e0-4f4d" collective="false" hidden="false" import="true" targetId="b2e2-50ef-bfed-5f84" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="4739-0f1d-bd18-3126" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="4739-0f1d-bd18-3126" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Meiotic Spores" id="7c79-3bee-090a-e576" collective="false" hidden="false" import="true" targetId="dec0-7f71-801a-6d37" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="df50-ada3-487f-d86c" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="df50-ada3-487f-d86c" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Stone-crusher Carnifex" id="45cf-05f7-7969-a52c" collective="false" hidden="false" import="true" targetId="5c6d-f382-b731-f5ca" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="1b2b-3346-d383-d72b" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Heavy Support" id="1b2b-3346-d383-d72b" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Malanthrope" id="de12-9bf9-c22b-4e97" collective="false" hidden="false" import="true" targetId="fb84-bb9f-5abe-be3f" type="selectionEntry"/>
     <entryLink name="Dimachaeron" id="c5f6-b2a2-b2da-1093" collective="false" hidden="false" import="true" targetId="31b7-cfad-2be9-9997" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c7ea-b24e-2554-eb65" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="c7ea-b24e-2554-eb65" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Barbed Hierodule" id="25c7-7db7-08e9-daba" collective="false" hidden="false" import="true" targetId="35c3-a8c2-fe10-325f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="be77-13e5-7224-f079" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Heavy Support" id="be77-13e5-7224-f079" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Harridan" id="b9bd-607d-05bd-2b98" collective="false" hidden="false" import="true" targetId="d1cb-8964-788a-7e66" type="selectionEntry"/>
     <entryLink name="Hierophant" id="bfb8-0156-28d4-764e" collective="false" hidden="false" import="true" targetId="8d05-bafd-ea07-c4af" type="selectionEntry"/>
     <entryLink name="Scythed Hierodule" id="aebb-4ffd-6f5f-83f3" collective="false" hidden="false" import="true" targetId="633b-45d1-420d-61ba" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="0a42-fad6-7808-09f5" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Heavy Support" id="0a42-fad6-7808-09f5" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Screamer-Killers" id="7e0d-7b58-8b37-b6eb" collective="false" hidden="false" import="true" targetId="797b-c7fe-679a-7117" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="6d7b-1073-46a4-c531" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Heavy Support" id="6d7b-1073-46a4-c531" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Neurothrope" id="eb51-1e71-bce8-ff4f" collective="false" hidden="false" import="true" targetId="cd9f-f30b-27c3-2869" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="620b-c6c2-e309-ba7f" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="620b-c6c2-e309-ba7f" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Hive Fleet" id="9e04-2019-313e-0259" collective="false" hidden="false" import="true" targetId="1e74-63b9-9478-0dc8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="fcd2-9956-207c-9614" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="fcd2-9956-207c-9614" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Thornbacks" id="da6d-33ae-040a-ca30" collective="false" hidden="false" import="true" targetId="6f2a-1546-df78-9521" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="b973-6c58-8a04-dc37" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Heavy Support" id="b973-6c58-8a04-dc37" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Rarefied Enhancements" id="f8d5-d671-bc0d-d14d" collective="false" hidden="false" import="true" targetId="6b0e-e4eb-91ab-6e4c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="220e-012b-759f-c848" hidden="false" primary="true" targetId="c845-c72c-6afe-3fc2"/>
+        <categoryLink name="Stratagems" id="220e-012b-759f-c848" hidden="false" primary="true" targetId="c845-c72c-6afe-3fc2"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="[Reference] Detachment Abilities" id="27d1-78fe-b763-9744" collective="false" hidden="false" import="true" targetId="dc31-a954-25ed-be9a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="6f11-577f-139a-5f8f" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="6f11-577f-139a-5f8f" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Army of Renown - Crusher Stampede" id="b96b-673e-2a91-60e8" collective="false" hidden="false" import="true" targetId="ed98-6a58-e87d-0c0d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="3c3c-9dd6-a4a6-2744" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="3c3c-9dd6-a4a6-2744" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
       <profiles>
         <profile name="Restrictions" id="526f-e200-0483-d5aa" hidden="false" page="99" publicationId="57c5-6839-bb2f-72da" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -343,12 +343,12 @@
     </entryLink>
     <entryLink name="Winged Hive Tyrant" id="14dd-83d3-99c9-b392" collective="false" hidden="false" import="true" targetId="d0f1-4f2b-4aa2-e6c6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="b898-af86-01cf-c712" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="b898-af86-01cf-c712" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Tyranid Prime" id="fb85-a1a3-6d35-1c70" collective="false" hidden="false" import="true" targetId="d254-4969-7e67-32a9" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="2ce3-7733-b1b5-e842" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="No Force Org Slot" id="2ce3-7733-b1b5-e842" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
       </categoryLinks>
       <constraints>
         <constraint id="02c4-e66c-527f-e702" field="selections" includeChildForces="true" includeChildSelections="false" percentValue="false" scope="ff36a6f3-19bf-4f48-8956-adacfd28fe74" shared="true" type="max" value="1"/>
@@ -363,7 +363,7 @@
     </entryLink>
     <entryLink name="Tyrant Guard" id="635f-95ba-2f2e-5b67" collective="false" hidden="false" import="true" targetId="66df-c9ba-5ea8-e524" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="7e4d-099f-de14-6a58" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="No Force Org Slot" id="7e4d-099f-de14-6a58" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
       </categoryLinks>
       <constraints>
         <constraint id="9033-cf1e-c1d8-8465" field="selections" includeChildForces="true" includeChildSelections="false" percentValue="false" scope="ff36a6f3-19bf-4f48-8956-adacfd28fe74" shared="true" type="max" value="0"/>
@@ -383,7 +383,7 @@
     </entryLink>
     <entryLink name="Zoanthropes" id="b4e6-fbc4-a62c-803f" collective="false" hidden="false" import="true" targetId="c1b3-01e5-3175-3107" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="9cc1-973c-e0df-dc0e" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="No Force Org Slot" id="9cc1-973c-e0df-dc0e" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
       </categoryLinks>
       <constraints>
         <constraint id="edc8-9e4c-616c-a8fe" field="selections" includeChildForces="true" includeChildSelections="false" percentValue="false" scope="ff36a6f3-19bf-4f48-8956-adacfd28fe74" shared="true" type="max" value="1"/>
@@ -398,7 +398,7 @@
     </entryLink>
     <entryLink name="Broodlord" id="0d9e-81a6-d65a-03ce" collective="false" hidden="false" import="true" targetId="7d3f-defb-b3ba-0c65" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="5eeb-a337-0e0d-a0e4" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="No Force Org Slot" id="5eeb-a337-0e0d-a0e4" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
       </categoryLinks>
       <constraints>
         <constraint id="d190-5c0a-3be2-5d13" field="selections" includeChildForces="true" includeChildSelections="false" percentValue="false" scope="ff36a6f3-19bf-4f48-8956-adacfd28fe74" shared="true" type="max" value="1"/>
@@ -413,17 +413,17 @@
     </entryLink>
     <entryLink name="Parasite of Mortrex" id="aa3d-b6dc-e1bb-7da6" collective="false" hidden="false" import="true" targetId="3b8f-04ff-6e3c-785a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="4eb1-ee90-051b-373b" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="4eb1-ee90-051b-373b" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="[Reference] Biomorphologies" id="4fcd-d874-0fbb-2491" collective="false" hidden="false" import="true" targetId="f766-1d4a-af8b-a0ca" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="5a12-afe8-24ee-07dd" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="5a12-afe8-24ee-07dd" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Hive Predator" id="580b-e658-62bb-5308" collective="false" hidden="false" import="true" targetId="beea-258a-e5df-c172" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="79e9-32e3-c355-579d" hidden="false" primary="true" targetId="c845-c72c-6afe-3fc2"/>
+        <categoryLink name="Stratagems" id="79e9-32e3-c355-579d" hidden="false" primary="true" targetId="c845-c72c-6afe-3fc2"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Relic" id="7400-30b9-84f1-47d0" collective="false" hidden="false" import="true" targetId="dcc6-3404-df36-1bcb" type="selectionEntry">
@@ -1710,9 +1710,9 @@ If, in the Fight phase, this unit is subject to any other rules that would reduc
     <selectionEntry name="Biovores" id="d957-0f84-bce5-1298" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="24b5-8483-17c2-3044" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="0e50-8d64-dcc4-1a53" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="5289-8d26-a19e-7b47" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="3c29-8b5f-160e-5b74" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Tyranids" id="0e50-8d64-dcc4-1a53" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="5289-8d26-a19e-7b47" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Infantry" id="3c29-8b5f-160e-5b74" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -1777,12 +1777,12 @@ Seed Spore Mines (Action): At the start of your Shooting phase, one BIOVORES uni
     <selectionEntry name="Broodlord" id="7d3f-defb-b3ba-0c65" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="498f-cff7-8483-88b2" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="3182-9196-8754-5e61" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="ca9a-faec-967e-f2e5" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="9aae-bb23-8507-6bdd" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="b292-78f4-13c3-4629" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="7026-7319-8b81-4048" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
-        <categoryLink name="New CategoryLink" id="9b17-7ccb-f2f5-5ba3" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
+        <categoryLink name="Faction: Tyranids" id="3182-9196-8754-5e61" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="ca9a-faec-967e-f2e5" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Character" id="9aae-bb23-8507-6bdd" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Infantry" id="b292-78f4-13c3-4629" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Psyker" id="7026-7319-8b81-4048" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
+        <categoryLink name="Synapse" id="9b17-7ccb-f2f5-5ba3" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="120"/>
@@ -1829,7 +1829,7 @@ Seed Spore Mines (Action): At the start of your Shooting phase, one BIOVORES uni
         <entryLink name="Stratagem: Warlord Trait" id="7c62-8c74-6cba-96f7" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Synapse" id="121a-3331-506d-ce2d" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
+        <infoLink name="Synapse (Aura)" id="121a-3331-506d-ce2d" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
         <infoLink name="Shadow in the Warp (Aura)" id="5e0e-02ed-67f8-7871" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile"/>
         <infoLink name="Vanguard Predator" id="d736-0079-8740-657f" hidden="false" targetId="bc40-384b-8bf8-f27e" type="profile">
           <modifiers>
@@ -1874,10 +1874,10 @@ Seed Spore Mines (Action): At the start of your Shooting phase, one BIOVORES uni
     <selectionEntry name="Carnifexes" id="96c9-795a-8498-07e6" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="4796-e54a-aa9e-8ea4" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="99f0-f235-de45-4ac9" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="a43a-27d8-ea2f-8f56" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="72c7-a9c5-9b60-8440" hidden="false" primary="false" targetId="d482-6830-b5c2-bb33"/>
-        <categoryLink name="New CategoryLink" id="9605-5089-7391-4cac" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Faction: Tyranids" id="99f0-f235-de45-4ac9" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="a43a-27d8-ea2f-8f56" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Carnifex" id="72c7-a9c5-9b60-8440" hidden="false" primary="false" targetId="d482-6830-b5c2-bb33"/>
+        <categoryLink name="Monster" id="9605-5089-7391-4cac" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
         <categoryLink name="Core" id="a859-5da4-68d2-d05e" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -2092,9 +2092,9 @@ Seed Spore Mines (Action): At the start of your Shooting phase, one BIOVORES uni
     <selectionEntry name="Exocrine" id="a886-3ba1-c505-1200" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="71d4-d599-bb21-c9dd" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="7f5d-9d62-4d01-baef" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="0316-aa04-569a-9ce2" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="dc14-1326-eed8-0393" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Faction: Tyranids" id="7f5d-9d62-4d01-baef" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="0316-aa04-569a-9ce2" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Monster" id="dc14-1326-eed8-0393" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="200"/>
@@ -2173,25 +2173,25 @@ Seed Spore Mines (Action): At the start of your Shooting phase, one BIOVORES uni
     <selectionEntry name="Gargoyles" id="21fc-05c5-6fd6-2d0a" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="3b7f-8a57-0f64-f7ae" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="42bf-fdc6-a5ed-6bd3" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="7f25-7c0b-43b2-c3c0" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="e0b1-0c4f-f243-49c7" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink name="New CategoryLink" id="94cf-a23f-4eae-2547" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Tyranids" id="42bf-fdc6-a5ed-6bd3" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="7f25-7c0b-43b2-c3c0" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Fly" id="e0b1-0c4f-f243-49c7" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Infantry" id="94cf-a23f-4eae-2547" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Core" id="8c89-9ee1-42a0-f594" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
         <categoryLink name="Endless Multitude" id="c0f1-77a9-ec97-0264" hidden="false" primary="false" targetId="2f97-fb71-5006-ab1c"/>
       </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4"/>
         <cost name="pts" typeId="points" value="0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <infoLinks>
         <infoLink name="Swarming Masses" id="da0e-87c1-64ea-a2d1" hidden="false" targetId="b830-920a-231b-073d" type="profile"/>
       </infoLinks>
       <modifiers>
-        <modifier field="e356-c769-5920-6e14" type="increment" value="4">
+        <modifier field="e356-c769-5920-6e14" type="increment" value="2">
           <conditions>
-            <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="21fc-05c5-6fd6-2d0a" shared="true" type="atLeast" value="11"/>
+            <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="21fc-05c5-6fd6-2d0a" shared="true" type="atLeast" value="6"/>
           </conditions>
         </modifier>
         <modifier field="hidden" type="set" value="true">
@@ -2203,7 +2203,7 @@ Seed Spore Mines (Action): At the start of your Shooting phase, one BIOVORES uni
       <selectionEntries>
         <selectionEntry name="Gargoyle" id="0837-d880-49c7-01cf" collective="false" hidden="false" import="true" type="model">
           <constraints>
-            <constraint id="81d4-cc66-fce5-31e9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="10"/>
+            <constraint id="81d4-cc66-fce5-31e9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="5"/>
             <constraint id="9e88-01e5-a5a6-b3ca" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="20"/>
           </constraints>
           <costs>
@@ -2240,9 +2240,9 @@ Seed Spore Mines (Action): At the start of your Shooting phase, one BIOVORES uni
     <selectionEntry name="Genestealers" id="593d-594c-e42d-02f5" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="663e-af7c-1b9a-2e83" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="074b-d965-5fb1-7ec8" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="4447-3c6e-b750-b8ad" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="00d9-8ae1-fdf0-323c" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Tyranids" id="074b-d965-5fb1-7ec8" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="4447-3c6e-b750-b8ad" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Infantry" id="00d9-8ae1-fdf0-323c" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Core" id="5d9a-e08e-f122-fee4" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
         <categoryLink name="Feeder Tendrils" id="658e-38e1-a407-97ac" hidden="false" primary="false" targetId="d5e7-e594-e6c1-f088"/>
       </categoryLinks>
@@ -2424,10 +2424,10 @@ An Infestation Node marker does not count as a model for any rules purposes.</ch
     <selectionEntry name="Harpy" id="ee16-7977-eb9b-88e7" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="01b2-44af-c037-61ea" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="c750-9bee-1b48-1798" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="4164-cbab-6c30-8acc" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="df4e-8e75-091b-217e" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink name="New CategoryLink" id="a036-bec0-22ba-c9f5" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Faction: Tyranids" id="c750-9bee-1b48-1798" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="4164-cbab-6c30-8acc" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Fly" id="df4e-8e75-091b-217e" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Monster" id="a036-bec0-22ba-c9f5" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
         <categoryLink name="Aircraft" id="2866-6ade-01cf-0e9c" hidden="false" primary="false" targetId="d569-3d56-cd24-6a31"/>
       </categoryLinks>
       <costs>
@@ -2553,9 +2553,9 @@ An Infestation Node marker does not count as a model for any rules purposes.</ch
     <selectionEntry name="Haruspex" id="a753-2d35-9437-02d3" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="21f3-5514-25ca-1c62" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="9842-1668-ff0f-cfb5" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="4d50-2341-7f5e-e188" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="cfe8-10b1-7be7-8386" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Faction: Tyranids" id="9842-1668-ff0f-cfb5" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="4d50-2341-7f5e-e188" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Monster" id="cfe8-10b1-7be7-8386" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
         <categoryLink name="Acid Blood" id="1e06-18c6-593d-3ec9" hidden="false" primary="false" targetId="0eef-b3c0-db3f-acb6"/>
         <categoryLink name="Horned Chitin" id="edb2-e681-602d-e5c6" hidden="false" primary="false" targetId="e827-225b-065b-983d"/>
       </categoryLinks>
@@ -2647,10 +2647,10 @@ An Infestation Node marker does not count as a model for any rules purposes.</ch
     <selectionEntry name="Hive Crone" id="7c4f-3eb2-a044-15a8" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="49a4-80a5-396d-37e0" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="0ff1-08e0-145d-15b4" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="d483-3fd2-08f6-00a9" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="c522-860e-db26-1163" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink name="New CategoryLink" id="c085-1189-1eda-b434" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Faction: Tyranids" id="0ff1-08e0-145d-15b4" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="d483-3fd2-08f6-00a9" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Fly" id="c522-860e-db26-1163" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Monster" id="c085-1189-1eda-b434" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
         <categoryLink name="Aircraft" id="f919-beab-c181-fe6f" hidden="false" primary="false" targetId="d569-3d56-cd24-6a31"/>
         <categoryLink name="Horned Chitin" id="357e-a555-72eb-2fcf" hidden="false" primary="false" targetId="e827-225b-065b-983d"/>
       </categoryLinks>
@@ -2769,9 +2769,9 @@ An Infestation Node marker does not count as a model for any rules purposes.</ch
     <selectionEntry name="Hive Guard" id="c941-0aa1-f972-429c" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="836e-a522-db4d-0f0f" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="20e5-0bf8-b363-6fde" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="4fe7-d6b4-17f6-97f4" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="4d78-35db-29c2-342d" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Tyranids" id="20e5-0bf8-b363-6fde" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="4fe7-d6b4-17f6-97f4" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Infantry" id="4d78-35db-29c2-342d" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="9"/>
@@ -2884,13 +2884,13 @@ Defensive Stance (Action): At the start of your Command phase, any number of HIV
     <selectionEntry name="Hive Tyrant" id="add7-3535-a4cd-9ba5" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="c60a-ddc3-1be6-3a71" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="449d-8a7f-1408-9ad7" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="3077-9cad-7450-1795" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="b470-c962-8b30-1fa0" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="0a6f-10f4-978c-c371" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink name="New CategoryLink" id="cad6-a93b-4c10-cf31" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
-        <categoryLink name="New CategoryLink" id="320e-5963-97a3-d145" hidden="false" primary="false" targetId="9c32-eba0-ea9e-1e0d"/>
-        <categoryLink name="New CategoryLink" id="f84c-c82a-17cf-3db6" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
+        <categoryLink name="Faction: Tyranids" id="449d-8a7f-1408-9ad7" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="3077-9cad-7450-1795" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Character" id="b470-c962-8b30-1fa0" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Monster" id="0a6f-10f4-978c-c371" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Psyker" id="cad6-a93b-4c10-cf31" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
+        <categoryLink name="Hive Tyrant" id="320e-5963-97a3-d145" hidden="false" primary="false" targetId="9c32-eba0-ea9e-1e0d"/>
+        <categoryLink name="Synapse" id="f84c-c82a-17cf-3db6" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
         <categoryLink name="Horned Chitin" id="ef8a-3a33-65c0-6009" hidden="false" primary="false" targetId="e827-225b-065b-983d"/>
       </categoryLinks>
       <costs>
@@ -2949,7 +2949,7 @@ Defensive Stance (Action): At the start of your Command phase, any number of HIV
       </entryLinks>
       <infoLinks>
         <infoLink name="Shadow in the Warp (Aura)" id="3643-33bf-e230-4fad" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile"/>
-        <infoLink name="Synapse" id="2cba-696f-c3fc-41ca" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
+        <infoLink name="Synapse (Aura)" id="2cba-696f-c3fc-41ca" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
         <infoLink name="Will of the Hive Mind" id="4914-8af7-e15a-ed68" hidden="false" targetId="691e-2c1e-9556-14ef" type="profile">
           <modifiers>
             <modifier field="page" type="set" value="90"/>
@@ -2960,7 +2960,7 @@ Defensive Stance (Action): At the start of your Command phase, any number of HIV
             <modifier field="page" type="set" value="90"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Death Throes" id="2417-b2ac-860d-6a32" hidden="false" targetId="6515-364e-86c7-5f9f" type="profile">
+        <infoLink name="Death Throes (6&quot;/D3)" id="2417-b2ac-860d-6a32" hidden="false" targetId="6515-364e-86c7-5f9f" type="profile">
           <modifiers>
             <modifier field="page" type="set" value="90"/>
           </modifiers>
@@ -3018,7 +3018,7 @@ Defensive Stance (Action): At the start of your Command phase, any number of HIV
       <selectionEntries>
         <selectionEntry name="Wings" id="ff28-18da-271b-f347" collective="false" hidden="true" import="true" type="upgrade">
           <categoryLinks>
-            <categoryLink name="New CategoryLink" id="9e7e-ac88-c5d5-8ed5" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+            <categoryLink name="Fly" id="9e7e-ac88-c5d5-8ed5" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
           </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="30"/>
@@ -3082,15 +3082,15 @@ Defensive Stance (Action): At the start of your Command phase, any number of HIV
     <selectionEntry name="Hormagaunts" id="0843-c3c5-0340-2a53" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="001b-811d-f4a3-f151" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="6399-716e-0670-89c0" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="c5e8-73cf-9152-426e" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="4fc2-41c4-51b0-e3f5" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Tyranids" id="6399-716e-0670-89c0" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="c5e8-73cf-9152-426e" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Infantry" id="4fc2-41c4-51b0-e3f5" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Core" id="6de8-c897-3c5d-3cf9" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
         <categoryLink name="Endless Multitude" id="9a20-baf8-0b5f-399c" hidden="false" primary="false" targetId="2f97-fb71-5006-ab1c"/>
       </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4"/>
         <cost name="pts" typeId="points" value="0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <entryLinks>
@@ -3123,9 +3123,9 @@ Defensive Stance (Action): At the start of your Command phase, any number of HIV
         <infoLink name="Swarming Masses" id="7b14-ff12-7b70-e6fd" hidden="false" targetId="b830-920a-231b-073d" type="profile"/>
       </infoLinks>
       <modifiers>
-        <modifier field="e356-c769-5920-6e14" type="increment" value="4">
+        <modifier field="e356-c769-5920-6e14" type="increment" value="2">
           <conditions>
-            <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="0843-c3c5-0340-2a53" shared="true" type="atLeast" value="11"/>
+            <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="0843-c3c5-0340-2a53" shared="true" type="atLeast" value="6"/>
           </conditions>
         </modifier>
         <modifier field="e356-c769-5920-6e14" type="increment" value="4">
@@ -3194,10 +3194,10 @@ Defensive Stance (Action): At the start of your Command phase, any number of HIV
     <selectionEntry name="Lictor" id="a5e2-a0a5-57f0-27b6" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="f74d-06ad-cefb-f979" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="5453-d2ee-3d35-8634" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="4f3e-cd99-c33c-f25b" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="bdf3-df32-8380-5fbd" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="c2f5-0606-af22-37b9" hidden="false" primary="false" targetId="cc90-4ec4-47e7-6aaf"/>
+        <categoryLink name="Faction: Tyranids" id="5453-d2ee-3d35-8634" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="4f3e-cd99-c33c-f25b" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Infantry" id="bdf3-df32-8380-5fbd" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Lictor" id="c2f5-0606-af22-37b9" hidden="false" primary="false" targetId="cc90-4ec4-47e7-6aaf"/>
         <categoryLink name="Feeder Tendrils" id="1da2-cccd-7cde-5829" hidden="false" primary="false" targetId="d5e7-e594-e6c1-f088"/>
         <categoryLink name="Flesh Hooks" id="3abe-83cc-00f4-0a81" hidden="false" primary="false" targetId="8553-ae3e-36e0-98a1"/>
       </categoryLinks>
@@ -3250,11 +3250,11 @@ Defensive Stance (Action): At the start of your Command phase, any number of HIV
     <selectionEntry name="Maleceptor" id="9801-59fc-296b-6b85" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="a525-3dcf-23d4-2089" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="5bcf-0bcf-9b22-641a" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="1540-cdff-5e2c-258b" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="972d-fff1-391a-d5b9" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink name="New CategoryLink" id="d940-fb2c-3b0d-0f34" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
-        <categoryLink name="New CategoryLink" id="81d9-5311-5c6c-bf0e" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
+        <categoryLink name="Faction: Tyranids" id="5bcf-0bcf-9b22-641a" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="1540-cdff-5e2c-258b" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Monster" id="972d-fff1-391a-d5b9" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Psyker" id="d940-fb2c-3b0d-0f34" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
+        <categoryLink name="Synapse" id="81d9-5311-5c6c-bf0e" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
         <categoryLink name="Horned Chitin" id="8eff-0e38-7345-9557" hidden="false" primary="false" targetId="e827-225b-065b-983d"/>
       </categoryLinks>
       <costs>
@@ -3290,7 +3290,7 @@ Defensive Stance (Action): At the start of your Command phase, any number of HIV
             <modifier field="page" type="set" value="103"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Synapse" id="612d-af1b-2a07-3fd1" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
+        <infoLink name="Synapse (Aura)" id="612d-af1b-2a07-3fd1" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
         <infoLink name="Death Throes (6&quot;/D3)" id="48a8-7439-7e82-2609" hidden="false" targetId="6515-364e-86c7-5f9f" type="profile">
           <modifiers>
             <modifier field="page" type="set" value="103"/>
@@ -3379,9 +3379,9 @@ Diffusion Field (Aura): While a friendly &lt;HIVE FLEET&gt; unit is within 6&quo
     <selectionEntry name="Mawloc" id="92ec-64fb-e5a7-65c1" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="d772-2187-06d0-766a" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="6307-9380-b491-9352" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="e442-a1b8-d8d0-9e8c" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="4163-4593-58da-08bd" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Faction: Tyranids" id="6307-9380-b491-9352" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="e442-a1b8-d8d0-9e8c" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Monster" id="4163-4593-58da-08bd" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
         <categoryLink name="Burrower" id="6189-e7ac-8d90-d2b8" hidden="false" primary="false" targetId="c8ea-3bba-edeb-6f1f"/>
       </categoryLinks>
       <costs>
@@ -3514,8 +3514,8 @@ Diffusion Field (Aura): While a friendly &lt;HIVE FLEET&gt; unit is within 6&quo
     <selectionEntry name="Mucolid Spores" id="9773-03e8-68e5-8ea1" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="c65f-ff34-0518-b824" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="5c4f-9053-d2dc-5dd1" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="0ad6-af88-22f7-6197" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Faction: Tyranids" id="5c4f-9053-d2dc-5dd1" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Fly" id="0ad6-af88-22f7-6197" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
         <categoryLink name="Beast" id="bae7-31a2-098a-7c74" hidden="false" primary="false" targetId="7892-58f7-e769-4d87"/>
         <categoryLink name="Faction: Living Artillery" id="f7df-2a65-2899-955d" hidden="false" primary="false" targetId="684f-92a1-8e45-8556"/>
       </categoryLinks>
@@ -3549,9 +3549,9 @@ Diffusion Field (Aura): While a friendly &lt;HIVE FLEET&gt; unit is within 6&quo
     <selectionEntry name="Pyrovores" id="cb6d-b756-8436-074e" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="04de-bbd1-3e1f-aef3" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="6cf5-fed8-6b0c-17f1" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="f801-4f54-0721-a891" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="0224-4ce4-4341-fd5e" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Tyranids" id="6cf5-fed8-6b0c-17f1" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="f801-4f54-0721-a891" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Infantry" id="0224-4ce4-4341-fd5e" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Acid Blood" id="5a1a-4b9a-ed33-bf6d" hidden="false" primary="false" targetId="0eef-b3c0-db3f-acb6"/>
         <categoryLink name="Core" id="904e-3eed-d298-2232" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
@@ -3629,9 +3629,9 @@ Diffusion Field (Aura): While a friendly &lt;HIVE FLEET&gt; unit is within 6&quo
     <selectionEntry name="Raveners" id="eda6-2686-5153-3ac8" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="f7e8-67fb-f059-2de7" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="cbec-f8a0-ec34-e1d6" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="6baa-0216-2d14-97c9" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="f337-a354-082c-b698" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Tyranids" id="cbec-f8a0-ec34-e1d6" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="6baa-0216-2d14-97c9" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Infantry" id="f337-a354-082c-b698" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Ravener" id="0c44-c29d-2ad6-41d5" hidden="false" primary="false" targetId="07db-05a2-b062-16c6"/>
         <categoryLink name="Burrower" id="6942-1635-69a3-14dc" hidden="false" primary="false" targetId="c8ea-3bba-edeb-6f1f"/>
         <categoryLink name="Core" id="ff2d-fe42-06a9-7ead" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
@@ -3766,9 +3766,9 @@ Diffusion Field (Aura): While a friendly &lt;HIVE FLEET&gt; unit is within 6&quo
     </selectionEntry>
     <selectionEntry name="Ripper Swarms" id="04a7-33a3-6396-b371" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="5771-5b10-f5f9-001e" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="f146-b2ce-9b7c-b3b1" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="e7a5-3cb5-3346-2fd9" hidden="false" primary="false" targetId="7a53-eedc-8dbb-8505"/>
+        <categoryLink name="Faction: Tyranids" id="5771-5b10-f5f9-001e" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="f146-b2ce-9b7c-b3b1" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Swarm" id="e7a5-3cb5-3346-2fd9" hidden="false" primary="false" targetId="7a53-eedc-8dbb-8505"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2"/>
@@ -3849,10 +3849,10 @@ Diffusion Field (Aura): While a friendly &lt;HIVE FLEET&gt; unit is within 6&quo
     <selectionEntry name="Sky-slasher Swarms" id="d7ba-bc0a-efeb-36f3" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="2185-d93d-05c3-015d" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="9c0c-0206-19ea-175c" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="bc59-9eee-72fd-0560" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="7ab8-ec85-f7d5-1f39" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink name="New CategoryLink" id="5425-24e7-7a2b-9d9e" hidden="false" primary="false" targetId="7a53-eedc-8dbb-8505"/>
+        <categoryLink name="Faction: Tyranids" id="9c0c-0206-19ea-175c" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="bc59-9eee-72fd-0560" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Fly" id="7ab8-ec85-f7d5-1f39" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Swarm" id="5425-24e7-7a2b-9d9e" hidden="false" primary="false" targetId="7a53-eedc-8dbb-8505"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2"/>
@@ -3932,9 +3932,9 @@ Diffusion Field (Aura): While a friendly &lt;HIVE FLEET&gt; unit is within 6&quo
     </selectionEntry>
     <selectionEntry name="Spore Mines" id="0a0b-c7ca-2804-4f90" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="175d-355b-74a7-1320" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="ce49-dcb8-4b3a-07c2" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="f10a-a242-2263-a193" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Faction: Tyranids" id="175d-355b-74a7-1320" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="ce49-dcb8-4b3a-07c2" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Fly" id="f10a-a242-2263-a193" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="1"/>
@@ -3983,9 +3983,9 @@ Diffusion Field (Aura): While a friendly &lt;HIVE FLEET&gt; unit is within 6&quo
     <selectionEntry name="Sporocyst" id="4fe0-a701-3f44-b703" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="93c0-22ae-dc8d-f700" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="e989-cb94-ae13-3684" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="8f86-94dc-64b0-5747" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="475e-f076-3478-6b5d" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Faction: Tyranids" id="e989-cb94-ae13-3684" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="8f86-94dc-64b0-5747" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Monster" id="475e-f076-3478-6b5d" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="95"/>
@@ -4161,15 +4161,15 @@ Seed Spores (Action): At the start of your Movement phase, one SPOROCYST model f
     <selectionEntry name="Termagants" id="2e2b-aedb-e20b-9c8b" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="d1c0-db15-7c1f-e718" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="e844-df5a-49fd-c180" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="705e-30a0-3084-0095" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="afbe-02b3-4e79-5a5b" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Tyranids" id="e844-df5a-49fd-c180" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="705e-30a0-3084-0095" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Infantry" id="afbe-02b3-4e79-5a5b" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Core" id="c9dd-eed8-2de0-8621" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
         <categoryLink name="Endless Multitude" id="edca-70e3-f72f-428d" hidden="false" primary="false" targetId="2f97-fb71-5006-ab1c"/>
       </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4"/>
         <cost name="pts" typeId="points" value="0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <entryLinks>
@@ -4202,9 +4202,9 @@ Seed Spores (Action): At the start of your Movement phase, one SPOROCYST model f
         <infoLink name="Swarming Masses" id="c6e3-fe23-15be-c661" hidden="false" targetId="b830-920a-231b-073d" type="profile"/>
       </infoLinks>
       <modifiers>
-        <modifier field="e356-c769-5920-6e14" type="increment" value="4">
+        <modifier field="e356-c769-5920-6e14" type="increment" value="2">
           <conditions>
-            <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="2e2b-aedb-e20b-9c8b" shared="true" type="atLeast" value="11"/>
+            <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="2e2b-aedb-e20b-9c8b" shared="true" type="atLeast" value="6"/>
           </conditions>
         </modifier>
         <modifier field="e356-c769-5920-6e14" type="increment" value="4">
@@ -4221,8 +4221,8 @@ Seed Spores (Action): At the start of your Movement phase, one SPOROCYST model f
       <selectionEntries>
         <selectionEntry name="Termagant" id="e143-6b0a-32b1-a517" collective="false" hidden="false" import="true" type="model">
           <constraints>
-            <constraint id="38f5-d17e-c13e-ea84" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="30"/>
-            <constraint id="d620-d000-4350-24c6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="10"/>
+            <constraint id="38f5-d17e-c13e-ea84" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="10"/>
+            <constraint id="d620-d000-4350-24c6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="5"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="points" value="7"/>
@@ -4314,12 +4314,12 @@ Seed Spores (Action): At the start of your Movement phase, one SPOROCYST model f
     <selectionEntry name="Tervigon" id="0507-f341-5267-7cc5" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="ca14-aaac-a95d-473b" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="1ec5-c86f-a4fb-bb80" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="1478-dc80-da87-12ed" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="71e1-755e-e2ae-3321" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="5e6a-064b-4bc5-0dd8" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
-        <categoryLink name="New CategoryLink" id="9c11-1e83-e7b7-e995" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink name="New CategoryLink" id="c245-b21a-ee6c-e0e6" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
+        <categoryLink name="Faction: Tyranids" id="1ec5-c86f-a4fb-bb80" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="1478-dc80-da87-12ed" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Character" id="71e1-755e-e2ae-3321" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Psyker" id="5e6a-064b-4bc5-0dd8" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
+        <categoryLink name="Monster" id="9c11-1e83-e7b7-e995" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Synapse" id="c245-b21a-ee6c-e0e6" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="235"/>
@@ -4343,7 +4343,7 @@ Seed Spores (Action): At the start of your Movement phase, one SPOROCYST model f
             <cost name="pts" typeId="points" value="5"/>
           </costs>
         </entryLink>
-        <entryLink name="Stinger Salvo" id="652c-f662-9e72-b5d6" collective="false" hidden="false" import="true" targetId="6657-6c6f-5778-34e7" type="selectionEntry">
+        <entryLink name="Stinger Salvoes" id="652c-f662-9e72-b5d6" collective="false" hidden="false" import="true" targetId="6657-6c6f-5778-34e7" type="selectionEntry">
           <constraints>
             <constraint id="856f-63bd-a37b-5bd6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="48c6-52f6-693d-2c4d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -4384,7 +4384,7 @@ Seed Spores (Action): At the start of your Movement phase, one SPOROCYST model f
       <infoLinks>
         <infoLink name="Shadow in the Warp (Aura)" id="c6a9-62a7-2d47-4883" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile"/>
         <infoLink name="Synapse (Aura)" id="e37e-743e-e0c6-2bc5" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
-        <infoLink name="Death Throes (D6)" id="9dfd-f987-8205-0425" hidden="false" targetId="651c-dd23-d42f-e6bf" type="profile">
+        <infoLink name="Death Throes (6&quot;/D6)" id="9dfd-f987-8205-0425" hidden="false" targetId="651c-dd23-d42f-e6bf" type="profile">
           <modifiers>
             <modifier field="page" type="set" value="94"/>
           </modifiers>
@@ -4474,9 +4474,9 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Toxicrene" id="cdd9-7d89-df58-3760" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="ffd5-003d-28df-4442" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="3621-544a-836a-d102" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="780c-d66e-e817-2404" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="ae33-e8b1-92c7-33d7" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Faction: Tyranids" id="3621-544a-836a-d102" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="780c-d66e-e817-2404" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Monster" id="ae33-e8b1-92c7-33d7" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
         <categoryLink name="Acid Blood" id="d8f3-67c8-ff4b-948b" hidden="false" primary="false" targetId="0eef-b3c0-db3f-acb6"/>
         <categoryLink name="Feeder Tendrils" id="d924-3e88-abf3-032b" hidden="false" primary="false" targetId="d5e7-e594-e6c1-f088"/>
         <categoryLink name="Sporecaster" id="1140-5a9a-6bd5-f969" hidden="false" primary="false" targetId="278c-8a99-9fc1-bee9"/>
@@ -4563,9 +4563,9 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Trygon" id="f628-1bb2-0620-3beb" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="6762-1bd9-66a7-e38b" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="09de-fd8f-bad0-c72a" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="4249-0e28-fca7-348d" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="fd32-176f-3634-2497" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Faction: Tyranids" id="09de-fd8f-bad0-c72a" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="4249-0e28-fca7-348d" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Monster" id="fd32-176f-3634-2497" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
         <categoryLink name="Burrower" id="94ce-c23e-a62e-381b" hidden="false" primary="false" targetId="c8ea-3bba-edeb-6f1f"/>
       </categoryLinks>
       <costs>
@@ -4675,10 +4675,10 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Trygon Prime" id="1864-f6fc-3f51-0c34" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="37a5-736e-3aef-d54c" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="ccbc-1d03-380b-d59c" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="1488-a54d-6b0e-ddbc" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="f2aa-ad44-c333-cb34" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink name="New CategoryLink" id="2fdb-bf95-6f77-1591" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
+        <categoryLink name="Faction: Tyranids" id="ccbc-1d03-380b-d59c" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="1488-a54d-6b0e-ddbc" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Monster" id="f2aa-ad44-c333-cb34" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Synapse" id="2fdb-bf95-6f77-1591" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
         <categoryLink name="Character" id="7b04-b18b-4d58-00ee" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
         <categoryLink name="Burrower" id="2231-0dd3-f024-1435" hidden="false" primary="false" targetId="c8ea-3bba-edeb-6f1f"/>
       </categoryLinks>
@@ -4724,8 +4724,8 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
       </entryLinks>
       <infoLinks>
         <infoLink name="Shadow in the Warp (Aura)" id="da23-ea40-528d-6a71" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile"/>
-        <infoLink name="Synapse" id="762a-158d-2cd3-181a" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
-        <infoLink name="Death Throes (D3)" id="a5bb-dc83-f7ba-e64d" hidden="false" targetId="6515-364e-86c7-5f9f" type="profile">
+        <infoLink name="Synapse (Aura)" id="762a-158d-2cd3-181a" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
+        <infoLink name="Death Throes (6&quot;/D3)" id="a5bb-dc83-f7ba-e64d" hidden="false" targetId="6515-364e-86c7-5f9f" type="profile">
           <modifiers>
             <modifier field="page" type="set" value="95"/>
           </modifiers>
@@ -4799,11 +4799,11 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     </selectionEntry>
     <selectionEntry name="Tyranid Shrikes" id="0435-abe8-4398-eff8" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="99fe-c1c3-7711-3c0f" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="1a33-dc25-68e8-e16e" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="92b5-3769-7372-3e4f" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
-        <categoryLink name="New CategoryLink" id="0330-4eab-11d9-d48c" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink name="New CategoryLink" id="00b6-03cd-dc27-5eca" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Tyranids" id="99fe-c1c3-7711-3c0f" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="1a33-dc25-68e8-e16e" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Fast Attack" id="92b5-3769-7372-3e4f" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fly" id="0330-4eab-11d9-d48c" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Infantry" id="00b6-03cd-dc27-5eca" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5"/>
@@ -4851,7 +4851,7 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
         </entryLink>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Synapse" id="42f6-1d1d-3dd1-51b5" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
+        <infoLink name="Synapse (Aura)" id="42f6-1d1d-3dd1-51b5" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
         <infoLink name="Shadow in the Warp (Aura)" id="42d9-4148-fe5e-a02b" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -4901,12 +4901,12 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
                     <constraint id="bf5f-7b0b-9ebb-3fcf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Scything Talons" id="0b65-46a6-7cbd-2172" collective="false" hidden="false" import="true" targetId="2b06-87d5-7b1e-8d82" type="selectionEntry">
+                    <entryLink name="Two Scything Talons" id="0b65-46a6-7cbd-2172" collective="false" hidden="false" import="true" targetId="2b06-87d5-7b1e-8d82" type="selectionEntry">
                       <constraints>
                         <constraint id="eeff-2144-b237-1172" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
                       </constraints>
                     </entryLink>
-                    <entryLink name="Boneswords" id="df49-32f8-5a2e-cff9" collective="false" hidden="false" import="true" targetId="506e-1334-6b64-53db" type="selectionEntry">
+                    <entryLink name="Dual Boneswords" id="df49-32f8-5a2e-cff9" collective="false" hidden="false" import="true" targetId="506e-1334-6b64-53db" type="selectionEntry">
                       <constraints>
                         <constraint id="48c5-bd51-0a77-ce67" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                       </constraints>
@@ -4916,7 +4916,7 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
                         <constraint id="e43c-ad30-d11b-7967" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                       </constraints>
                     </entryLink>
-                    <entryLink name="Rending Claws" id="14fb-1bd4-2752-92c2" collective="false" hidden="false" import="true" targetId="a50e-4043-d535-0f3a" type="selectionEntry">
+                    <entryLink name="Two Rending Claws" id="14fb-1bd4-2752-92c2" collective="false" hidden="false" import="true" targetId="a50e-4043-d535-0f3a" type="selectionEntry">
                       <constraints>
                         <constraint id="52bc-666c-31b5-2210" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                       </constraints>
@@ -5014,10 +5014,10 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
                     <constraint id="7974-dd38-1a17-5e67" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Scything Talons" id="aa9a-ace9-b544-b807" collective="false" hidden="false" import="true" targetId="2b06-87d5-7b1e-8d82" type="selectionEntry"/>
-                    <entryLink name="Boneswords" id="9e4a-af53-2fcc-130a" collective="false" hidden="false" import="true" targetId="506e-1334-6b64-53db" type="selectionEntry"/>
+                    <entryLink name="Two Scything Talons" id="aa9a-ace9-b544-b807" collective="false" hidden="false" import="true" targetId="2b06-87d5-7b1e-8d82" type="selectionEntry"/>
+                    <entryLink name="Dual Boneswords" id="9e4a-af53-2fcc-130a" collective="false" hidden="false" import="true" targetId="506e-1334-6b64-53db" type="selectionEntry"/>
                     <entryLink name="Lash Whip and Bonesword" id="662b-ad2f-b4cc-2166" collective="false" hidden="false" import="true" targetId="591b-c551-1088-230b" type="selectionEntry"/>
-                    <entryLink name="Rending Claws" id="e199-a6be-6a11-59d1" collective="false" hidden="false" import="true" targetId="a50e-4043-d535-0f3a" type="selectionEntry"/>
+                    <entryLink name="Two Rending Claws" id="e199-a6be-6a11-59d1" collective="false" hidden="false" import="true" targetId="a50e-4043-d535-0f3a" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -5029,10 +5029,10 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Tyranid Warriors" id="8ffc-a0f3-766e-8ae4" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="2c9c-35ec-85b5-c8fc" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="1fb7-09c8-6b21-a656" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="698f-ef38-7fae-1fc2" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="c0c1-b46a-a7c9-1000" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
-        <categoryLink name="New CategoryLink" id="b98f-6b72-d954-0901" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Tyranids" id="1fb7-09c8-6b21-a656" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="698f-ef38-7fae-1fc2" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Synapse" id="c0c1-b46a-a7c9-1000" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
+        <categoryLink name="Infantry" id="b98f-6b72-d954-0901" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Core" id="253e-2255-87a9-9880" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -5068,7 +5068,7 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
         <entryLink name="Stratagem: Rapid Adaptation" id="8f72-9ca4-6d4f-848b" collective="false" hidden="false" import="true" targetId="a0a3-a5e5-fb68-3e4f" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Synapse" id="11f3-5276-6020-0573" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
+        <infoLink name="Synapse (Aura)" id="11f3-5276-6020-0573" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
         <infoLink name="Shadow in the Warp (Aura)" id="6c9d-d6e4-7df6-0339" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile"/>
       </infoLinks>
       <modifiers>
@@ -5241,9 +5241,9 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Tyrannocyte" id="0daf-d491-1f32-1322" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="473d-120b-0681-c3d6" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="36df-7711-d8be-66eb" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="e9be-5940-3545-965c" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="0523-8132-3ca0-07ca" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Faction: Tyranids" id="36df-7711-d8be-66eb" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="e9be-5940-3545-965c" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Monster" id="0523-8132-3ca0-07ca" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
         <categoryLink name="Fly" id="1f55-d61d-1a9a-e58a" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
         <categoryLink name="Transport" id="016d-6020-e3d1-d3e2" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
       </categoryLinks>
@@ -5356,9 +5356,9 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Tyrannofex" id="f535-4e40-2b57-2bf7" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="eca9-d6c8-8c90-03fe" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="be3c-d8f1-3cc0-3d22" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="6ead-d409-dc36-6698" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="19a9-ec90-47e3-ec1b" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Faction: Tyranids" id="be3c-d8f1-3cc0-3d22" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="6ead-d409-dc36-6698" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Monster" id="19a9-ec90-47e3-ec1b" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
         <categoryLink name="Horned Chitin" id="11e0-356e-1eda-2451" hidden="false" primary="false" targetId="e827-225b-065b-983d"/>
       </categoryLinks>
       <costs>
@@ -5470,9 +5470,9 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Tyrant Guard" id="66df-c9ba-5ea8-e524" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="7454-7896-ccbb-aadb" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="e561-f464-8e52-419e" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="8fd4-5238-09cc-f154" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="b1b0-e7a7-4fb3-c35c" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Tyranids" id="e561-f464-8e52-419e" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="8fd4-5238-09cc-f154" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Infantry" id="b1b0-e7a7-4fb3-c35c" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Core" id="301a-3cee-708c-7ed6" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -5611,10 +5611,10 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Venomthropes" id="90b8-1695-18c9-1512" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="c150-a236-4bce-8547" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="4548-2163-73c8-b0ab" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="6adf-032b-56b9-e030" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="ec73-bf8d-2338-af5a" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink name="New CategoryLink" id="305e-2960-58f5-57a8" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Tyranids" id="4548-2163-73c8-b0ab" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="6adf-032b-56b9-e030" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Fly" id="ec73-bf8d-2338-af5a" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Infantry" id="305e-2960-58f5-57a8" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Core" id="442f-85cc-f0cd-c3da" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
         <categoryLink name="Sporecaster" id="160c-aa68-f581-7e97" hidden="false" primary="false" targetId="278c-8a99-9fc1-bee9"/>
         <categoryLink name="Toxic Lashes" id="3de6-ec81-9ca4-3923" hidden="false" primary="false" targetId="ef28-c010-3472-cc6c"/>
@@ -5689,13 +5689,13 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Zoanthropes" id="c1b3-01e5-3175-3107" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="4238-3b76-650b-b92b" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="ac52-9694-e47a-9f93" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="07ba-4158-cd1c-7561" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="755d-e842-86d9-adf1" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink name="New CategoryLink" id="4fb7-e02e-bf44-5561" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="7643-1aeb-89d0-de35" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
-        <categoryLink name="New CategoryLink" id="6e1d-fa57-7f0d-ada4" hidden="false" primary="false" targetId="e73a-a897-c34f-6206"/>
-        <categoryLink name="New CategoryLink" id="2780-64a5-2ffa-40aa" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
+        <categoryLink name="Faction: Tyranids" id="ac52-9694-e47a-9f93" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="07ba-4158-cd1c-7561" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Fly" id="755d-e842-86d9-adf1" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Infantry" id="4fb7-e02e-bf44-5561" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Psyker" id="7643-1aeb-89d0-de35" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
+        <categoryLink name="Zoanthrope" id="6e1d-fa57-7f0d-ada4" hidden="false" primary="false" targetId="e73a-a897-c34f-6206"/>
+        <categoryLink name="Synapse" id="2780-64a5-2ffa-40aa" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
         <categoryLink name="Core" id="7e82-31c8-bc08-c38a" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -5719,7 +5719,7 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
       </entryLinks>
       <infoLinks>
         <infoLink name="Shadow in the Warp (Aura)" id="4aec-9cb1-b382-9531" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile"/>
-        <infoLink name="Synapse" id="75e9-da90-c49d-8cd3" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
+        <infoLink name="Synapse (Aura)" id="75e9-da90-c49d-8cd3" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="e356-c769-5920-6e14" type="increment" value="7">
@@ -5785,11 +5785,11 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Deathleaper" id="0e09-72a3-df36-ebd8" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="8376-cd3f-3ac8-2c34" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="63a7-17e2-ac27-3715" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="6f9b-12da-bcf3-b478" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="ff77-7d59-a80f-5bdb" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="e07b-7485-f403-af4c" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="e9de-e7a7-ca94-ed45" hidden="false" primary="false" targetId="cc90-4ec4-47e7-6aaf"/>
+        <categoryLink name="Faction: Tyranids" id="63a7-17e2-ac27-3715" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="6f9b-12da-bcf3-b478" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Character" id="ff77-7d59-a80f-5bdb" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Infantry" id="e07b-7485-f403-af4c" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Lictor" id="e9de-e7a7-ca94-ed45" hidden="false" primary="false" targetId="cc90-4ec4-47e7-6aaf"/>
         <categoryLink name="Flesh Hooks" id="c96f-fccd-f226-6ccd" hidden="false" primary="false" targetId="8553-ae3e-36e0-98a1"/>
         <categoryLink name="Feeder Tendrils" id="28f8-5474-9615-989d" hidden="false" primary="false" targetId="d5e7-e594-e6c1-f088"/>
         <categoryLink name="Elite Character" id="1b76-0e37-91e7-53d5" hidden="false" primary="false" targetId="62d3-9871-9675-a63b"/>
@@ -5862,11 +5862,11 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Old One Eye" id="d83b-acf3-2677-40e1" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="6c47-2f22-982a-1995" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="ec52-2fbf-d692-d296" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="bcec-a322-9e5a-e7b2" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="5854-52a7-7c93-8ddf" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="1a2b-06d5-6b68-8af1" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink name="New CategoryLink" id="a2a5-c9b1-3208-2179" hidden="false" primary="false" targetId="d482-6830-b5c2-bb33"/>
+        <categoryLink name="Faction: Tyranids" id="ec52-2fbf-d692-d296" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="bcec-a322-9e5a-e7b2" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Character" id="5854-52a7-7c93-8ddf" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Monster" id="1a2b-06d5-6b68-8af1" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Carnifex" id="a2a5-c9b1-3208-2179" hidden="false" primary="false" targetId="d482-6830-b5c2-bb33"/>
         <categoryLink name="Horned Chitin" id="9c23-e746-aebe-1227" hidden="false" primary="false" targetId="e827-225b-065b-983d"/>
       </categoryLinks>
       <constraints>
@@ -5950,9 +5950,9 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     </selectionEntry>
     <selectionEntry name="The Red Terror" id="6bad-120f-afa0-1745" collective="false" hidden="true" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="a1a7-cde5-366f-ab9d" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="73c7-0258-d4e5-3cde" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="137f-efb5-b719-a6df" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Tyranids" id="a1a7-cde5-366f-ab9d" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="73c7-0258-d4e5-3cde" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Infantry" id="137f-efb5-b719-a6df" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Ravener" id="b47a-e2b5-7971-b842" hidden="false" primary="false" targetId="07db-05a2-b062-16c6"/>
         <categoryLink name="Character" id="6359-dfe3-e7c5-d0aa" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
       </categoryLinks>
@@ -5971,7 +5971,7 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
             <constraint id="e7ad-959a-482a-82c3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Scything Talons" id="b0a0-add6-a8e2-7476" collective="false" hidden="false" import="true" targetId="2b06-87d5-7b1e-8d82" type="selectionEntry">
+        <entryLink name="Two Scything Talons" id="b0a0-add6-a8e2-7476" collective="false" hidden="false" import="true" targetId="2b06-87d5-7b1e-8d82" type="selectionEntry">
           <constraints>
             <constraint id="f7fb-aa33-215f-5c6a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
             <constraint id="0745-947c-2695-a9b6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
@@ -6013,13 +6013,13 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="The Swarmlord" id="5a85-738f-f138-2640" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="33a1-419e-f1ef-9d6f" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="c286-0632-b44f-60af" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="7644-d3f1-2f26-aeb4" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="2121-a6a4-9ba7-c39a" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="de15-ce29-4690-9f51" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink name="New CategoryLink" id="e987-2d98-4e90-4c16" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
-        <categoryLink name="New CategoryLink" id="21b3-e322-eb27-c4bc" hidden="false" primary="false" targetId="9c32-eba0-ea9e-1e0d"/>
-        <categoryLink name="New CategoryLink" id="89e7-06df-27b6-1b4e" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
+        <categoryLink name="Faction: Tyranids" id="c286-0632-b44f-60af" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="7644-d3f1-2f26-aeb4" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Character" id="2121-a6a4-9ba7-c39a" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Monster" id="de15-ce29-4690-9f51" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Psyker" id="e987-2d98-4e90-4c16" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
+        <categoryLink name="Hive Tyrant" id="21b3-e322-eb27-c4bc" hidden="false" primary="false" targetId="9c32-eba0-ea9e-1e0d"/>
+        <categoryLink name="Synapse" id="89e7-06df-27b6-1b4e" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
         <categoryLink name="Horned Chitin" id="8d86-dc12-c652-a07a" hidden="false" primary="false" targetId="e827-225b-065b-983d"/>
       </categoryLinks>
       <constraints>
@@ -6048,14 +6048,14 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
         <entryLink name="Stratagem: Warlord Trait" id="54c7-8c6f-5674-6f40" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Synapse" id="b857-44f2-9d90-3386" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
+        <infoLink name="Synapse (Aura)" id="b857-44f2-9d90-3386" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
         <infoLink name="Shadow in the Warp (Aura)" id="68ea-b0b9-2c06-8c35" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile"/>
         <infoLink name="Psychic Barrier" id="d864-e770-6e88-1abe" hidden="false" targetId="4df2-766b-6931-c259" type="profile">
           <modifiers>
             <modifier field="page" type="set" value="91"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Death Throes" id="e67a-9753-47c9-6316" hidden="false" targetId="6515-364e-86c7-5f9f" type="profile">
+        <infoLink name="Death Throes (6&quot;/D3)" id="e67a-9753-47c9-6316" hidden="false" targetId="6515-364e-86c7-5f9f" type="profile">
           <modifiers>
             <modifier field="page" type="set" value="91"/>
           </modifiers>
@@ -6145,11 +6145,11 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Tyranid Prime" id="d254-4969-7e67-32a9" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="84a6-5bcf-0122-0312" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="19b9-0bcd-108d-faa6" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="1c6a-f301-f4ff-ddca" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="7118-9c85-d875-4b06" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="7c27-77f5-20ee-54c4" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="2cbf-2211-fdb8-56c0" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
+        <categoryLink name="Faction: Tyranids" id="19b9-0bcd-108d-faa6" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="1c6a-f301-f4ff-ddca" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Character" id="7118-9c85-d875-4b06" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Infantry" id="7c27-77f5-20ee-54c4" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Synapse" id="2cbf-2211-fdb8-56c0" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="85"/>
@@ -6189,7 +6189,7 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
       </entryLinks>
       <infoLinks>
         <infoLink name="Shadow in the Warp (Aura)" id="d1c8-e20d-1782-afcd" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile"/>
-        <infoLink name="Synapse" id="9d7b-f998-dfc2-cb61" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
+        <infoLink name="Synapse (Aura)" id="9d7b-f998-dfc2-cb61" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
       </infoLinks>
       <profiles>
         <profile name="Tyranid Prime" id="9d41-35c6-31f2-ae12" hidden="false" page="86" publicationId="7150-5917-pubN65537" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -6684,7 +6684,7 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Crushing Claws" id="223d-31e3-24d0-42f6" hidden="false" targetId="058b-c3f2-5a4c-1e52" type="profile"/>
+        <infoLink name="Crushing Claw" id="223d-31e3-24d0-42f6" hidden="false" targetId="058b-c3f2-5a4c-1e52" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Distensible Jaws" id="9dba-3b4b-128e-9ede" collective="false" hidden="false" import="true" type="upgrade">
@@ -7138,9 +7138,9 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Barbed Hierodule" id="35c3-a8c2-fe10-325f" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="8d40-6ac5-7f2a-c446" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="e005-b1a0-7fa8-007a" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="0453-5af1-20da-9d2d" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="09a6-8aaa-532f-a01f" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Faction: Tyranids" id="e005-b1a0-7fa8-007a" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="0453-5af1-20da-9d2d" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Monster" id="09a6-8aaa-532f-a01f" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="275"/>
@@ -7210,9 +7210,9 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Dimachaeron" id="31b7-cfad-2be9-9997" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="2655-f95a-03f3-2925" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="f228-cf22-5980-3264" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="ff54-09b0-910d-49db" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="983b-cce4-6f44-a993" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Faction: Tyranids" id="f228-cf22-5980-3264" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="ff54-09b0-910d-49db" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Monster" id="983b-cce4-6f44-a993" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="280"/>
@@ -7297,13 +7297,13 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Harridan" id="d1cb-8964-788a-7e66" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="9799-225c-152d-f24f" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="344a-8187-8f19-53e4" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="c816-fe03-43db-271e" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="4f04-6b4f-b70c-69fd" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
-        <categoryLink name="New CategoryLink" id="142b-39b0-4867-4550" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink name="New CategoryLink" id="e87f-38ca-f919-0491" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink name="New CategoryLink" id="6787-1c40-5ebd-f977" hidden="false" primary="false" targetId="bdda-36f0-4f32-1639"/>
-        <categoryLink name="New CategoryLink" id="ca60-843e-5502-bf0e" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
+        <categoryLink name="Faction: Tyranids" id="344a-8187-8f19-53e4" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="c816-fe03-43db-271e" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Lord of War" id="4f04-6b4f-b70c-69fd" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
+        <categoryLink name="Monster" id="142b-39b0-4867-4550" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Fly" id="e87f-38ca-f919-0491" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Titanic" id="6787-1c40-5ebd-f977" hidden="false" primary="false" targetId="bdda-36f0-4f32-1639"/>
+        <categoryLink name="Transport" id="ca60-843e-5502-bf0e" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
         <categoryLink name="Aircraft" id="0611-c994-fa1d-3c96" hidden="false" primary="false" targetId="d569-3d56-cd24-6a31"/>
       </categoryLinks>
       <costs>
@@ -7414,12 +7414,12 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Malanthrope" id="fb84-bb9f-5abe-be3f" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="a60c-0a4e-33a9-ae0a" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="3126-2b52-879e-5ee4" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="d5f5-180a-f218-06df" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="d07b-e9c1-d6a4-e227" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
-        <categoryLink name="New CategoryLink" id="57d5-e1f4-142e-39af" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink name="New CategoryLink" id="59a6-e5c8-e77d-f209" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="e4ef-c8e5-34e2-ce2e" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Faction: Tyranids" id="3126-2b52-879e-5ee4" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="d5f5-180a-f218-06df" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="HQ" id="d07b-e9c1-d6a4-e227" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="Monster" id="57d5-e1f4-142e-39af" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Character" id="59a6-e5c8-e77d-f209" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Fly" id="e4ef-c8e5-34e2-ce2e" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
         <categoryLink name="Synapse" id="a556-4ba1-c919-02fc" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
       </categoryLinks>
       <costs>
@@ -7441,8 +7441,8 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
         <entryLink name="Stratagem: Warlord Trait" id="581a-084d-367e-f919" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Synapse" id="327b-487b-e7bf-3657" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
-        <infoLink name="Shadow in the Warp" id="9147-ac58-3786-bb70" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile"/>
+        <infoLink name="Synapse (Aura)" id="327b-487b-e7bf-3657" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
+        <infoLink name="Shadow in the Warp (Aura)" id="9147-ac58-3786-bb70" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile"/>
       </infoLinks>
       <profiles>
         <profile name="Shrouding Spores (Aura)" id="c3a7-e443-af13-d6c2" hidden="false" page="217" publicationId="7573-8d1b-acdf-2de8" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -7479,8 +7479,8 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="d484-757c-72e6-d717" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
         <categoryLink name="Faction: Living Artillery" id="2259-ea57-21da-8f5f" hidden="false" primary="false" targetId="684f-92a1-8e45-8556"/>
-        <categoryLink name="New CategoryLink" id="fa6c-3d28-0b2e-ff49" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="b867-643c-dc08-0d0a" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Faction: Tyranids" id="fa6c-3d28-0b2e-ff49" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Fly" id="b867-643c-dc08-0d0a" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
         <categoryLink name="Spore" id="0b74-d095-48f7-c273" hidden="false" primary="false" targetId="6e8a-f026-6760-4c1c"/>
       </categoryLinks>
       <costs>
@@ -7544,9 +7544,9 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Scythed Hierodule" id="633b-45d1-420d-61ba" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="1556-19ad-36d3-ac0b" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="eb55-282e-27ae-2786" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="6452-37c9-0814-dab7" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="cdda-7fff-4535-1e5a" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Faction: Tyranids" id="eb55-282e-27ae-2786" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="6452-37c9-0814-dab7" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Monster" id="cdda-7fff-4535-1e5a" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="235"/>
@@ -7616,11 +7616,11 @@ TERVIGONS within range of a friendly &lt;HIVE FLEET&gt; TERMAGANT unit&apos;s Wa
     <selectionEntry name="Hierophant" id="8d05-bafd-ea07-c4af" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="dc91-ad0f-4dcc-b3ea" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="f1dc-1dd5-3af7-a0ca" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="71ac-f5cb-fac3-85cc" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="2029-0207-9586-e8a6" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
-        <categoryLink name="New CategoryLink" id="6cfd-9c86-af5a-7393" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink name="New CategoryLink" id="9538-0881-66b0-ae29" hidden="false" primary="false" targetId="bdda-36f0-4f32-1639"/>
+        <categoryLink name="Faction: Tyranids" id="f1dc-1dd5-3af7-a0ca" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="71ac-f5cb-fac3-85cc" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Lord of War" id="2029-0207-9586-e8a6" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
+        <categoryLink name="Monster" id="6cfd-9c86-af5a-7393" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Titanic" id="9538-0881-66b0-ae29" hidden="false" primary="false" targetId="bdda-36f0-4f32-1639"/>
         <categoryLink name="Transport" id="d5b0-02a0-70cd-9bde" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
         <categoryLink name="Fly" id="fdc3-cd76-41ba-de13" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
       </categoryLinks>
@@ -7749,10 +7749,10 @@ If the model has been posed with one or more of its legs raised, agree with your
     <selectionEntry name="Stone-crusher Carnifex" id="5c6d-f382-b731-f5ca" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="96e5-0378-af24-b0a6" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="5d7a-c364-847a-0139" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="7f4c-7ec7-ef72-8019" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="3952-f541-3787-cbb2" hidden="false" primary="false" targetId="d482-6830-b5c2-bb33"/>
-        <categoryLink name="New CategoryLink" id="0693-0572-0e44-6eb3" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Faction: Tyranids" id="5d7a-c364-847a-0139" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="7f4c-7ec7-ef72-8019" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Carnifex" id="3952-f541-3787-cbb2" hidden="false" primary="false" targetId="d482-6830-b5c2-bb33"/>
+        <categoryLink name="Monster" id="0693-0572-0e44-6eb3" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="6"/>
@@ -8982,10 +8982,10 @@ Unless the only units with this adaptation are part of an Auxiliary Support, Sup
     <selectionEntry name="Screamer-Killers" id="797b-c7fe-679a-7117" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="cc51-584d-836e-b948" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="0cf3-8308-a86f-3fbd" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="8388-f20f-ca08-1314" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="e8d9-4221-18c7-f300" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink name="New CategoryLink" id="ff02-81d4-b2f2-be7f" hidden="false" primary="false" targetId="d482-6830-b5c2-bb33"/>
+        <categoryLink name="Faction: Tyranids" id="0cf3-8308-a86f-3fbd" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="8388-f20f-ca08-1314" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Monster" id="e8d9-4221-18c7-f300" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Carnifex" id="ff02-81d4-b2f2-be7f" hidden="false" primary="false" targetId="d482-6830-b5c2-bb33"/>
         <categoryLink name="Core" id="d7d2-2478-aeab-3348" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -9208,13 +9208,13 @@ Unless the only units with this adaptation are part of an Auxiliary Support, Sup
     <selectionEntry name="Neurothrope" id="cd9f-f30b-27c3-2869" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="7b58-16a2-2705-1655" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="9a60-5c7a-b81b-cf28" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="4cad-65de-89fb-1b6c" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="2163-9070-f18c-9862" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink name="New CategoryLink" id="f072-980e-26b9-2b2f" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
-        <categoryLink name="New CategoryLink" id="da6f-320b-2446-a0b8" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="ca28-d2bf-8c6f-5c3b" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="35ed-55a8-2fc8-8270" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
+        <categoryLink name="Faction: Tyranids" id="9a60-5c7a-b81b-cf28" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="4cad-65de-89fb-1b6c" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Fly" id="2163-9070-f18c-9862" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Psyker" id="f072-980e-26b9-2b2f" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
+        <categoryLink name="Infantry" id="da6f-320b-2446-a0b8" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Character" id="ca28-d2bf-8c6f-5c3b" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Synapse" id="35ed-55a8-2fc8-8270" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
         <categoryLink name="Horned Chitin" id="1b08-602e-14ab-d619" hidden="false" primary="false" targetId="e827-225b-065b-983d"/>
       </categoryLinks>
       <costs>
@@ -9257,7 +9257,7 @@ Unless the only units with this adaptation are part of an Auxiliary Support, Sup
       </entryLinks>
       <infoLinks>
         <infoLink name="Shadow in the Warp (Aura)" id="5852-40a3-fe8a-be4a" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile"/>
-        <infoLink name="Synapse" id="5a2f-c66a-73ba-906f" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
+        <infoLink name="Synapse (Aura)" id="5a2f-c66a-73ba-906f" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
       </infoLinks>
       <profiles>
         <profile name="Neurothrope" id="91fa-c72d-ade0-0c5e" hidden="false" page="92" publicationId="7150-5917-pubN65537" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -9320,10 +9320,10 @@ Unless the only units with this adaptation are part of an Auxiliary Support, Sup
     <selectionEntry name="Thornbacks" id="6f2a-1546-df78-9521" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="2f6f-f962-adf1-40fd" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="8af4-ca9a-0593-d94d" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="ac96-fd4d-7652-89c7" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="1a09-a1e2-feeb-866c" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink name="New CategoryLink" id="4027-e08e-d029-d944" hidden="false" primary="false" targetId="d482-6830-b5c2-bb33"/>
+        <categoryLink name="Faction: Tyranids" id="8af4-ca9a-0593-d94d" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="ac96-fd4d-7652-89c7" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Monster" id="1a09-a1e2-feeb-866c" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Carnifex" id="4027-e08e-d029-d944" hidden="false" primary="false" targetId="d482-6830-b5c2-bb33"/>
         <categoryLink name="Core" id="db05-85ff-daea-2b01" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -9484,7 +9484,7 @@ Unless the only units with this adaptation are part of an Auxiliary Support, Sup
     </selectionEntry>
     <selectionEntry name="Warlord" id="c832-2f4e-ee51-f481" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="7c55-02bd-f4c7-f11a" hidden="false" primary="false" targetId="ae09-117e-a6fa-316b"/>
+        <categoryLink name="Warlord" id="7c55-02bd-f4c7-f11a" hidden="false" primary="false" targetId="ae09-117e-a6fa-316b"/>
       </categoryLinks>
       <constraints>
         <constraint id="f3a9-90e3-49a9-c280" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -9626,7 +9626,7 @@ Unless the only units with this adaptation are part of an Auxiliary Support, Sup
         <cost name="pts" typeId="points" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Rending Claws" id="be92-ef04-27f7-105a" hidden="false" targetId="0693-a634-e549-a0f7" type="profile"/>
+        <infoLink name="Rending Claw" id="be92-ef04-27f7-105a" hidden="false" targetId="0693-a634-e549-a0f7" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Two Crushing Claws" id="0ad5-6368-2820-2488" collective="true" hidden="false" import="true" type="upgrade">
@@ -9937,13 +9937,13 @@ Unless the only units with this adaptation are part of an Auxiliary Support, Sup
     <selectionEntry name="Winged Hive Tyrant" id="d0f1-4f2b-4aa2-e6c6" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
         <categoryLink name="Faction: Hive Tendril" id="1629-ac5c-406e-443f" hidden="false" primary="false" targetId="3c7e-2472-ce0d-fe17"/>
-        <categoryLink name="New CategoryLink" id="9f6d-9ade-f299-a07f" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
-        <categoryLink name="New CategoryLink" id="e0ff-14d6-903a-0a8b" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
-        <categoryLink name="New CategoryLink" id="c4c6-3b93-9b93-f5e7" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="042e-2297-9993-e02f" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink name="New CategoryLink" id="47ff-dd77-ff49-09c5" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
-        <categoryLink name="New CategoryLink" id="b7de-bf69-8412-2996" hidden="false" primary="false" targetId="9c32-eba0-ea9e-1e0d"/>
-        <categoryLink name="New CategoryLink" id="d8c1-480a-d915-3d85" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
+        <categoryLink name="Faction: Tyranids" id="9f6d-9ade-f299-a07f" hidden="false" primary="false" targetId="a367-fb78-5192-96eb"/>
+        <categoryLink name="Faction: &lt;Hive Fleet&gt;" id="e0ff-14d6-903a-0a8b" hidden="false" primary="false" targetId="dc2c-fdd5-528b-e9ad"/>
+        <categoryLink name="Character" id="c4c6-3b93-9b93-f5e7" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Monster" id="042e-2297-9993-e02f" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Psyker" id="47ff-dd77-ff49-09c5" hidden="false" primary="false" targetId="e691-aad7-d21c-1023"/>
+        <categoryLink name="Hive Tyrant" id="b7de-bf69-8412-2996" hidden="false" primary="false" targetId="9c32-eba0-ea9e-1e0d"/>
+        <categoryLink name="Synapse" id="d8c1-480a-d915-3d85" hidden="false" primary="false" targetId="7b29-b270-99fe-4de7"/>
         <categoryLink name="Horned Chitin" id="f952-616a-07b1-7b72" hidden="false" primary="false" targetId="e827-225b-065b-983d"/>
         <categoryLink name="Fly" id="338e-a26f-80e8-79e9" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
       </categoryLinks>
@@ -10009,7 +10009,7 @@ Unless the only units with this adaptation are part of an Auxiliary Support, Sup
       </entryLinks>
       <infoLinks>
         <infoLink name="Shadow in the Warp (Aura)" id="b790-88e1-cd8c-b511" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile"/>
-        <infoLink name="Synapse" id="8524-4a05-4c71-a717" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
+        <infoLink name="Synapse (Aura)" id="8524-4a05-4c71-a717" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
         <infoLink name="Will of the Hive Mind" id="3ffa-921f-465d-b2e5" hidden="false" targetId="691e-2c1e-9556-14ef" type="profile">
           <modifiers>
             <modifier field="page" type="set" value="89"/>
@@ -10020,7 +10020,7 @@ Unless the only units with this adaptation are part of an Auxiliary Support, Sup
             <modifier field="page" type="set" value="89"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Death Throes" id="be59-b104-2a1a-9b01" hidden="false" targetId="6515-364e-86c7-5f9f" type="profile">
+        <infoLink name="Death Throes (6&quot;/D3)" id="be59-b104-2a1a-9b01" hidden="false" targetId="6515-364e-86c7-5f9f" type="profile">
           <modifiers>
             <modifier field="page" type="set" value="89"/>
           </modifiers>
@@ -10171,7 +10171,7 @@ Unless the only units with this adaptation are part of an Auxiliary Support, Sup
         <entryLink name="Stratagem: Warlord Trait" id="1f64-d63e-6200-51b6" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Synapse" id="ba28-0ed3-9a8f-ae35" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
+        <infoLink name="Synapse (Aura)" id="ba28-0ed3-9a8f-ae35" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
         <infoLink name="Shadow in the Warp (Aura)" id="4ac4-6506-d40b-5d00" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile"/>
         <infoLink name="Death from Above" id="2609-8f87-f2ae-81d1" hidden="false" targetId="119a-d63d-eb46-2dc9" type="profile">
           <modifiers>
@@ -12817,7 +12817,7 @@ Bursting the Sac (Action): At the start of your Shooting phase, this model can s
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Synapse" id="5da5-1fad-2ea9-39ac" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
+            <infoLink name="Synapse (Aura)" id="5da5-1fad-2ea9-39ac" hidden="false" targetId="1f08-bd8f-43a3-ce1b" type="profile"/>
             <infoLink name="Shadow in the Warp (Aura)" id="1447-ed5c-29a1-29a9" hidden="false" targetId="f587-afe6-7bbe-4eac" type="profile"/>
           </infoLinks>
           <modifiers>

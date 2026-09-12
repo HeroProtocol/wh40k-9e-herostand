@@ -186,7 +186,7 @@
   <entryLinks>
     <entryLink name="[Reference] Powers of the C&apos;tan (All)" id="500e-d0e1-2955-a9ae" collective="false" hidden="false" import="true" targetId="c5f8-6313-c05c-dfef" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c278-29d8-4d5f-dc23" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="c278-29d8-4d5f-dc23" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -198,12 +198,12 @@
     </entryLink>
     <entryLink name="[Reference] Annihilation Protocols (All)" id="f521-9c3d-af74-5963" collective="false" hidden="false" import="true" targetId="b153-21c4-653a-6962" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="ad4e-a636-0500-0378" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="ad4e-a636-0500-0378" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="[Reference] Fractured Personalities (All)" id="2ece-adf6-a8e9-8ce6" collective="false" hidden="false" import="true" targetId="5841-64f7-b88d-7840" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="8096-3857-af44-8921" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="8096-3857-af44-8921" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -215,12 +215,12 @@
     </entryLink>
     <entryLink name="[Reference] Necron Secondary Objectives (All)" id="fff4-7462-7c72-d75c" collective="false" hidden="false" import="true" targetId="bd3c-6d2c-f917-ebaa" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="2fda-b2e2-1d5f-6761" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="2fda-b2e2-1d5f-6761" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="[Reference] Warlord Traits (All)" id="74eb-15d9-da2f-17d8" collective="false" hidden="false" import="true" targetId="6a58-7b60-39f0-eeb8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="8e2f-3df5-b118-fe55" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="8e2f-3df5-b118-fe55" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Gauss Pylon" id="3cc0-cd9c-b8d6-2f96" collective="false" hidden="false" import="true" targetId="d3ca-ba96-c311-27f2" type="selectionEntry">
@@ -237,7 +237,7 @@
     </entryLink>
     <entryLink name="Catacomb Command Barge" id="6aa4-81d8-334c-75c6" collective="false" hidden="false" import="true" targetId="5333-92ea-fc60-0253" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="d635-b496-feef-75e1" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="d635-b496-feef-75e1" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -249,7 +249,7 @@
     </entryLink>
     <entryLink name="Annihilation Barge" id="50e9-2bca-18d2-7184" collective="false" hidden="false" import="true" targetId="5cb8-4a5a-700e-9ed5" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="99a7-fc29-08c5-feec" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Heavy Support" id="99a7-fc29-08c5-feec" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -261,7 +261,7 @@
     </entryLink>
     <entryLink name="Tomb Citadel Walls [Legends]" id="d5b9-4d11-4cad-e609" collective="false" hidden="false" import="true" targetId="81a5-c41a-bd50-7ac1" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="7f70-1766-7894-8eb6" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Fortification" id="7f70-1766-7894-8eb6" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -273,7 +273,7 @@
     </entryLink>
     <entryLink name="Sentry Pylons" id="b7fe-3cb4-97ec-50de" collective="false" hidden="false" import="true" targetId="20bc-e403-d208-75e2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="2396-1a00-2724-56cb" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Fortification" id="2396-1a00-2724-56cb" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -285,7 +285,7 @@
     </entryLink>
     <entryLink name="Night Shroud" id="46ca-a3d5-e806-e041" collective="false" hidden="false" import="true" targetId="e90a-0682-0e25-a166" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="11e0-1911-80a5-9321" hidden="false" primary="true" targetId="e888-1504-aa61-95ff"/>
+        <categoryLink name="Flyer" id="11e0-1911-80a5-9321" hidden="false" primary="true" targetId="e888-1504-aa61-95ff"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -297,7 +297,7 @@
     </entryLink>
     <entryLink name="Canoptek Tomb Sentinel" id="f376-cd46-82f5-eed9" collective="false" hidden="false" import="true" targetId="f821-cc14-9ff6-8a92" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="0815-f354-27f4-fd21" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="0815-f354-27f4-fd21" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -309,7 +309,7 @@
     </entryLink>
     <entryLink name="Canoptek Scarab Swarms" id="bbb9-0eb2-d608-577a" collective="false" hidden="false" import="true" targetId="544d-10ba-7176-4360" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="0d29-c495-7529-f0da" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="0d29-c495-7529-f0da" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -345,12 +345,12 @@
     </entryLink>
     <entryLink name="Dynasty Choice" id="fb30-1514-c892-86b5" collective="false" hidden="false" import="true" targetId="56f2-f7e2-4231-f2da" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="ccc2-629b-cce6-9cdc" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="ccc2-629b-cce6-9cdc" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Convergence of Dominion" id="5567-ee4d-b514-6611" collective="false" hidden="false" import="true" targetId="c354-be99-39e5-a2ce" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e279-3b20-52ca-5691" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
+        <categoryLink name="Fortification" id="e279-3b20-52ca-5691" hidden="false" primary="true" targetId="d713cda3-5d0f-40d8-b621-69233263ec2a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -398,7 +398,7 @@
     </entryLink>
     <entryLink name="The Silent King" id="306e-8777-53cb-db04" collective="false" hidden="false" import="true" targetId="4ed9-4e6f-9116-0b00" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="36b8-c7fb-a9f1-e38a" hidden="false" primary="true" targetId="26b0-4bb9-73aa-d3d7"/>
+        <categoryLink name="Primarch | Daemon Primarch | Supreme Commander" id="36b8-c7fb-a9f1-e38a" hidden="false" primary="true" targetId="26b0-4bb9-73aa-d3d7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -422,7 +422,7 @@
     </entryLink>
     <entryLink name="Doom Scythe" id="12c9-5b4f-4263-c9e2" collective="false" hidden="false" import="true" targetId="3e0e-abf2-af4a-3a0b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="7f4f-b128-17a1-ec7d" hidden="false" primary="true" targetId="e888-1504-aa61-95ff"/>
+        <categoryLink name="Flyer" id="7f4f-b128-17a1-ec7d" hidden="false" primary="true" targetId="e888-1504-aa61-95ff"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -434,7 +434,7 @@
     </entryLink>
     <entryLink name="Night Scythe" id="e26d-8d3a-65bd-3e5d" collective="false" hidden="false" import="true" targetId="2400-5523-7510-a2b6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="6215-6742-df47-cb65" hidden="false" primary="true" targetId="e888-1504-aa61-95ff"/>
+        <categoryLink name="Flyer" id="6215-6742-df47-cb65" hidden="false" primary="true" targetId="e888-1504-aa61-95ff"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -446,7 +446,7 @@
     </entryLink>
     <entryLink name="Ghost Ark" id="9745-1175-2b10-b761" collective="false" hidden="false" import="true" targetId="9cc2-e8ba-eea4-a6db" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="b2db-d773-d0ac-e3b1" hidden="false" primary="true" targetId="1b66-3f5f-6705-079a"/>
+        <categoryLink name="Dedicated Transport" id="b2db-d773-d0ac-e3b1" hidden="false" primary="true" targetId="1b66-3f5f-6705-079a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -458,7 +458,7 @@
     </entryLink>
     <entryLink name="Canoptek Doomstalker" id="307d-1729-ddb4-29cf" collective="false" hidden="false" import="true" targetId="1f48-b296-8485-5b10" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c7af-156a-31be-614f" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Heavy Support" id="c7af-156a-31be-614f" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -470,7 +470,7 @@
     </entryLink>
     <entryLink name="Doomsday Ark" id="f52f-6a65-1347-dfae" collective="false" hidden="false" import="true" targetId="8e23-1b9d-1c2e-3e22" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="4708-c84c-a4e9-7a10" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Heavy Support" id="4708-c84c-a4e9-7a10" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -482,17 +482,17 @@
     </entryLink>
     <entryLink name="Lokhust Destroyers" id="d327-7999-594d-f82b" collective="false" hidden="false" import="true" targetId="ced3-4ec4-60ec-b671" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="54c4-8215-b0d4-7ac9" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Heavy Support" id="54c4-8215-b0d4-7ac9" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Lokhust Heavy Destroyers" id="26b4-1ec8-7694-6bba" collective="false" hidden="false" import="true" targetId="0c81-a7d9-3e6a-1382" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="2267-9af3-b749-e6eb" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Heavy Support" id="2267-9af3-b749-e6eb" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Tesseract Ark" id="aa82-4c53-ac37-28bf" collective="false" hidden="false" import="true" targetId="4a66-b1ac-dd95-09e8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="4fca-9422-7234-db8c" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+        <categoryLink name="Heavy Support" id="4fca-9422-7234-db8c" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -504,7 +504,7 @@
     </entryLink>
     <entryLink name="Canoptek Wraiths" id="6ccf-1e6e-4a4d-406f" collective="false" hidden="false" import="true" targetId="2ca1-0513-62e6-1e27" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="4b8b-3af1-39f0-3e3c" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="4b8b-3af1-39f0-3e3c" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -516,12 +516,12 @@
     </entryLink>
     <entryLink name="Ophydian Destroyers" id="4d67-1b99-9c8c-a6d0" collective="false" hidden="false" import="true" targetId="538c-cd82-87a4-5147" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="acee-61fb-cc4e-3f1c" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="acee-61fb-cc4e-3f1c" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Tomb Blades" id="b63d-9fc3-ab83-bc0a" collective="false" hidden="false" import="true" targetId="86e5-0d3d-cacc-2c2c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="530c-0bc2-0813-5d16" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="530c-0bc2-0813-5d16" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -533,7 +533,7 @@
     </entryLink>
     <entryLink name="Triarch Praetorians" id="f697-86df-8f37-b05b" collective="false" hidden="false" import="true" targetId="8bc0-df6f-0e3f-7410" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="ef6b-4f2e-14d3-6a2d" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="ef6b-4f2e-14d3-6a2d" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -545,7 +545,7 @@
     </entryLink>
     <entryLink name="Canoptek Acanthrites" id="e712-2d13-182a-d77e" collective="false" hidden="false" import="true" targetId="6315-999a-c664-5f14" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="846f-139e-bb5f-0540" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+        <categoryLink name="Fast Attack" id="846f-139e-bb5f-0540" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -641,7 +641,7 @@
     </entryLink>
     <entryLink name="Hexmark Destroyer" id="2fa4-a3bc-83ea-b58b" collective="false" hidden="false" import="true" targetId="f87a-1395-2243-c2c9" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e5b8-d95f-8d2c-b4b3" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="No Force Org Slot" id="e5b8-d95f-8d2c-b4b3" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
       </categoryLinks>
       <constraints>
         <constraint id="17aa-89e4-3ce6-3cdd" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="max" value="0"/>
@@ -720,7 +720,7 @@
     </entryLink>
     <entryLink name="Necron Warriors" id="881a-dcaf-c88b-8ff1" collective="false" hidden="false" import="true" targetId="12ec-e22a-a06b-c611" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="3dc4-0440-c700-97a4" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+        <categoryLink name="Troops" id="3dc4-0440-c700-97a4" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -732,7 +732,7 @@
     </entryLink>
     <entryLink name="Immortals" id="887a-19fb-1377-70a4" collective="false" hidden="false" import="true" targetId="7b8e-775e-8a0f-4455" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="5f24-dd6a-e3b5-cde4" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+        <categoryLink name="Troops" id="5f24-dd6a-e3b5-cde4" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -744,7 +744,7 @@
     </entryLink>
     <entryLink name="Anrakyr the Traveller" id="20ae-54b9-cafc-fff2" collective="false" hidden="false" import="true" targetId="7fab-f8ff-90cc-2858" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="fe36-0ec9-6d7d-cdac" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="fe36-0ec9-6d7d-cdac" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -756,7 +756,7 @@
     </entryLink>
     <entryLink name="Illuminor Szeras" id="65c1-07e4-fc5f-3716" collective="false" hidden="false" import="true" targetId="2b74-5621-5b41-730f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="606b-83e9-c1f3-e111" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="606b-83e9-c1f3-e111" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -768,7 +768,7 @@
     </entryLink>
     <entryLink name="Imotekh the Stormlord" id="a2ca-7342-8055-b98a" collective="false" hidden="false" import="true" targetId="ea9b-4e8a-12f5-273c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="1dfd-773c-fe10-aec4" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="1dfd-773c-fe10-aec4" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -780,12 +780,12 @@
     </entryLink>
     <entryLink name="Lokhust Lord" id="274c-60c9-e1be-c796" collective="false" hidden="false" import="true" targetId="2bb9-8708-45fb-e5f1" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="6cee-c231-b887-3f00" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="6cee-c231-b887-3f00" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Lord" id="ea31-1198-5a4a-d906" collective="false" hidden="false" import="true" targetId="4d88-448b-d4cd-feb0" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="b743-b365-18e4-63b2" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="b743-b365-18e4-63b2" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -797,7 +797,7 @@
     </entryLink>
     <entryLink name="Nemesor Zahndrekh" id="f72a-2186-cd14-d1f7" collective="false" hidden="false" import="true" targetId="e6de-4de0-e695-be74" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="d62f-be9f-e034-1f17" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="d62f-be9f-e034-1f17" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -809,7 +809,7 @@
     </entryLink>
     <entryLink name="Orikan the Diviner" id="71f6-ac01-1ee1-a3f2" collective="false" hidden="false" import="true" targetId="de91-4514-2040-fe63" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="3511-f3db-e99a-236f" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="3511-f3db-e99a-236f" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -821,7 +821,7 @@
     </entryLink>
     <entryLink name="Overlord" id="2080-5fb8-3dfa-2b0c" collective="false" hidden="false" import="true" targetId="0633-49e2-08b0-583e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="481f-936e-d994-8806" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="481f-936e-d994-8806" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -833,7 +833,7 @@
     </entryLink>
     <entryLink name="Royal Warden" id="b3eb-7580-13e5-3cb8" collective="false" hidden="false" import="true" targetId="c2d7-4738-28d5-fd04" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="3ef4-fce6-f92a-dc63" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="3ef4-fce6-f92a-dc63" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -845,12 +845,12 @@
     </entryLink>
     <entryLink name="Skorpekh Lord" id="cfe7-5fa1-8e50-4041" collective="false" hidden="false" import="true" targetId="1a69-3fb7-b76d-3d42" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="7f73-568c-359d-e757" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="7f73-568c-359d-e757" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Trazyn the Infinite" id="332a-547a-49c0-49d4" collective="false" hidden="false" import="true" targetId="00c8-26f8-e8b4-b58c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="a5de-d54b-64a4-161f" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="a5de-d54b-64a4-161f" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -862,7 +862,7 @@
     </entryLink>
     <entryLink name="Vargard Obyron" id="10dc-e200-c61f-77a2" collective="false" hidden="false" import="true" targetId="6f14-943d-c02e-c562" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="f5e1-9d48-7d59-e87f" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="f5e1-9d48-7d59-e87f" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -874,7 +874,7 @@
     </entryLink>
     <entryLink name="Kutlakh the World Killer [Legends]" id="1a0b-7850-c372-ab2c" collective="false" hidden="false" import="true" targetId="1abe-ecae-897e-5f4d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="4ae9-270a-c4bf-e0bc" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="4ae9-270a-c4bf-e0bc" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -892,7 +892,7 @@
     <entryLink name="Cryptothralls" id="7d63-4d79-a732-8f78" collective="false" hidden="false" import="true" targetId="2368-8890-e2af-f17f" type="selectionEntry">
       <comment>Bound Creation Selection</comment>
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="42ef-dc77-91a8-079a" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="No Force Org Slot" id="42ef-dc77-91a8-079a" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
       </categoryLinks>
       <constraints>
         <constraint id="7aa3-9665-ac94-e04e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -918,7 +918,7 @@
     </entryLink>
     <entryLink name="Toholk the Blinded [Legends]" id="c2a2-1d4d-91cd-1f5e" collective="false" hidden="false" import="true" targetId="f40d-d7dc-c067-37bf" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="4f77-4e53-5e41-6b03" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="4f77-4e53-5e41-6b03" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -930,7 +930,7 @@
     </entryLink>
     <entryLink name="Chronomancer" id="a11c-4537-cb77-91bf" collective="false" hidden="false" import="true" targetId="e4d8-225b-cae1-1f20" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="eb60-08a7-43b0-0408" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="eb60-08a7-43b0-0408" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -942,7 +942,7 @@
     </entryLink>
     <entryLink name="Technomancer" id="7350-8a77-7264-292f" collective="false" hidden="false" import="true" targetId="e5d8-d5a6-55bf-e6fa" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="3ff1-ece3-e207-85db" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="3ff1-ece3-e207-85db" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -954,7 +954,7 @@
     </entryLink>
     <entryLink name="Psychomancer" id="6f5f-45f4-dc1a-7a18" collective="false" hidden="false" import="true" targetId="9a67-e60b-d442-edb9" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="3675-e740-afd6-7487" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="3675-e740-afd6-7487" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -966,7 +966,7 @@
     </entryLink>
     <entryLink name="Plasmancer" id="0c72-63b8-2bb0-9e7a" collective="false" hidden="false" import="true" targetId="fcaa-e4d5-ee5b-de74" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="d45a-d955-914e-6dad" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="d45a-d955-914e-6dad" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -978,7 +978,7 @@
     </entryLink>
     <entryLink name="Dynastic Advisor" id="a9ab-19bb-9332-66be" collective="false" hidden="false" import="true" targetId="7482-b4b9-3bae-6e7e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="9f2d-b17b-3b19-d712" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="No Force Org Slot" id="9f2d-b17b-3b19-d712" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -1008,7 +1008,7 @@
     <entryLink name="Canoptek Plasmacyte" id="abe7-e23a-445a-4522" collective="false" hidden="false" import="true" targetId="0fb4-b740-7b57-c45e" type="selectionEntry">
       <comment>Viral Construct Selection</comment>
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="9e15-cd26-7a51-6cbb" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
+        <categoryLink name="No Force Org Slot" id="9e15-cd26-7a51-6cbb" hidden="false" primary="true" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74"/>
       </categoryLinks>
       <constraints>
         <constraint id="7e22-e247-9a36-21ae" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="max" value="0"/>
@@ -1033,12 +1033,12 @@
     </entryLink>
     <entryLink name="[Reference] Command Protocols (All)" id="f44a-7148-5be4-01c6" collective="false" hidden="false" import="true" targetId="21e3-6796-16ba-cd9a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="f25e-0d7d-508f-408f" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
+        <categoryLink name="Configuration" id="f25e-0d7d-508f-408f" hidden="false" primary="true" targetId="fcff-0f21-93e6-1ddc"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="Hexmark Destroyer" id="8b3d-8b71-f44f-bd17" collective="false" hidden="false" import="true" targetId="f87a-1395-2243-c2c9" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="d54e-3b1c-bc98-3093" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+        <categoryLink name="HQ" id="d54e-3b1c-bc98-3093" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -1062,7 +1062,7 @@
     </entryLink>
     <entryLink name="Stratagem: Heroic Support" id="8895-cde4-9cba-5282" collective="false" hidden="false" import="true" targetId="cbd4-34fb-6ba6-9593" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="ae24-c154-2889-d231" hidden="false" primary="true" targetId="c845-c72c-6afe-3fc2"/>
+        <categoryLink name="Stratagems" id="ae24-c154-2889-d231" hidden="false" primary="true" targetId="c845-c72c-6afe-3fc2"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1736,13 +1736,13 @@ If the battle lasts for more than five battle rounds, then until the end of the 
   <sharedSelectionEntries>
     <selectionEntry name="Tesseract Vault" id="e151-00eb-70a6-86b4" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="b243-f93c-c0f8-6f99" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="3a70-8364-0a4d-5b43" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="f9fc-440b-8d07-a569"/>
-        <categoryLink id="a8e6-5eb3-e4b2-2d51" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="4c67-1b6c-8917-c98e" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="52d7-d813-1ea0-d435" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="23c9-73a1-47bb-2416"/>
-        <categoryLink id="728d-b913-498e-b365" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bdda-36f0-4f32-1639"/>
-        <categoryLink id="836d-09b8-5696-a01d" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="b243-f93c-c0f8-6f99" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="C&apos;tan Shard" id="3a70-8364-0a4d-5b43" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="f9fc-440b-8d07-a569"/>
+        <categoryLink name="Faction: Necrons" id="a8e6-5eb3-e4b2-2d51" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Fly" id="4c67-1b6c-8917-c98e" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Tesseract Vault" id="52d7-d813-1ea0-d435" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="23c9-73a1-47bb-2416"/>
+        <categoryLink name="Titanic" id="728d-b913-498e-b365" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bdda-36f0-4f32-1639"/>
+        <categoryLink name="Vehicle" id="836d-09b8-5696-a01d" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Core" id="2d22-3c91-5e69-d0ad" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -1831,12 +1831,12 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="Imotekh the Stormlord" id="ea9b-4e8a-12f5-273c" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="5a37-9a71-f242-cf51" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="2119-dbb4-04d7-151a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="2093-0eaa-0dfe-84a3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink id="cca7-7759-104d-a58c" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="96fd-04aa-fb4f-67e6"/>
-        <categoryLink id="0d48-d154-034e-8083" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bf50-0bdf-8343-790c"/>
-        <categoryLink id="d7f3-768c-1632-9ed8" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="b528-ce92-37a5-48c3"/>
+        <categoryLink name="Faction: Necrons" id="5a37-9a71-f242-cf51" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Character" id="2119-dbb4-04d7-151a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Infantry" id="2093-0eaa-0dfe-84a3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Sautekh" id="cca7-7759-104d-a58c" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="96fd-04aa-fb4f-67e6"/>
+        <categoryLink name="Overlord" id="0d48-d154-034e-8083" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bf50-0bdf-8343-790c"/>
+        <categoryLink name="Imotekh the Stormlord" id="d7f3-768c-1632-9ed8" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="b528-ce92-37a5-48c3"/>
         <categoryLink name="Noble" id="394c-481e-34ae-4e87" hidden="false" primary="false" targetId="60f3-194a-d96a-689c"/>
         <categoryLink name="Phaeron" id="1f1b-b397-ae1f-3ace" hidden="false" primary="false" targetId="ca46-815a-cdb2-997d"/>
       </categoryLinks>
@@ -1871,7 +1871,7 @@ If the battle lasts for more than five battle rounds, then until the end of the 
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Rarefied Nobility" id="456c-b6ef-f966-3e04" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="456c-b6ef-f966-3e04" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
         <entryLink name="Warlord Trait (Sautekh): Hyperlogical Strategist" id="ea50-93f2-7cc2-b0e2" collective="false" hidden="false" import="true" targetId="b916-2a56-8cab-ffe1" type="selectionEntry">
           <constraints>
             <constraint id="4637-c446-c0f1-c1ec" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
@@ -1921,7 +1921,7 @@ If the battle lasts for more than five battle rounds, then until the end of the 
           </modifiers>
         </entryLink>
         <entryLink name="Stratagem: Warlord Trait" id="1e5a-73b9-4168-1525" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
-        <entryLink name="Boarding Action Enhancements" id="c97f-a835-f803-1bd0" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
+        <entryLink name="Boarding Action Enhancements - Common" id="c97f-a835-f803-1bd0" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Living Metal" id="cafe-6f7d-e95d-bf65" hidden="false" publicationId="61c6-c8c5-pubN65537" targetId="601f-ad02-3e1f-fcc4" type="rule"/>
@@ -2516,12 +2516,12 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="Canoptek Scarab Swarms" id="544d-10ba-7176-4360" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e838-6f4f-712d-c54d" hidden="false" primary="false" targetId="c276-12d8-a188-16a2"/>
-        <categoryLink name="New CategoryLink" id="5ab2-236d-96fe-9a6f" hidden="false" primary="false" targetId="accb-e3d8-1193-10cc"/>
-        <categoryLink name="New CategoryLink" id="f3a3-e761-8517-4c22" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink name="New CategoryLink" id="d663-78ba-7a7b-84b3" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink name="New CategoryLink" id="8edb-52c3-652a-5a1b" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink name="New CategoryLink" id="bfdc-95c0-8a21-2dcc" hidden="false" primary="false" targetId="7a53-eedc-8dbb-8505"/>
+        <categoryLink name="Canoptek Scarab Swarms" id="e838-6f4f-712d-c54d" hidden="false" primary="false" targetId="c276-12d8-a188-16a2"/>
+        <categoryLink name="Faction: Canoptek" id="5ab2-236d-96fe-9a6f" hidden="false" primary="false" targetId="accb-e3d8-1193-10cc"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="f3a3-e761-8517-4c22" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="d663-78ba-7a7b-84b3" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Fly" id="8edb-52c3-652a-5a1b" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Swarm" id="bfdc-95c0-8a21-2dcc" hidden="false" primary="false" targetId="7a53-eedc-8dbb-8505"/>
       </categoryLinks>
       <constraints>
         <constraint id="27e6-1768-f457-ca63" field="selections" includeChildForces="true" includeChildSelections="false" percentValue="false" scope="force" shared="true" type="max" value="1"/>
@@ -2696,11 +2696,11 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="Tomb Blades" id="86e5-0d3d-cacc-2c2c" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="unit">
       <categoryLinks>
-        <categoryLink id="4d67-4dcf-6c59-18a0" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="1c6f-0311-3eba-3180"/>
-        <categoryLink id="f124-4e5d-4ca2-b99f" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="52bc-6362-5e87-bf60" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="ed89-f760-f4a6-b12c" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="dada-36d9-33a5-d2fb" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c0ef-6b06-22f9-220b"/>
+        <categoryLink name="Biker" id="4d67-4dcf-6c59-18a0" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="1c6f-0311-3eba-3180"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="f124-4e5d-4ca2-b99f" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="52bc-6362-5e87-bf60" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Fly" id="ed89-f760-f4a6-b12c" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Tomb Blades" id="dada-36d9-33a5-d2fb" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c0ef-6b06-22f9-220b"/>
         <categoryLink name="Core" id="6933-06de-75c1-fb0e" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -2805,11 +2805,11 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="Lokhust Destroyers" id="ced3-4ec4-60ec-b671" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="unit">
       <categoryLinks>
-        <categoryLink id="3cd7-1cc1-64f5-d934" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="f018-ec28-e87f-314d"/>
-        <categoryLink id="b085-f141-9db9-fd8f" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="b1cb-00c2-46a0-6803" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="a88b-1050-e898-66e1" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="ee86-9e64-81c7-56e3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Lokhust Destroyers" id="3cd7-1cc1-64f5-d934" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="f018-ec28-e87f-314d"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="b085-f141-9db9-fd8f" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="b1cb-00c2-46a0-6803" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Fly" id="a88b-1050-e898-66e1" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Infantry" id="ee86-9e64-81c7-56e3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Faction: Destroyer Cult" id="2550-0694-e86d-4be3" hidden="false" primary="false" targetId="0ad7-1f84-c52c-ff8c"/>
         <categoryLink name="Core" id="b677-e051-19de-cca5" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
@@ -2881,11 +2881,11 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="Lokhust Heavy Destroyers" id="0c81-a7d9-3e6a-1382" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="unit">
       <categoryLinks>
-        <categoryLink id="7ee8-bc1e-5edb-7add" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="9ff7-e695-ae3f-6ede" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="2dbe-7c85-94a5-13f0" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="f02b-9721-43eb-b977" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c35b-bfb6-1254-19d5"/>
-        <categoryLink id="ce24-d5ad-2e66-28b9" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="7ee8-bc1e-5edb-7add" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="9ff7-e695-ae3f-6ede" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Fly" id="2dbe-7c85-94a5-13f0" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Lokhust Heavy Destroyers" id="f02b-9721-43eb-b977" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c35b-bfb6-1254-19d5"/>
+        <categoryLink name="Infantry" id="ce24-d5ad-2e66-28b9" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Faction: Destroyer Cult" id="bfcf-2ecb-2299-2c7a" hidden="false" primary="false" targetId="0ad7-1f84-c52c-ff8c"/>
         <categoryLink name="Core" id="a70a-fa39-d1af-8714" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
@@ -2946,12 +2946,12 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="Canoptek Spyders" id="020f-7722-666a-dcef" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="unit">
       <categoryLinks>
-        <categoryLink id="1d8b-b6b3-c26f-d2aa" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="23dd-d029-6d7c-164f" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="accb-e3d8-1193-10cc"/>
-        <categoryLink id="7e43-be5b-4eb2-cfd2" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="f3a8-c26e-301a-dcbb" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="b606-2a05-51fe-7432"/>
-        <categoryLink id="0f43-64b0-b31e-d2e5" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink name="New CategoryLink" id="fc04-2541-a494-0f59" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="1d8b-b6b3-c26f-d2aa" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Canoptek" id="23dd-d029-6d7c-164f" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="accb-e3d8-1193-10cc"/>
+        <categoryLink name="Faction: Necrons" id="7e43-be5b-4eb2-cfd2" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Canoptek Spyders" id="f3a8-c26e-301a-dcbb" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="b606-2a05-51fe-7432"/>
+        <categoryLink name="Monster" id="0f43-64b0-b31e-d2e5" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Fly" id="fc04-2541-a494-0f59" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
         <categoryLink name="Core" id="ef0d-e15d-081d-c6ae" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -3229,12 +3229,12 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="Obelisk" id="cc7e-cf76-2672-4cb3" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="0d3d-170c-f933-c593" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="e16d-fe4a-2e3a-6fe9" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="7ea3-e611-7b81-4346" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="d10b-4186-a92a-3fb7" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="5720-f8f0-52a0-fa4d"/>
-        <categoryLink id="1b9a-ccb6-61c3-1c3f" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bdda-36f0-4f32-1639"/>
-        <categoryLink id="b005-8444-c94e-8e4a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="0d3d-170c-f933-c593" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="e16d-fe4a-2e3a-6fe9" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Fly" id="7ea3-e611-7b81-4346" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Obelisk" id="d10b-4186-a92a-3fb7" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="5720-f8f0-52a0-fa4d"/>
+        <categoryLink name="Titanic" id="1b9a-ccb6-61c3-1c3f" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bdda-36f0-4f32-1639"/>
+        <categoryLink name="Vehicle" id="b005-8444-c94e-8e4a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Core" id="c182-a185-ceea-cd66" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -3319,12 +3319,12 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="Transcendent C&apos;tan" id="3281-7138-816a-c352" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="9a02-79e9-fb89-aebe" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="a98c-ce48-aa3a-11b6" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="f9fc-440b-8d07-a569"/>
-        <categoryLink id="d1af-fa22-eb02-cfe3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="04f4-9e7d-70bf-9fc8" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="1ae8-892a-1608-686e" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink id="7480-3950-1fe1-c876" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6180-3770-2f4c-8239"/>
+        <categoryLink name="Character" id="9a02-79e9-fb89-aebe" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="C&apos;tan Shard" id="a98c-ce48-aa3a-11b6" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="f9fc-440b-8d07-a569"/>
+        <categoryLink name="Faction: Necrons" id="d1af-fa22-eb02-cfe3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Fly" id="04f4-9e7d-70bf-9fc8" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Monster" id="1ae8-892a-1608-686e" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Transcendent C&apos;tan" id="7480-3950-1fe1-c876" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6180-3770-2f4c-8239"/>
         <categoryLink name="Elite Character" id="953a-8fef-3613-7e5f" hidden="false" primary="false" targetId="62d3-9871-9675-a63b"/>
       </categoryLinks>
       <costs>
@@ -3417,7 +3417,7 @@ If the battle lasts for more than five battle rounds, then until the end of the 
             <constraint id="4a5c-e3e6-fdc2-07b2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Fractured Personality: Entropic Touch" id="f6fb-4ca1-8a69-1112" collective="false" hidden="false" import="true" targetId="cc72-fac7-aea4-8bdd" type="selectionEntry"/>
+            <entryLink name="Fractured Personality: Untamed Power" id="f6fb-4ca1-8a69-1112" collective="false" hidden="false" import="true" targetId="cc72-fac7-aea4-8bdd" type="selectionEntry"/>
             <entryLink name="Fractured Personality: Immune to Natural Law" id="25bf-e982-c76b-8da9" collective="false" hidden="false" import="true" targetId="1595-beae-ff64-379a" type="selectionEntry"/>
             <entryLink name="Fractured Personality: Writhing Worldscape" id="8845-0ccf-f27f-a120" collective="false" hidden="false" import="true" targetId="d763-5383-0cb6-1889" type="selectionEntry"/>
             <entryLink name="Fractured Personality: Transdimensional Displacement" id="b457-06bc-919c-6308" collective="false" hidden="false" import="true" targetId="7d8c-7239-0d84-b5f0" type="selectionEntry"/>
@@ -3436,11 +3436,11 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="Monolith" id="77c2-dc9f-6ea0-87e4" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="0594-1d6e-bbf5-a9cc" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="2718-71c9-97ed-673a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="77f1-66ee-1f43-f0f7" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="5d3c-3efe-3c1d-4d6d"/>
-        <categoryLink id="be4a-30ac-22c7-d7fd" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bdda-36f0-4f32-1639"/>
-        <categoryLink id="b05f-4daa-205e-331e" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="0594-1d6e-bbf5-a9cc" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="2718-71c9-97ed-673a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Monolith" id="77f1-66ee-1f43-f0f7" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="5d3c-3efe-3c1d-4d6d"/>
+        <categoryLink name="Titanic" id="be4a-30ac-22c7-d7fd" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bdda-36f0-4f32-1639"/>
+        <categoryLink name="Vehicle" id="b05f-4daa-205e-331e" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Core" id="7db7-a640-916c-2bfb" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -3568,11 +3568,11 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="Annihilation Barge" id="5cb8-4a5a-700e-9ed5" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="508c-d878-5e32-56b0" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="a78e-c548-f087-09f8"/>
-        <categoryLink id="9dba-6063-bb8c-2d0a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="c9ab-cfe1-86ce-e7ae" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="9d48-21b4-c660-b648" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="2f74-106d-4181-4b68" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Annihilation Barge" id="508c-d878-5e32-56b0" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="a78e-c548-f087-09f8"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="9dba-6063-bb8c-2d0a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="c9ab-cfe1-86ce-e7ae" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Fly" id="9d48-21b4-c660-b648" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Vehicle" id="2f74-106d-4181-4b68" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Quantum Shielding" id="ed7d-4dd7-3378-1662" hidden="false" primary="false" targetId="9741-8989-19e5-faa3"/>
         <categoryLink name="Core" id="ad11-8441-f3d4-9f3a" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
@@ -3650,12 +3650,12 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="Ghost Ark" id="9cc2-e8ba-eea4-a6db" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="dc53-4601-5211-7036" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="2a3b-d8ae-7e69-1d81" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="6f5c-0163-b754-106e" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="e159-3c13-deb7-31c7" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="09aa-4c24-ce5c-7276"/>
-        <categoryLink id="2559-8232-bf60-1cd7" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6cc4-1b62-8e8a-05cd"/>
-        <categoryLink id="340e-513b-1aba-c1f7" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: Necrons" id="dc53-4601-5211-7036" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="2a3b-d8ae-7e69-1d81" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Fly" id="6f5c-0163-b754-106e" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Ghost Ark" id="e159-3c13-deb7-31c7" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="09aa-4c24-ce5c-7276"/>
+        <categoryLink name="Transport" id="2559-8232-bf60-1cd7" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6cc4-1b62-8e8a-05cd"/>
+        <categoryLink name="Vehicle" id="340e-513b-1aba-c1f7" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Quantum Shielding" id="23dd-7d8b-fbfe-7519" hidden="false" primary="false" targetId="9741-8989-19e5-faa3"/>
         <categoryLink name="Core" id="b03c-054d-ba40-5dd3" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
@@ -3741,11 +3741,11 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="Doom Scythe" id="3e0e-abf2-af4a-3a0b" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="f649-d1b0-c410-ab77" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="950a-c726-9305-1329"/>
-        <categoryLink id="1d4d-6c76-3aeb-856e" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="2300-5b9e-739c-b7a1" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="a7a5-7342-0bda-6bd3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="6f09-6905-a9b9-fa04" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Doom Scythe" id="f649-d1b0-c410-ab77" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="950a-c726-9305-1329"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="1d4d-6c76-3aeb-856e" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="2300-5b9e-739c-b7a1" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Fly" id="a7a5-7342-0bda-6bd3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Vehicle" id="6f09-6905-a9b9-fa04" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Aircraft" id="0810-1510-262a-fdb5" hidden="false" primary="false" targetId="d569-3d56-cd24-6a31"/>
         <categoryLink name="Core" id="ad1e-bd28-dd19-f391" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
@@ -3828,11 +3828,11 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="Night Scythe" id="2400-5523-7510-a2b6" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="7994-d35d-cdea-f1a3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="4516-05c2-d50f-fc9f" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="d8d6-493c-df66-6ef2" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="d450-7acd-1d61-fe03" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="8b18-acb2-80da-fdc8"/>
-        <categoryLink id="194a-87a4-4648-40a5" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="7994-d35d-cdea-f1a3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="4516-05c2-d50f-fc9f" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Fly" id="d8d6-493c-df66-6ef2" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Night Scythe" id="d450-7acd-1d61-fe03" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="8b18-acb2-80da-fdc8"/>
+        <categoryLink name="Vehicle" id="194a-87a4-4648-40a5" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Aircraft" id="bcee-8471-fc89-cef7" hidden="false" primary="false" targetId="d569-3d56-cd24-6a31"/>
         <categoryLink name="Transport" id="2ddf-cb5e-ded2-4a2f" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
         <categoryLink name="Core" id="b0d3-8b94-095f-51d6" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
@@ -3942,11 +3942,11 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="Canoptek Wraiths" id="2ca1-0513-62e6-1e27" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="16d8-f479-a7d6-b684" hidden="false" primary="false" targetId="7892-58f7-e769-4d87"/>
-        <categoryLink name="New CategoryLink" id="6543-2296-ef53-0a1c" hidden="false" primary="false" targetId="447e-178b-ec5a-0f87"/>
-        <categoryLink name="New CategoryLink" id="dc33-870e-9fbf-d465" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink name="New CategoryLink" id="6a73-8346-0663-6332" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink name="New CategoryLink" id="3f8b-56b0-aa3c-c08a" hidden="false" primary="false" targetId="accb-e3d8-1193-10cc"/>
+        <categoryLink name="Beast" id="16d8-f479-a7d6-b684" hidden="false" primary="false" targetId="7892-58f7-e769-4d87"/>
+        <categoryLink name="Canoptek Wraiths" id="6543-2296-ef53-0a1c" hidden="false" primary="false" targetId="447e-178b-ec5a-0f87"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="dc33-870e-9fbf-d465" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="6a73-8346-0663-6332" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Faction: Canoptek" id="3f8b-56b0-aa3c-c08a" hidden="false" primary="false" targetId="accb-e3d8-1193-10cc"/>
         <categoryLink name="Core" id="f648-e890-11cd-acbb" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -4051,9 +4051,9 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="Triarch Stalker" id="d056-a895-41b3-fe0f" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="076e-4574-ef4c-321a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="74fb-6c04-19fb-074d" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="0e77-62f0-0939-5fe1"/>
-        <categoryLink id="ca6b-d4bc-6c0a-fe73" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: Necrons" id="076e-4574-ef4c-321a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Triarch Stalker" id="74fb-6c04-19fb-074d" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="0e77-62f0-0939-5fe1"/>
+        <categoryLink name="Vehicle" id="ca6b-d4bc-6c0a-fe73" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Dynastic Agent" id="9751-9390-3217-6e93" hidden="false" primary="false" targetId="cf0e-81bd-95fa-3124"/>
         <categoryLink name="Triarch" id="18a9-cbee-c4c4-06f0" hidden="false" primary="false" targetId="e146-4fec-a933-5eba"/>
         <categoryLink name="Quantum Shielding" id="2783-f2e2-4785-c6f5" hidden="false" primary="false" targetId="9741-8989-19e5-faa3"/>
@@ -4171,12 +4171,12 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="C&apos;tan Shard of the Nightbringer" id="1d78-a116-94c1-2631" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="697f-cb7c-3a28-5ce3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="f9fc-440b-8d07-a569"/>
-        <categoryLink id="eb3c-67c1-29c5-0ca0" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="f39f-8385-79e1-5fb5" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="6024-1519-f8e2-779b" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="2f6d-182b-4c52-dedf" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink id="730c-ecb3-4a0f-58ce" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="dba2-2811-320e-76e3"/>
+        <categoryLink name="C&apos;tan Shard" id="697f-cb7c-3a28-5ce3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="f9fc-440b-8d07-a569"/>
+        <categoryLink name="Faction: Necrons" id="eb3c-67c1-29c5-0ca0" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Character" id="f39f-8385-79e1-5fb5" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Fly" id="6024-1519-f8e2-779b" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Monster" id="2f6d-182b-4c52-dedf" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="C&apos;tan Shard of the Nightbringer" id="730c-ecb3-4a0f-58ce" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="dba2-2811-320e-76e3"/>
         <categoryLink name="Elite Character" id="77c0-33ad-27d5-07bf" hidden="false" primary="false" targetId="62d3-9871-9675-a63b"/>
       </categoryLinks>
       <constraints>
@@ -4266,12 +4266,12 @@ If the battle lasts for more than five battle rounds, then until the end of the 
     </selectionEntry>
     <selectionEntry name="C&apos;tan Shard of the Deceiver" id="561d-83f5-ee13-fdfc" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="fdeb-80d6-1f49-3100" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="f9fc-440b-8d07-a569"/>
-        <categoryLink id="0616-6db8-cc78-0cce" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="669f-6e62-9bcc-007d" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c162-ebed-b2fe-5ba1"/>
-        <categoryLink id="bcab-eb36-7730-0568" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="0e1e-3be5-a80f-eba0" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="95cd-3b68-8c9c-92b2" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="C&apos;tan Shard" id="fdeb-80d6-1f49-3100" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="f9fc-440b-8d07-a569"/>
+        <categoryLink name="Faction: Necrons" id="0616-6db8-cc78-0cce" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="C&apos;tan Shard of the Deceiver" id="669f-6e62-9bcc-007d" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c162-ebed-b2fe-5ba1"/>
+        <categoryLink name="Character" id="bcab-eb36-7730-0568" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Fly" id="0e1e-3be5-a80f-eba0" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Monster" id="95cd-3b68-8c9c-92b2" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3b77-decb-d468-6bcc"/>
         <categoryLink name="Elite Character" id="01d1-3e3c-9544-5074" hidden="false" primary="false" targetId="62d3-9871-9675-a63b"/>
       </categoryLinks>
       <constraints>
@@ -4386,10 +4386,10 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Immortals" id="7b8e-775e-8a0f-4455" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="unit">
       <categoryLinks>
-        <categoryLink id="5eaf-b2da-7d70-ecf7" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="3b1d-67cd-3cee-293c" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="7202-e4d5-99e7-a2e9" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3fd5-c8ca-a541-2143"/>
-        <categoryLink id="3cec-868b-a519-2a1f" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="5eaf-b2da-7d70-ecf7" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="3b1d-67cd-3cee-293c" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Immortals" id="7202-e4d5-99e7-a2e9" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3fd5-c8ca-a541-2143"/>
+        <categoryLink name="Infantry" id="3cec-868b-a519-2a1f" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Core" id="bb56-dea3-cd15-1507" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -4438,10 +4438,10 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Lychguard" id="6299-dc56-da5d-5b0f" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="unit">
       <categoryLinks>
-        <categoryLink id="09a8-de36-319f-c79d" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="446f-a986-a988-19a8" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="08e4-e30e-78b6-eec1" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink id="8ca6-7eef-28a4-10f5" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="9ce0-c463-70f3-066b"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="09a8-de36-319f-c79d" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="446f-a986-a988-19a8" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Infantry" id="08e4-e30e-78b6-eec1" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Lychguard" id="8ca6-7eef-28a4-10f5" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="9ce0-c463-70f3-066b"/>
         <categoryLink name="Core" id="dd2f-d259-6c2c-ba87" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -4526,10 +4526,10 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Deathmarks" id="044b-987c-b28c-244f" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="unit">
       <categoryLinks>
-        <categoryLink id="2c4c-f4c5-a38f-3dbb" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="a026-7f15-cdd3-6bbe"/>
-        <categoryLink id="ded7-502d-8112-a0e2" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="e809-ce7f-2d4e-2218" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="70ad-369f-0807-49f6" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Deathmarks" id="2c4c-f4c5-a38f-3dbb" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="a026-7f15-cdd3-6bbe"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="ded7-502d-8112-a0e2" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="e809-ce7f-2d4e-2218" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Infantry" id="70ad-369f-0807-49f6" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Core" id="641f-99df-d175-6a99" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
         <categoryLink name="Hyperspace Hunter" id="0586-ecdb-8770-78bb" hidden="false" primary="false" targetId="8139-6208-a5ba-0c0e"/>
       </categoryLinks>
@@ -4597,10 +4597,10 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Flayed Ones" id="96eb-eb3c-9a92-930f" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="unit">
       <categoryLinks>
-        <categoryLink id="cf0c-5169-6154-cfef" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="e955-b987-31f6-af58" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="0f80-8bc4-e423-9066" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="b8dc-c00a-7d30-f4ce"/>
-        <categoryLink id="9946-423f-3490-acc4" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="cf0c-5169-6154-cfef" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="e955-b987-31f6-af58" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Flayed Ones" id="0f80-8bc4-e423-9066" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="b8dc-c00a-7d30-f4ce"/>
+        <categoryLink name="Infantry" id="9946-423f-3490-acc4" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Core" id="bb7b-afab-06bb-3f0e" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -4720,11 +4720,11 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Anrakyr the Traveller" id="7fab-f8ff-90cc-2858" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="34a2-3057-63e5-29a9" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="5a5b-235a-4aa1-c5f7" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="300b-ba13-d54d-13b6"/>
-        <categoryLink id="1ce3-19d1-f228-6ee1" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="0901-0254-72f6-c7ea" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink id="b06a-cc60-a065-b0ab" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bf50-0bdf-8343-790c"/>
+        <categoryLink name="Character" id="34a2-3057-63e5-29a9" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Anrakyr the Traveller" id="5a5b-235a-4aa1-c5f7" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="300b-ba13-d54d-13b6"/>
+        <categoryLink name="Faction: Necrons" id="1ce3-19d1-f228-6ee1" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Infantry" id="0901-0254-72f6-c7ea" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Overlord" id="b06a-cc60-a065-b0ab" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bf50-0bdf-8343-790c"/>
         <categoryLink name="Noble" id="1960-6276-fa79-e677" hidden="false" primary="false" targetId="60f3-194a-d96a-689c"/>
         <categoryLink name="Dynastic Agent" id="d406-1c5e-d4d5-eb77" hidden="false" primary="false" targetId="cf0e-81bd-95fa-3124"/>
         <categoryLink name="Boarding Patrol HQ" id="2c07-8596-62f7-952a" hidden="false" primary="false" targetId="8371-0e8e-5930-3e4a"/>
@@ -4766,7 +4766,7 @@ units can be placed into Strategic Reserves without having to spend any addition
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Rarefied Nobility" id="8dbb-8d01-e4c8-b4da" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="8dbb-8d01-e4c8-b4da" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
         <entryLink name="Warlord Trait (Codex 5): Implacable Conqueror (Aura)" id="5187-2dcb-c728-c3fb" collective="false" hidden="false" import="true" targetId="1661-5f15-1cf5-8774" type="selectionEntry">
           <constraints>
             <constraint id="3d76-68e8-b219-971d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
@@ -4816,7 +4816,7 @@ units can be placed into Strategic Reserves without having to spend any addition
           </modifiers>
         </entryLink>
         <entryLink name="Stratagem: Warlord Trait" id="5c96-c730-58be-a69d" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
-        <entryLink name="Boarding Action Enhancements" id="9368-9f98-4af1-2c29" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
+        <entryLink name="Boarding Action Enhancements - Common" id="9368-9f98-4af1-2c29" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Living Metal" id="51cb-a289-d1c0-4c86" hidden="false" publicationId="61c6-c8c5-pubN65537" targetId="601f-ad02-3e1f-fcc4" type="rule"/>
@@ -4876,11 +4876,11 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Trazyn the Infinite" id="00c8-26f8-e8b4-b58c" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="2b8a-1105-ad09-de3a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="ddaa-3963-7f7f-0a09" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="169f-47d4-c7be-1a49" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink id="ff84-e1a5-7347-0d6b" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bf50-0bdf-8343-790c"/>
-        <categoryLink id="4001-9c39-f067-35b2" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="0f8c-e3a2-97d4-834f"/>
+        <categoryLink name="Character" id="2b8a-1105-ad09-de3a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Necrons" id="ddaa-3963-7f7f-0a09" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Infantry" id="169f-47d4-c7be-1a49" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Overlord" id="ff84-e1a5-7347-0d6b" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bf50-0bdf-8343-790c"/>
+        <categoryLink name="Trazyn the Infinite" id="4001-9c39-f067-35b2" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="0f8c-e3a2-97d4-834f"/>
         <categoryLink name="Dynastic Agent" id="b4cf-05e2-c68d-61c5" hidden="false" primary="false" targetId="cf0e-81bd-95fa-3124"/>
         <categoryLink name="Noble" id="2079-0088-d76d-7c47" hidden="false" primary="false" targetId="60f3-194a-d96a-689c"/>
       </categoryLinks>
@@ -4915,7 +4915,7 @@ units can be placed into Strategic Reserves without having to spend any addition
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Rarefied Nobility" id="a7f2-5af5-b206-f85e" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="a7f2-5af5-b206-f85e" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
         <entryLink name="Warlord Trait (Codex 1): Enduring Will" id="6fd2-185d-3221-2816" collective="false" hidden="false" import="true" targetId="1f52-8365-63ed-7a0e" type="selectionEntry">
           <constraints>
             <constraint id="1695-336e-89cd-1e05" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
@@ -4965,7 +4965,7 @@ units can be placed into Strategic Reserves without having to spend any addition
           </modifiers>
         </entryLink>
         <entryLink name="Stratagem: Warlord Trait" id="8c0d-0a46-0499-548e" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
-        <entryLink name="Boarding Action Enhancements" id="6c44-d927-8a78-d0ce" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
+        <entryLink name="Boarding Action Enhancements - Common" id="6c44-d927-8a78-d0ce" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Command Protocols" id="636c-cbe4-f4da-7ab5" hidden="false" publicationId="61c6-c8c5-pubN65537" targetId="aa07-b2de-6de0-3dd9" type="rule"/>
@@ -5025,13 +5025,13 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Catacomb Command Barge" id="5333-92ea-fc60-0253" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="6ba2-59ce-a605-262f" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="e651-9274-38b2-32f3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="def5-da5e-4a85-9114" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="7463-1ce1-a99a-f207"/>
-        <categoryLink id="017a-23f1-87b9-f1ac" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="e997-7440-0ddb-5bad" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bf50-0bdf-8343-790c"/>
-        <categoryLink id="8770-ee7c-543a-21df" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="8e33-2614-d567-99a1" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="6ba2-59ce-a605-262f" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="e651-9274-38b2-32f3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Catacomb Command Barge" id="def5-da5e-4a85-9114" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="7463-1ce1-a99a-f207"/>
+        <categoryLink name="Fly" id="017a-23f1-87b9-f1ac" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Overlord" id="e997-7440-0ddb-5bad" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bf50-0bdf-8343-790c"/>
+        <categoryLink name="Vehicle" id="8770-ee7c-543a-21df" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Character" id="8e33-2614-d567-99a1" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
         <categoryLink name="Quantum Shielding" id="a038-a73b-64a0-0f1a" hidden="false" primary="false" targetId="9741-8989-19e5-faa3"/>
         <categoryLink name="Noble" id="2bd4-fd80-5201-01f0" hidden="false" primary="false" targetId="60f3-194a-d96a-689c"/>
         <categoryLink name="Core" id="925b-4acc-0692-c77d" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
@@ -5075,9 +5075,9 @@ units can be placed into Strategic Reserves without having to spend any addition
         <entryLink name="Artefacts of the Aeons" id="5afa-5ef1-57d8-7c63" collective="false" hidden="false" import="true" targetId="745d-ceff-5cb7-abb7" type="selectionEntryGroup"/>
         <entryLink name="Warlord Trait" id="96bf-0cda-bbc4-3f80" collective="false" hidden="false" import="true" targetId="b2fe-266b-aa72-ef6d" type="selectionEntryGroup"/>
         <entryLink name="Hand of the Phaeron" id="4649-545f-986e-c970" collective="false" hidden="false" import="true" targetId="a4a8-0278-c83e-1f19" type="selectionEntry"/>
-        <entryLink name="Dynastic Heirlooms" id="638d-5105-b6b4-0460" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
-        <entryLink name="Rarefied Nobility" id="d56d-1c27-a44e-fd23" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
-        <entryLink name="War Zone Nephilim" id="adfe-a49f-ff2c-e260" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
+        <entryLink name="Stratagem: Dynastic Heirlooms" id="638d-5105-b6b4-0460" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="d56d-1c27-a44e-fd23" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Character Stratagems" id="adfe-a49f-ff2c-e260" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
         <entryLink name="Battle Honours" id="368e-bd2c-a0c8-820d" collective="false" hidden="false" import="true" targetId="20a7-2e42-4c73-9844" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -5173,10 +5173,10 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Orikan the Diviner" id="de91-4514-2040-fe63" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="cb55-33b7-e8ff-e893" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="a68e-db44-a374-bb76" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="8fa9-767a-8174-9798" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink id="bfcb-50b4-69b1-d087" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="96db-707b-e943-2a4f"/>
+        <categoryLink name="Character" id="cb55-33b7-e8ff-e893" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Necrons" id="a68e-db44-a374-bb76" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Infantry" id="8fa9-767a-8174-9798" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Orikan the Diviner" id="bfcb-50b4-69b1-d087" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="96db-707b-e943-2a4f"/>
         <categoryLink name="Dynastic Agent" id="8751-afdb-4058-ab3e" hidden="false" primary="false" targetId="cf0e-81bd-95fa-3124"/>
         <categoryLink name="Chronomancer" id="2841-3251-b15d-e4cb" hidden="false" primary="false" targetId="6e3f-0788-7a38-de1f"/>
         <categoryLink name="Cryptek" id="0674-58ff-f59e-852b" hidden="false" primary="false" targetId="efce-d8f0-e0be-1ecc"/>
@@ -5214,7 +5214,7 @@ units can be placed into Strategic Reserves without having to spend any addition
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Rarefied Nobility" id="b853-34d3-b960-8692" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="b853-34d3-b960-8692" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
         <entryLink name="Warlord Trait (Codex 3): Immortal Pride" id="07f7-cd9f-7a3c-ea4a" collective="false" hidden="false" import="true" targetId="c9d5-b167-79e1-dd37" type="selectionEntry">
           <constraints>
             <constraint id="1ba4-3983-2912-356b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
@@ -5264,7 +5264,7 @@ units can be placed into Strategic Reserves without having to spend any addition
           </modifiers>
         </entryLink>
         <entryLink name="Stratagem: Warlord Trait" id="6e95-ff06-a251-bb6c" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
-        <entryLink name="Boarding Action Enhancements" id="078a-98a1-3c05-026f" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
+        <entryLink name="Boarding Action Enhancements - Common" id="078a-98a1-3c05-026f" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Command Protocols" id="9cc9-6834-6b22-b841" hidden="false" publicationId="61c6-c8c5-pubN65537" targetId="aa07-b2de-6de0-3dd9" type="rule"/>
@@ -5339,10 +5339,10 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Illuminor Szeras" id="2b74-5621-5b41-730f" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="fa46-bea5-4c63-54c4" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="fa7d-4173-8271-1caf" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="65ae-0544-0239-fe25" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ba9c-8732-0227-a34f"/>
-        <categoryLink id="92a8-cf9f-1b2f-639b" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Character" id="fa46-bea5-4c63-54c4" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Necrons" id="fa7d-4173-8271-1caf" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Illuminor Szeras" id="65ae-0544-0239-fe25" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ba9c-8732-0227-a34f"/>
+        <categoryLink name="Infantry" id="92a8-cf9f-1b2f-639b" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Technomancer" id="87d1-0a0a-e68d-4594" hidden="false" primary="false" targetId="f3a7-2338-cd8d-5e31"/>
         <categoryLink name="Dynastic Agent" id="e7f3-7b51-a102-d390" hidden="false" primary="false" targetId="cf0e-81bd-95fa-3124"/>
         <categoryLink name="Cryptek" id="80e9-9c25-b56b-7995" hidden="false" primary="false" targetId="efce-d8f0-e0be-1ecc"/>
@@ -5386,7 +5386,7 @@ units can be placed into Strategic Reserves without having to spend any addition
             <constraint id="df2a-c3a0-591b-75a3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Rarefied Nobility" id="975a-11c9-dfb0-0c8e" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="975a-11c9-dfb0-0c8e" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
         <entryLink name="Warlord Trait (Codex 1): Enduring Will" id="f3f4-8ec5-fe7c-b351" collective="false" hidden="false" import="true" targetId="1f52-8365-63ed-7a0e" type="selectionEntry">
           <constraints>
             <constraint id="088e-f115-c880-7140" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
@@ -5436,7 +5436,7 @@ units can be placed into Strategic Reserves without having to spend any addition
           </modifiers>
         </entryLink>
         <entryLink name="Stratagem: Warlord Trait" id="ae83-ea5f-01dc-71b7" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
-        <entryLink name="Boarding Action Enhancements" id="a74d-1390-905a-7698" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
+        <entryLink name="Boarding Action Enhancements - Common" id="a74d-1390-905a-7698" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Living Metal" id="0b10-43d7-21b5-a679" hidden="false" publicationId="85df-1155-c986-4d71" targetId="601f-ad02-3e1f-fcc4" type="rule"/>
@@ -5518,12 +5518,12 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Lokhust Lord" id="2bb9-8708-45fb-e5f1" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="576b-3c60-da14-ff7f" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="1dad-5e3c-64ab-fb1e" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6444-7bcd-7b0a-04a1"/>
-        <categoryLink id="da24-03e9-c479-02db" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="2549-ba30-9c5b-4ef0" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="47ab-d3a9-d636-2b04" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="134c-8cf4-ec94-ea52" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Character" id="576b-3c60-da14-ff7f" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Lokhust Lord" id="1dad-5e3c-64ab-fb1e" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6444-7bcd-7b0a-04a1"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="da24-03e9-c479-02db" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="2549-ba30-9c5b-4ef0" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Fly" id="47ab-d3a9-d636-2b04" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Infantry" id="134c-8cf4-ec94-ea52" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Faction: Destroyer Cult" id="cbe7-81b0-455a-d4fc" hidden="false" primary="false" targetId="0ad7-1f84-c52c-ff8c"/>
       </categoryLinks>
       <costs>
@@ -5551,9 +5551,9 @@ units can be placed into Strategic Reserves without having to spend any addition
         </entryLink>
         <entryLink name="Artefacts of the Aeons" id="9cfb-05d4-4c70-5558" collective="false" hidden="false" import="true" targetId="745d-ceff-5cb7-abb7" type="selectionEntryGroup"/>
         <entryLink name="Warlord Trait" id="02d6-2059-d8d9-f108" collective="false" hidden="false" import="true" targetId="b2fe-266b-aa72-ef6d" type="selectionEntryGroup"/>
-        <entryLink name="Dynastic Heirlooms" id="3347-88fa-4fac-e70c" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
-        <entryLink name="Rarefied Nobility" id="871f-0aab-7fcc-2776" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
-        <entryLink name="War Zone Nephilim" id="d24f-dba4-2127-176c" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
+        <entryLink name="Stratagem: Dynastic Heirlooms" id="3347-88fa-4fac-e70c" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="871f-0aab-7fcc-2776" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Character Stratagems" id="d24f-dba4-2127-176c" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
         <entryLink name="Battle Honours" id="9bc2-7eca-336f-7e57" collective="false" hidden="false" import="true" targetId="20a7-2e42-4c73-9844" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
@@ -5653,12 +5653,12 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Vargard Obyron" id="6f14-943d-c02e-c562" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="17e0-aa5b-68c5-cf6a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="e8e7-b4e6-8285-d964" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="83df-7c5a-8290-9c86" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="96fd-04aa-fb4f-67e6"/>
-        <categoryLink id="8670-e6b7-6717-a4f5" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink id="68a7-346d-5348-c48d" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="53e6-5760-f9fa-6f21"/>
-        <categoryLink id="29ef-c53e-e3cf-8b08" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3366-2fdb-9b81-bd2d"/>
+        <categoryLink name="Character" id="17e0-aa5b-68c5-cf6a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Necrons" id="e8e7-b4e6-8285-d964" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Faction: Sautekh" id="83df-7c5a-8290-9c86" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="96fd-04aa-fb4f-67e6"/>
+        <categoryLink name="Infantry" id="8670-e6b7-6717-a4f5" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Lord" id="68a7-346d-5348-c48d" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="53e6-5760-f9fa-6f21"/>
+        <categoryLink name="Vargard Obyron" id="29ef-c53e-e3cf-8b08" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3366-2fdb-9b81-bd2d"/>
       </categoryLinks>
       <constraints>
         <constraint id="1c6e-58df-087b-410d" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -5692,7 +5692,7 @@ units can be placed into Strategic Reserves without having to spend any addition
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Rarefied Nobility" id="ab1c-b865-863b-dbe0" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="ab1c-b865-863b-dbe0" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
         <entryLink name="Warlord Trait (Codex 6): Honourable Combatant" id="3d53-b708-e2fd-a270" collective="false" hidden="false" import="true" targetId="b1d5-c871-a5b6-b03a" type="selectionEntry">
           <constraints>
             <constraint id="ce4b-edf6-178e-093a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
@@ -5742,7 +5742,7 @@ units can be placed into Strategic Reserves without having to spend any addition
           </modifiers>
         </entryLink>
         <entryLink name="Stratagem: Warlord Trait" id="b64e-4247-9930-9b6d" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
-        <entryLink name="Boarding Action Enhancements" id="fa2c-0131-8035-7cb5" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
+        <entryLink name="Boarding Action Enhancements - Common" id="fa2c-0131-8035-7cb5" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Living Metal" id="064d-761c-85eb-e1f9" hidden="false" publicationId="61c6-c8c5-pubN65537" targetId="601f-ad02-3e1f-fcc4" type="rule"/>
@@ -5820,12 +5820,12 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Nemesor Zahndrekh" id="e6de-4de0-e695-be74" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="0308-2942-c351-b8b4" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="b7a4-f0b2-76ec-ac48" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="c4a6-9f76-15a0-0673" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="96fd-04aa-fb4f-67e6"/>
-        <categoryLink id="77e9-7017-179f-5efe" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink id="96ff-1d49-5c64-a78a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="4864-a153-7a4d-9afe"/>
-        <categoryLink id="76aa-53e1-71a6-3cc2" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bf50-0bdf-8343-790c"/>
+        <categoryLink name="Character" id="0308-2942-c351-b8b4" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Necrons" id="b7a4-f0b2-76ec-ac48" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Faction: Sautekh" id="c4a6-9f76-15a0-0673" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="96fd-04aa-fb4f-67e6"/>
+        <categoryLink name="Infantry" id="77e9-7017-179f-5efe" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Nemesor Zahndrekh" id="96ff-1d49-5c64-a78a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="4864-a153-7a4d-9afe"/>
+        <categoryLink name="Overlord" id="76aa-53e1-71a6-3cc2" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bf50-0bdf-8343-790c"/>
         <categoryLink name="Noble" id="13ed-27f6-bc28-5184" hidden="false" primary="false" targetId="60f3-194a-d96a-689c"/>
       </categoryLinks>
       <constraints>
@@ -5859,7 +5859,7 @@ units can be placed into Strategic Reserves without having to spend any addition
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Rarefied Nobility" id="e039-5512-a432-073b" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="e039-5512-a432-073b" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
         <entryLink name="Warlord Trait (Codex 2): Eternal Madness" id="aa67-3831-82a9-9633" collective="false" hidden="false" import="true" targetId="3e08-2330-b7bd-54e7" type="selectionEntry">
           <constraints>
             <constraint id="a903-2eb1-16bc-63c7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
@@ -5909,7 +5909,7 @@ units can be placed into Strategic Reserves without having to spend any addition
           </modifiers>
         </entryLink>
         <entryLink name="Stratagem: Warlord Trait" id="2296-2371-d066-3468" collective="false" hidden="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
-        <entryLink name="Boarding Action Enhancements" id="9672-8cb8-48eb-b184" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
+        <entryLink name="Boarding Action Enhancements - Common" id="9672-8cb8-48eb-b184" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Living Metal" id="da4f-afc0-d03c-d037" hidden="false" publicationId="61c6-c8c5-pubN65537" targetId="601f-ad02-3e1f-fcc4" type="rule"/>
@@ -5989,11 +5989,11 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Lord" id="4d88-448b-d4cd-feb0" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="9431-1f41-4202-a596" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="9a33-57ac-75c1-7254" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="bf06-6084-d7ad-d70a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="d916-50a7-e9e2-ebdd" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink id="792b-4f8c-638e-8c6a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="53e6-5760-f9fa-6f21"/>
+        <categoryLink name="Character" id="9431-1f41-4202-a596" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="9a33-57ac-75c1-7254" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="bf06-6084-d7ad-d70a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Infantry" id="d916-50a7-e9e2-ebdd" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Lord" id="792b-4f8c-638e-8c6a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="53e6-5760-f9fa-6f21"/>
         <categoryLink name="Noble" id="86f5-0c65-c3f0-3926" hidden="false" primary="false" targetId="60f3-194a-d96a-689c"/>
       </categoryLinks>
       <constraints>
@@ -6031,11 +6031,11 @@ units can be placed into Strategic Reserves without having to spend any addition
         </entryLink>
         <entryLink name="Artefacts of the Aeons" id="8dca-654b-51c8-b872" collective="false" hidden="false" import="true" targetId="745d-ceff-5cb7-abb7" type="selectionEntryGroup"/>
         <entryLink name="Warlord Trait" id="4a6b-4f60-5e12-1d48" collective="false" hidden="false" import="true" targetId="b2fe-266b-aa72-ef6d" type="selectionEntryGroup"/>
-        <entryLink name="Dynastic Heirlooms" id="3ea7-abb1-567d-539e" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
-        <entryLink name="Rarefied Nobility" id="b836-3a64-9043-268a" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Stratagem: Dynastic Heirlooms" id="3ea7-abb1-567d-539e" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="b836-3a64-9043-268a" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
         <entryLink name="Character Stratagems" id="8fa4-223c-4a64-d8db" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
         <entryLink name="Battle Honours" id="00ed-287b-b347-45eb" collective="false" hidden="false" import="true" targetId="20a7-2e42-4c73-9844" type="selectionEntryGroup"/>
-        <entryLink name="Boarding Action Enhancements" id="9a0e-58ab-daf0-d9e4" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
+        <entryLink name="Boarding Action Enhancements - Common" id="9a0e-58ab-daf0-d9e4" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Relentless March (Aura)" id="1a11-32ad-77e3-94aa" hidden="false" publicationId="61c6-c8c5-pubN65537" targetId="d73e-c37e-6409-5965" type="profile"/>
@@ -6118,11 +6118,11 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Overlord" id="0633-49e2-08b0-583e" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="f889-303f-d70c-4643" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="81b3-245f-5150-6410" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="d4e1-61b1-519f-5ae4" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="e592-97b5-41be-d50a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink id="d769-4b36-0df0-6df8" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bf50-0bdf-8343-790c"/>
+        <categoryLink name="Character" id="f889-303f-d70c-4643" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="81b3-245f-5150-6410" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="d4e1-61b1-519f-5ae4" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Infantry" id="e592-97b5-41be-d50a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Overlord" id="d769-4b36-0df0-6df8" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="bf50-0bdf-8343-790c"/>
         <categoryLink name="Noble" id="106b-7311-00be-5a7e" hidden="false" primary="false" targetId="60f3-194a-d96a-689c"/>
       </categoryLinks>
       <constraints>
@@ -6173,12 +6173,12 @@ units can be placed into Strategic Reserves without having to spend any addition
         </entryLink>
         <entryLink name="Artefacts of the Aeons" id="5150-4d79-72e5-51aa" collective="false" hidden="false" import="true" targetId="745d-ceff-5cb7-abb7" type="selectionEntryGroup"/>
         <entryLink name="Warlord Trait" id="27d4-c0e2-6088-651e" collective="false" hidden="false" import="true" targetId="b2fe-266b-aa72-ef6d" type="selectionEntryGroup"/>
-        <entryLink name="Dynastic Heirlooms" id="54e1-0255-70b7-30d0" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
-        <entryLink name="Rarefied Nobility" id="58a2-c081-40ad-836d" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Stratagem: Dynastic Heirlooms" id="54e1-0255-70b7-30d0" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="58a2-c081-40ad-836d" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
         <entryLink name="Hand of the Phaeron" id="6313-3837-2465-f89b" collective="false" hidden="false" import="true" targetId="a4a8-0278-c83e-1f19" type="selectionEntry"/>
-        <entryLink name="War Zone Nephilim" id="0ab6-44ce-ce20-a8ba" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
+        <entryLink name="Character Stratagems" id="0ab6-44ce-ce20-a8ba" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
         <entryLink name="Battle Honours" id="476f-bc32-45db-cd1c" collective="false" hidden="false" import="true" targetId="20a7-2e42-4c73-9844" type="selectionEntryGroup"/>
-        <entryLink name="Boarding Action Enhancements" id="4b92-5e73-4987-7d95" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
+        <entryLink name="Boarding Action Enhancements - Common" id="4b92-5e73-4987-7d95" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Living Metal" id="ae83-665f-02cf-2d82" hidden="false" publicationId="61c6-c8c5-pubN65537" targetId="601f-ad02-3e1f-fcc4" type="rule"/>
@@ -6420,10 +6420,10 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Triarch Praetorians" id="8bc0-df6f-0e3f-7410" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="unit">
       <categoryLinks>
-        <categoryLink id="cbf1-51cc-197c-bdcb" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink id="7f75-0f8d-35a0-06c3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="b7a1-8165-d3e2-78f6" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="d5d4-5f59-f471-4ba6" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="4ce7-0062-6d1e-3ed5"/>
+        <categoryLink name="Infantry" id="cbf1-51cc-197c-bdcb" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: Necrons" id="7f75-0f8d-35a0-06c3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Fly" id="b7a1-8165-d3e2-78f6" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Triarch Praetorians" id="d5d4-5f59-f471-4ba6" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="4ce7-0062-6d1e-3ed5"/>
         <categoryLink name="Triarch" id="abcb-d870-5f90-4243" hidden="false" primary="false" targetId="e146-4fec-a933-5eba"/>
         <categoryLink name="Dynastic Agent" id="dad8-3cd6-d638-af86" hidden="false" primary="false" targetId="cf0e-81bd-95fa-3124"/>
         <categoryLink name="Core" id="b0f5-5c77-6347-4795" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
@@ -6640,11 +6640,11 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Doomsday Ark" id="8e23-1b9d-1c2e-3e22" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="1967-beef-cfff-f76c" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="6f43-3a8b-9712-238b" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="abb9-a850-1310-2448" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="e420-59cd-a312-10be" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink id="6e1e-d55f-ed58-25d5" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="9536-4257-909e-fd69"/>
+        <categoryLink name="Faction: Necrons" id="1967-beef-cfff-f76c" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="6f43-3a8b-9712-238b" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Fly" id="abb9-a850-1310-2448" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Vehicle" id="e420-59cd-a312-10be" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Doomsday Ark" id="6e1e-d55f-ed58-25d5" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="9536-4257-909e-fd69"/>
         <categoryLink name="Quantum Shielding" id="5571-367a-ebc1-2336" hidden="false" primary="false" targetId="9741-8989-19e5-faa3"/>
         <categoryLink name="Core" id="c4a2-792e-0ad5-cf7e" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
@@ -6741,11 +6741,11 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Canoptek Tombstalker" id="5a06-48ea-87a1-7a42" collective="false" hidden="false" import="true" publicationId="7573-8d1b-acdf-2de8" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="1b1e-22d5-f3c1-3abf" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink name="New CategoryLink" id="37a7-655d-3644-6724" hidden="false" primary="false" targetId="accb-e3d8-1193-10cc"/>
-        <categoryLink name="New CategoryLink" id="dcb6-28b4-00b7-5765" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink name="New CategoryLink" id="09bc-7230-b214-406d" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
-        <categoryLink name="New CategoryLink" id="5898-d793-2d85-7ed6" hidden="false" primary="false" targetId="3f79-f5aa-7fb9-02e7"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="1b1e-22d5-f3c1-3abf" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Canoptek" id="37a7-655d-3644-6724" hidden="false" primary="false" targetId="accb-e3d8-1193-10cc"/>
+        <categoryLink name="Faction: Necrons" id="dcb6-28b4-00b7-5765" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Monster" id="09bc-7230-b214-406d" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Canoptek Tomb Stalker" id="5898-d793-2d85-7ed6" hidden="false" primary="false" targetId="3f79-f5aa-7fb9-02e7"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5"/>
@@ -6803,12 +6803,12 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Gauss Pylon" id="d3ca-ba96-c311-27f2" collective="false" hidden="false" import="true" publicationId="7573-8d1b-acdf-2de8" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="a230-9a81-33de-595b" hidden="false" primary="false" targetId="ae37-74e2-8391-d0f8"/>
-        <categoryLink name="New CategoryLink" id="85b4-9513-760b-5c23" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink name="New CategoryLink" id="5e4a-00c1-8e46-3f47" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink name="New CategoryLink" id="1eb4-a1a4-a0c3-2759" hidden="false" primary="false" targetId="b635-fc27-9a9f-3058"/>
-        <categoryLink name="New CategoryLink" id="324e-e595-5fd3-bd83" hidden="false" primary="false" targetId="bdda-36f0-4f32-1639"/>
-        <categoryLink name="New CategoryLink" id="b1ca-b247-9ec1-67e4" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Artillery" id="a230-9a81-33de-595b" hidden="false" primary="false" targetId="ae37-74e2-8391-d0f8"/>
+        <categoryLink name="Faction: Necrons" id="85b4-9513-760b-5c23" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="5e4a-00c1-8e46-3f47" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Gauss Pylon" id="1eb4-a1a4-a0c3-2759" hidden="false" primary="false" targetId="b635-fc27-9a9f-3058"/>
+        <categoryLink name="Titanic" id="324e-e595-5fd3-bd83" hidden="false" primary="false" targetId="bdda-36f0-4f32-1639"/>
+        <categoryLink name="Vehicle" id="b1ca-b247-9ec1-67e4" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Core" id="e9e0-87be-521b-5c17" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -6897,11 +6897,11 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Tesseract Ark" id="4a66-b1ac-dd95-09e8" collective="false" hidden="false" import="true" publicationId="7573-8d1b-acdf-2de8" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="6041-3d53-3057-8b29" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink name="New CategoryLink" id="169e-3b83-b1f4-9837" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink name="New CategoryLink" id="4d9f-d125-bb58-532b" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink name="New CategoryLink" id="bd45-0bf6-7ae0-7cb1" hidden="false" primary="false" targetId="f4e0-efb1-fa3a-791b"/>
-        <categoryLink name="New CategoryLink" id="c9b0-c40c-886b-b571" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: Necrons" id="6041-3d53-3057-8b29" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="169e-3b83-b1f4-9837" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Fly" id="4d9f-d125-bb58-532b" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Tesseract Ark" id="bd45-0bf6-7ae0-7cb1" hidden="false" primary="false" targetId="f4e0-efb1-fa3a-791b"/>
+        <categoryLink name="Vehicle" id="c9b0-c40c-886b-b571" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Quantum Shielding" id="8554-99f4-9cf1-6675" hidden="false" primary="false" targetId="9741-8989-19e5-faa3"/>
         <categoryLink name="Core" id="e566-8bb3-864f-ed7b" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
@@ -7063,11 +7063,11 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Night Shroud" id="e90a-0682-0e25-a166" collective="false" hidden="false" import="true" publicationId="7573-8d1b-acdf-2de8" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c9f0-221e-0227-a7ee" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink name="New CategoryLink" id="0225-1b60-d609-2a4d" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink name="New CategoryLink" id="e982-fb26-c6e4-6a03" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink name="New CategoryLink" id="85de-6c31-b1cf-2000" hidden="false" primary="false" targetId="bf20-ec46-add4-8d01"/>
-        <categoryLink name="New CategoryLink" id="1621-74e8-3094-fde9" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="c9f0-221e-0227-a7ee" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="0225-1b60-d609-2a4d" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Fly" id="e982-fb26-c6e4-6a03" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Night Shroud" id="85de-6c31-b1cf-2000" hidden="false" primary="false" targetId="bf20-ec46-add4-8d01"/>
+        <categoryLink name="Vehicle" id="1621-74e8-3094-fde9" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Aircraft" id="e7e1-6dbc-8ea8-8bea" hidden="false" primary="false" targetId="d569-3d56-cd24-6a31"/>
         <categoryLink name="Core" id="501d-1503-6696-4295" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
@@ -7149,12 +7149,12 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Kutlakh the World Killer [Legends]" id="1abe-ecae-897e-5f4d" collective="false" hidden="false" import="true" publicationId="b652-8bab-1453-da20" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="2f2e-2002-fa73-6c77" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="9ad5-bfa3-d2e9-0f8a" hidden="false" primary="false" targetId="ae08-6e39-a9c5-337f"/>
-        <categoryLink name="New CategoryLink" id="a789-504a-1327-f0a4" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink name="New CategoryLink" id="30b0-5d17-a385-b65a" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="113a-eac7-0343-fc64" hidden="false" primary="false" targetId="bf50-0bdf-8343-790c"/>
-        <categoryLink name="New CategoryLink" id="53f8-ffd6-f654-7d1a" hidden="false" primary="false" targetId="8b85-45ba-9d31-941c"/>
+        <categoryLink name="Character" id="2f2e-2002-fa73-6c77" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Faction: Maynarkh" id="9ad5-bfa3-d2e9-0f8a" hidden="false" primary="false" targetId="ae08-6e39-a9c5-337f"/>
+        <categoryLink name="Faction: Necrons" id="a789-504a-1327-f0a4" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Infantry" id="30b0-5d17-a385-b65a" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Overlord" id="113a-eac7-0343-fc64" hidden="false" primary="false" targetId="bf50-0bdf-8343-790c"/>
+        <categoryLink name="Kutlakh the World Killer" id="53f8-ffd6-f654-7d1a" hidden="false" primary="false" targetId="8b85-45ba-9d31-941c"/>
         <categoryLink name="Noble" id="b30a-63a9-e27d-628d" hidden="false" primary="false" targetId="60f3-194a-d96a-689c"/>
       </categoryLinks>
       <constraints>
@@ -7197,7 +7197,7 @@ units can be placed into Strategic Reserves without having to spend any addition
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Rarefied Nobility" id="0442-9b93-92b8-6a12" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="0442-9b93-92b8-6a12" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
         <entryLink name="Inspiring Leader" id="36ff-8cda-9188-0ab6" collective="false" hidden="false" import="true" targetId="bad4-7cc1-6b79-0e18" type="selectionEntry">
           <constraints>
             <constraint id="783c-380b-04a4-d91e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
@@ -7307,12 +7307,12 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Toholk the Blinded [Legends]" id="f40d-d7dc-c067-37bf" collective="false" hidden="false" import="true" publicationId="b652-8bab-1453-da20" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="9a6d-68fd-8daa-8a16" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink name="New CategoryLink" id="726c-53ff-ed7a-cf32" hidden="false" primary="false" targetId="092a-b667-f7aa-1b33"/>
-        <categoryLink name="New CategoryLink" id="9c71-adfe-7a88-f86d" hidden="false" primary="false" targetId="ae08-6e39-a9c5-337f"/>
-        <categoryLink name="New CategoryLink" id="0d49-3266-9d89-4e97" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink name="New CategoryLink" id="4aa3-b916-c927-f8c0" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
-        <categoryLink name="New CategoryLink" id="b5cf-d1e7-ad2f-ef9f" hidden="false" primary="false" targetId="103f-3881-2cc4-d70d"/>
+        <categoryLink name="Character" id="9a6d-68fd-8daa-8a16" hidden="false" primary="false" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Cryptek" id="726c-53ff-ed7a-cf32" hidden="false" primary="false" targetId="092a-b667-f7aa-1b33"/>
+        <categoryLink name="Faction: Maynarkh" id="9c71-adfe-7a88-f86d" hidden="false" primary="false" targetId="ae08-6e39-a9c5-337f"/>
+        <categoryLink name="Faction: Necrons" id="0d49-3266-9d89-4e97" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Infantry" id="4aa3-b916-c927-f8c0" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Toholk the Blinded" id="b5cf-d1e7-ad2f-ef9f" hidden="false" primary="false" targetId="103f-3881-2cc4-d70d"/>
         <categoryLink name="Technomancer" id="3f27-1763-93dc-535e" hidden="false" primary="false" targetId="f3a7-2338-cd8d-5e31"/>
       </categoryLinks>
       <constraints>
@@ -7356,7 +7356,7 @@ units can be placed into Strategic Reserves without having to spend any addition
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Rarefied Nobility" id="68aa-ede9-df7c-a9e7" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="68aa-ede9-df7c-a9e7" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
         <entryLink name="Inspiring Leader" id="74eb-8c9c-b328-a132" collective="false" hidden="false" import="true" targetId="bad4-7cc1-6b79-0e18" type="selectionEntry">
           <constraints>
             <constraint id="0f92-492c-bbca-f9c8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
@@ -7459,11 +7459,11 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Sentry Pylons" id="20bc-e403-d208-75e2" collective="false" hidden="false" import="true" publicationId="7573-8d1b-acdf-2de8" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="0686-4295-331e-5d0e" hidden="false" primary="false" targetId="ae37-74e2-8391-d0f8"/>
-        <categoryLink name="New CategoryLink" id="5ffd-73c7-84e5-44b0" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink name="New CategoryLink" id="a501-0e34-2f0f-acf2" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink name="New CategoryLink" id="ee47-b3c8-d7d1-8bb3" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="New CategoryLink" id="f3a6-8231-889f-87dd" hidden="false" primary="false" targetId="66c2-2e0c-673e-123e"/>
+        <categoryLink name="Artillery" id="0686-4295-331e-5d0e" hidden="false" primary="false" targetId="ae37-74e2-8391-d0f8"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="5ffd-73c7-84e5-44b0" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="a501-0e34-2f0f-acf2" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Vehicle" id="ee47-b3c8-d7d1-8bb3" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Sentry Pylon" id="f3a6-8231-889f-87dd" hidden="false" primary="false" targetId="66c2-2e0c-673e-123e"/>
         <categoryLink name="Core" id="1682-2d80-3f60-55a0" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -7490,8 +7490,8 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Tomb Citadel Walls [Legends]" id="81a5-c41a-bd50-7ac1" collective="false" hidden="false" import="true" publicationId="b652-8bab-1453-da20" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="b45d-7df0-f6e8-530a" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink name="New CategoryLink" id="e011-196c-88be-4091" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="b45d-7df0-f6e8-530a" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="e011-196c-88be-4091" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="38"/>
@@ -7691,11 +7691,11 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Canoptek Tomb Sentinel" id="f821-cc14-9ff6-8a92" collective="false" hidden="false" import="true" publicationId="7573-8d1b-acdf-2de8" type="model">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="7901-384c-4d31-6121" hidden="false" primary="false" targetId="ea34-00a7-7652-9c98"/>
-        <categoryLink name="New CategoryLink" id="f4f6-0fde-0326-f8d9" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink name="New CategoryLink" id="3a25-a632-29e8-19eb" hidden="false" primary="false" targetId="accb-e3d8-1193-10cc"/>
-        <categoryLink name="New CategoryLink" id="7919-353a-2a16-f513" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink name="New CategoryLink" id="4348-9daa-b13d-7709" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="Canoptek Tomb Sentinel" id="7901-384c-4d31-6121" hidden="false" primary="false" targetId="ea34-00a7-7652-9c98"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="f4f6-0fde-0326-f8d9" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Canoptek" id="3a25-a632-29e8-19eb" hidden="false" primary="false" targetId="accb-e3d8-1193-10cc"/>
+        <categoryLink name="Faction: Necrons" id="7919-353a-2a16-f513" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Monster" id="4348-9daa-b13d-7709" hidden="false" primary="false" targetId="3b77-decb-d468-6bcc"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="7"/>
@@ -7753,12 +7753,12 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Canoptek Acanthrites" id="6315-999a-c664-5f14" collective="false" hidden="false" import="true" publicationId="7573-8d1b-acdf-2de8" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="0b69-a201-54e5-0aac" hidden="false" primary="false" targetId="7892-58f7-e769-4d87"/>
-        <categoryLink name="New CategoryLink" id="4024-135c-cdd2-96c2" hidden="false" primary="false" targetId="50f1-273a-89bc-a4de"/>
-        <categoryLink name="New CategoryLink" id="0691-731a-cb1a-e07a" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink name="New CategoryLink" id="28b9-3e5e-ccc7-6f9a" hidden="false" primary="false" targetId="accb-e3d8-1193-10cc"/>
-        <categoryLink name="New CategoryLink" id="e821-86f3-9f1c-2f6c" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink name="New CategoryLink" id="445b-edb1-0371-367e" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Beast" id="0b69-a201-54e5-0aac" hidden="false" primary="false" targetId="7892-58f7-e769-4d87"/>
+        <categoryLink name="Canoptek Acanthrites" id="4024-135c-cdd2-96c2" hidden="false" primary="false" targetId="50f1-273a-89bc-a4de"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="0691-731a-cb1a-e07a" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Canoptek" id="28b9-3e5e-ccc7-6f9a" hidden="false" primary="false" targetId="accb-e3d8-1193-10cc"/>
+        <categoryLink name="Faction: Necrons" id="e821-86f3-9f1c-2f6c" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Fly" id="445b-edb1-0371-367e" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
         <categoryLink name="Core" id="0aea-fda8-addf-0a61" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -9385,7 +9385,7 @@ units can be placed into Strategic Reserves without having to spend any addition
         <categoryLink name="Seraptek Heavy Construct" id="4353-c9f0-9de0-6b44" hidden="false" primary="false" targetId="073a-c2ed-a2ee-5b7d"/>
         <categoryLink name="Titanic" id="f9e2-3584-075f-e8b1" hidden="false" primary="false" targetId="bdda-36f0-4f32-1639"/>
         <categoryLink name="Vehicle" id="bace-8370-6df6-d78c" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="Faction: (Dynasty)" id="e0ae-b000-0c19-1c93" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="e0ae-b000-0c19-1c93" hidden="false" primary="false" targetId="6a37-4c9f-a323-a8f2"/>
         <categoryLink name="Core" id="e5de-2088-b426-2c36" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
       </categoryLinks>
       <costs>
@@ -9660,11 +9660,11 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Technomancer" id="e5d8-d5a6-55bf-e6fa" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="0a77-c0dd-b229-5a4d" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="260d-e588-c7b7-49d1" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="092a-b667-f7aa-1b33"/>
-        <categoryLink id="1c7b-ade0-576d-c1b9" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="e07f-7185-9d21-4731" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="c0b6-5854-ab6c-bc50" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Character" id="0a77-c0dd-b229-5a4d" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Cryptek" id="260d-e588-c7b7-49d1" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="092a-b667-f7aa-1b33"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="1c7b-ade0-576d-c1b9" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="e07f-7185-9d21-4731" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Infantry" id="c0b6-5854-ab6c-bc50" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Technomancer" id="782b-eb22-f406-9bca" hidden="false" primary="false" targetId="f3a7-2338-cd8d-5e31"/>
       </categoryLinks>
       <costs>
@@ -9679,7 +9679,7 @@ units can be placed into Strategic Reserves without having to spend any addition
             <constraint id="6da8-2e79-8c98-0679" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Dynastic Heirlooms" id="d80a-22b5-9d55-d899" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
+        <entryLink name="Stratagem: Dynastic Heirlooms" id="d80a-22b5-9d55-d899" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
         <entryLink name="Artefacts of the Aeons" id="123a-e501-f1df-10f2" collective="false" hidden="false" import="true" targetId="745d-ceff-5cb7-abb7" type="selectionEntryGroup"/>
         <entryLink name="Warlord Trait" id="a27f-e955-8e45-c9b9" collective="false" hidden="false" import="true" targetId="b2fe-266b-aa72-ef6d" type="selectionEntryGroup"/>
         <entryLink name="Warlord" id="913d-4127-c0c5-7527" collective="false" hidden="false" import="true" targetId="8056-ce75-9ad4-f269" type="selectionEntry">
@@ -9699,11 +9699,11 @@ units can be placed into Strategic Reserves without having to spend any addition
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Rarefied Nobility" id="835a-3617-44d1-5fa8" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="835a-3617-44d1-5fa8" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
         <entryLink name="Cryptek Arkana" id="5069-c034-b979-f5ca" collective="false" hidden="false" import="true" targetId="88d4-8285-bf83-d393" type="selectionEntryGroup"/>
-        <entryLink name="War Zone Nephilim" id="c520-7539-d57d-cb6e" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
+        <entryLink name="Character Stratagems" id="c520-7539-d57d-cb6e" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
         <entryLink name="Battle Honours" id="216b-b765-2a05-663b" collective="false" hidden="false" import="true" targetId="20a7-2e42-4c73-9844" type="selectionEntryGroup"/>
-        <entryLink name="Boarding Action Enhancements" id="3b84-9775-77f1-269d" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
+        <entryLink name="Boarding Action Enhancements - Common" id="3b84-9775-77f1-269d" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
         <entryLink name="Stratagem: Exalted Cryptek" id="84ed-a5c2-ff92-f8bf" collective="false" hidden="false" import="true" targetId="0745-b20d-ef11-e51f" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
@@ -10170,11 +10170,11 @@ units can be placed into Strategic Reserves without having to spend any addition
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="Dynastic Heirlooms" id="3adf-0560-6ab6-83e0" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
-        <entryLink name="Rarefied Nobility" id="26ea-c540-d3f4-77c6" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
-        <entryLink name="War Zone Nephilim" id="dfba-345a-48bc-1463" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
+        <entryLink name="Stratagem: Dynastic Heirlooms" id="3adf-0560-6ab6-83e0" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="26ea-c540-d3f4-77c6" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Character Stratagems" id="dfba-345a-48bc-1463" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
         <entryLink name="Battle Honours" id="3d1e-6635-eab3-76d7" collective="false" hidden="false" import="true" targetId="20a7-2e42-4c73-9844" type="selectionEntryGroup"/>
-        <entryLink name="Boarding Action Enhancements" id="01ec-a8cc-3b21-7fed" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
+        <entryLink name="Boarding Action Enhancements - Common" id="01ec-a8cc-3b21-7fed" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Relentless March (Aura)" id="4e3d-c6be-d99f-a07f" hidden="false" targetId="d73e-c37e-6409-5965" type="profile"/>
@@ -10299,11 +10299,11 @@ units can be placed into Strategic Reserves without having to spend any addition
           </constraints>
         </entryLink>
         <entryLink name="Warlord Trait" id="7fa4-61e7-8a37-a3b2" collective="false" hidden="false" import="true" targetId="b2fe-266b-aa72-ef6d" type="selectionEntryGroup"/>
-        <entryLink name="Dynastic Heirlooms" id="6987-cf65-ba43-0301" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
+        <entryLink name="Stratagem: Dynastic Heirlooms" id="6987-cf65-ba43-0301" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
         <entryLink name="Stratagem: Rarefied Nobility" id="c6f6-d2a8-11ce-3f26" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
         <entryLink name="Character Stratagems" id="c00d-7471-9c51-d39a" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
         <entryLink name="Battle Honours" id="9830-2fee-d81e-ba12" collective="false" hidden="false" import="true" targetId="20a7-2e42-4c73-9844" type="selectionEntryGroup"/>
-        <entryLink name="Boarding Action Enhancements" id="1f0f-2ed4-8f54-f5b9" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
+        <entryLink name="Boarding Action Enhancements - Common" id="1f0f-2ed4-8f54-f5b9" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Hardwired for Destruction" id="0d8d-97a5-1293-c90b" hidden="false" targetId="8fc2-276b-299f-abb4" type="profile"/>
@@ -10431,15 +10431,15 @@ units can be placed into Strategic Reserves without having to spend any addition
     </selectionEntry>
     <selectionEntry name="Necron Warriors" id="12ec-e22a-a06b-c611" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="unit">
       <categoryLinks>
-        <categoryLink id="43c1-84fc-a494-656c" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="3201-4622-692a-6494" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="f9cd-89e5-b788-e406" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="43c1-84fc-a494-656c" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="3201-4622-692a-6494" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Infantry" id="f9cd-89e5-b788-e406" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Core" id="9c25-8e8a-7582-ff58" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
         <categoryLink name="Necron Warriors" id="2013-9954-8da3-6631" hidden="false" primary="false" targetId="c9db-16b2-d65f-708b"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="6"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <entryLinks>
@@ -10467,7 +10467,7 @@ units can be placed into Strategic Reserves without having to spend any addition
       <selectionEntryGroups>
         <selectionEntryGroup name="Warriors" id="7478-d7a3-53f7-0068" collective="false" defaultSelectionEntryId="a881-d8ce-8c45-b8d6" hidden="false" import="true">
           <constraints>
-            <constraint id="93cb-5f5e-ac6a-c77a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="20"/>
+            <constraint id="93cb-5f5e-ac6a-c77a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="5"/>
             <constraint id="543d-a94b-3f3b-940d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="10"/>
           </constraints>
           <entryLinks>
@@ -11874,12 +11874,12 @@ In addition, each time an enemy CHARACTER unit is destroyed by a melee attack ma
             <constraint id="0d02-ea6d-f0ac-bd3b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Dynastic Heirlooms" id="5d2b-0000-ec30-a744" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
-        <entryLink name="Rarefied Nobility" id="98e5-a07f-c0ff-a3a0" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Stratagem: Dynastic Heirlooms" id="5d2b-0000-ec30-a744" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="98e5-a07f-c0ff-a3a0" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
         <entryLink name="Cryptek Arkana" id="2591-85bd-d502-ac1c" collective="false" hidden="false" import="true" targetId="88d4-8285-bf83-d393" type="selectionEntryGroup"/>
-        <entryLink name="War Zone Nephilim" id="714e-d63b-be4f-a459" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
+        <entryLink name="Character Stratagems" id="714e-d63b-be4f-a459" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
         <entryLink name="Battle Honours" id="641c-ec1c-3621-9672" collective="false" hidden="false" import="true" targetId="20a7-2e42-4c73-9844" type="selectionEntryGroup"/>
-        <entryLink name="Boarding Action Enhancements" id="0933-7dc1-6be6-4d5c" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
+        <entryLink name="Boarding Action Enhancements - Common" id="0933-7dc1-6be6-4d5c" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
         <entryLink name="Stratagem: Exalted Cryptek" id="fb7b-6a59-3cbb-d7e3" collective="false" hidden="false" import="true" targetId="0745-b20d-ef11-e51f" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
@@ -12473,11 +12473,11 @@ Directive 2: This unit is eligible to shoot in a turn in which it Fell Back, but
     </selectionEntry>
     <selectionEntry name="Psychomancer" id="9a67-e60b-d442-edb9" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="d140-1624-b439-fb03" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="c2e3-31c0-0135-93ed" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="092a-b667-f7aa-1b33"/>
-        <categoryLink id="5f7d-fbe1-71cb-d55e" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="23df-cf45-0d19-6b9a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="b15c-d990-4469-05e8" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Character" id="d140-1624-b439-fb03" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Cryptek" id="c2e3-31c0-0135-93ed" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="092a-b667-f7aa-1b33"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="5f7d-fbe1-71cb-d55e" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="23df-cf45-0d19-6b9a" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Infantry" id="b15c-d990-4469-05e8" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Fly" id="0a60-d251-98dd-74fc" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
         <categoryLink name="Psychomancer" id="fb25-e6ec-93ec-c6b2" hidden="false" primary="false" targetId="2108-410b-9a73-07e2"/>
       </categoryLinks>
@@ -12512,12 +12512,12 @@ Directive 2: This unit is eligible to shoot in a turn in which it Fell Back, but
         </entryLink>
         <entryLink name="Artefacts of the Aeons" id="2afd-4d47-a435-b7d5" collective="false" hidden="false" import="true" targetId="745d-ceff-5cb7-abb7" type="selectionEntryGroup"/>
         <entryLink name="Warlord Trait" id="1afe-4741-9a30-a553" collective="false" hidden="false" import="true" targetId="b2fe-266b-aa72-ef6d" type="selectionEntryGroup"/>
-        <entryLink name="Dynastic Heirlooms" id="556d-90ad-bdc0-25b6" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
-        <entryLink name="Rarefied Nobility" id="c32d-f01f-af11-572c" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Stratagem: Dynastic Heirlooms" id="556d-90ad-bdc0-25b6" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="c32d-f01f-af11-572c" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
         <entryLink name="Cryptek Arkana" id="f560-f2eb-eb0e-4a52" collective="false" hidden="false" import="true" targetId="88d4-8285-bf83-d393" type="selectionEntryGroup"/>
-        <entryLink name="War Zone Nephilim" id="1742-b568-316e-e57c" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
+        <entryLink name="Character Stratagems" id="1742-b568-316e-e57c" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
         <entryLink name="Battle Honours" id="b3ea-0149-bd4b-71cb" collective="false" hidden="false" import="true" targetId="20a7-2e42-4c73-9844" type="selectionEntryGroup"/>
-        <entryLink name="Boarding Action Enhancements" id="6360-13bd-7eac-93bd" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
+        <entryLink name="Boarding Action Enhancements - Common" id="6360-13bd-7eac-93bd" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
         <entryLink name="Stratagem: Exalted Cryptek" id="09cd-d640-a96b-f327" collective="false" hidden="false" import="true" targetId="0745-b20d-ef11-e51f" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
@@ -12580,11 +12580,11 @@ Directive 2: This unit is eligible to shoot in a turn in which it Fell Back, but
     </selectionEntry>
     <selectionEntry name="Plasmancer" id="fcaa-e4d5-ee5b-de74" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="71a8-a0e2-1c26-1c19" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="fcdd-ad18-8684-2466" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="092a-b667-f7aa-1b33"/>
-        <categoryLink id="2f9c-eb04-0574-79c3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
-        <categoryLink id="248a-3d38-7d61-e5a2" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="ee95-f738-07b3-027e" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Character" id="71a8-a0e2-1c26-1c19" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Cryptek" id="fcdd-ad18-8684-2466" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="092a-b667-f7aa-1b33"/>
+        <categoryLink name="Faction: &lt;Dynasty&gt;" id="2f9c-eb04-0574-79c3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="6a37-4c9f-a323-a8f2"/>
+        <categoryLink name="Faction: Necrons" id="248a-3d38-7d61-e5a2" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Infantry" id="ee95-f738-07b3-027e" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Fly" id="8fda-f38e-b806-90b1" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
         <categoryLink name="Plasmancer" id="aa60-994b-70f9-7e62" hidden="false" primary="false" targetId="a0b3-197b-c4c9-794e"/>
       </categoryLinks>
@@ -12619,12 +12619,12 @@ Directive 2: This unit is eligible to shoot in a turn in which it Fell Back, but
         </entryLink>
         <entryLink name="Artefacts of the Aeons" id="49bf-157a-59d7-9396" collective="false" hidden="false" import="true" targetId="745d-ceff-5cb7-abb7" type="selectionEntryGroup"/>
         <entryLink name="Warlord Trait" id="266b-d1e1-37ff-ac7f" collective="false" hidden="false" import="true" targetId="b2fe-266b-aa72-ef6d" type="selectionEntryGroup"/>
-        <entryLink name="Dynastic Heirlooms" id="a811-a774-0133-7eae" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
-        <entryLink name="Rarefied Nobility" id="f6e5-1bc1-d9c5-246c" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Stratagem: Dynastic Heirlooms" id="a811-a774-0133-7eae" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="f6e5-1bc1-d9c5-246c" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
         <entryLink name="Cryptek Arkana" id="41f9-faca-fd30-4754" collective="false" hidden="false" import="true" targetId="88d4-8285-bf83-d393" type="selectionEntryGroup"/>
-        <entryLink name="War Zone Nephilim" id="b3bb-c171-844b-2a16" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
+        <entryLink name="Character Stratagems" id="b3bb-c171-844b-2a16" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
         <entryLink name="Battle Honours" id="ce3b-2581-336f-d08c" collective="false" hidden="false" import="true" targetId="20a7-2e42-4c73-9844" type="selectionEntryGroup"/>
-        <entryLink name="Boarding Action Enhancements" id="18d8-e1a7-92ea-a164" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
+        <entryLink name="Boarding Action Enhancements - Common" id="18d8-e1a7-92ea-a164" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
         <entryLink name="Stratagem: Exalted Cryptek" id="71e0-0499-00a9-973d" collective="false" hidden="false" import="true" targetId="0745-b20d-ef11-e51f" type="selectionEntry"/>
       </entryLinks>
       <infoLinks>
@@ -12702,8 +12702,8 @@ Directive 2: This unit is eligible to shoot in a turn in which it Fell Back, but
             <constraint id="5046-2f83-e7a8-0d86" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="6"/>
           </constraints>
         </entryLink>
-        <entryLink name="Rarefied Nobility" id="63d2-ab83-aa8c-3fd0" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
-        <entryLink name="Dynastic Heirlooms" id="ffe8-9415-d086-f74b" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
+        <entryLink name="Stratagem: Rarefied Nobility" id="63d2-ab83-aa8c-3fd0" collective="false" hidden="false" import="true" targetId="d928-0c8c-e94a-da67" type="selectionEntry"/>
+        <entryLink name="Stratagem: Dynastic Heirlooms" id="ffe8-9415-d086-f74b" collective="false" hidden="false" import="true" targetId="7eda-575b-b0da-408e" type="selectionEntry"/>
         <entryLink name="Artefacts of the Aeons" id="a021-712d-34f3-c71f" collective="false" hidden="false" import="true" targetId="745d-ceff-5cb7-abb7" type="selectionEntryGroup"/>
         <entryLink name="Warlord Trait" id="037e-8f47-32c9-0a2c" collective="false" hidden="false" import="true" targetId="b2fe-266b-aa72-ef6d" type="selectionEntryGroup"/>
         <entryLink name="Warlord" id="4673-a811-5bbd-91d5" collective="false" hidden="false" import="true" targetId="8056-ce75-9ad4-f269" type="selectionEntry">
@@ -12723,9 +12723,9 @@ Directive 2: This unit is eligible to shoot in a turn in which it Fell Back, but
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink name="War Zone Nephilim" id="10d9-bf51-528c-3fdf" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
+        <entryLink name="Character Stratagems" id="10d9-bf51-528c-3fdf" collective="false" hidden="false" import="true" targetId="d5b7-852a-c927-2d90" type="selectionEntryGroup"/>
         <entryLink name="Battle Honours" id="4098-3ee0-58bb-8edd" collective="false" hidden="false" import="true" targetId="20a7-2e42-4c73-9844" type="selectionEntryGroup"/>
-        <entryLink name="Boarding Action Enhancements" id="0209-98f9-14ab-d556" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
+        <entryLink name="Boarding Action Enhancements - Common" id="0209-98f9-14ab-d556" collective="false" hidden="false" import="true" targetId="4c50-9343-b5fb-872d" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Command Protocols" id="c771-3ddc-7df4-5db0" hidden="false" targetId="aa07-b2de-6de0-3dd9" type="rule"/>
@@ -12770,11 +12770,11 @@ Directive 2: This unit is eligible to shoot in a turn in which it Fell Back, but
     </selectionEntry>
     <selectionEntry name="C&apos;tan Shard of the Void Dragon" id="d5d6-8459-9005-9bf1" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="model">
       <categoryLinks>
-        <categoryLink id="3536-3538-d98b-4ad3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="f9fc-440b-8d07-a569"/>
-        <categoryLink id="1b85-facc-0672-db79" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
-        <categoryLink id="6c78-f468-9989-cee3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
-        <categoryLink id="b253-f909-5fc2-3121" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
-        <categoryLink id="3563-2804-22f6-5463" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3b77-decb-d468-6bcc"/>
+        <categoryLink name="C&apos;tan Shard" id="3536-3538-d98b-4ad3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="f9fc-440b-8d07-a569"/>
+        <categoryLink name="Faction: Necrons" id="1b85-facc-0672-db79" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="876e-ea78-1fdf-f250"/>
+        <categoryLink name="Character" id="6c78-f468-9989-cee3" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="ef18-746a-369f-43a4"/>
+        <categoryLink name="Fly" id="b253-f909-5fc2-3121" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Monster" id="3563-2804-22f6-5463" hidden="false" primary="false" publicationId="61c6-c8c5-pubN65537" targetId="3b77-decb-d468-6bcc"/>
         <categoryLink name="C&apos;tan Shard of the Void Dragon" id="fc4a-701d-a3c6-9bb0" hidden="false" primary="false" targetId="b875-22eb-4eb2-0b80"/>
         <categoryLink name="Elite Character" id="f96e-4a87-7484-4ec6" hidden="false" primary="false" targetId="62d3-9871-9675-a63b"/>
       </categoryLinks>
@@ -13496,7 +13496,7 @@ Directive 2: This unit is eligible to shoot in a turn in which it Fell Back, but
     </selectionEntry>
     <selectionEntry name="Canoptek Plasmacyte" id="0fb4-b740-7b57-c45e" collective="false" hidden="false" import="true" publicationId="61c6-c8c5-pubN65537" type="unit">
       <categoryLinks>
-        <categoryLink name="Plasmacyte" id="ba44-e750-74cc-9e2c" hidden="false" primary="false" targetId="f12f-70f2-ca15-de86"/>
+        <categoryLink name="Canoptek Plasmacyte" id="ba44-e750-74cc-9e2c" hidden="false" primary="false" targetId="f12f-70f2-ca15-de86"/>
         <categoryLink name="Beast" id="bbf1-e17e-9d44-c797" hidden="false" primary="false" targetId="7892-58f7-e769-4d87"/>
         <categoryLink name="Fly" id="2829-1816-35d6-336c" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
         <categoryLink name="Faction: Necrons" id="ee1e-545c-a6a7-d0cc" hidden="false" primary="false" targetId="876e-ea78-1fdf-f250"/>

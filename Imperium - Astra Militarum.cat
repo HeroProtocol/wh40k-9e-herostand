@@ -1367,7 +1367,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Tank Commander" id="e364-790e-d473-e4f3" collective="false" hidden="false" import="true" targetId="da34-52b0-53cc-1128" type="selectionEntry">
+    <entryLink name="Tank Commander" id="e364-790e-d473-e4f3" collective="false" hidden="true" import="true" targetId="da34-52b0-53cc-1128" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" id="d2c2-74bc-a96e-8b2a" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
@@ -1917,6 +1917,156 @@
     </entryLink>
     <entryLink name="[Reference] Orders" id="a2eb-9750-4cda-8e41" collective="false" hidden="false" import="true" targetId="3b5d-094c-15fd-8d37" type="selectionEntry"/>
   </entryLinks>
+  <selectionEntries>
+    <selectionEntry name="Heavy Weapons Team" id="4bc9-ef58-2982-9e7a" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" id="4b7c-e3e0-855e-a8ab" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Astra Militarum Heavy Weapons" id="4c70-c445-2d49-a1bf" collective="false" hidden="false" import="true" targetId="29c3-5475-96d1-6a44" type="selectionEntryGroup">
+          <constraints>
+            <constraint id="74ad-4519-7fa1-e855" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Heavy Weapons Team" id="9766-34c1-1f57-b636" hidden="false" targetId="83ce-60e7-ff5a-633c" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Tempestor Prime" id="b5e1-3e62-79ae-951e" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="HQ" id="1dae-c3bb-bdc5-0c68" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Frag &amp; Krak grenades" id="6357-3ec6-5fbe-0c7a" collective="false" hidden="false" import="true" targetId="bb78-534a-7b77-edbc" type="selectionEntry">
+          <constraints>
+            <constraint id="f1ac-6f46-134e-93d0" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="19e1-e5a4-d904-d807" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Refractor Field" id="aa6f-c3a2-b9c4-9912" hidden="false" targetId="783d-d067-2d7f-d2a1" type="profile"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Tempestor Prime" id="1d80-ac22-51a8-2cf0" hidden="false" page="123" publicationId="53e9d88f--pubN88319" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Primary selection" id="5eac-1e13-6ee2-d1f6" collective="false" defaultSelectionEntryId="891f-2ab4-a9ad-ae72" hidden="false" import="true">
+          <constraints>
+            <constraint id="7f6a-8cd0-c836-157f" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="5028-f497-6f5b-762b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Astra Miliatrum Hot Shot Weapons" id="bb41-60b2-456e-a70e" hidden="false" import="true" targetId="14b3-972a-f635-b529" type="selectionEntryGroup"/>
+            <entryLink name="Astra Militarum Officier Primary Weapons" id="a21b-7b49-9539-4002" hidden="false" import="true" targetId="ffcc-3207-feaf-c718" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Secondary selection" id="8b48-4a06-7a7d-0dda" collective="false" defaultSelectionEntryId="891f-2ab4-a9ad-ae72" hidden="false" import="true">
+          <constraints>
+            <constraint id="5869-6141-bb23-ac5a" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="5a22-9731-d151-1c68" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Astra Militarum Melee Weapons" id="5060-204a-707c-1b97" hidden="false" import="true" targetId="7622-e68e-c5e5-c8e7" type="selectionEntryGroup"/>
+            <entryLink name="Astra Militarum Pistol Weapons" id="037f-9ae0-ec12-fb8b" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry name="Tempestor Command Rod" id="4b3b-7b63-04b2-a5c6" collective="false" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="7949-6847-9b21-4f4c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                <cost name="pts" typeId="points" value="5"/>
+              </costs>
+              <profiles>
+                <profile name="Tempestor Command Rod" id="656f-f188-48fb-7818" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer knows Prefectus Orders in addition to Regimental Orders. The bearer can only issue Prefectus Orders to TEMPESTUS SCIONS units; when doing so, for the purposes of the Regimental Tactics ability, you can only select other friendly TEMPESTUS SCIONS units within 6&quot; of the unit originally selected for that Order to also be affected by that Order.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Armour Commander" id="ff85-40a6-a04b-e0b7" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="HQ" id="77a3-a4ba-bbed-a731" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Commanding Authority" id="cc2e-d720-a8e4-b090" collective="false" hidden="false" import="true" targetId="9bc2-f515-33e5-38e8" type="selectionEntry">
+          <constraints>
+            <constraint id="f550-afa7-4405-de1e" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="b9bd-c7c7-4a06-d7cf" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Warlord" id="7259-ad1c-6a0c-a6ce" collective="false" hidden="false" import="true" targetId="1f07-a468-bda8-fd3f" type="selectionEntry">
+          <modifiers>
+            <modifier field="000a-cf6d-4c86-a749" type="set" value="0">
+              <conditions>
+                <condition childId="6b6b-26f3-0044-995e" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink name="Tank Aces" id="2512-dc8a-5ef9-6d61" collective="false" hidden="false" import="true" targetId="998b-b53a-603f-6c5b" type="selectionEntryGroup">
+          <costs>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Voice of Command" id="aed2-22c3-1713-3ed0" hidden="false" targetId="2ff26b94-8048-d15d-c541-fd4da0f49571" type="profile"/>
+        <infoLink name="Regimental Tactics" id="c3d5-951e-1316-473a" hidden="false" targetId="1b13-112a-0fec-c326" type="profile"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Armour Commander" id="e672-4cc4-1104-ca05" hidden="false" page="82" publicationId="53e9d88f--pubN88319" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">*</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">*</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">7</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">8</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">13</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">*</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry name="Lord Castellan Creed" id="dcb74f5d-1308-fbaa-205f-3ad8fbde5b04" collective="false" hidden="false" import="true" page="80" publicationId="53e9d88f--pubN88319" type="model">
       <categoryLinks>
