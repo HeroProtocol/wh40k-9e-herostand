@@ -718,7 +718,7 @@ can shoot its turret weapon twice in the following Shooting phase (the turret we
     </profile>
     <profile name="Shock Troops" id="7cfd-0a6e-213d-8256" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a model in this unit makes a ranged attack with a lasgun or laspistol, an unmodified hit roll of 6 scores 1 additional hit.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a model in this unit makes a ranged attack with a Lasgun/Autogun or laspistol, an unmodified hit roll of 6 scores 1 additional hit.</characteristic>
       </characteristics>
     </profile>
     <profile name="Death Korps Trooper" id="120e-d2ea-bd09-1893" hidden="false" page="92" publicationId="53e9d88f--pubN88319" typeId="800f-21d0-4387-c943" typeName="Unit">
@@ -806,7 +806,7 @@ Add 1 to charge rolls made for units with this doctrine.</characteristic>
     </profile>
     <profile name="Parade drill" id="02a2-ce28-4ee2-e735" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a unit with this doctrine Remained Stationary in your movement phase, then until the end of your next shooting phase, change the Type characteristic of lasguns and hot-shot lasguns models in that unit are equipped with to Heavy 2.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a unit with this doctrine Remained Stationary in your movement phase, then until the end of your next shooting phase, change the Type characteristic of Lasgun/Autoguns and hot-shot Lasgun/Autoguns models in that unit are equipped with to Heavy 2.</characteristic>
       </characteristics>
     </profile>
     <profile name="Mechanised Infantry" id="a7c2-f553-55c8-98de" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2343,14 +2343,14 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Lasgun" id="7236-b28a-2b6e-ded7" collective="true" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Lasgun/Autogun" id="7236-b28a-2b6e-ded7" collective="true" hidden="false" import="true" type="upgrade">
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
         <cost name="pts" typeId="points" value="0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Lasgun" id="5afb-7ec1-de74-ff33" hidden="false" targetId="d174-eb55-aaa6-d032" type="profile"/>
+        <infoLink name="Lasgun/Autogun" id="5afb-7ec1-de74-ff33" hidden="false" targetId="d174-eb55-aaa6-d032" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Shotgun" id="fb72-af07-b892-6208" collective="true" hidden="false" import="true" type="upgrade">
@@ -10840,7 +10840,7 @@ Divination (Psychic Action -Warp Charge 7):In your Psychic phase, one ASTROPATH 
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry name="Lasgun Arrays" id="e3a4-7c3d-53cf-391f" collective="false" hidden="false" import="true" page="0" type="upgrade">
+        <selectionEntry name="Lasgun/Autogun Arrays" id="e3a4-7c3d-53cf-391f" collective="false" hidden="false" import="true" page="0" type="upgrade">
           <constraints>
             <constraint id="5957-71d4-0e8e-48cb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
             <constraint id="9e66-26b7-787d-9e69" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -10851,7 +10851,7 @@ Divination (Psychic Action -Warp Charge 7):In your Psychic phase, one ASTROPATH 
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
           </costs>
           <profiles>
-            <profile name="Lasgun Array" id="785b-4e82-7555-1ed0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile name="Lasgun/Autogun Array" id="785b-4e82-7555-1ed0" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 6</characteristic>
@@ -11304,13 +11304,13 @@ Divination (Psychic Action -Warp Charge 7):In your Psychic phase, one ASTROPATH 
                 <infoLink name="Veteran" id="9887-19b1-710f-dec6" hidden="false" targetId="d4f6537c-b82c-db68-b6d6-03eefe4de298" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Lasgun" id="213b-23da-2967-6630" collective="false" defaultSelectionEntryId="dc38-71ed-21f6-3abb" hidden="false" import="true">
+                <selectionEntryGroup name="Lasgun/Autogun" id="213b-23da-2967-6630" collective="false" defaultSelectionEntryId="dc38-71ed-21f6-3abb" hidden="false" import="true">
                   <constraints>
                     <constraint id="1b94-071f-c21a-8c54" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="580f-f5cb-0fec-2571" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Lasgun" id="dc38-71ed-21f6-3abb" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+                    <entryLink name="Lasgun/Autogun" id="dc38-71ed-21f6-3abb" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
                       <constraints>
                         <constraint id="7c28-8b06-d67f-8aa4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
@@ -11324,7 +11324,7 @@ Divination (Psychic Action -Warp Charge 7):In your Psychic phase, one ASTROPATH 
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry name="Veteran w/ lasgun" id="03d8-db91-4130-4884" collective="false" hidden="false" import="true" page="0" type="model">
+            <selectionEntry name="Veteran w/ Lasgun/Autogun" id="03d8-db91-4130-4884" collective="false" hidden="false" import="true" page="0" type="model">
               <constraints>
                 <constraint id="8709-d1a5-da38-0a49" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="4"/>
               </constraints>
@@ -11340,7 +11340,7 @@ Divination (Psychic Action -Warp Charge 7):In your Psychic phase, one ASTROPATH 
                     <constraint id="9e7f-0fc7-2015-4539" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Lasgun" id="3919-df6b-5955-9ac2" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+                <entryLink name="Lasgun/Autogun" id="3919-df6b-5955-9ac2" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
                   <constraints>
                     <constraint id="db20-1847-beca-3981" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="566a-b8f7-42b4-6a03" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -11390,13 +11390,13 @@ Divination (Psychic Action -Warp Charge 7):In your Psychic phase, one ASTROPATH 
                 <infoLink name="Veteran" id="264a-9f8f-6d17-a793" hidden="false" targetId="d4f6537c-b82c-db68-b6d6-03eefe4de298" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Lasgun" id="de30-fd97-b832-fed5" collective="false" defaultSelectionEntryId="2131-44b5-dc84-c796" hidden="false" import="true">
+                <selectionEntryGroup name="Lasgun/Autogun" id="de30-fd97-b832-fed5" collective="false" defaultSelectionEntryId="2131-44b5-dc84-c796" hidden="false" import="true">
                   <constraints>
                     <constraint id="f69d-dcca-3966-c121" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="cd7b-1ceb-39d9-0be9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Lasgun" id="2131-44b5-dc84-c796" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+                    <entryLink name="Lasgun/Autogun" id="2131-44b5-dc84-c796" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
                       <constraints>
                         <constraint id="4b0f-23f1-0f4c-6de1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
@@ -11443,13 +11443,13 @@ Divination (Psychic Action -Warp Charge 7):In your Psychic phase, one ASTROPATH 
                 <infoLink name="Veteran" id="3598-7c09-7a5d-db78" hidden="false" targetId="d4f6537c-b82c-db68-b6d6-03eefe4de298" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Lasgun" id="07ca-e618-bce5-6cf0" collective="false" defaultSelectionEntryId="2f86-f8ea-21c1-c92b" hidden="false" import="true">
+                <selectionEntryGroup name="Lasgun/Autogun" id="07ca-e618-bce5-6cf0" collective="false" defaultSelectionEntryId="2f86-f8ea-21c1-c92b" hidden="false" import="true">
                   <constraints>
                     <constraint id="1ba4-a5f2-1764-d83e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="2f49-c2e2-1dbe-61ec" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Lasgun" id="2f86-f8ea-21c1-c92b" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+                    <entryLink name="Lasgun/Autogun" id="2f86-f8ea-21c1-c92b" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
                       <constraints>
                         <constraint id="daf8-9ea0-59f3-bf22" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
@@ -11552,7 +11552,7 @@ Divination (Psychic Action -Warp Charge 7):In your Psychic phase, one ASTROPATH 
                     <constraint id="38f4-9d60-da01-0f51" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Lasgun" id="6d84-a73d-ec28-1f7d" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+                <entryLink name="Lasgun/Autogun" id="6d84-a73d-ec28-1f7d" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
                   <constraints>
                     <constraint id="9d5e-9f09-51a3-a352" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="d493-781a-b800-e7eb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -12912,7 +12912,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                 <constraint id="3106-dd90-938e-22a0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Lasgun" id="936b-8aa0-b440-18a0" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
+            <entryLink name="Lasgun/Autogun" id="936b-8aa0-b440-18a0" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
               <constraints>
                 <constraint id="00ef-d373-163f-3d02" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="22ed-154e-3bcc-6ac2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -13175,7 +13175,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Hot-shot Lasgun" id="ce42-82cb-28b6-dab5" collective="true" hidden="false" import="true" page="0" type="upgrade">
+    <selectionEntry name="Hot-shot Lasgun/Autogun" id="ce42-82cb-28b6-dab5" collective="true" hidden="false" import="true" page="0" type="upgrade">
       <constraints>
         <constraint id="842c-f8b7-fa9c-d880" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
         <constraint id="b094-6480-9cbf-6866" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
@@ -13186,7 +13186,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Hot-shot Lasgun" id="3ef2-4db8-579b-0ce7" hidden="false" targetId="f520-ae1d-d755-7ab9" type="profile"/>
+        <infoLink name="Hot-shot Lasgun/Autogun" id="3ef2-4db8-579b-0ce7" hidden="false" targetId="f520-ae1d-d755-7ab9" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Hot-shot Volley Gun" id="fc88-7c3f-9c5e-885f" collective="true" hidden="false" import="true" page="0" type="upgrade">
@@ -13566,7 +13566,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Lasgun" id="79aa-a9e9-d31c-01a7" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
+                <entryLink name="Lasgun/Autogun" id="79aa-a9e9-d31c-01a7" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
                   <constraints>
                     <constraint id="1110-af4d-a6b3-a888" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="86e4-03d8-ebb5-05e5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -13596,7 +13596,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Lasgun" id="a6bc-abb1-a6ce-0f10" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+                <entryLink name="Lasgun/Autogun" id="a6bc-abb1-a6ce-0f10" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
                   <constraints>
                     <constraint id="d867-f667-e039-b21b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="4f25-5f55-09ed-1d8d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -13642,7 +13642,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                     <constraint id="5d0b-9f02-b4c0-b981" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Lasgun" id="999f-966c-1f70-f715" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
+                <entryLink name="Lasgun/Autogun" id="999f-966c-1f70-f715" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
                   <constraints>
                     <constraint id="853b-3356-6d6e-6c92" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="e3d5-687f-81ed-70ac" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -16848,7 +16848,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
             <cost name="pts" typeId="points" value="0"/>
           </costs>
           <entryLinks>
-            <entryLink name="Lasgun" id="b913-767e-5485-055e" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+            <entryLink name="Lasgun/Autogun" id="b913-767e-5485-055e" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
               <constraints>
                 <constraint id="4cad-6e1b-6382-2d7c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="c550-0957-791a-5df4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -16882,7 +16882,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                 <entryLink name="Astra Militarum Special Weapons" id="c902-4840-3b20-0d42" collective="false" hidden="false" import="true" targetId="a465-d3f9-68f9-2e55" type="selectionEntryGroup"/>
               </entryLinks>
               <selectionEntries>
-                <selectionEntry name="Demolition Charge and Lasgun" id="48f2-4072-269a-b60e" collective="false" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Demolition Charge and Lasgun/Autogun" id="48f2-4072-269a-b60e" collective="false" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="6376-caa8-bd50-7442" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
@@ -16892,7 +16892,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                     <cost name="pts" typeId="points" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Lasgun" id="22c8-30a3-3ba1-13f9" hidden="false" targetId="d174-eb55-aaa6-d032" type="profile"/>
+                    <infoLink name="Lasgun/Autogun" id="22c8-30a3-3ba1-13f9" hidden="false" targetId="d174-eb55-aaa6-d032" type="profile"/>
                   </infoLinks>
                   <profiles>
                     <profile name="Demolition Charge" id="fc1b-5ca8-737d-41ac" hidden="false" page="0" publicationId="53e9d88f--pubN88319" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -18055,7 +18055,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry name="Veteran w/ Lasgun" id="3bea-11ed-d265-8190" collective="false" hidden="false" import="true" page="0" type="upgrade">
+            <selectionEntry name="Veteran w/ Lasgun/Autogun" id="3bea-11ed-d265-8190" collective="false" hidden="false" import="true" page="0" type="upgrade">
               <constraints>
                 <constraint id="7409-b644-725f-8615" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="9"/>
               </constraints>
@@ -18065,7 +18065,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Lasgun" id="b8b9-6f9b-76e3-e1ad" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+                <entryLink name="Lasgun/Autogun" id="b8b9-6f9b-76e3-e1ad" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
                   <constraints>
                     <constraint id="b7bc-844d-1548-b9b9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="bb44-46d6-93d0-0ba6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -18097,13 +18097,13 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                 <infoLink name="Veteran" id="0ba9-4e67-8d91-f5a5" hidden="false" targetId="d4f6537c-b82c-db68-b6d6-03eefe4de298" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Lasgun" id="6662-523b-52ab-5859" collective="false" hidden="false" import="true">
+                <selectionEntryGroup name="Lasgun/Autogun" id="6662-523b-52ab-5859" collective="false" hidden="false" import="true">
                   <constraints>
                     <constraint id="32dc-0eb1-ebef-1b7b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="78b9-4963-7f03-26b8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Lasgun" id="0a48-8fe5-1496-5b0a" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
+                    <entryLink name="Lasgun/Autogun" id="0a48-8fe5-1496-5b0a" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
                       <constraints>
                         <constraint id="c0bf-e289-abdf-6626" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
@@ -18141,7 +18141,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
               </costs>
               <entryLinks>
                 <entryLink name="Astra Militarum Heavy Weapons" id="fb8c-8585-4767-3ad1" collective="false" hidden="false" import="true" targetId="29c3-5475-96d1-6a44" type="selectionEntryGroup"/>
-                <entryLink name="Lasgun" id="346c-2ea7-d9ce-9650" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
+                <entryLink name="Lasgun/Autogun" id="346c-2ea7-d9ce-9650" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
                   <constraints>
                     <constraint id="50d1-f889-333d-1bc3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="1393-39d0-c81b-39d4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -18556,7 +18556,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                 <infoLink name="Tempestus Scion" id="3e35-b78f-745d-1429" hidden="false" targetId="f51905c4-7ffb-3a41-ad86-de14eba93ba3" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Hotshot Lasgun" id="9876-78a5-eb96-c1c6" collective="false" defaultSelectionEntryId="f518-47f8-5302-48e1" hidden="false" import="true">
+                <selectionEntryGroup name="Hotshot Lasgun/Autogun" id="9876-78a5-eb96-c1c6" collective="false" defaultSelectionEntryId="f518-47f8-5302-48e1" hidden="false" import="true">
                   <constraints>
                     <constraint id="7c96-79ec-aa0a-062e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="54d7-0ad7-e250-9570" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -18580,7 +18580,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                         <constraint id="1e38-7595-25e4-1ded" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="1f64-1ce0-19ac-6c18" shared="true" type="max" value="1"/>
                       </constraints>
                     </entryLink>
-                    <entryLink name="Hot-Shot Lasgun" id="f518-47f8-5302-48e1" collective="false" hidden="false" import="true" targetId="5188-4b26-73ac-1160" type="selectionEntry">
+                    <entryLink name="Hot-Shot Lasgun/Autogun" id="f518-47f8-5302-48e1" collective="false" hidden="false" import="true" targetId="5188-4b26-73ac-1160" type="selectionEntry">
                       <constraints>
                         <constraint id="c5e3-5ba2-1fff-0a46" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
@@ -18691,7 +18691,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                     <constraint id="96f7-756f-3c08-8db7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Hot-Shot Lasgun" id="091a-1efa-7ab7-767a" collective="false" hidden="false" import="true" targetId="5188-4b26-73ac-1160" type="selectionEntry">
+                <entryLink name="Hot-Shot Lasgun/Autogun" id="091a-1efa-7ab7-767a" collective="false" hidden="false" import="true" targetId="5188-4b26-73ac-1160" type="selectionEntry">
                   <constraints>
                     <constraint id="2576-7e90-4d60-b848" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
@@ -18717,7 +18717,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Hot-Shot Lasgun" id="d6f6-c947-4900-96c7" collective="false" hidden="false" import="true" targetId="5188-4b26-73ac-1160" type="selectionEntry">
+                <entryLink name="Hot-Shot Lasgun/Autogun" id="d6f6-c947-4900-96c7" collective="false" hidden="false" import="true" targetId="5188-4b26-73ac-1160" type="selectionEntry">
                   <constraints>
                     <constraint id="d3fa-a506-35d4-d15e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="3e6a-28cf-f011-32ac" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -18765,7 +18765,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                     <constraint id="3a6d-b41c-82be-2b4f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Hot-Shot Lasgun" id="2298-950d-84cd-9743" collective="false" hidden="false" import="true" targetId="5188-4b26-73ac-1160" type="selectionEntry">
+                <entryLink name="Hot-Shot Lasgun/Autogun" id="2298-950d-84cd-9743" collective="false" hidden="false" import="true" targetId="5188-4b26-73ac-1160" type="selectionEntry">
                   <constraints>
                     <constraint id="3af3-7542-195a-587b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="af23-7d66-c56c-04a8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -19047,7 +19047,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Hot-shot Lasgun" id="480e-8bfc-298c-987a" collective="false" hidden="false" import="true" targetId="ce42-82cb-28b6-dab5" type="selectionEntry">
+                <entryLink name="Hot-shot Lasgun/Autogun" id="480e-8bfc-298c-987a" collective="false" hidden="false" import="true" targetId="ce42-82cb-28b6-dab5" type="selectionEntry">
                   <constraints>
                     <constraint id="989a-7215-ba7d-4a2e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="d9ac-fbdf-0a62-ce7e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -20021,7 +20021,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
             </profile>
             <profile name="First Rank, Fire! Second Rank, Fire!" id="f5c5-d9d1-64fa-2355" hidden="false" page="76" publicationId="53e9d88f--pubN88319" typeId="2380-dc1e-b6ea-a1e2" typeName="Regimental Orders">
               <characteristics>
-                <characteristic name="Effect" typeId="9886-dd92-1098-f92f">Until the end of your next Shooting Phase, change the Type of all lasguns and hot-shot lasguns in this unit are equipped with to Heavy 3</characteristic>
+                <characteristic name="Effect" typeId="9886-dd92-1098-f92f">Until the end of your next Shooting Phase, change the Type of all Lasgun/Autoguns and hot-shot Lasgun/Autoguns in this unit are equipped with to Heavy 3</characteristic>
               </characteristics>
             </profile>
             <profile name="Move! Move! Move!" id="a3ff-aff7-0df5-b7f9" hidden="false" page="76" publicationId="53e9d88f--pubN88319" typeId="2380-dc1e-b6ea-a1e2" typeName="Regimental Orders">
@@ -21124,7 +21124,7 @@ Until the end of your next Movement phase, if this unit advances, do not make an
             <cost name="pts" typeId="points" value="0"/>
           </costs>
           <entryLinks>
-            <entryLink name="Lasgun" id="a7da-64a1-a734-6b78" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
+            <entryLink name="Lasgun/Autogun" id="a7da-64a1-a734-6b78" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
               <constraints>
                 <constraint id="fc9a-c290-d5fb-46c4" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
                 <constraint id="e89d-77f8-5c6f-92b3" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -21949,7 +21949,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                 <constraint id="9156-4313-9196-ba1a" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry name="Drum-fed Autogun" id="97e7-af6e-481f-eead" collective="false" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Drum-fed Lasgun/Autogun" id="97e7-af6e-481f-eead" collective="false" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="dfc0-eb33-c165-ebc9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
@@ -21959,7 +21959,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                     <cost name="pts" typeId="points" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Drum-fed Autogun" id="4be8-d72b-9caf-dacc" hidden="false" targetId="d6c0-fa8b-c18d-f68f" type="profile"/>
+                    <infoLink name="Drum-fed Lasgun/Autogun" id="4be8-d72b-9caf-dacc" hidden="false" targetId="d6c0-fa8b-c18d-f68f" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Laspistol and Chainsword" id="2e5d-9e7e-ffd3-1678" collective="false" hidden="false" import="true" type="upgrade">
@@ -22012,7 +22012,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Lasgun" id="d4d2-61ab-8d5d-dc62" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
+                <entryLink name="Lasgun/Autogun" id="d4d2-61ab-8d5d-dc62" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
                   <constraints>
                     <constraint id="8ffb-caab-9cf5-1b7c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="2d86-bf7e-b94f-1e29" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -22042,7 +22042,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Lasgun" id="46a2-97a6-de12-8b94" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+                <entryLink name="Lasgun/Autogun" id="46a2-97a6-de12-8b94" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
                   <constraints>
                     <constraint id="8b18-a22f-7d56-756a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="e540-7810-7347-c322" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -22465,7 +22465,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                     <constraint id="0f41-57f4-cada-6f10" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Lasgun" id="385a-fa2e-9be0-95ae" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+                <entryLink name="Lasgun/Autogun" id="385a-fa2e-9be0-95ae" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
                   <constraints>
                     <constraint id="2ac5-a98d-b784-fc2d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="c27f-1092-490a-cfee" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -22498,7 +22498,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                 <infoLink name="Veteran" id="6f2a-1590-1061-b7ad" hidden="false" targetId="d4f6537c-b82c-db68-b6d6-03eefe4de298" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Lasgun &amp; Regimental Standard option" id="59d6-45a1-7bfd-9ece" collective="false" defaultSelectionEntryId="2643-9098-003e-088a" hidden="false" import="true">
+                <selectionEntryGroup name="Lasgun/Autogun &amp; Regimental Standard option" id="59d6-45a1-7bfd-9ece" collective="false" defaultSelectionEntryId="2643-9098-003e-088a" hidden="false" import="true">
                   <constraints>
                     <constraint id="6eb4-7e25-4285-9911" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="dda5-5fc5-348a-61c6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -22526,7 +22526,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                     </entryLink>
                   </entryLinks>
                   <selectionEntries>
-                    <selectionEntry name="Lasgun and Regimental Standard" id="2643-9098-003e-088a" collective="false" hidden="false" import="true" type="upgrade">
+                    <selectionEntry name="Lasgun/Autogun and Regimental Standard" id="2643-9098-003e-088a" collective="false" hidden="false" import="true" type="upgrade">
                       <constraints>
                         <constraint id="3a70-d3c7-a777-8f7c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
@@ -22536,7 +22536,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                         <cost name="pts" typeId="points" value="0"/>
                       </costs>
                       <entryLinks>
-                        <entryLink name="Lasgun" id="406c-9940-6745-4a3e" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+                        <entryLink name="Lasgun/Autogun" id="406c-9940-6745-4a3e" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
                           <constraints>
                             <constraint id="d41c-f55d-3788-775f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                             <constraint id="2521-e8a2-0eec-d43d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -23107,7 +23107,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry name="Kasrkin w/ Hot-shot Lasgun" id="5aa3-ee0d-39d2-ee3d" collective="false" hidden="false" import="true" type="model">
+            <selectionEntry name="Kasrkin w/ Hot-shot Lasgun/Autogun" id="5aa3-ee0d-39d2-ee3d" collective="false" hidden="false" import="true" type="model">
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
@@ -23120,7 +23120,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                     <constraint id="5053-f0ba-8ec0-be1d" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Hot-shot Lasgun" id="72af-c0d2-4e3e-98d9" collective="false" hidden="false" import="true" targetId="ce42-82cb-28b6-dab5" type="selectionEntry">
+                <entryLink name="Hot-shot Lasgun/Autogun" id="72af-c0d2-4e3e-98d9" collective="false" hidden="false" import="true" targetId="ce42-82cb-28b6-dab5" type="selectionEntry">
                   <constraints>
                     <constraint id="5833-3bd7-591b-6182" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="d407-e7b2-5f23-1db4" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -23147,7 +23147,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                     <constraint id="b9fc-a5a2-e194-53ae" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Hot-shot Lasgun" id="4555-3ecb-f8d5-f88c" collective="false" hidden="false" import="true" targetId="ce42-82cb-28b6-dab5" type="selectionEntry">
+                <entryLink name="Hot-shot Lasgun/Autogun" id="4555-3ecb-f8d5-f88c" collective="false" hidden="false" import="true" targetId="ce42-82cb-28b6-dab5" type="selectionEntry">
                   <constraints>
                     <constraint id="d68a-a11a-3f7e-6a89" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="4424-bd43-8eea-468c" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -23551,7 +23551,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
             <cost name="pts" typeId="points" value="20"/>
           </costs>
           <entryLinks>
-            <entryLink name="Lasgun" id="e467-5583-64a1-26a7" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
+            <entryLink name="Lasgun/Autogun" id="e467-5583-64a1-26a7" collective="false" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
               <constraints>
                 <constraint id="3765-b662-6d62-2713" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                 <constraint id="bfe7-0659-2401-33e6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -23620,7 +23620,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
             <cost name="pts" typeId="points" value="20"/>
           </costs>
           <entryLinks>
-            <entryLink name="Lasgun" id="374f-55d1-1b5f-7c33" collective="true" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
+            <entryLink name="Lasgun/Autogun" id="374f-55d1-1b5f-7c33" collective="true" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
               <constraints>
                 <constraint id="5376-1cad-7cdf-735f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                 <constraint id="2aa8-ba60-e511-3abb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -23680,7 +23680,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
             <cost name="pts" typeId="points" value="20"/>
           </costs>
           <entryLinks>
-            <entryLink name="Lasgun" id="5867-3b00-46d9-8b37" collective="true" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
+            <entryLink name="Lasgun/Autogun" id="5867-3b00-46d9-8b37" collective="true" hidden="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry">
               <constraints>
                 <constraint id="df3e-5b7b-020b-b975" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                 <constraint id="6711-9fc6-5d93-c2e2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -24096,7 +24096,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Lasgun" id="f771-afb4-ce71-fc28" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+                <entryLink name="Lasgun/Autogun" id="f771-afb4-ce71-fc28" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
                   <constraints>
                     <constraint id="5549-126e-38d5-7591" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="465d-4725-9160-b15c" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -24138,7 +24138,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
             <constraint id="5e0c-3847-46f5-191c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="8"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry name="Death Korps Trooper w/ lasgun" id="2212-430e-b08c-57fd" collective="false" hidden="false" import="true" type="model">
+            <selectionEntry name="Death Korps Trooper w/ Lasgun/Autogun" id="2212-430e-b08c-57fd" collective="false" hidden="false" import="true" type="model">
               <constraints>
                 <constraint id="56bd-1dd3-5d7c-e3e2" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="6"/>
                 <constraint id="a252-9151-b0cb-491e" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="8"/>
@@ -24155,7 +24155,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                     <constraint id="1115-b094-5800-ec78" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Lasgun" id="d090-bb99-50ce-8ca2" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+                <entryLink name="Lasgun/Autogun" id="d090-bb99-50ce-8ca2" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
                   <constraints>
                     <constraint id="30b3-78ce-1f02-ee04" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="ed6d-059d-00c7-9752" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -24396,7 +24396,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Lasgun" id="853d-8ef8-0455-9e50" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+                <entryLink name="Lasgun/Autogun" id="853d-8ef8-0455-9e50" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
                   <constraints>
                     <constraint id="cde8-2e32-0781-ab2a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="49eb-25a0-08d0-829d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -24426,7 +24426,7 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Lasgun" id="d4de-9c62-a838-5183" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
+                <entryLink name="Lasgun/Autogun" id="d4de-9c62-a838-5183" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
                   <constraints>
                     <constraint id="daee-f76f-b0a9-7208" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                     <constraint id="3967-19e2-b804-b768" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
