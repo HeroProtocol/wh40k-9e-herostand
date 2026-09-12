@@ -2399,13 +2399,13 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
     </selectionEntry>
     <selectionEntry name="Avenger Strike Fighter" id="3cce-1a63-6bc5-563d" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="Aircraft" id="ab15-6d6c-cf51-1894" hidden="false" primary="false" targetId="d569-3d56-cd24-6a31"/>
         <categoryLink name="Avenger Strike Fighter" id="9ae7-4cd0-79f8-9dd1" hidden="false" primary="false" targetId="beae-1001-7eb5-022e"/>
         <categoryLink name="Faction: Aeronautica Imperialis" id="0cc4-aca4-9c01-a9dc" hidden="false" primary="false" targetId="2135-9abb-5c57-5391"/>
         <categoryLink name="Faction: Imperium" id="329e-db5d-321a-c00e" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
         <categoryLink name="Fly" id="a9dd-f1dc-5acb-7444" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
         <categoryLink name="Vehicle" id="cb3c-33b6-6015-d742" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Faction: Astra Militarum" id="c662-3a0e-1e65-2bc9" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Heavy Support" id="e6f1-364f-11eb-93ea" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="9"/>
@@ -2432,6 +2432,7 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
           </modifiers>
         </entryLink>
         <entryLink name="Battle Honours" id="1d94-8907-a054-a57e" collective="false" hidden="false" import="true" targetId="1774-8223-7530-5ad5" type="selectionEntryGroup"/>
+        <entryLink name="Wing-mounted Weapons" id="ac29-a45b-9168-722e" collective="false" hidden="false" import="true" targetId="ebca-14a1-f915-8f33" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Supersonic" id="c977-3a9e-f964-4933" hidden="false" targetId="2268-18ce-3bf2-b68d" type="profile"/>
@@ -2997,13 +2998,13 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
     </selectionEntry>
     <selectionEntry name="Thunderbolt" id="a948-b0a9-7b99-749d" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="Aircraft" id="3880-c4ea-3f87-9f5f" hidden="false" primary="false" targetId="d569-3d56-cd24-6a31"/>
         <categoryLink name="Faction: Aeronautica Imperialis" id="8ca1-c742-bb21-a9a1" hidden="false" primary="false" targetId="2135-9abb-5c57-5391"/>
         <categoryLink name="Faction: Imperium" id="b322-e7a3-9dc0-a104" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
         <categoryLink name="Fly" id="faf9-0d08-2539-4ef2" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
         <categoryLink name="Thunderbolt" id="bfd2-2c70-d3d1-3e23" hidden="false" primary="false" targetId="3d84-df40-f0f7-7d01"/>
         <categoryLink name="Vehicle" id="b9b3-8516-2098-469a" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Faction: Astra Militarum" id="c77c-fb5f-faa6-2589" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Fast Attack" id="0153-6583-def7-bb0b" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="11"/>
@@ -3141,7 +3142,7 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
         <categoryLink name="Vehicle" id="0789-55c3-54b2-75d7" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Vendetta Gunship" id="61f6-33d3-64d8-9b4c" hidden="false" primary="false" targetId="e12c-df62-3e71-a108"/>
         <categoryLink name="Faction: Astra Militarum" id="0fb5-05c3-c2ac-aee2" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
-        <categoryLink name="Aircraft" id="e254-ea0e-c2c4-25ca" hidden="false" primary="false" targetId="d569-3d56-cd24-6a31"/>
+        <categoryLink name="Heavy Support" id="4c84-4a98-bf14-d883" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="210"/>
@@ -3286,7 +3287,7 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
         <categoryLink name="Vehicle" id="da8b-9b52-6359-4e65" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Vulture Gunship" id="b364-6353-d3cb-3916" hidden="false" primary="false" targetId="db28-2dda-1f4c-ea71"/>
         <categoryLink name="Faction: Astra Militarum" id="a7e2-41ad-37aa-9749" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
-        <categoryLink name="Aircraft" id="abf7-2c9c-26f9-2509" hidden="false" primary="false" targetId="d569-3d56-cd24-6a31"/>
+        <categoryLink name="Heavy Support" id="1d71-fd37-1dcd-b4a7" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="10"/>
@@ -8907,7 +8908,6 @@ OLD GRUDGES (Aura): While a friendly PLATOON or BATTLE TANK SQUADRON unit is wit
     </selectionEntry>
     <selectionEntry name="Aquila Lander [Legends]" id="3765-ed56-2c7e-99e9" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="Aircraft" id="8306-ca3c-5d48-f5b1" hidden="false" primary="false" targetId="d569-3d56-cd24-6a31"/>
         <categoryLink name="Aquila Lander" id="5c42-ae7a-c919-b4b0" hidden="false" primary="false" targetId="0868-3c14-2ea8-1bb6"/>
         <categoryLink name="Faction: Aeronautica Imperialis" id="98b4-5ada-aa06-e379" hidden="false" primary="false" targetId="2135-9abb-5c57-5391"/>
         <categoryLink name="Faction: Imperium" id="ae2a-a26d-1658-a1e0" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
@@ -8915,6 +8915,7 @@ OLD GRUDGES (Aura): While a friendly PLATOON or BATTLE TANK SQUADRON unit is wit
         <categoryLink name="Transport" id="fac3-50af-f8be-d653" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
         <categoryLink name="Vehicle" id="58ef-3edf-4580-bf5e" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Faction: Astra Militarum" id="061f-62e4-eca3-8975" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Dedicated Transport" id="c737-8c27-06df-c51b" hidden="false" primary="true" targetId="1b66-3f5f-6705-079a"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5"/>
@@ -8977,8 +8978,15 @@ OLD GRUDGES (Aura): While a friendly PLATOON or BATTLE TANK SQUADRON unit is wit
           </characteristics>
         </profile>
       </profiles>
+      <selectionEntries>
+        <selectionEntry name="Door mounted gun" id="61c8-43cb-9ba8-18e6" hidden="false" import="true" type="upgrade">
+          <entryLinks>
+            <entryLink name="Astra Militarum Special Weapons" id="b403-f2c0-8190-b417" hidden="false" import="true" targetId="a465-d3f9-68f9-2e55" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Heavy Bolter" id="8e80-74fc-6121-7443" collective="false" defaultSelectionEntryId="a631-b090-7262-377a" hidden="false" import="true">
+        <selectionEntryGroup name="Chin mounted gun" id="8e80-74fc-6121-7443" collective="false" defaultSelectionEntryId="a631-b090-7262-377a" hidden="false" import="true">
           <constraints>
             <constraint id="9552-c117-361a-ad68" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
             <constraint id="7ad7-43f4-34f8-83e1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -9409,13 +9417,13 @@ OLD GRUDGES (Aura): While a friendly PLATOON or BATTLE TANK SQUADRON unit is wit
     </selectionEntry>
     <selectionEntry name="Arvus Lighter" id="524d-4d10-843a-3bd3" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Aircraft" id="4bac-5654-dbcb-29bd" hidden="false" primary="false" targetId="d569-3d56-cd24-6a31"/>
         <categoryLink name="Arvus Lighter" id="ff4f-02fa-495b-5efc" hidden="false" primary="false" targetId="60e2-c8b4-b12b-dd19"/>
         <categoryLink name="Faction: Aeronautica Imperialis" id="1c0f-ad02-7bf2-a238" hidden="false" primary="false" targetId="2135-9abb-5c57-5391"/>
         <categoryLink name="Fly" id="830b-702a-bbfa-7262" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
         <categoryLink name="Transport" id="70e0-b885-30d0-390f" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
         <categoryLink name="Vehicle" id="843b-0af4-489f-98bc" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
         <categoryLink name="Faction: Astra Militarum" id="dd32-a90f-7b08-829c" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Fast Attack" id="d5b8-b642-27bf-4464" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5"/>
@@ -9424,6 +9432,7 @@ OLD GRUDGES (Aura): While a friendly PLATOON or BATTLE TANK SQUADRON unit is wit
       </costs>
       <entryLinks>
         <entryLink name="Battle Honours" id="01d6-6695-89f1-db55" collective="false" hidden="false" import="true" targetId="1774-8223-7530-5ad5" type="selectionEntryGroup"/>
+        <entryLink name="Astra Militarum Special Weapons" id="d9fc-9119-d857-9cb2" hidden="false" import="true" targetId="a465-d3f9-68f9-2e55" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Airborne" id="9078-92e7-4cb9-3887" hidden="false" targetId="ed3d-c2e2-be6e-332d" type="profile"/>
@@ -18076,9 +18085,9 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
         <categoryLink name="Faction: Imperium" id="52ac-46fe-0e31-ec9d" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
         <categoryLink name="Faction: Astra Militarum" id="9705-05fe-f7c7-0bd5" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
         <categoryLink name="Vehicle" id="101a-2341-6f48-a53b" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
-        <categoryLink name="Aircraft" id="784a-d4b1-da82-366f" hidden="false" primary="false" targetId="d569-3d56-cd24-6a31"/>
         <categoryLink name="Fly" id="60de-01e1-965f-978e" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
         <categoryLink name="Voss-pattern Lightning" id="90ef-1899-bc0e-80a1" hidden="false" primary="false" targetId="f5c3-5616-fe23-e164"/>
+        <categoryLink name="Fast Attack" id="8742-8a3a-43da-fd9b" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="7"/>
@@ -19608,7 +19617,6 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
     </selectionEntry>
     <selectionEntry name="Valkyrie" id="b6a5-c91b-960b-917b" collective="false" hidden="false" import="true" type="model">
       <categoryLinks>
-        <categoryLink name="Aircraft" id="e7a1-6595-eaa7-7c8f" hidden="false" primary="false" targetId="d569-3d56-cd24-6a31"/>
         <categoryLink name="Faction: Imperium" id="b0c7-ed22-3d6f-bb7b" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
         <categoryLink name="Faction: Astra Militarum" id="e5fe-f77c-a5eb-a206" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
         <categoryLink name="Faction: Aeronautica Imperialis" id="1bf5-d6e5-a026-1601" hidden="false" primary="false" targetId="2135-9abb-5c57-5391"/>
@@ -19617,6 +19625,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
         <categoryLink name="Transport" id="46c4-fafd-dcae-d262" hidden="false" primary="false" targetId="6cc4-1b62-8e8a-05cd"/>
         <categoryLink name="Fly" id="54a9-cde4-c856-9cd2" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
         <categoryLink name="Valkyries" id="082d-5b41-3e14-aac0" hidden="false" primary="false" targetId="286e-aab4-a764-0451"/>
+        <categoryLink name="Fast Attack" id="82d2-a2b6-39b1-5c75" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="140"/>

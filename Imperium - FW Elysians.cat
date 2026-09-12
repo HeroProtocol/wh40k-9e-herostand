@@ -63,7 +63,7 @@
     </entryLink>
     <entryLink name="Valkyrie Sky Talon [Legends]" id="2558-9522-f29c-2dce" collective="false" hidden="false" import="true" targetId="787c-9abf-77a1-abb2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="Flyer" id="6a80-3c1a-c1ff-bf00" hidden="false" primary="true" targetId="e888-1504-aa61-95ff"/>
+        <categoryLink name="Fast Attack" id="24d5-9611-c07b-df75" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -422,7 +422,6 @@
     </selectionEntry>
     <selectionEntry name="Valkyrie Sky Talon [Legends]" id="787c-9abf-77a1-abb2" collective="false" hidden="false" import="true" publicationId="b652-8bab-1453-da20" type="unit">
       <categoryLinks>
-        <categoryLink name="Aircraft" id="d27a-4752-963b-6e71" hidden="false" primary="false" targetId="d569-3d56-cd24-6a31"/>
         <categoryLink name="Faction: Imperium" id="8b30-ff36-8872-b2ab" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
         <categoryLink name="Faction: Astra Militarum" id="facc-ac8a-ba15-ea20" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
         <categoryLink name="Faction: Elysian Drop Troops" id="29ee-7238-f4ef-72c3" hidden="false" primary="false" targetId="0dae-9d66-decb-c59c"/>
