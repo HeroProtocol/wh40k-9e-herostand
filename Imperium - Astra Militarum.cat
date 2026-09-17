@@ -272,7 +272,7 @@
     </entryLink>
     <entryLink name="Tempestus Scions" id="3024-d805-795b-c4c5" collective="false" hidden="false" import="true" targetId="f67e-c223-b6fe-940f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="Elites" id="8c77-63a9-c444-954e" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+        <categoryLink name="Troops" id="772a-8698-0099-5cea" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -316,11 +316,6 @@
         <categoryLink name="Heavy Support" id="0a0e-d424-f194-5fee" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
       </categoryLinks>
       <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="0735-ed55-e421-7b73" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="greaterThan" value="0"/>
-          </conditions>
-        </modifier>
         <modifier field="hidden" type="set" value="true">
           <conditions>
             <condition childId="a207-a133-6adb-25f3" field="forces" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="greaterThan" value="0"/>
@@ -1488,11 +1483,6 @@
             <condition childId="5196-1738-9147-0786" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1"/>
           </conditions>
         </modifier>
-        <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="0735-ed55-e421-7b73" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="greaterThan" value="0"/>
-          </conditions>
-        </modifier>
       </modifiers>
     </entryLink>
     <entryLink name="Malcador" id="8a90-a615-f26e-5508" collective="false" hidden="false" import="true" targetId="86a7-45f9-d8e3-42b2" type="selectionEntry">
@@ -1671,10 +1661,13 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Cadian Shock Troops" id="ba1d-a3a4-961e-20a0" collective="false" hidden="false" import="true" targetId="7c48-42cf-40a1-f038" type="selectionEntry">
+    <entryLink name="Shock Troops" id="ba1d-a3a4-961e-20a0" collective="false" hidden="false" import="true" targetId="7c48-42cf-40a1-f038" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Troops" id="4488-9231-bba3-ab3c" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink name="Astra Militarum Primary Weapons" id="b36b-ac77-f511-6a11" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup"/>
+      </entryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
           <conditions>
@@ -1774,7 +1767,7 @@
         <modifier field="category" type="remove" value="62d3-9871-9675-a63b"/>
       </modifiers>
     </entryLink>
-    <entryLink name="Cadian Castellan" id="9fa6-55d9-1828-f1fd" collective="false" hidden="false" import="true" targetId="17c4-47ab-a4b6-04c5" type="selectionEntry">
+    <entryLink name="Castellan" id="9fa6-55d9-1828-f1fd" collective="false" hidden="false" import="true" targetId="17c4-47ab-a4b6-04c5" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" id="a424-985a-f98e-a536" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
@@ -1808,7 +1801,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Catachan Jungle Fighters" id="29b9-170b-f1cc-09a3" collective="false" hidden="false" import="true" targetId="a0d0-1619-f23b-eaaf" type="selectionEntry">
+    <entryLink name="Jungle Fighters" id="29b9-170b-f1cc-09a3" collective="false" hidden="false" import="true" targetId="a0d0-1619-f23b-eaaf" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Troops" id="a768-679f-5a76-4fa6" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
       </categoryLinks>
@@ -1824,18 +1817,6 @@
       <categoryLinks>
         <categoryLink name="Elites" id="1c51-115f-3e0d-b064" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
-    </entryLink>
-    <entryLink name="Tempestus Scions" id="2bc3-24ca-2a31-9376" collective="false" hidden="true" import="true" targetId="f67e-c223-b6fe-940f" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Troops" id="cfbb-209d-37ce-ca5c" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
-      </categoryLinks>
-      <modifiers>
-        <modifier field="hidden" type="set" value="false">
-          <conditions>
-            <condition childId="0735-ed55-e421-7b73" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="greaterThan" value="0"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </entryLink>
     <entryLink name="Aegis Defence Line" id="5ccf-6108-4e63-474a" collective="false" hidden="false" import="true" targetId="34b5-c9b7-72d1-5a21" type="selectionEntry">
       <categoryLinks>
@@ -1891,6 +1872,18 @@
       </categoryLinks>
     </entryLink>
     <entryLink name="[Reference] Orders" id="a2eb-9750-4cda-8e41" collective="false" hidden="false" import="true" targetId="3b5d-094c-15fd-8d37" type="selectionEntry"/>
+    <entryLink name="Tempestus Scions" id="a277-963b-4ec3-3816" collective="false" hidden="false" import="true" targetId="f67e-c223-b6fe-940f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Elites" id="157c-fdb9-6f8c-bf27" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="0735-ed55-e421-7b73" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="greaterThan" value="0"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <selectionEntries>
     <selectionEntry name="Heavy Weapons Team" id="4bc9-ef58-2982-9e7a" hidden="false" import="true" type="upgrade">
@@ -1956,7 +1949,7 @@
           </constraints>
           <entryLinks>
             <entryLink name="Astra Miliatrum Hot Shot Weapons" id="bb41-60b2-456e-a70e" hidden="false" import="true" targetId="14b3-972a-f635-b529" type="selectionEntryGroup"/>
-            <entryLink name="Astra Militarum Officier Primary Weapons" id="a21b-7b49-9539-4002" hidden="false" import="true" targetId="ffcc-3207-feaf-c718" type="selectionEntryGroup"/>
+            <entryLink name="Astra Militarum Special Issue Pistol Weapons" id="8f15-da77-658b-0e3b" hidden="false" import="true" targetId="d9c4-9e62-1667-6b9b" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Secondary selection" id="8b48-4a06-7a7d-0dda" collective="false" defaultSelectionEntryId="891f-2ab4-a9ad-ae72" hidden="false" import="true">
@@ -1966,7 +1959,7 @@
           </constraints>
           <entryLinks>
             <entryLink name="Astra Militarum Melee Weapons" id="5060-204a-707c-1b97" hidden="false" import="true" targetId="7622-e68e-c5e5-c8e7" type="selectionEntryGroup"/>
-            <entryLink name="Astra Militarum Pistol Weapons" id="037f-9ae0-ec12-fb8b" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
+            <entryLink name="Astra Militarum Special Issue Pistol Weapons" id="e8b4-7c9c-d034-16e1" hidden="false" import="true" targetId="d9c4-9e62-1667-6b9b" type="selectionEntryGroup"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry name="Tempestor Command Rod" id="4b3b-7b63-04b2-a5c6" collective="false" hidden="false" import="true" type="upgrade">
@@ -2020,6 +2013,7 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1"/>
           </costs>
         </entryLink>
+        <entryLink name="Astra Militarum Pistol Weapons" id="68eb-439f-09a6-12de" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Voice of Command" id="aed2-22c3-1713-3ed0" hidden="false" targetId="2ff26b94-8048-d15d-c541-fd4da0f49571" type="profile"/>
@@ -2040,6 +2034,372 @@
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule name="Tactical Coordination" id="c3a7-15b7-59bf-1a5a" hidden="false">
+          <description>Friendly VEHICLE units within 6&quot; can reroll hit rolls of 1.</description>
+        </rule>
+        <rule name="Vehicle Command Hatch" id="4897-71e1-0759-77f3" hidden="false">
+          <description>This model can embark inside any friendly VEHICLE transport or tank (including Chimera, Taurox, Leman Russ, Baneblade variants, or Super-heavy vehicles), taking up 1 transport space. While embarked, this model can still issue orders to units within 6&quot; of that vehicle. If the vehicle has a Vox-caster or Master Vox, extend order range to 12&quot;.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry name="Drop Troops" id="e2cc-95d1-c4f0-7a49" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Troops" id="e55a-39da-c4df-1492" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+        <categoryLink name="Infantry" id="af21-ec92-d83e-9d8a" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Regimental" id="d464-eb91-0d2b-f219" hidden="false" primary="false" targetId="4520-cc21-fc02-4a7e"/>
+        <categoryLink name="Faction: Astra Militarum" id="8d93-6940-febf-f7b1" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Core" id="7b66-97ba-5f24-b322" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
+        <categoryLink name="Faction: Imperium" id="53f3-2616-ea44-069a" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Battle Honours" id="2057-9cdb-5aff-f85b" collective="false" hidden="false" import="true" targetId="1774-8223-7530-5ad5" type="selectionEntryGroup"/>
+        <entryLink name="Battle Scars" id="8b1e-2aab-d172-aa7c" collective="false" hidden="false" import="true" targetId="cec4-9abd-dcdb-c9c2" type="selectionEntryGroup"/>
+        <entryLink name="Astra Militarum Primary Weapons" id="8085-2352-cff6-070f" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Frag grenades" id="ae90-f41d-f3ba-98ab" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+        <infoLink name="Regimental Tactics" id="caaa-525b-5791-8bb9" hidden="false" targetId="1b13-112a-0fec-c326" type="profile"/>
+        <infoLink name="Aerial Drop" id="6a72-fb44-f65b-645c" hidden="false" targetId="0a6c-a8e0-8fd8-b3f0" type="profile"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="cff6-a8e7-27ea-0776" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="greaterThan" value="0"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry name="Drop Trooper Sergeant" id="bdb6-a6d2-1827-0666" collective="false" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="166e-1a6f-5425-fba9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+            <constraint id="f2c1-3a15-3430-46b6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Battlefield Bequest Relics" id="aba1-5c7f-7537-0438" collective="false" hidden="false" import="true" targetId="5346-757a-7d0b-7871" type="selectionEntryGroup"/>
+            <entryLink name="Stratagem: Battlefield Bequest" id="91e2-8a73-2661-b8c5" collective="false" hidden="false" import="true" targetId="59ad-e41a-5a3b-cb12" type="selectionEntry"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Drop Trooper Sergeant" id="8ab6-cbb2-affd-34b9" hidden="false" page="91" publicationId="53e9d88f--pubN88319" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Primary Weapon" id="150e-fe30-d6bc-9766" collective="false" defaultSelectionEntryId="2e5d-9e7e-ffd3-1678" hidden="false" import="true">
+              <constraints>
+                <constraint id="564a-2c6e-d8a0-9f5f" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="4087-8eb0-9bdf-7f4c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Astra Militarum Primary Weapons" id="b019-027c-2b8f-0a8b" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup"/>
+                <entryLink name="Astra Militarum Pistol Weapons" id="478a-6d70-1ba8-20df" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
+              </entryLinks>
+              <selectionEntries>
+                <selectionEntry name="Drum-fed Lasgun/Autogun" id="b9c2-d3a9-e803-feac" collective="false" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="0baa-88f8-279c-42e9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                    <cost name="pts" typeId="points" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Drum-fed Lasgun/Autogun" id="9c9b-279f-8d0b-a4bc" hidden="false" targetId="d6c0-fa8b-c18d-f68f" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Secondary Weapon" id="d5a6-fd61-9d48-1249" collective="false" defaultSelectionEntryId="2e5d-9e7e-ffd3-1678" hidden="false" import="true">
+              <constraints>
+                <constraint id="ae0e-ac1a-2ec0-9c2c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="6408-0885-de8b-ab2f" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Astra Militarum Melee Weapons" id="f1a8-7a89-9743-c44a" hidden="false" import="true" targetId="7622-e68e-c5e5-c8e7" type="selectionEntryGroup"/>
+                <entryLink name="Astra Militarum Pistol Weapons" id="bde4-4518-336f-0759" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Drop Troopers" id="1de2-25e7-58c2-2e0a" collective="false" defaultSelectionEntryId="1727-055a-8351-c45a" hidden="false" import="true">
+          <constraints>
+            <constraint id="700d-3aeb-f1af-5b8d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="4"/>
+            <constraint id="4a3b-ef72-655a-97a5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="4"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Drop Trooper w/ Vox-caster" id="4e20-e57c-899e-56a1" collective="false" hidden="false" import="true" type="model">
+              <constraints>
+                <constraint id="fa68-30cb-68fb-5d70" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink name="Vox-Caster" id="6187-7579-5b81-c649" collective="false" hidden="false" import="true" targetId="7012-ea88-386b-b122" type="selectionEntry">
+                  <constraints>
+                    <constraint id="8fb9-3cfb-540f-c486" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="b468-23c1-bae7-80aa" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier field="points" type="set" value="0"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <profiles>
+                <profile name="Drop Trooper " id="1757-aa0e-962a-9087" hidden="false" page="91" publicationId="53e9d88f--pubN88319" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Drop Trooper" id="336e-1699-2a59-babe" collective="false" hidden="false" import="true" type="model">
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Drop Trooper " id="6d07-0b14-8cb6-45ba" hidden="false" page="91" publicationId="53e9d88f--pubN88319" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Drop Trooper w/ Special Weapon" id="72e4-26b0-9d9c-2931" collective="false" hidden="false" import="true" type="model">
+              <constraints>
+                <constraint id="353d-2885-9307-3c25" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink name="Astra Militarum Special Weapons" id="62af-d89c-5eea-9b13" hidden="false" import="true" targetId="a465-d3f9-68f9-2e55" type="selectionEntryGroup"/>
+              </entryLinks>
+              <profiles>
+                <profile name="Drop Trooper " id="1a54-ddc8-03ab-4e67" hidden="false" page="91" publicationId="53e9d88f--pubN88319" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Jump Troops" id="1ae4-a087-e7ec-c7bb" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Infantry" id="2310-f8bd-bfcc-9d4d" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
+        <categoryLink name="Regimental" id="5384-3ca2-5217-4d5a" hidden="false" primary="false" targetId="4520-cc21-fc02-4a7e"/>
+        <categoryLink name="Fly" id="2e1c-ce2f-d2eb-4b15" hidden="false" primary="false" targetId="3117-16d8-fcef-4f56"/>
+        <categoryLink name="Faction: Astra Militarum" id="80ae-2e82-a648-7a98" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Faction: Imperium" id="5fd0-6c0e-ba74-3030" hidden="false" primary="false" targetId="84e2-9fa9-ebe6-1d18"/>
+        <categoryLink name="Core" id="e8f7-1dc4-fc2c-25ca" hidden="false" primary="false" targetId="08f1-d244-eb44-7e01"/>
+        <categoryLink name="Troops" id="65ff-9b73-3fb4-b07b" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Battle Honours" id="8b20-1d68-f0a2-d404" collective="false" hidden="false" import="true" targetId="1774-8223-7530-5ad5" type="selectionEntryGroup"/>
+        <entryLink name="Battle Scars" id="4cbf-faa7-1ef7-58d4" collective="false" hidden="false" import="true" targetId="cec4-9abd-dcdb-c9c2" type="selectionEntryGroup"/>
+        <entryLink name="Astra Militarum Primary Weapons" id="5893-10b9-cba0-71bc" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Frag grenades" id="578e-9fda-9ff8-304c" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+        <infoLink name="Regimental Tactics" id="baa6-2b21-3d53-dff3" hidden="false" targetId="1b13-112a-0fec-c326" type="profile"/>
+      </infoLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="cff6-a8e7-27ea-0776" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="greaterThan" value="0"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry name="Jump Trooper Sergeant" id="ef48-275e-7621-43e0" collective="false" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="2461-0985-18b6-4c6f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+            <constraint id="97ba-e07b-bb6c-bf27" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Battlefield Bequest Relics" id="5172-8177-2b4d-51f7" collective="false" hidden="false" import="true" targetId="5346-757a-7d0b-7871" type="selectionEntryGroup"/>
+            <entryLink name="Stratagem: Battlefield Bequest" id="f31f-d53d-8f64-c05e" collective="false" hidden="false" import="true" targetId="59ad-e41a-5a3b-cb12" type="selectionEntry"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Jump Trooper Sergeant" id="d686-df66-bf9f-a5f7" hidden="false" page="91" publicationId="53e9d88f--pubN88319" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Primary Weapon" id="1c1e-3072-226c-9bbe" collective="false" defaultSelectionEntryId="2e5d-9e7e-ffd3-1678" hidden="false" import="true">
+              <constraints>
+                <constraint id="dfab-1a7f-1d40-e356" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="fb8e-2699-2fa8-07e9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Astra Militarum Primary Weapons" id="35e7-57f0-4f29-36df" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup"/>
+                <entryLink name="Astra Militarum Pistol Weapons" id="e9a9-ecc4-f956-43a2" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
+              </entryLinks>
+              <selectionEntries>
+                <selectionEntry name="Drum-fed Lasgun/Autogun" id="2c1e-8d94-42f7-6e7d" collective="false" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="2ee8-0be0-6110-2aea" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                    <cost name="pts" typeId="points" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Drum-fed Lasgun/Autogun" id="bd90-be85-e638-c373" hidden="false" targetId="d6c0-fa8b-c18d-f68f" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Secondary Weapon" id="b7a4-f094-9b20-9c82" collective="false" defaultSelectionEntryId="2e5d-9e7e-ffd3-1678" hidden="false" import="true">
+              <constraints>
+                <constraint id="772a-1b86-2076-0b4a" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="bcea-2f81-5d8e-98b5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Astra Militarum Melee Weapons" id="5a4a-d5b3-08fd-8d4b" hidden="false" import="true" targetId="7622-e68e-c5e5-c8e7" type="selectionEntryGroup"/>
+                <entryLink name="Astra Militarum Pistol Weapons" id="98ed-9d0d-404a-eb98" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Jump Troopers" id="85f2-354e-83d8-1c71" collective="false" defaultSelectionEntryId="1727-055a-8351-c45a" hidden="false" import="true">
+          <constraints>
+            <constraint id="0f70-e450-b638-cd61" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="4"/>
+            <constraint id="a8d6-f553-20cb-ebc3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="4"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Jump Trooper" id="fd0a-f795-a98a-6cae" collective="false" hidden="false" import="true" type="model">
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Jump Trooper" id="ea72-2dec-001f-03f5" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Jump Trooper w/ Special Weapon" id="1a23-dbea-a790-7eba" collective="false" hidden="false" import="true" type="model">
+              <constraints>
+                <constraint id="cd39-40de-1fe6-3c90" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
+              </constraints>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                <cost name="pts" typeId="points" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink name="Astra Militarum Special Weapons" id="699f-056b-82db-005d" hidden="false" import="true" targetId="a465-d3f9-68f9-2e55" type="selectionEntryGroup"/>
+              </entryLinks>
+              <profiles>
+                <profile name="Jump Trooper" id="13ab-8267-0bb4-d344" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>

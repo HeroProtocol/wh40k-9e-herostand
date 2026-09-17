@@ -5437,7 +5437,7 @@ Remaining Wounds | Aura Range
         <cost name="pts" typeId="points" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Heavy stubber/Heavy laser" id="7ef1-ba4e-ac69-450a" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
+        <infoLink name="Heavy stubber" id="7ef1-ba4e-ac69-450a" hidden="false" targetId="0031-0314-5b36-a220" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Shotgun" id="2094-c9a6-a426-0970" collective="false" hidden="false" import="true" type="upgrade">
@@ -6471,7 +6471,7 @@ Remaining Wounds | Aura Range
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Laspistol" id="304c-655d-71ac-6b1a" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
+        <infoLink name="Laspistol/Autopistol" id="304c-655d-71ac-6b1a" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Bolt pistol" id="37d3-7098-d596-9948" collective="true" hidden="false" import="true" type="upgrade">
@@ -7192,10 +7192,6 @@ Remaining Wounds | Aura Range
       </profiles>
     </selectionEntry>
     <selectionEntry name="Game Type" id="bf09-85b2-c097-1071" collective="false" hidden="false" import="true" type="upgrade">
-      <constraints>
-        <constraint id="1cf3-6923-9f59-8fbf" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
-        <constraint id="2cf5-b2a3-9fcd-09ff" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="min" value="1"/>
-      </constraints>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
         <cost name="pts" typeId="points" value="0"/>

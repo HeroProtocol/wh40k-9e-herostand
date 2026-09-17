@@ -685,7 +685,7 @@ can shoot its turret weapon twice in the following Shooting phase (the turret we
     </profile>
     <profile name="Shock Trooper" id="66e6-ea38-4809-6033" hidden="false" page="91" publicationId="53e9d88f--pubN88319" typeId="800f-21d0-4387-c943" typeName="Unit">
       <characteristics>
-        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+        <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
         <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
         <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
         <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
@@ -1036,7 +1036,7 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Laspistol" id="ae41-5b36-9d57-caf1" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
+        <infoLink name="Laspistol/Autopistol" id="ae41-5b36-9d57-caf1" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Chainsword" id="de76-80c5-81db-c463" collective="true" hidden="false" import="true" type="upgrade">
@@ -1050,9 +1050,6 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Hot-shot Laspistol" id="be4e-87d9-3bb2-4ecd" collective="false" hidden="false" import="true" page="0" type="upgrade">
-      <constraints>
-        <constraint id="0271-e6fd-1e21-c8f0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-      </constraints>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
         <cost name="pts" typeId="points" value="0"/>
@@ -2393,7 +2390,7 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Laspistol" id="d75d-1121-ed4d-2872" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
+        <infoLink name="Laspistol/Autopistol" id="d75d-1121-ed4d-2872" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
         <infoLink name="Chainsword" id="e39e-c410-729e-b822" hidden="false" targetId="9b1e-61f9-4a5b-0044" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -13089,9 +13086,6 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Hot-shot Volley Gun" id="5d8d-f53d-1a4c-fabb" collective="false" hidden="false" import="true" page="0" type="upgrade">
-      <constraints>
-        <constraint id="ddc1-4980-f257-cda1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
-      </constraints>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
@@ -15304,7 +15298,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Laspistol" id="ec43-42ae-fd87-ab27" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
+            <infoLink name="Laspistol/Autopistol" id="ec43-42ae-fd87-ab27" hidden="false" targetId="f2b7-768f-a270-de64" type="profile"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -18223,13 +18217,6 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
       </costs>
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="0dae-9d66-decb-c59c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="ancestor" shared="true" type="notInstanceOf" value="0"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <profiles>
         <profile name="Lascutter" id="09c8-9ce4-6b78-4b89" hidden="false" publicationId="b652-8bab-1453-da20" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
@@ -18345,7 +18332,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
               </constraints>
               <entryLinks>
                 <entryLink name="Astra Miliatrum Hot Shot Weapons" id="e391-33d2-a1e9-179a" hidden="false" import="true" targetId="14b3-972a-f635-b529" type="selectionEntryGroup"/>
-                <entryLink name="Astra Militarum Officier Primary Weapons" id="86e2-56ab-0620-b706" hidden="false" import="true" targetId="ffcc-3207-feaf-c718" type="selectionEntryGroup"/>
+                <entryLink name="Astra Militarum Special Issue Pistol Weapons" id="f56a-5686-ff5d-d748" hidden="false" import="true" targetId="d9c4-9e62-1667-6b9b" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Secondary selection" id="8a20-68f4-42f7-8117" collective="false" defaultSelectionEntryId="891f-2ab4-a9ad-ae72" hidden="false" import="true">
@@ -18355,7 +18342,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
               </constraints>
               <entryLinks>
                 <entryLink name="Astra Militarum Melee Weapons" id="4b86-f93a-ce86-ae4c" hidden="false" import="true" targetId="7622-e68e-c5e5-c8e7" type="selectionEntryGroup"/>
-                <entryLink name="Astra Militarum Pistol Weapons" id="467b-2e93-c604-7dbf" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
+                <entryLink name="Astra Militarum Special Issue Pistol Weapons" id="61f9-4189-92c3-25d9" hidden="false" import="true" targetId="d9c4-9e62-1667-6b9b" type="selectionEntryGroup"/>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry name="Tempestor Command Rod" id="7d77-5042-5703-657f" collective="false" hidden="false" import="true" type="upgrade">
@@ -18408,80 +18395,15 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                 <infoLink name="Tempestus Scion" id="3e35-b78f-745d-1429" hidden="false" targetId="f51905c4-7ffb-3a41-ad86-de14eba93ba3" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Hotshot Lasgun/Autogun" id="9876-78a5-eb96-c1c6" collective="false" defaultSelectionEntryId="f518-47f8-5302-48e1" hidden="false" import="true">
+                <selectionEntryGroup name="Weapon Choice" id="9876-78a5-eb96-c1c6" collective="false" defaultSelectionEntryId="f518-47f8-5302-48e1" hidden="false" import="true">
                   <constraints>
                     <constraint id="7c96-79ec-aa0a-062e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="54d7-0ad7-e250-9570" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Plasma gun" id="4f48-f22a-75fc-dda1" collective="false" hidden="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry">
-                      <constraints>
-                        <constraint id="10a0-ecfd-2e73-df5f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="abc1-df2f-dd65-ea70" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="1f64-1ce0-19ac-6c18" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Meltagun" id="97f2-fbf8-0231-6c0b" collective="false" hidden="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry">
-                      <constraints>
-                        <constraint id="461d-9f0d-4f7b-0d1a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="c448-76c3-e550-244a" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="1f64-1ce0-19ac-6c18" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Flamer" id="3d38-c092-55b3-ff27" collective="false" hidden="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
-                      <constraints>
-                        <constraint id="7b06-8bd2-574e-f9ef" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="1e38-7595-25e4-1ded" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="1f64-1ce0-19ac-6c18" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink name="Hot-Shot Lasgun" id="f518-47f8-5302-48e1" collective="false" hidden="false" import="true" targetId="5188-4b26-73ac-1160" type="selectionEntry">
-                      <constraints>
-                        <constraint id="c5e3-5ba2-1fff-0a46" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <modifiers>
-                        <modifier field="points" type="set" value="0"/>
-                      </modifiers>
-                    </entryLink>
-                    <entryLink name="Hot-shot Volley Gun" id="6e69-1992-ee87-b434" collective="false" hidden="false" import="true" targetId="5d8d-f53d-1a4c-fabb" type="selectionEntry">
-                      <constraints>
-                        <constraint id="400e-4e97-8db2-b1a8" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="1f64-1ce0-19ac-6c18" shared="true" type="max" value="1"/>
-                        <constraint id="cc3c-c8bd-6d0b-4e00" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                    </entryLink>
+                    <entryLink name="Astra Militarum Special Issue Weapons" id="5ff6-a002-1c62-0de7" hidden="false" import="true" targetId="abf6-2818-6bb1-ce27" type="selectionEntryGroup"/>
+                    <entryLink name="Astra Militarum Special Issue Weapons" id="9be8-d389-155c-358b" hidden="false" import="true" targetId="abf6-2818-6bb1-ce27" type="selectionEntryGroup"/>
                   </entryLinks>
-                  <selectionEntries>
-                    <selectionEntry name="Grenade Launcher" id="eecd-e2d2-9ee0-1c5a" collective="false" hidden="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint id="d46f-251f-9020-4cbc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="d88c-c9ff-a420-5d0e" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="1f64-1ce0-19ac-6c18" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <costs>
-                        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
-                        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
-                        <cost name="pts" typeId="points" value="0"/>
-                      </costs>
-                      <profiles>
-                        <profile name="Grenade Launcher (Frag)" id="8253-e2bb-c19f-778b" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                          <characteristics>
-                            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-                            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
-                            <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
-                            <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
-                          </characteristics>
-                        </profile>
-                        <profile name="Grenade Launcher (Krak)" id="5a52-456d-41e2-1381" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                          <characteristics>
-                            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-                            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
-                            <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
-                            <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
-                            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                    </selectionEntry>
-                  </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
@@ -18802,6 +18724,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                     <constraint id="1cd2-1083-4e6d-bf43" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </entryLink>
+                <entryLink name="Astra Militarum Special Issue Weapons" id="e043-2170-7566-0dd5" hidden="false" import="true" targetId="abf6-2818-6bb1-ce27" type="selectionEntryGroup"/>
               </entryLinks>
               <infoLinks>
                 <infoLink name="Tempestus Scion" id="5896-2106-ef48-b180" hidden="false" targetId="f51905c4-7ffb-3a41-ad86-de14eba93ba3" type="profile"/>
@@ -18813,81 +18736,6 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
                   </repeats>
                 </modifier>
               </modifiers>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Special Weapon" id="5ff2-6f7e-20d7-dff0" collective="false" defaultSelectionEntryId="ba82-9be9-57be-fa1c" hidden="false" import="true">
-                  <constraints>
-                    <constraint id="2cfe-e244-e6ba-ace7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="21c5-32a0-6202-18a5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink name="Plasma gun" id="ba82-9be9-57be-fa1c" collective="false" hidden="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry">
-                      <constraints>
-                        <constraint id="2ed9-c8bf-ed95-f857" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="8238-2621-3983-fb5d" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="f67e-c223-b6fe-940f" shared="true" type="max" value="0"/>
-                      </constraints>
-                      <modifiers>
-                        <modifier field="8238-2621-3983-fb5d" type="increment" value="1">
-                          <repeats>
-                            <repeat childId="model" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="f67e-c223-b6fe-940f" shared="true" value="5"/>
-                          </repeats>
-                        </modifier>
-                      </modifiers>
-                    </entryLink>
-                    <entryLink name="Meltagun" id="5a8c-002c-befc-7555" collective="false" hidden="false" import="true" targetId="efc8-c51d-5b02-a3a2" type="selectionEntry">
-                      <constraints>
-                        <constraint id="bc48-f371-c7ec-5a84" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="11c5-070a-34ba-095b" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="f67e-c223-b6fe-940f" shared="true" type="max" value="0"/>
-                      </constraints>
-                      <modifiers>
-                        <modifier field="11c5-070a-34ba-095b" type="increment" value="1">
-                          <repeats>
-                            <repeat childId="model" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="f67e-c223-b6fe-940f" shared="true" value="5"/>
-                          </repeats>
-                        </modifier>
-                      </modifiers>
-                    </entryLink>
-                    <entryLink name="Flamer" id="18ae-937e-75b9-3acf" collective="false" hidden="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
-                      <constraints>
-                        <constraint id="b215-886b-7c11-7491" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="f8f9-2da4-d34c-da27" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="f67e-c223-b6fe-940f" shared="true" type="max" value="0"/>
-                      </constraints>
-                      <modifiers>
-                        <modifier field="f8f9-2da4-d34c-da27" type="increment" value="1">
-                          <repeats>
-                            <repeat childId="model" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="f67e-c223-b6fe-940f" shared="true" value="5"/>
-                          </repeats>
-                        </modifier>
-                      </modifiers>
-                    </entryLink>
-                    <entryLink name="Hot-shot Volley Gun" id="7d50-cd6f-28ac-9a3a" collective="false" hidden="false" import="true" targetId="5d8d-f53d-1a4c-fabb" type="selectionEntry">
-                      <constraints>
-                        <constraint id="8579-634d-8973-a9ab" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                        <constraint id="edfb-60c0-ac87-e594" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="f67e-c223-b6fe-940f" shared="true" type="max" value="0"/>
-                      </constraints>
-                      <modifiers>
-                        <modifier field="edfb-60c0-ac87-e594" type="increment" value="1">
-                          <repeats>
-                            <repeat childId="model" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="f67e-c223-b6fe-940f" shared="true" value="5"/>
-                          </repeats>
-                        </modifier>
-                      </modifiers>
-                    </entryLink>
-                    <entryLink name="Grenade launcher" id="c369-2872-341e-07a1" collective="false" hidden="false" import="true" targetId="a75e-512d-c808-3057" type="selectionEntry">
-                      <constraints>
-                        <constraint id="9bfb-07ee-7901-802f" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="f67e-c223-b6fe-940f" shared="true" type="max" value="0"/>
-                        <constraint id="26cd-3b7a-4447-1485" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <modifiers>
-                        <modifier field="9bfb-07ee-7901-802f" type="increment" value="1">
-                          <repeats>
-                            <repeat childId="model" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="f67e-c223-b6fe-940f" shared="true" value="5"/>
-                          </repeats>
-                        </modifier>
-                      </modifiers>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry name="Tempestus Scion" id="f67f-4691-67e6-96b8" collective="false" hidden="false" import="true" page="0" type="model">
               <constraints>
@@ -21859,29 +21707,17 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                     <modifier field="points" type="set" value="0"/>
                   </modifiers>
                 </entryLink>
-                <entryLink name="Astra Militarum Primary Weapons" id="2382-e445-892f-f1e8" hidden="false" import="true" targetId="aef4-c124-08a4-048f" type="selectionEntryGroup"/>
               </entryLinks>
               <infoLinks>
                 <infoLink name="Shock Trooper" id="8635-3771-9de8-74d1" hidden="false" targetId="66e6-ea38-4809-6033" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Shock Trooper" id="1727-055a-8351-c45a" collective="false" hidden="false" import="true" type="model">
-              <constraints>
-                <constraint id="483f-5ee2-bbfe-e3cb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="9"/>
-              </constraints>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
-              <entryLinks>
-                <entryLink name="Lasgun/Autogun" id="46a2-97a6-de12-8b94" collective="false" hidden="false" import="true" targetId="7236-b28a-2b6e-ded7" type="selectionEntry">
-                  <constraints>
-                    <constraint id="8b18-a22f-7d56-756a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="e540-7810-7347-c322" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
               <infoLinks>
                 <infoLink name="Shock Trooper" id="780f-d7c1-bc9a-977a" hidden="false" targetId="66e6-ea38-4809-6033" type="profile"/>
               </infoLinks>
@@ -21917,9 +21753,6 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Grenade launcher" id="a75e-512d-c808-3057" collective="false" hidden="false" import="true" type="upgrade">
-      <constraints>
-        <constraint id="05cd-bb6b-7dd2-22fa" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-      </constraints>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
@@ -24761,8 +24594,21 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">
-</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Expendable AT Launcher" id="a07a-7c71-649a-678a" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Expendable Rocket Launcher" id="8369-e716-9f18-300a" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Single Use</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -24829,6 +24675,23 @@ friendly VEHICLE OFFICER and SUPER-HEAVY units.</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
                 <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Anti-Material Rifle" id="7e44-adaf-68f3-3706" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="c25b-c981-3c30-bf4b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Anti-Material Rifle" id="a1ee-c4b3-4831-2b34" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time an attack made with this weapon scores a wound roll, an unmodified wound roll of 6 inflicts 1 mortal wound on the target in addition to any normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -28935,6 +28798,41 @@ Skull Mask of Acheron (Aura): While an enemy unit is within 6&quot; of this mode
           </profiles>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Astra Militarum Special Issue Weapons" id="abf6-2818-6bb1-ce27" hidden="false">
+      <constraints>
+        <constraint id="30fb-0b79-f2e0-a892" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Hot-shot Volley Gun" id="865c-f5bb-44e4-fb4c" hidden="false" import="true" targetId="5d8d-f53d-1a4c-fabb" type="selectionEntry"/>
+        <entryLink name="Storm bolter" id="4501-ceba-4501-06cf" hidden="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry"/>
+        <entryLink name="Astra Militarum Special Weapons" id="0a58-10fa-1662-c7de" hidden="false" import="true" targetId="a465-d3f9-68f9-2e55" type="selectionEntryGroup"/>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry name="Hot-shot Marksman Rifle" id="b3ec-5ef8-ed49-1fa8" hidden="false" import="true" type="upgrade">
+          <profiles>
+            <profile name="Hot-shot Marksman Rifle" id="c40c-a8e6-e3e0-8a52" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you select a target for this weapon, you can ignore the Look Out, Sir rule. Each time an attack is made with this weapon, an unmodified wound roll of 6 inflicts 1 mortal wound in addition to any normal damage.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Astra Militarum Special Issue Pistol Weapons" id="d9c4-9e62-1667-6b9b" hidden="false">
+      <constraints>
+        <constraint id="9387-e478-fe21-22ba" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Astra Militarum Pistol Weapons" id="ff06-82f3-760f-2646" hidden="false" import="true" targetId="9ef3-0f17-2aeb-436e" type="selectionEntryGroup"/>
+        <entryLink name="Hot-shot Laspistol" id="651e-24fd-3738-f3f9" hidden="false" import="true" targetId="be4e-87d9-3bb2-4ecd" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>

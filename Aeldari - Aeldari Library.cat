@@ -16130,9 +16130,15 @@ Make sure to obtain opponent consent before using this option, as it is no longe
             <selectionEntryGroup name="For every 5 models" id="12f2-b479-d44a-a9a2" collective="false" hidden="false" import="true">
               <constraints>
                 <constraint id="b1b0-c599-2d4e-4a57" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="5a3a-7bcc-2af4-455c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
               </constraints>
               <modifiers>
                 <modifier field="b1b0-c599-2d4e-4a57" type="increment" value="1">
+                  <conditions>
+                    <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="d1f1-5687-8d44-f038" shared="true" type="greaterThan" value="9"/>
+                  </conditions>
+                </modifier>
+                <modifier field="5a3a-7bcc-2af4-455c" type="increment" value="1">
                   <conditions>
                     <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="d1f1-5687-8d44-f038" shared="true" type="greaterThan" value="9"/>
                   </conditions>
@@ -16161,91 +16167,49 @@ Make sure to obtain opponent consent before using this option, as it is no longe
                     <infoLink name="Corsair Voidscarred" id="896e-d5b2-f5b5-b7ca" hidden="false" targetId="0c87-94e2-8ab2-45d0" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="If this unit contains 10 models (1)" id="6ad8-683c-ec45-540f" collective="false" hidden="false" import="true">
-              <constraints>
-                <constraint id="cd20-82b0-ced3-074d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
-              </constraints>
-              <modifiers>
-                <modifier field="cd20-82b0-ced3-074d" type="increment" value="1">
-                  <conditions>
-                    <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="d1f1-5687-8d44-f038" shared="true" type="greaterThan" value="9"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <selectionEntries>
-                <selectionEntry name="Corsair Voidscarred w/ Shuriken Cannon" id="b39f-051d-d03c-8300" collective="false" hidden="false" import="true" type="model">
+                <selectionEntry name="Corsair Voidscarred w/ Shuriken Cannon" id="369f-49a2-53c8-037b" collective="false" hidden="false" import="true" type="model">
                   <costs>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
                     <cost name="pts" typeId="points" value="22"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Shuriken Cannon" id="aec8-ee41-125d-73e8" hidden="false" targetId="e3ab-fe7e-1e15-efd8" type="profile"/>
-                    <infoLink name="Corsair Voidscarred" id="73c8-b3ae-50ec-d3ed" hidden="false" targetId="0c87-94e2-8ab2-45d0" type="profile"/>
+                    <infoLink name="Shuriken Cannon" id="902a-a36e-b570-801c" hidden="false" targetId="e3ab-fe7e-1e15-efd8" type="profile"/>
+                    <infoLink name="Corsair Voidscarred" id="11c6-d3a2-1c6c-c43f" hidden="false" targetId="0c87-94e2-8ab2-45d0" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
-                <selectionEntry name="Corsair Voidscarred w/ Wraithcannon" id="c1d9-a663-ce40-5557" collective="false" hidden="false" import="true" type="model">
+                <selectionEntry name="Corsair Voidscarred w/ Wraithcannon" id="695c-8e36-f4e1-8113" collective="false" hidden="false" import="true" type="model">
                   <costs>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
                     <cost name="pts" typeId="points" value="27"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Wraithcannon" id="e540-85e0-766c-2e70" hidden="false" targetId="8bcd-3283-7dbd-e155" type="profile"/>
-                    <infoLink name="Corsair Voidscarred" id="30cb-9dcd-a10f-9bde" hidden="false" targetId="0c87-94e2-8ab2-45d0" type="profile"/>
+                    <infoLink name="Wraithcannon" id="62e8-fea1-13a5-9e45" hidden="false" targetId="8bcd-3283-7dbd-e155" type="profile"/>
+                    <infoLink name="Corsair Voidscarred" id="acf8-32df-4fda-75a7" hidden="false" targetId="0c87-94e2-8ab2-45d0" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="If this unit contains 10 models (2)" id="ea17-af84-31a8-c740" collective="false" hidden="false" import="true">
-              <constraints>
-                <constraint id="db6a-5dfb-ff36-79bf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
-              </constraints>
-              <modifiers>
-                <modifier field="db6a-5dfb-ff36-79bf" type="increment" value="1">
-                  <conditions>
-                    <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="d1f1-5687-8d44-f038" shared="true" type="greaterThan" value="9"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <selectionEntries>
-                <selectionEntry name="Corsair Voidscarred w/ Ranger Long Rifle" id="5db9-f530-dc4e-b7df" collective="false" hidden="false" import="true" type="model">
+                <selectionEntry name="Corsair Voidscarred w/ Ranger Long Rifle" id="8ccc-1b5a-b528-cb5c" collective="false" hidden="false" import="true" type="model">
                   <costs>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
                     <cost name="pts" typeId="points" value="17"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Ranger Long Rifle" id="8bac-9521-d10e-1094" hidden="false" targetId="176f-d6c6-dd4e-b856" type="profile"/>
-                    <infoLink name="Corsair Voidscarred" id="c3ed-f88d-44fa-a841" hidden="false" targetId="0c87-94e2-8ab2-45d0" type="profile"/>
+                    <infoLink name="Ranger Long Rifle" id="8cb5-c1f5-5a3c-bc40" hidden="false" targetId="176f-d6c6-dd4e-b856" type="profile"/>
+                    <infoLink name="Corsair Voidscarred" id="420f-d0c9-539d-8b1e" hidden="false" targetId="0c87-94e2-8ab2-45d0" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="If this unit contains 10 models (3)" id="2153-0b50-ba8b-e557" collective="false" hidden="false" import="true">
-              <constraints>
-                <constraint id="70ab-b7b1-2e57-182e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
-              </constraints>
-              <modifiers>
-                <modifier field="70ab-b7b1-2e57-182e" type="increment" value="1">
-                  <conditions>
-                    <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="d1f1-5687-8d44-f038" shared="true" type="greaterThan" value="9"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <selectionEntries>
-                <selectionEntry name="Corsair Voidscarred w/ Shuriken &amp; Fusion Pistols" id="084e-7cab-fbb3-5c2c" collective="false" hidden="false" import="true" type="model">
+                <selectionEntry name="Corsair Voidscarred w/ Shuriken &amp; Fusion Pistols" id="fd90-d80c-a69f-a1ad" collective="false" hidden="false" import="true" type="model">
                   <costs>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
                     <cost name="pts" typeId="points" value="22"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Shuriken Pistol" id="be94-8f75-6c0c-e2a3" hidden="false" targetId="d884-56d3-dce3-03ff" type="profile"/>
-                    <infoLink name="Fusion Pistol" id="117b-4e9d-5b19-c9d8" hidden="false" targetId="5212-3107-88f1-8d37" type="profile"/>
-                    <infoLink name="Corsair Voidscarred" id="5bf6-8548-f274-9016" hidden="false" targetId="0c87-94e2-8ab2-45d0" type="profile"/>
+                    <infoLink name="Shuriken Pistol" id="c8de-8efc-f4f2-6fd6" hidden="false" targetId="d884-56d3-dce3-03ff" type="profile"/>
+                    <infoLink name="Fusion Pistol" id="8512-477a-a120-e0bc" hidden="false" targetId="5212-3107-88f1-8d37" type="profile"/>
+                    <infoLink name="Corsair Voidscarred" id="616a-a02f-1b8a-61ad" hidden="false" targetId="0c87-94e2-8ab2-45d0" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -16629,40 +16593,26 @@ Make sure to obtain opponent consent before using this option, as it is no longe
                     <infoLink name="Corsair Voidreaver" id="a06d-1baa-8690-868c" hidden="false" targetId="1ab6-b92c-da49-54ff" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="If this unit contains 10 models (1)" id="33c9-aebe-2a5e-7caa" collective="false" hidden="false" import="true">
-              <constraints>
-                <constraint id="b4c4-75da-0836-9a97" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
-              </constraints>
-              <modifiers>
-                <modifier field="b4c4-75da-0836-9a97" type="increment" value="1">
-                  <conditions>
-                    <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="b126-3f3e-c064-cbb6" shared="true" type="greaterThan" value="9"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <selectionEntries>
-                <selectionEntry name="Corsair Voidreaver w/ Shuriken Cannon" id="d0fa-950a-e826-3be4" collective="false" hidden="false" import="true" type="model">
+                <selectionEntry name="Corsair Voidreaver w/ Shuriken Cannon" id="002f-6c2d-7775-2d0b" collective="false" hidden="false" import="true" type="model">
                   <costs>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
                     <cost name="pts" typeId="points" value="20"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Shuriken Cannon" id="ddee-f657-81d4-b914" hidden="false" targetId="e3ab-fe7e-1e15-efd8" type="profile"/>
-                    <infoLink name="Corsair Voidreaver" id="82ae-a95c-1fe5-9606" hidden="false" targetId="1ab6-b92c-da49-54ff" type="profile"/>
+                    <infoLink name="Shuriken Cannon" id="6489-fab0-0b66-f0f0" hidden="false" targetId="e3ab-fe7e-1e15-efd8" type="profile"/>
+                    <infoLink name="Corsair Voidreaver" id="9730-2c56-9bd6-5c65" hidden="false" targetId="1ab6-b92c-da49-54ff" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
-                <selectionEntry name="Corsair Voidreaver w/ Wraithcannon" id="6dfa-fece-24b6-b393" collective="false" hidden="false" import="true" type="model">
+                <selectionEntry name="Corsair Voidreaver w/ Wraithcannon" id="92cb-0cee-65b3-9e93" collective="false" hidden="false" import="true" type="model">
                   <costs>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
                     <cost name="pts" typeId="points" value="25"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Wraithcannon" id="beac-824c-59e5-a1a7" hidden="false" targetId="8bcd-3283-7dbd-e155" type="profile"/>
-                    <infoLink name="Corsair Voidreaver" id="d079-a42e-5bdd-98c6" hidden="false" targetId="1ab6-b92c-da49-54ff" type="profile"/>
+                    <infoLink name="Wraithcannon" id="c0b7-be3a-4543-8d60" hidden="false" targetId="8bcd-3283-7dbd-e155" type="profile"/>
+                    <infoLink name="Corsair Voidreaver" id="63b2-851e-856a-414a" hidden="false" targetId="1ab6-b92c-da49-54ff" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
