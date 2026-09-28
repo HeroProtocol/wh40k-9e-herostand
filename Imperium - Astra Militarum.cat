@@ -1263,28 +1263,6 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Salamander Scout Tanks [Legends]" id="a199-6389-37b7-a98b" collective="false" hidden="false" import="true" targetId="887f-86e7-69d4-fc5c" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Fast Attack" id="5d65-09c4-5ddc-4330" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
-      </categoryLinks>
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="c47c-a3e1-c91e-436a" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1"/>
-          </conditions>
-        </modifier>
-        <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="0735-ed55-e421-7b73" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="greaterThan" value="0"/>
-          </conditions>
-        </modifier>
-        <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="a207-a133-6adb-25f3" field="forces" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="greaterThan" value="0"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
     <entryLink name="Shadowsword" id="9944-9595-3e86-2667" collective="false" hidden="false" import="true" targetId="8194-93bb-950a-d88b" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Lord of War" id="5d3c-6076-eb7a-9456" hidden="false" primary="true" targetId="c888f08a-6cea-4a01-8126-d374a9231554"/>
@@ -2400,6 +2378,380 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Salamander Scout Tanks [Legends]" id="54a0-494d-b135-560c" collective="false" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Salamander Scout Tanks" id="23ea-2735-4add-bf86" hidden="false" primary="false" targetId="a1de-87af-60ce-6262"/>
+        <categoryLink name="Vehicle" id="583c-b60c-6b7a-14b2" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: Astra Militarum" id="4d16-c72b-9d60-6784" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Fast Attack" id="c72e-2856-0d55-33f7" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+        <cost name="pts" typeId="points" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Battle Honours" id="b010-8fd3-11bc-069d" collective="false" hidden="false" import="true" targetId="1774-8223-7530-5ad5" type="selectionEntryGroup"/>
+        <entryLink name="Battle Scars" id="2c28-65be-e5e9-ca9d" collective="false" hidden="false" import="true" targetId="cec4-9abd-dcdb-c9c2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="e356-c769-5920-6e14" type="increment" value="3">
+          <conditions>
+            <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="54a0-494d-b135-560c" shared="true" type="greaterThan" value="2"/>
+          </conditions>
+        </modifier>
+        <modifier field="e356-c769-5920-6e14" type="increment" value="2">
+          <conditions>
+            <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="54a0-494d-b135-560c" shared="true" type="greaterThan" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry name="Salamander Scout Tank" id="2e21-ade4-f6aa-2a73" collective="false" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="61dc-aa31-fb30-11de" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="b2b6-e701-365f-72fd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="75"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Hunter-killer missile" id="a6af-826f-28f4-aaf6" collective="false" hidden="false" import="true" targetId="32bf-b117-4ecf-5165" type="selectionEntry">
+              <constraints>
+                <constraint id="0760-1223-fcdb-e76f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Pintle Mount" id="249b-34b7-806a-8cb7" collective="false" hidden="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
+            <entryLink name="Heavy bolter" id="987d-8606-8e63-fff3" collective="false" hidden="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
+              <constraints>
+                <constraint id="6f40-4378-2412-4bf6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="cb6d-1575-9840-dabd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <modifiers>
+                <modifier field="points" type="set" value="0"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Vehicle Squadron" id="fe82-08f8-62f9-7dd0" hidden="false" targetId="ed79-bdf5-75ca-f019" type="profile"/>
+            <infoLink name="Smoke Launchers" id="6683-0fb8-7cad-ebfd" hidden="false" targetId="c883-3078-1367-cc2c" type="profile"/>
+            <infoLink name="Explodes (6+/6&quot;/D3)" id="704b-33c5-4342-c099" hidden="false" targetId="9bde-7aa6-8e9a-0792" type="profile"/>
+            <infoLink name="Scout Vehicle" id="18d7-e449-caca-7319" hidden="false" targetId="6338-ae1c-93c9-2e89" type="profile"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Salamander Scout Tank [1] (6-10+ wounds remaining)" id="9cfc-d20f-53be-c7c7" hidden="false" publicationId="b652-8bab-1453-da20" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">10</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Salamander Scout Tank [2] (3-5 wounds remaining)" id="6fd2-56c0-bba9-bc43" hidden="false" publicationId="b652-8bab-1453-da20" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">N/A</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">D3</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Salamander Scout Tank [3] (1-2 wounds remaining)" id="56dc-df89-c2ce-4b32" hidden="false" publicationId="b652-8bab-1453-da20" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">4&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">6+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">N/A</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry name="Weapon Choice" id="05d1-d6ce-4a6d-bf85" hidden="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink name="Astra Militarum Heavy Weapons" id="3562-1a3b-203a-e754" hidden="false" import="true" targetId="29c3-5475-96d1-6a44" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Light Tank" id="c112-3d4d-a6e1-fcc6" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Vehicle" id="8779-17f8-119d-bd16" hidden="false" primary="false" targetId="c8fd-783f-3230-493e"/>
+        <categoryLink name="Faction: Astra Militarum" id="5242-dd17-b403-abf9" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Fast Attack" id="e0e0-ec29-721b-acc1" hidden="false" primary="true" targetId="c274d0b0-5866-44bc-9810-91c136ae7438"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="6"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Battle Honours" id="3f83-8097-4027-08f8" collective="false" hidden="false" import="true" targetId="1774-8223-7530-5ad5" type="selectionEntryGroup"/>
+        <entryLink name="Battle Scars" id="07c8-9348-8c01-de7a" collective="false" hidden="false" import="true" targetId="cec4-9abd-dcdb-c9c2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="c47c-a3e1-c91e-436a" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="0735-ed55-e421-7b73" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="greaterThan" value="0"/>
+          </conditions>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="a207-a133-6adb-25f3" field="forces" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="roster" shared="true" type="greaterThan" value="0"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry name="Light Tank" id="3e01-f8e1-0901-802f" collective="false" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="ef2c-7794-a87f-475d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="7535-686b-293e-ebce" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="75"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Hunter-killer missile" id="3b95-a7ac-c58e-5657" collective="false" hidden="false" import="true" targetId="32bf-b117-4ecf-5165" type="selectionEntry">
+              <constraints>
+                <constraint id="b8dd-316e-0267-9578" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Pintle Mount" id="f0de-33ea-0a2e-d375" collective="false" hidden="false" import="true" targetId="ebb9-dadc-c98d-9b62" type="selectionEntryGroup"/>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Smoke Launchers" id="e665-d691-decf-962e" hidden="false" targetId="c883-3078-1367-cc2c" type="profile"/>
+            <infoLink name="Explodes (6+/6&quot;/D3)" id="b088-2c12-c3b3-9ff9" hidden="false" targetId="9bde-7aa6-8e9a-0792" type="profile"/>
+            <infoLink name="Scout Vehicle" id="a60e-2d09-59fa-5857" hidden="false" targetId="6338-ae1c-93c9-2e89" type="profile"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Light Tank [1] (6-10+ wounds remaining)" id="204d-c072-0adb-619d" hidden="false" publicationId="b652-8bab-1453-da20" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">10</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Light Tank [2] (3-5 wounds remaining)" id="b4af-1a2e-332f-7205" hidden="false" publicationId="b652-8bab-1453-da20" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">N/A</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">D3</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Light Tank[3] (1-2 wounds remaining)" id="7c50-de53-57a1-17e6" hidden="false" publicationId="b652-8bab-1453-da20" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">4&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">6+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">N/A</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Lascannon Choice" id="e5b4-0e51-fd57-95a4" collective="false" hidden="false" import="true">
+              <constraints>
+                <constraint id="dde3-ad1f-31f1-83cf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="08a2-3080-95f3-a9b9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Lascannon" id="b5ca-20b3-10d6-4dc7" collective="false" hidden="false" import="true" targetId="a908-4664-11cd-f8b2" type="selectionEntry">
+                  <constraints>
+                    <constraint id="c31a-354d-307d-aa3c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="c9b3-fecc-1eff-a972" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="5"/>
+                  </costs>
+                  <modifiers>
+                    <modifier field="c31a-354d-307d-aa3c" type="set" value="0">
+                      <conditions>
+                        <condition childId="e5b4-0e51-fd57-95a4" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="atLeast" value="1"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink name="Heavy flamer" id="9d4c-b6af-2872-8b72" collective="false" hidden="false" import="true" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
+                  <constraints>
+                    <constraint id="1253-058a-69a0-4f6f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink name="Heavy bolter" id="babc-6068-c275-a2c3" collective="false" hidden="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
+                  <constraints>
+                    <constraint id="15b6-6f90-ade2-e2b3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="5"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Battle Cannon" id="5352-500a-9e3b-f771" collective="false" defaultSelectionEntryId="c4ec-69ae-3476-0d51" hidden="false" import="true">
+              <constraints>
+                <constraint id="0ac1-cd84-3244-2ed2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+                <constraint id="695a-0376-8b25-e3b2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Leman Russ Battle Cannon" id="da36-2b26-8c7a-7eef" collective="false" hidden="false" import="true" targetId="09b4-66a4-ffc7-6b9d" type="selectionEntry">
+                  <constraints>
+                    <constraint id="a14e-6c44-03f1-8e47" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Eradicator Nova Cannon" id="1184-5f4f-66b2-4128" collective="false" hidden="false" import="true" targetId="f342-97f0-feb4-882c" type="selectionEntry">
+                  <constraints>
+                    <constraint id="1104-a881-338e-f3d9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Executioner Plasma Cannon" id="8197-a543-fa9e-a0fe" collective="false" hidden="false" import="true" targetId="3a4b-c307-894e-3e63" type="selectionEntry">
+                  <constraints>
+                    <constraint id="9bc8-e333-1a52-98f5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Exterminator Autocannon" id="2842-8ae5-1db8-8835" collective="false" hidden="false" import="true" targetId="7bb3-24e8-431d-6bca" type="selectionEntry">
+                  <constraints>
+                    <constraint id="5276-9e66-a6a8-9c0d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Punisher Gatling Cannon" id="23a9-f82a-94fa-f957" collective="false" hidden="false" import="true" targetId="7205-1c2b-23e2-5c6b" type="selectionEntry">
+                  <constraints>
+                    <constraint id="617c-bbdc-4c85-4f08" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Vanquisher Battle Cannon" id="1bf1-4ec8-8b91-2297" collective="false" hidden="false" import="true" targetId="5901-34d7-fb83-0e4a" type="selectionEntry">
+                  <constraints>
+                    <constraint id="53b6-871f-a385-de6d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Demolisher Battle Cannon" id="c804-c961-9978-8dac" collective="false" hidden="false" import="true" targetId="7def-3d84-3d31-afba" type="selectionEntry">
+                  <constraints>
+                    <constraint id="685d-7212-0d8e-b3ff" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink name="Stygies Vanquisher Battlecannon [Legends]" id="7dc6-d4ca-4523-c186" collective="false" hidden="false" import="true" targetId="b074-58dd-2921-aee0" type="selectionEntry">
+                  <constraints>
+                    <constraint id="110e-6a40-be89-8b39" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <selectionEntries>
+                <selectionEntry name="Battle Cannon and Heavy Bolter [Legends]" id="1699-3fe8-d0b8-2ca9" collective="false" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="5b16-d55c-d7c4-fb5e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="5"/>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                  </costs>
+                  <entryLinks>
+                    <entryLink name="Leman Russ Battle Cannon" id="a9e2-09b3-7022-a9fd" collective="false" hidden="false" import="true" targetId="09b4-66a4-ffc7-6b9d" type="selectionEntry">
+                      <constraints>
+                        <constraint id="ea1e-5805-4121-9d94" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+                        <constraint id="ba5c-071b-be75-2d37" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink name="Heavy bolter" id="46ff-ccba-6601-4463" collective="false" hidden="false" import="true" targetId="05ab-e7cc-e856-c36f" type="selectionEntry">
+                      <constraints>
+                        <constraint id="a3fa-c05b-3f9c-2ebd" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+                        <constraint id="b314-4cb6-fbfc-0b32" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+                <selectionEntry name="Battle Cannon and Storm Bolter [Legends]" id="7ed4-6c30-4f59-234a" collective="false" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="d2f8-18e4-6de5-6e5e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="5"/>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                  </costs>
+                  <entryLinks>
+                    <entryLink name="Leman Russ Battle Cannon" id="0677-1557-75ec-6bf9" collective="false" hidden="false" import="true" targetId="09b4-66a4-ffc7-6b9d" type="selectionEntry">
+                      <constraints>
+                        <constraint id="aee6-141a-9aae-0239" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+                        <constraint id="ab85-dee0-690c-da7d" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink name="Storm bolter" id="42bf-aad3-ab87-d96b" collective="false" hidden="false" import="true" targetId="2b03-8d64-3711-f300" type="selectionEntry">
+                      <constraints>
+                        <constraint id="cb2a-27f2-d4db-0ae0" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+                        <constraint id="5e2c-065b-f108-2d9c" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+                <selectionEntry name="Twin Lascannon [Legends]" id="dfe8-944e-8c6a-4a33" collective="false" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="427a-7ba5-6c10-1e71" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="25"/>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0"/>
+                  </costs>
+                  <entryLinks>
+                    <entryLink name="Twin lascannon" id="9877-7eb8-36da-0e78" collective="false" hidden="false" import="true" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
+                      <constraints>
+                        <constraint id="0e03-1056-976a-2034" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+                        <constraint id="a77c-03c7-4c0d-4046" field="selections" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="25"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>

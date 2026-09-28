@@ -2836,7 +2836,7 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Heavy Flamer" id="ea5e-0d3c-e72c-bb25" collective="false" defaultSelectionEntryId="6873-81ed-1501-ea8a" hidden="false" import="true">
+            <selectionEntryGroup name="Weapon Choice" id="ea5e-0d3c-e72c-bb25" collective="false" defaultSelectionEntryId="6873-81ed-1501-ea8a" hidden="false" import="true">
               <constraints>
                 <constraint id="f977-2b22-a70c-f903" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                 <constraint id="0ab2-96e6-657d-5b15" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -2850,6 +2850,7 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
                     <modifier field="points" type="set" value="0"/>
                   </modifiers>
                 </entryLink>
+                <entryLink name="Astra Militarum Special Weapons" id="294d-9e3f-f1b7-300f" hidden="false" import="true" targetId="a465-d3f9-68f9-2e55" type="selectionEntryGroup"/>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry name="Tauros Grenade Launcher" id="682a-708a-a220-d8b3" collective="false" hidden="false" import="true" type="upgrade">
@@ -2880,6 +2881,15 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
                         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
                         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Troop Transport Bay" id="5c6c-ed99-945a-aebb" hidden="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile name="Troop Transport Bay" id="a63c-7668-0859-93d0" hidden="false" publicationId="b652-8bab-1453-da20" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+                      <characteristics>
+                        <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">This model has a transport capacity of 5 &lt;REGIMENT&gt; INFANTRY models. Each Heavy Weapons Team model or Veteran Heavy Weapons Team model takes the space of 2 models, and each OGRYN model takes the space of 3 models.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2949,7 +2959,7 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Twin Multi-laser" id="dbe2-bfd7-7dc6-0451" collective="false" defaultSelectionEntryId="98a2-0bec-877f-9091" hidden="false" import="true">
+            <selectionEntryGroup name="Weapon Choice" id="dbe2-bfd7-7dc6-0451" collective="false" defaultSelectionEntryId="98a2-0bec-877f-9091" hidden="false" import="true">
               <constraints>
                 <constraint id="5e8c-e170-c858-040f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="1436-9a5e-95e0-736e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -2963,6 +2973,7 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
                     <cost name="pts" typeId="points" value="30"/>
                   </costs>
                 </entryLink>
+                <entryLink name="Astra Militarum Heavy Weapons" id="28df-7676-53b2-c834" hidden="false" import="true" targetId="29c3-5475-96d1-6a44" type="selectionEntryGroup"/>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry name="Twin Multi-Laser" id="98a2-0bec-877f-9091" collective="false" hidden="false" import="true" type="upgrade">
@@ -4201,7 +4212,7 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
         </modifier>
       </modifiers>
       <selectionEntries>
-        <selectionEntry name="Salamander Scout Tank" id="dd03-14d5-63ac-c8bc" collective="false" hidden="false" import="true" type="model">
+        <selectionEntry name="Light Tank" id="dd03-14d5-63ac-c8bc" collective="false" hidden="false" import="true" type="model">
           <constraints>
             <constraint id="75e5-e27b-8826-32fd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="5f7b-89c6-e944-287d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
@@ -4222,15 +4233,6 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
               <constraints>
                 <constraint id="4f76-77aa-eb84-20b5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                 <constraint id="54cf-ed50-bb0d-1959" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <modifiers>
-                <modifier field="points" type="set" value="0"/>
-              </modifiers>
-            </entryLink>
-            <entryLink name="Autocannon" id="5dd4-b7ad-57e9-7713" collective="false" hidden="false" import="true" targetId="5210-8cb2-b5a2-a04f" type="selectionEntry">
-              <constraints>
-                <constraint id="9b81-f60e-80f0-b9ba" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                <constraint id="22bf-01af-84db-d25f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
               </constraints>
               <modifiers>
                 <modifier field="points" type="set" value="0"/>
@@ -4284,6 +4286,13 @@ Each time this model makes an attack with this weapon, add 1 to that attack&apos
               </characteristics>
             </profile>
           </profiles>
+          <selectionEntries>
+            <selectionEntry name="Weapon Choice" id="1c22-a4d0-a0e7-83c7" hidden="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink name="Astra Militarum Heavy Weapons" id="e2c3-cae3-0f41-475e" hidden="false" import="true" targetId="29c3-5475-96d1-6a44" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -17796,6 +17805,7 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
         <categoryLink name="Infantry" id="ce45-3b95-240c-d581" hidden="false" primary="false" targetId="3d52-fccf-10c0-3fae"/>
         <categoryLink name="Veterans" id="6842-a8a5-672a-4348" hidden="false" primary="false" targetId="8895-4b63-cbc0-2d8b"/>
         <categoryLink name="Faction: Astra Militarum" id="d212-1d19-9910-8bd6" hidden="false" primary="false" targetId="3263-4233-4344-6228"/>
+        <categoryLink name="Elites" id="8b28-abef-5feb-c87a" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5"/>
@@ -17893,8 +17903,8 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
       <selectionEntryGroups>
         <selectionEntryGroup name="Veterans" id="1549-54a7-72ef-ea9c" collective="false" defaultSelectionEntryId="3bea-11ed-d265-8190" hidden="false" import="true">
           <constraints>
-            <constraint id="40a1-8728-fb3a-60c7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="9"/>
-            <constraint id="b60a-a5f0-57ac-243a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="9"/>
+            <constraint id="40a1-8728-fb3a-60c7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="4"/>
+            <constraint id="b60a-a5f0-57ac-243a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="4"/>
           </constraints>
           <modifiers>
             <modifier field="b60a-a5f0-57ac-243a" type="decrement" value="1">
