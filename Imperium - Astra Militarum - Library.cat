@@ -19632,6 +19632,14 @@ Align Target (Action):In your Command phase, any number of DEATHSTRIKE models fr
             <constraint id="3d67-362a-e974-0b30" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="min" value="4"/>
             <constraint id="49f0-9d63-75b8-edc0" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="false" type="max" value="9"/>
           </constraints>
+          <entryLinks>
+            <entryLink name="Astra Miliatrum Hot Shot Weapons" id="8c03-dcd4-e499-bbd7" hidden="false" import="true" targetId="14b3-972a-f635-b529" type="selectionEntryGroup">
+              <constraints>
+                <constraint id="f48f-747c-4880-1c95" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="8bf5-e33a-2de4-6c56" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <selectionEntries>
             <selectionEntry name="Tempestus Scion w/ Special Weapon" id="074c-5f3c-53db-01d4" collective="false" hidden="false" import="true" page="0" type="model">
               <constraints>
