@@ -258,18 +258,6 @@
         <categoryLink name="HQ" id="02a2-73af-9d14-6fda" hidden="false" primary="true" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Taurox" id="29fd-b780-fec3-7f64" collective="false" hidden="false" import="true" targetId="f8ad-8cb3-9d8d-0ce5" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Dedicated Transport" id="7204-7f5e-49bd-82fc" hidden="false" primary="true" targetId="1b66-3f5f-6705-079a"/>
-      </categoryLinks>
-      <modifiers>
-        <modifier field="hidden" type="set" value="true">
-          <conditions>
-            <condition childId="0735-ed55-e421-7b73" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="greaterThan" value="0"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
     <entryLink name="Tempestus Scions" id="3024-d805-795b-c4c5" collective="false" hidden="false" import="true" targetId="f67e-c223-b6fe-940f" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Troops" id="772a-8698-0099-5cea" hidden="false" primary="true" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a"/>
@@ -1862,6 +1850,24 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink name="Interceptor" id="4cec-ece9-72cd-80d2" hidden="false" import="true" targetId="022a-312f-ecdc-d56a" type="selectionEntry"/>
+    <entryLink name="Gladiators" id="48e4-26e1-7ca8-0601" hidden="false" import="true" targetId="2340-88ac-9b9d-e7ed" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Elites" id="bd29-f03a-a66c-750c" hidden="false" primary="true" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="IFV" id="9283-0824-a989-c39a" hidden="false" import="true" targetId="f8ad-8cb3-9d8d-0ce5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" id="dbf5-db54-b606-622c" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Attacker" id="7700-0d8a-592e-1991" hidden="false" import="true" targetId="d3dd-62ab-59cd-010f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" id="3219-a504-f5c6-8278" hidden="false" primary="true" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Multi-role Fighter" id="7f7a-3ea3-ca3f-74bf" hidden="false" import="true" targetId="24fd-e756-617f-fa8c" type="selectionEntry"/>
+    <entryLink name="Taurox" id="5cc4-3b0e-126a-69a2" hidden="false" import="true" targetId="a96c-7a1d-3719-1ecc" type="selectionEntry"/>
   </entryLinks>
   <selectionEntries>
     <selectionEntry name="Heavy Weapons Team" id="4bc9-ef58-2982-9e7a" hidden="false" import="true" type="upgrade">
